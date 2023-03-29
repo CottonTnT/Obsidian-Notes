@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3cec2454e504246a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "efb014897746d6b5",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -147,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,12 +147,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "efb014897746d6b5",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "操作系统/xv6",
+    "未命名",
+    "操作系统",
+    "未命名.md",
+    "数学知识/数论/未命名.md",
+    "数学知识/数论/约数.md",
     "images/Pasted image 20230329193328.png",
     "images",
-    "未命名.md",
-    "数学知识/数论/约数.md",
     "数学知识/数论",
     "未命名 1",
     "数学知识",
