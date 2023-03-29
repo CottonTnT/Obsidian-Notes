@@ -134,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,20 +146,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "efb014897746d6b5",
   "lastOpenFiles": [
+    "2023-03-29.md",
+    "数学知识/数论/约数.md",
+    "images/Pasted image 20230329193328.png",
     "操作系统/xv6",
     "未命名",
     "操作系统",
     "未命名.md",
     "数学知识/数论/未命名.md",
-    "数学知识/数论/约数.md",
-    "images/Pasted image 20230329193328.png",
     "images",
     "数学知识/数论",
     "未命名 1",
     "数学知识",
-    "未命名.canvas",
-    "2023-03-29.md"
+    "未命名.canvas"
   ]
 }
