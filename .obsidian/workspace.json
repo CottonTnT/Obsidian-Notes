@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "4d21bacbdf329fb1",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c4f2331fb6572ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3cec2454e504246a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "efb014897746d6b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数学知识/数论/约数.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ebd0ae169d48cc5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac638be20db4e06b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e39effb7c798476",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ad651b062e9f83fa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3c0d44a075d87a58",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "36d4aad796e04c1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c1421625739e5da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee9aab81f7f82e1d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "数学知识/数论/约数.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9fec8d9f726af05a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "数学知识/数论/约数.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4ceacfa0fc1d0102",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "90d947202b2994d7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "数学知识/数论/约数.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "efb014897746d6b5",
+  "lastOpenFiles": [
+    "images/Pasted image 20230329193328.png",
+    "images",
+    "未命名.md",
+    "数学知识/数论/约数.md",
+    "数学知识/数论",
+    "未命名 1",
+    "数学知识",
+    "未命名.canvas",
+    "2023-03-29.md"
+  ]
+}
