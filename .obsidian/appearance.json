@@ -1,4 +1,8 @@
 {
   "accentColor": "",
-  "theme": "system"
+  "theme": "system",
+  "interfaceFontFamily": "思源宋体",
+  "textFontFamily": "思源宋体",
+  "monospaceFontFamily": "Consolas",
+  "translucency": false
 }
