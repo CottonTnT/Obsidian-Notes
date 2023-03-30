@@ -4,5 +4,9 @@
   "interfaceFontFamily": "MiSans,思源宋体",
   "textFontFamily": "MiSans,思源宋体",
   "monospaceFontFamily": "Consolas",
-  "translucency": false
+  "translucency": false,
+  "cssTheme": "Things",
+  "enabledCssSnippets": [
+    "tls"
+  ]
 }

@@ -1,0 +1,97 @@
+/* 标题重量，编辑窗宽度 */
+body {
+  --file-line-width: calc(78vh);
+  --h1-weight: 750;
+  --h2-weight: 700;
+  --h3-weight: 650;
+  --h4-weight: 600;
+  --h5-weight: 550;
+  --h6-weight: 450;
+  --strong-color: #e81e63;  /*加粗颜色*/
+  --em-color: #3E908B;      /*斜体颜色*/
+  --bold-weight: 700;         /*加粗字重*/
+}
+
+/* 关闭文章标题显示 */
+.inline-title {
+  display: none;
+  font-weight: 800;
+  margin: auto;
+}
+
+/* 标题颜色 */
+.theme-light {
+  --h1-color: #101418;
+  --h2-color: #101418;
+  --h3-color: #464c52;
+  --h4-color: #464c52;
+  --h5-color: #5c656d;
+  --h6-color: #6d767e;
+  --h1h2-border: #EBEDF0;
+}
+
+.theme-dark {
+  --h1-color: #f8f9fa;
+  --h2-color: #f8f9fa;
+  --h3-color: #d9dcdf;
+  --h4-color: #d9dcdf;
+  --h5-color: #ced2d6;
+  --h6-color: #ced2d6;
+  --h1h2-border: #35393E;
+}
+
+/* 一二级标题下线 */
+.HyperMD-header-1, .HyperMD-header-2 {
+  line-height: 1.8;
+  border-bottom: 2px solid var(--h1h2-border);
+}
+
+/* 图片居中 */
+img {
+  max-height: 42vh;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+}
+
+/* 行号居中 */
+.cm-gutterElement {
+  line-height: 27px !important;
+}
+
+/* 表格居中 */
+/* .ob-table-enhancer {
+  width: 95%;
+  margin: 0 auto;
+} */
+
+/* 全宽表格 */
+.markdown-rendered table {
+  width: 100%;
+}
+
+/* 关闭左侧竖线 */
+.workspace-leaf-resize-handle {
+  display: none;
+}
+
+/* 空行缩小 */
+body {
+  --animation: 0.2s ease-in;
+  --hover-color: var(--text-accent);
+  --blank-line-height: 0.6;
+}
+
+.is-live-preview [class="cm-active cm-line"] {
+  transition: var(--animation);
+}
+
+.is-live-preview :is([class=cm-line]:has(+ :is(.HyperMD-quote, .cm-callout)), :is(.HyperMD-quote, .cm-callout) + [class=cm-line]) {
+  line-height: var(--blank-line-height);
+  transition: var(--animation);
+  border-radius: var(--radius-s);
+}
+
+.is-live-preview :is([class=cm-line]:has(+ :is(.HyperMD-quote, .cm-callout)), :is(.HyperMD-quote, .cm-callout) + [class=cm-line]):hover {
+  background-color: var(--hover-color);
+}
