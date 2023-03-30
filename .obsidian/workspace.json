@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter1.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md"
+                "file": "操作系统/xv6/xv6-chinese/content/chapter1.md"
               }
             }
           }
@@ -164,10 +164,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "efb014897746d6b5",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "Typora的markdown语法.md",
     "操作系统/xv6/xv6-chinese/content/chapter0.md",
+    "Typora的markdown语法.md",
     "操作系统/xv6/xv6-chinese/README.md",
     "操作系统/xv6/xv6-chinese/pic/f3-1.png",
     "操作系统/xv6/xv6-chinese/content/AppendixA.md",
