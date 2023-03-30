@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学知识/数论/约数.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学知识/数论/约数.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学知识/数论/约数.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学知识/数论/约数.md"
+                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md"
               }
             }
           }
@@ -148,9 +148,36 @@
   },
   "active": "efb014897746d6b5",
   "lastOpenFiles": [
-    "2023-03-29.md",
+    "操作系统/xv6/xv6-chinese/README.md",
+    "操作系统/xv6/xv6-chinese/pic/f3-1.png",
+    "操作系统/xv6/xv6-chinese/content/chapter0.md",
+    "操作系统/xv6/xv6-chinese/content/AppendixA.md",
     "数学知识/数论/约数.md",
-    "images/Pasted image 20230329193328.png",
+    "操作系统/xv6/xv6-chinese/pic/fb-2.png",
+    "操作系统/xv6/xv6-chinese/pic/fb-1.png",
+    "操作系统/xv6/xv6-chinese/pic/f6-4.png",
+    "操作系统/xv6/xv6-chinese/pic/f6-2.png",
+    "操作系统/xv6/xv6-chinese/pic/f6-3.png",
+    "操作系统/xv6/xv6-chinese/pic/f6-1.png",
+    "操作系统/xv6/xv6-chinese/pic/f4-1.png",
+    "操作系统/xv6/xv6-chinese/pic/f5-2.png",
+    "操作系统/xv6/xv6-chinese/pic/f5-1.png",
+    "操作系统/xv6/xv6-chinese/pic",
+    "操作系统/xv6/xv6-chinese/content/preface.md",
+    "操作系统/xv6/xv6-chinese/content/mistakes.md",
+    "操作系统/xv6/xv6-chinese/content/glossary.md",
+    "操作系统/xv6/xv6-chinese/content/cover.md",
+    "操作系统/xv6/xv6-chinese/content/chapter6.md",
+    "操作系统/xv6/xv6-chinese/content/chapter5.md",
+    "操作系统/xv6/xv6-chinese/content/chapter4.md",
+    "操作系统/xv6/xv6-chinese/content/chapter3.md",
+    "操作系统/xv6/xv6-chinese/content/chapter2.md",
+    "操作系统/xv6/xv6-chinese/content/chapter1.md",
+    "操作系统/xv6/xv6-chinese/content/AppendixB.md",
+    "操作系统/xv6/xv6-chinese/content",
+    "操作系统/xv6/xv6-chinese/SUMMARY.md",
+    "操作系统/xv6/xv6-chinese",
+    "2023-03-29.md",
     "操作系统/xv6",
     "未命名",
     "操作系统",
