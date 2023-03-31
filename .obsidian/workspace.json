@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/SUMMARY.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter1.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/SUMMARY.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/SUMMARY.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/SUMMARY.md"
+                "file": "操作系统/xv6/xv6-chinese/content/chapter1.md"
               }
             }
           }
@@ -166,9 +166,11 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "操作系统/xv6/xv6-chinese/content/chapter0.md",
+    "操作系统/xv6/xv6-chinese/content/chapter1.md",
+    "操作系统/xv6/xv6-chinese/SUMMARY.md",
     "操作系统/xv6/xv6-chinese/content/AppendixB.md",
     "操作系统/xv6/xv6-chinese/content/AppendixA.md",
-    "操作系统/xv6/xv6-chinese/SUMMARY.md",
     "操作系统/xv6/xv6-chinese/README.md",
     "操作系统/xv6/xv6-chinese/content/mistakes.md",
     "操作系统/xv6/xv6-chinese/content/glossary.md",
@@ -178,8 +180,6 @@
     "操作系统/xv6/xv6-chinese/content/chapter4.md",
     "操作系统/xv6/xv6-chinese/content/chapter3.md",
     "操作系统/xv6/xv6-chinese/content/chapter2.md",
-    "操作系统/xv6/xv6-chinese/content/chapter1.md",
-    "操作系统/xv6/xv6-chinese/content/chapter0.md",
     "Typora的markdown语法.md",
     "操作系统/xv6/xv6-chinese/pic/f3-1.png",
     "数学知识/数论/约数.md",
