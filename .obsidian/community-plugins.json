@@ -1,10 +1,10 @@
 [
-  "obsidian-git",
-  "obsidian-hider",
-  "link-favicon",
+  "vim-im-select",
   "obsidian-reveal-active-file",
+  "obsidian-better-command-palette",
   "cmenu-plugin",
   "easy-typing-obsidian",
-  "obsidian-better-command-palette",
-  "vim-im-select"
+  "obsidian-hider",
+  "link-favicon",
+  "obsidian-git"
 ]
