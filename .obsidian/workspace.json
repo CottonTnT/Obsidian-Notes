@@ -4,22 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "9790efa372c1859c",
+        "id": "40417b3d36a153f6",
         "type": "tabs",
         "children": [
           {
-            "id": "a1c44f13db44ae00",
+            "id": "451e4233310266f0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "7987f70af729051b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
+                "file": "我狠C/工具/Makefile/未命名.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
+                "file": "我狠C/工具/Makefile/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
+                "file": "我狠C/工具/Makefile/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md"
+                "file": "我狠C/工具/Makefile/未命名.md"
               }
             }
           }
@@ -149,12 +158,17 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "操作系统/xv6/xv6-chinese/content/chapter1.md",
+    "我狠C/工具/Makefile/未命名.md",
+    "操作系统/xv6/xv6-chinese/content/未命名.md",
     "操作系统/xv6/xv6-chinese/content/chapter0.md",
+    "我狠C/工具/Makefile",
+    "我狠C/工具",
+    "未命名",
+    "我狠C",
+    "操作系统/xv6/xv6-chinese/content/chapter1.md",
     "操作系统/xv6/xv6-chinese/content/chapter2.md",
     "操作系统/xv6/xv6-chinese/content/AppendixB.md",
     "操作系统/xv6/xv6-chinese/content/AppendixA.md",
-    "操作系统/xv6/xv6-chinese/content/未命名.md",
     "Typora的markdown语法.md",
     "操作系统/xv6/xv6源码/xv6-rev7.pdf",
     "操作系统/xv6/xv6-chinese/SUMMARY.md",
@@ -186,12 +200,7 @@
     "操作系统/xv6/xv6-chinese/content",
     "操作系统/xv6/xv6-chinese",
     "2023-03-29.md",
-    "操作系统/xv6",
-    "操作系统",
-    "未命名.md",
     "数学知识/数论/未命名.md",
-    "images",
-    "数学知识/数论",
     "未命名.canvas"
   ]
 }
