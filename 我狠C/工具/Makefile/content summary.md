@@ -27,7 +27,8 @@ prerequisites 中如果有一个以上的文件比 target 文件要新的话，r
 ```makefile 实例
 edit : main.o kbd.o command.o display.o \  
 		insert.o search.o files.o utils.o                                                     
-	cc -o edit main.o kbd.o command.o display.o \ insert.o search.o files.o utils.o 
+	cc -o edit main.o kbd.o command.o display.o insert.o search.o files.o utils.o 
+	
 main.o : main.c defs.h 
 		cc -c main.c 
 kbd.o : kbd.c defs.h command.h 
