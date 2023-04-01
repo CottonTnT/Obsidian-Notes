@@ -12,3 +12,12 @@ target ... : prerequisites ...
 ```
 
 
+|   字段   |  作用    |
+|:-----|:-----|
+| target     |   可以是一个 object file（目标文件），也可以是一个可执行文件，还可以是一个标签（label）   |
+| prerequisites     | 生成 target 依赖的文件     |
+
+
+
+
+
