@@ -28,7 +28,7 @@ prerequisites 中如果有一个以上的文件比 target 文件要新的话，r
 edit : main.o kbd.o command.o display.o \  
 		insert.o search.o files.o utils.o                                                     
 	cc -o edit main.o kbd.o command.o display.o insert.o search.o files.o utils.o 
-	
+	 
 main.o : main.c defs.h 
 		cc -c main.c 
 kbd.o : kbd.c defs.h command.h 
@@ -48,3 +48,8 @@ utils.o : utils.c defs.h
 clean : 
 	rm edit main.o kbd.o command.o display.o \ 
 	insert.o search.o files.o utils.o
+```
+``
+
+在该目录下直接输入命令 make 就可以生成执行文件 edit。如果要删除可执行文件和所有的中间目标文件，地执行一下 make clean  。*依赖关系的实质就是说明了目标文件是由哪些文件生成的，目标文件是哪些文件更新的*。
+
