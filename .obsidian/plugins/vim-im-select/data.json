@@ -1,0 +1,8 @@
+{
+  "defaultIM": "0",
+  "obtainCmd": "C:\\environments\\AIMSwitcher\\AIMSwitcher.exe --imm",
+  "switchCmd": "C:\\environments\\AIMSwitcher\\AIMSwitcher.exe --imm {im}",
+  "windowsDefaultIM": "0",
+  "windowsObtainCmd": "C:\\environments\\AIMSwitcher\\AIMSwitcher.exe --imm",
+  "windowsSwitchCmd": "C:\\environments\\AIMSwitcher\\AIMSwitcher.exe --imm {im}"
+}
