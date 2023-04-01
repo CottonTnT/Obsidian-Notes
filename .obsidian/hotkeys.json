@@ -17,5 +17,13 @@
       "key": "B"
     }
   ],
-  "editor:toggle-code": []
+  "editor:toggle-code": [],
+  "editor:insert-callout": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "'"
+    }
+  ]
 }
