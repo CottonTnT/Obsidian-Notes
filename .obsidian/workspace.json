@@ -8,12 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a3fc6b3e654f20",
+            "id": "a1c44f13db44ae00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "操作系统/xv6/xv6-chinese/content/chapter1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "6a04c1b4d007de03",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a3fc6b3e654f20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Typora的markdown语法.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -146,10 +165,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "90d947202b2994d7",
+  "active": "a1c44f13db44ae00",
   "lastOpenFiles": [
-    "操作系统/xv6/xv6源码/xv6-rev7.pdf",
+    "Typora的markdown语法.md",
     "操作系统/xv6/xv6-chinese/content/chapter1.md",
+    "操作系统/xv6/xv6源码/xv6-rev7.pdf",
     "操作系统/xv6/xv6-chinese/SUMMARY.md",
     "操作系统/xv6/xv6-chinese/content/chapter0.md",
     "操作系统/xv6/xv6-chinese/content/AppendixB.md",
@@ -161,7 +181,6 @@
     "操作系统/xv6/xv6-chinese/content/chapter4.md",
     "操作系统/xv6/xv6-chinese/content/未命名 1.md",
     "操作系统/xv6/xv6-chinese/content/未命名 2.md",
-    "Typora的markdown语法.md",
     "操作系统/xv6/xv6-chinese/content/chapter2.md",
     "操作系统/xv6/xv6-chinese/content/preface.md",
     "操作系统/xv6/xv6-chinese/README.md",
