@@ -8,27 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "451e4233310266f0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "7987f70af729051b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/工具/Makefile/未命名.md",
+                "file": "我狠C/工具/Makefile/content summary.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "d67e885904665735",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b9140eb76831b6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Typora的markdown语法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/工具/Makefile/未命名.md",
+                "file": "我狠C/工具/Makefile/content summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/工具/Makefile/未命名.md",
+                "file": "我狠C/工具/Makefile/content summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/工具/Makefile/未命名.md"
+                "file": "我狠C/工具/Makefile/content summary.md"
               }
             }
           }
@@ -156,9 +165,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "7987f70af729051b",
   "lastOpenFiles": [
-    "我狠C/工具/Makefile/未命名.md",
+    "操作系统/xv6/xv6-chinese/content/AppendixA.md",
+    "我狠C/工具/Makefile/content summary.md",
+    "Typora的markdown语法.md",
     "操作系统/xv6/xv6-chinese/content/未命名.md",
     "操作系统/xv6/xv6-chinese/content/chapter0.md",
     "我狠C/工具/Makefile",
@@ -168,8 +179,6 @@
     "操作系统/xv6/xv6-chinese/content/chapter1.md",
     "操作系统/xv6/xv6-chinese/content/chapter2.md",
     "操作系统/xv6/xv6-chinese/content/AppendixB.md",
-    "操作系统/xv6/xv6-chinese/content/AppendixA.md",
-    "Typora的markdown语法.md",
     "操作系统/xv6/xv6源码/xv6-rev7.pdf",
     "操作系统/xv6/xv6-chinese/SUMMARY.md",
     "未命名 1",
