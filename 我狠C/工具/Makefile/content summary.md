@@ -138,4 +138,9 @@ clean :
 
 #### Makefile 的文件名
 
-默认的情况下，make 命令会在当前目录下按顺序寻找文件名为 GNUmakefile 、makefile 和 Makefile 的文件。在这三个文件名中，最好使用 Makefile 这个文件名，因为这个文件名在排序上靠近其它比较重要的文件，比如 README。最好不要用 GNUmakefile，因为这个文件名只能由 GNU make ，其它版本的 make 无法识别，但是基本上来说，大多数的 make 都支持 makefile 和 Makefile 这两种默认文件名。当然，你可以使用别的文件名来书写 Makefile，比如：“Make.Solaris”，“Make.Linux”等，如果要指定特定的 Makefile，你可以使用 make 的 -f 或 --file 参数，如：make -f Make.Solaris 或 make --file Make.Linux 。如果你使用多条 -f 或 --file 参数，你可以指定多个 makefile。
+默认的情况下，make 命令会在当前目录下按顺序寻找文件名为 GNUmakefile 、makefile 和 Makefile 的文件。在这三个文件名中，最好使用 Makefile 这个文件名。当然，你可以使用别的文件名来书写 Makefile，比如“Make.Linux”等，如指定特定的 Makefile，你可以使用 make 的 -f 或 --file 参数，如：make -f Make.Solaris 或 make --file Make.Linux 。如果你使用多条 -f 或  --file 参数，你可以指定多个 makefile。
+
+#### 包含其他 makefile
+
+在 Makefile 使用 include 指令可以把别的 Makefile 包含进来，这很像 C 语言的  #include````
+ ，被包含的文件会原模原样的放在当前文件的包含位置。include 的语法是：
