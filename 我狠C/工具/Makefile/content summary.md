@@ -80,8 +80,8 @@ objects = main.o kbd.o command.o display.o \                                    
 make 看到一个 .o 文件，它就会自动的把 .c 文件加在依赖关系, 举例：``如果 make 找到一个 whatever.o ，那么 whatever.c 就会是 whatever.o 的依赖文件。并且 cc -c whatever.c 也会被推导 出``
 
 *See the changes*
-```
-objects = main.o kbd.o command.o display.o \ insert.o search.o files.o utils.o 
+```makefile
+objects = main.o kbd.o command.o display.o insert.o search.o files.o utils.o 
 
 edit : $(objects) 
 	cc -o edit $(objects) 
@@ -97,3 +97,20 @@ utils.o : defs.h
 .PHONY : clean 
 clean : rm edit $(objects)
 ```
+
+*How about this style*
+```makefile
+objects = main.o kbd.o command.o display.o insert.o search.o files.o utils.o 
+
+edit : $(objects) 
+	cc -o edit $(objects)
+	
+$(objects) : defs.h 
+kbd.o command.o files.o : command.h 
+display.o insert.o search.o files.o : buffer.h 
+
+.PHONY : clean 
+clean : 
+	rm edit $(objects)
+```
+
