@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/工具/Makefile/content summary.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/工具/Makefile/content summary.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/工具/Makefile/content summary.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/工具/Makefile/content summary.md"
+                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md"
               }
             }
           }
@@ -148,12 +148,13 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "操作系统/xv6/xv6-chinese/content/AppendixB.md",
+    "我狠C/工具/Makefile/content summary.md",
     "我狠C/工具/GIt",
     "images/Pasted image 20230401220313.png",
     "images/Pasted image 20230401220255.png",
     "操作系统/xv6/xv6-chinese/content/chapter0.md",
     "操作系统/xv6/xv6-chinese/content/chapter1.md",
-    "我狠C/工具/Makefile/content summary.md",
     "操作系统/xv6/xv6-chinese/content/chapter2.md",
     "操作系统/xv6/xv6-chinese/content/chapter3.md",
     "操作系统/xv6/xv6-chinese/content/chapter4.md",
@@ -167,7 +168,6 @@
     "我狠C/工具",
     "未命名",
     "我狠C",
-    "操作系统/xv6/xv6-chinese/content/AppendixB.md",
     "操作系统/xv6/xv6源码/xv6-rev7.pdf",
     "操作系统/xv6/xv6-chinese/SUMMARY.md",
     "未命名 1",
@@ -191,7 +191,6 @@
     "操作系统/xv6/xv6-chinese/pic/f4-1.png",
     "操作系统/xv6/xv6-chinese/pic",
     "操作系统/xv6/xv6-chinese/content",
-    "操作系统/xv6/xv6-chinese",
     "2023-03-29.md",
     "数学知识/数论/未命名.md",
     "未命名.canvas"
