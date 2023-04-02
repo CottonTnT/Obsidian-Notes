@@ -72,9 +72,28 @@ make 会在当前目录下找名字叫“Makefile”或“makefile”的文件�
 
 makefile 的变量也就是一个字符串，理解成 C 语言中的宏可能会更好, 例如：
 ```
-objects = main.o kbd.o command.o display.o \                                      insert.o search.o files.o utils.o
+objects = main.o kbd.o command.o display.o \                                       insert.o search.o files.o utils.o
 ```
 
 #### GNU Make 自动推导
 
 make 看到一个 .o 文件，它就会自动的把 .c 文件加在依赖关系, 举例：``如果 make 找到一个 whatever.o ，那么 whatever.c 就会是 whatever.o 的依赖文件。并且 cc -c whatever.c 也会被推导 出``
+
+*See the changes*
+```
+objects = main.o kbd.o command.o display.o \ insert.o search.o files.o utils.o 
+
+edit : $(objects) 
+	cc -o edit $(objects) 
+main.o : defs.h 
+kbd.o : defs.h command.h 
+command.o : defs.h command.h 
+display.o : defs.h buffer.h 
+insert.o : defs.h buffer.h 
+search.o : defs.h buffer.h 
+files.o : defs.h buffer.h command.h 
+utils.o : defs.h
+
+.PHONY : clean 
+clean : rm edit $(objects)
+```
