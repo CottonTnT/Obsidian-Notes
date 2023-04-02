@@ -142,5 +142,21 @@ clean :
 
 #### 包含其他 makefile
 
-在 Makefile 使用 include 指令可以把别的 Makefile 包含进来，这很像 C 语言的  #include````
- ，被包含的文件会原模原样的放在当前文件的包含位置。include 的语法是：
+使用 include 指令可以把别的 Makefile 包含进来，如 C 语言的 `` #include``，被包含的文件会复制放在当前文件的包含位置。include 的语法是：
+```
+include <filenames> ...
+```
+
+filenames 可以是当前操作系统 Shell 的文件模式（可以包含路径和通配符）。在 include 前面可以有一些空字符，但是绝不能是 Tab 键开始。举个例子，你有这样几个 Makefile：a.mk 、b.mk 、c.mk ，还有一个文件叫 foo.make ，以及一个变量 $(bar) ，其包含了 bish 和 bash ，那么，下面的语句：
+
+```
+include foo.make *.mk $(bar)
+```
+ 等价于：
+ 
+```
+ include foo.make a.mk b.mk c.mk bish bash
+```
+ make 命令开始时，会找寻 include 所指出的其它 Makefile，并把其内容安置在当前的位置。如果文件都没有指定绝对路径或是相对路径的话，make 会在当前目录下首先寻找，如果当前目录下没有找到，那么，make 还会在下面的几个目录下找：
+  1. 如果 make 执行时，有 -I 或 --include-dir 参数，那么 make 就会在这个参数所指定的目录下去寻找。 
+  2. 接下来按顺序寻找目录 /include （一般是 /usr/local/bin ）、/usr/gnu/include 、 /usr/local/include 、/usr/include 。环境变量 .INCLUDE_DIRS 包含当前 make 会寻找的目录列表。你应当避免使用命令行参数 -I 来寻找以上这些默认目录，否则会使得 make “忘掉”所有已经设定的包含目录，包括默认目录。如果你想让 make 不理那些无法读取的文件，而继续执行,如： -include ... 其表示，无论 include 过程中出现什么错误，都不要报错继续执行。如果要和其它版本 make 兼容，可以使用 sinclude 代替 -include 。
