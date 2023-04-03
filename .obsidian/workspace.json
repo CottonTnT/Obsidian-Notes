@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "40417b3d36a153f6",
+        "id": "8c460b4d7f96f256",
         "type": "tabs",
         "children": [
           {
-            "id": "7987f70af729051b",
+            "id": "3f786a7902816167",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
+                "file": "Algorithm/KMP/next数组的理解.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
+                "file": "Algorithm/KMP/next数组的理解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
+                "file": "Algorithm/KMP/next数组的理解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md"
+                "file": "Algorithm/KMP/next数组的理解.md"
               }
             }
           }
@@ -146,10 +146,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "3f786a7902816167",
   "lastOpenFiles": [
-    "操作系统/xv6/xv6-chinese/content/chapter1.md",
+    "未命名.md",
+    "Algorithm/KMP/next数组的理解.md",
+    "操作系统/xv6/xv6-chinese/content/未命名.md",
     "操作系统/xv6/xv6-chinese/content/chapter0.md",
+    "Algorithm/KMP",
+    "未命名",
+    "Algorithm",
+    "操作系统/xv6/xv6-chinese/content/chapter1.md",
     "操作系统/xv6/xv6-chinese/content/AppendixB.md",
     "我狠C/工具/Makefile/content summary.md",
     "我狠C/工具/GIt",
@@ -163,10 +169,8 @@
     "我狠C/工具/Makefile/未命名.md",
     "操作系统/xv6/xv6-chinese/content/AppendixA.md",
     "Typora的markdown语法.md",
-    "操作系统/xv6/xv6-chinese/content/未命名.md",
     "我狠C/工具/Makefile",
     "我狠C/工具",
-    "未命名",
     "我狠C",
     "操作系统/xv6/xv6源码/xv6-rev7.pdf",
     "操作系统/xv6/xv6-chinese/SUMMARY.md",
@@ -189,10 +193,7 @@
     "操作系统/xv6/xv6-chinese/pic/f6-3.png",
     "操作系统/xv6/xv6-chinese/pic/f6-1.png",
     "操作系统/xv6/xv6-chinese/pic/f4-1.png",
-    "操作系统/xv6/xv6-chinese/pic",
-    "操作系统/xv6/xv6-chinese/content",
     "2023-03-29.md",
-    "数学知识/数论/未命名.md",
     "未命名.canvas"
   ]
 }
