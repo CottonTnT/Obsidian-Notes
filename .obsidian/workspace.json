@@ -146,8 +146,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3f786a7902816167",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "Algorithm/动态规划",
     "未命名.md",
     "Algorithm/KMP/next数组的理解.md",
     "操作系统/xv6/xv6-chinese/content/未命名.md",
@@ -193,7 +194,6 @@
     "操作系统/xv6/xv6-chinese/pic/f6-3.png",
     "操作系统/xv6/xv6-chinese/pic/f6-1.png",
     "操作系统/xv6/xv6-chinese/pic/f4-1.png",
-    "2023-03-29.md",
     "未命名.canvas"
   ]
 }
