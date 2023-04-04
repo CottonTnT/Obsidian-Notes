@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/KMP/next数组的理解.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/KMP/next数组的理解.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/KMP/next数组的理解.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/KMP/next数组的理解.md"
+                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md"
               }
             }
           }
@@ -148,20 +148,21 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "操作系统/xv6/xv6-chinese/content/chapter1.md",
+    "操作系统/xv6/xv6-chinese/content/chapter0.md",
+    "操作系统/xv6/xv6-chinese/content/AppendixA.md",
+    "Algorithm/KMP/next数组的理解.md",
     "images/Pasted image 20230403165440.png",
     "images/Pasted image 20230401220313.png",
     "images/Pasted image 20230401220255.png",
     "images/Pasted image 20230329193328.png",
     "Typora的markdown语法.md",
-    "Algorithm/KMP/next数组的理解.md",
     "Algorithm/动态规划",
     "未命名.md",
     "操作系统/xv6/xv6-chinese/content/未命名.md",
-    "操作系统/xv6/xv6-chinese/content/chapter0.md",
     "Algorithm/KMP",
     "未命名",
     "Algorithm",
-    "操作系统/xv6/xv6-chinese/content/chapter1.md",
     "操作系统/xv6/xv6-chinese/content/AppendixB.md",
     "我狠C/工具/Makefile/content summary.md",
     "我狠C/工具/GIt",
@@ -171,7 +172,6 @@
     "操作系统/xv6/xv6-chinese/content/chapter5.md",
     "我狠C/工具/Makefile/未命名 1.md",
     "我狠C/工具/Makefile/未命名.md",
-    "操作系统/xv6/xv6-chinese/content/AppendixA.md",
     "我狠C/工具/Makefile",
     "我狠C/工具",
     "我狠C",
@@ -193,7 +193,6 @@
     "操作系统/xv6/xv6-chinese/pic/f6-4.png",
     "操作系统/xv6/xv6-chinese/pic/f6-2.png",
     "操作系统/xv6/xv6-chinese/pic/f6-3.png",
-    "操作系统/xv6/xv6-chinese/pic/f6-1.png",
     "未命名.canvas"
   ]
 }
