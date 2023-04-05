@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a1dd1f5b3525f57d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm/图论/最短路问题.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
+                "file": "Algorithm/图论/最短路问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
+                "file": "Algorithm/图论/最短路问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md"
+                "file": "Algorithm/图论/最短路问题.md"
               }
             }
           }
@@ -146,13 +159,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "a1dd1f5b3525f57d",
   "lastOpenFiles": [
-    "Algorithm/未命名",
-    "操作系统/xv6/xv6-chinese/content/chapter1.md",
-    "操作系统/xv6/xv6-chinese/content/chapter0.md",
-    "操作系统/xv6/xv6-chinese/content/AppendixA.md",
     "Algorithm/KMP/next数组的理解.md",
+    "Algorithm/图论/最短路问题.md",
+    "操作系统/xv6/xv6-chinese/content/chapter0.md",
+    "Algorithm/图论",
+    "操作系统/xv6/xv6-chinese/content/chapter1.md",
+    "操作系统/xv6/xv6-chinese/content/AppendixA.md",
     "images/Pasted image 20230403165440.png",
     "images/Pasted image 20230401220313.png",
     "images/Pasted image 20230401220255.png",
@@ -178,7 +192,6 @@
     "我狠C",
     "操作系统/xv6/xv6源码/xv6-rev7.pdf",
     "操作系统/xv6/xv6-chinese/SUMMARY.md",
-    "未命名 1",
     "操作系统/xv6/xv6-chinese/content/chapter6.md",
     "操作系统/xv6/xv6-chinese/content/未命名 1.md",
     "操作系统/xv6/xv6-chinese/content/未命名 2.md",
