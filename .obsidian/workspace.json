@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/图论/最短路问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/图论/最短路问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algorithm/图论/最短路问题.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,8 +144,9 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "Algorithm/图论/[.md",
     "Algorithm/图论/最短路问题.md",
+    "Algorithm/图论/稀疏图与稠密图.md",
+    "Algorithm/图论/[.md",
     "Algorithm/KMP/next数组的理解.md",
     "操作系统/xv6/xv6-chinese/content/chapter0.md",
     "Algorithm/图论",
@@ -187,7 +184,6 @@
     "操作系统/xv6/xv6-chinese/README.md",
     "操作系统/xv6/xv6-chinese/content/mistakes.md",
     "操作系统/xv6/xv6-chinese/content/glossary.md",
-    "操作系统/xv6/xv6-chinese/content/cover.md",
     "操作系统/xv6/xv6-chinese/pic/f3-1.png",
     "操作系统/xv6/xv6-chinese/pic/fb-2.png",
     "操作系统/xv6/xv6-chinese/pic/fb-1.png",
