@@ -183,9 +183,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "86fcd4c1cf357ca6",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
     "templates/Algorithm question.md",
+    "templates/Algorithm template.md",
     "Algorithm/图论/好题收集/图论的思想杂烩.md",
     "Algorithm/图论/最短路问题.md",
     "Algorithm/图论/好题收集/未命名",
@@ -196,7 +197,6 @@
     "images/Pasted image 20230405135618.png",
     "images/Pasted image 20230405135555.png",
     "images/Pasted image 20230405135256.png",
-    "templates/Algorithm template.md",
     "templates",
     "Algorithm/排序.md",
     "Algorithm/数据结构",
