@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/图论/最短路问题.md",
+                "file": "Algorithm/排序/堆排序.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "07668f3e7d02a567",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/Algorithm template.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "templates/Algorithm template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "templates/Algorithm template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "templates/Algorithm template.md"
+              }
             }
           }
         ],
@@ -144,8 +161,13 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "Algorithm/图论/最短路问题.md",
+    "Algorithm/排序/堆排序.md",
+    "templates/Algorithm template.md",
+    "templates",
+    "Algorithm/排序.md",
+    "Algorithm/排序",
     "Algorithm/图论/稀疏图与稠密图.md",
+    "Algorithm/图论/最短路问题.md",
     "Algorithm/图论/[.md",
     "Algorithm/KMP/next数组的理解.md",
     "操作系统/xv6/xv6-chinese/content/chapter0.md",
@@ -161,7 +183,6 @@
     "未命名.md",
     "操作系统/xv6/xv6-chinese/content/未命名.md",
     "Algorithm/KMP",
-    "未命名",
     "Algorithm",
     "操作系统/xv6/xv6-chinese/content/AppendixB.md",
     "我狠C/工具/Makefile/content summary.md",
@@ -175,15 +196,11 @@
     "我狠C/工具/Makefile",
     "我狠C/工具",
     "我狠C",
-    "操作系统/xv6/xv6源码/xv6-rev7.pdf",
     "操作系统/xv6/xv6-chinese/SUMMARY.md",
     "操作系统/xv6/xv6-chinese/content/chapter6.md",
     "操作系统/xv6/xv6-chinese/content/未命名 1.md",
     "操作系统/xv6/xv6-chinese/content/未命名 2.md",
     "操作系统/xv6/xv6-chinese/content/preface.md",
-    "操作系统/xv6/xv6-chinese/README.md",
-    "操作系统/xv6/xv6-chinese/content/mistakes.md",
-    "操作系统/xv6/xv6-chinese/content/glossary.md",
     "操作系统/xv6/xv6-chinese/pic/f3-1.png",
     "操作系统/xv6/xv6-chinese/pic/fb-2.png",
     "操作系统/xv6/xv6-chinese/pic/fb-1.png",
