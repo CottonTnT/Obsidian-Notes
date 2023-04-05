@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1dd1f5b3525f57d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Algorithm/图论/最短路问题.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,10 +146,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a1dd1f5b3525f57d",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "Algorithm/KMP/next数组的理解.md",
+    "Algorithm/图论/[.md",
     "Algorithm/图论/最短路问题.md",
+    "Algorithm/KMP/next数组的理解.md",
     "操作系统/xv6/xv6-chinese/content/chapter0.md",
     "Algorithm/图论",
     "操作系统/xv6/xv6-chinese/content/chapter1.md",
@@ -201,7 +189,6 @@
     "操作系统/xv6/xv6-chinese/content/glossary.md",
     "操作系统/xv6/xv6-chinese/content/cover.md",
     "操作系统/xv6/xv6-chinese/pic/f3-1.png",
-    "数学知识/数论/约数.md",
     "操作系统/xv6/xv6-chinese/pic/fb-2.png",
     "操作系统/xv6/xv6-chinese/pic/fb-1.png",
     "操作系统/xv6/xv6-chinese/pic/f6-4.png",
