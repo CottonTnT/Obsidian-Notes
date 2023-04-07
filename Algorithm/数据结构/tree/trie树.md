@@ -66,6 +66,10 @@ void trie_insert(trie root, char* key)
     node->count += 1;
 }
 
+void trie_delete(trie root, char* key){
+
+}
+
 /**
  * 查询：不存在返回0，存在返回出现的次数
  */ 
