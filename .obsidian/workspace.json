@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/数据结构/tree/trie树.md",
+                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/数据结构/tree/trie树.md",
+                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/数据结构/tree/trie树.md",
+                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/数据结构/tree/trie树.md"
+                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md"
               }
             }
           }
@@ -161,7 +161,8 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "Algorithm/数据结构/数据的构造是雪的白.md",
+    "Algorithm/数据结构/数据结构好题/数据的构造是雪的白.md",
+    "Algorithm/数据结构/数据结构好题",
     "Algorithm/数据结构/tree/trie树.md",
     "Algorithm/位运算/异或.md",
     "images/Pasted image 20230407120436.png",
@@ -171,7 +172,7 @@
     "images/Pasted image 20230407120346.png",
     "Algorithm/位运算/异或",
     "Algorithm/位运算",
-    "Algorithm/图论/好题收集/图论的思想杂烩.md",
+    "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
     "Algorithm/数据结构/heap/堆排序.md",
     "images/Pasted image 20230406221947.png",
     "Algorithm/数据结构/tree.md",
@@ -195,7 +196,6 @@
     "images/Pasted image 20230405135618.png",
     "images/Pasted image 20230405135555.png",
     "images/Pasted image 20230405135256.png",
-    "templates",
     "Algorithm/排序.md",
     "Algorithm/图论/稀疏图与稠密图.md",
     "Algorithm/图论/[.md",
