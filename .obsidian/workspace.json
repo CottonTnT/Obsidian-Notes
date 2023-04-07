@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/动态规划/线性DP/抽象模型.md",
+                "file": "数学知识/数论/约数.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/动态规划/线性DP/抽象模型.md",
+                "file": "数学知识/数论/约数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/动态规划/线性DP/抽象模型.md",
+                "file": "数学知识/数论/约数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/动态规划/线性DP/抽象模型.md"
+                "file": "数学知识/数论/约数.md"
               }
             }
           }
@@ -185,8 +185,8 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "Algorithm/动态规划/线性DP/一条绳上的蚂蚱.md",
     "Algorithm/动态规划/线性DP/抽象模型.md",
+    "Algorithm/动态规划/线性DP/一条绳上的蚂蚱.md",
     "Algorithm/递归模型/树枝型.md",
     "Algorithm/动态规划/线性DP",
     "Algorithm/递归模型/线型.md",
