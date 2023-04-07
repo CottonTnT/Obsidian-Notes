@@ -2,5 +2,5 @@
   "promptDelete": false,
   "newFileLocation": "current",
   "attachmentFolderPath": "images",
-  "vimMode": true
+  "vimMode": false
 }
