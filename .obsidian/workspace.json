@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/数据结构/tree/trie树.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3dd3156304d7b691",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Algorithm/位运算/异或.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,8 +146,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3dd3156304d7b691",
+  "active": "7e7738bb05b1a76d",
   "lastOpenFiles": [
+    "images/Pasted image 20230407120436.png",
+    "images/Pasted image 20230407120430.png",
+    "images/Pasted image 20230407120424.png",
+    "images/Pasted image 20230407120412.png",
+    "images/Pasted image 20230407120346.png",
     "Algorithm/数据结构/tree/trie树.md",
     "Algorithm/位运算/异或.md",
     "Algorithm/位运算/异或",
@@ -200,13 +192,8 @@
     "操作系统/xv6/xv6-chinese/content/AppendixA.md",
     "images/Pasted image 20230403165440.png",
     "images/Pasted image 20230401220313.png",
-    "images/Pasted image 20230401220255.png",
-    "images/Pasted image 20230329193328.png",
     "Typora的markdown语法.md",
     "未命名.md",
-    "操作系统/xv6/xv6-chinese/content/未命名.md",
-    "操作系统/xv6/xv6-chinese/pic/f3-1.png",
-    "操作系统/xv6/xv6-chinese/pic/fb-2.png",
     "未命名.canvas"
   ]
 }

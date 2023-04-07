@@ -8,5 +8,6 @@
   "link-favicon",
   "obsidian-git",
   "obsidian-table-generator",
-  "quickadd"
+  "quickadd",
+  "obsidian-vimrc-support"
 ]
