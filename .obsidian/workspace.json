@@ -8,60 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7e7738bb05b1a76d",
+            "id": "a46b132252b5e2bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/数据结构/tree/trie树.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea2a097c4c9082f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/递归模型/树枝型.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fbf3c9149c6d0719",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数学知识/数论/约数.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ca39344360ac812",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/数据结构/前缀和与差分/前缀和.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e499d17c4d85f7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/数据结构/前缀和与差分/差分.md",
+                "file": "Algorithm/数据结构/tree/树状数组.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/数据结构/前缀和与差分/差分.md",
+                "file": "Algorithm/数据结构/tree/树状数组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/数据结构/前缀和与差分/差分.md",
+                "file": "Algorithm/数据结构/tree/树状数组.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/数据结构/前缀和与差分/差分.md"
+                "file": "Algorithm/数据结构/tree/树状数组.md"
               }
             }
           }
@@ -209,9 +160,25 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "Algorithm/数据结构/tree/trie树.md",
+    "Algorithm/位运算/and  or.md",
+    "Algorithm/位运算/xor.md",
+    "images/Pasted image 20230409094015.png",
+    "images/Pasted image 20230409093938.png",
+    "images/Pasted image 20230409093836.png",
+    "images/Pasted image 20230409093807.png",
+    "images/Pasted image 20230409093753.png",
+    "images/Pasted image 20230409093728.png",
+    "images/Pasted image 20230409093723.png",
+    "数学知识/数论/约数.md",
+    "images/Pasted image 20230409092500.png",
+    "images/Pasted image 20230409092457.png",
+    "Algorithm/数据结构/tree/树状数组.md",
+    "Algorithm/数据结构/数据结构好题/数据的构造是雪的白.md",
     "Algorithm/数据结构/前缀和与差分/前缀和.md",
     "Algorithm/数据结构/前缀和与差分/差分.md",
-    "数学知识/数论/约数.md",
+    "images/Pasted image 20230409091650.png",
+    "Algorithm/数据结构/优先队列",
     "Algorithm/数据结构/前缀和与差分",
     "Algorithm/动态规划/线性DP/抽象模型.md",
     "Algorithm/动态规划/线性DP/一条绳上的蚂蚱.md",
@@ -219,19 +186,10 @@
     "Algorithm/动态规划/线性DP",
     "Algorithm/递归模型/线型.md",
     "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
-    "Algorithm/数据结构/数据结构好题/数据的构造是雪的白.md",
     "Algorithm/数据结构/数据结构好题",
-    "Algorithm/数据结构/tree/trie树.md",
-    "Algorithm/位运算/异或.md",
-    "images/Pasted image 20230407120436.png",
-    "images/Pasted image 20230407120430.png",
-    "images/Pasted image 20230407120424.png",
-    "images/Pasted image 20230407120412.png",
-    "images/Pasted image 20230407120346.png",
     "Algorithm/位运算/异或",
     "Algorithm/位运算",
     "Algorithm/数据结构/heap/堆排序.md",
-    "images/Pasted image 20230406221947.png",
     "Algorithm/数据结构/tree.md",
     "Algorithm/数据结构/tree",
     "Algorithm/图论/最短路问题.md",
@@ -245,16 +203,8 @@
     "Algorithm/未命名.md",
     "Algorithm/DFS/好题收集",
     "Algorithm/DFS",
-    "Algorithm/图论/好题收集/未命名",
-    "images/Pasted image 20230405135618.png",
-    "images/Pasted image 20230405135555.png",
-    "images/Pasted image 20230405135256.png",
     "Algorithm/排序.md",
     "Algorithm/图论/稀疏图与稠密图.md",
-    "Algorithm/图论/[.md",
-    "Algorithm/KMP/next数组的理解.md",
-    "操作系统/xv6/xv6-chinese/content/chapter0.md",
-    "images/Pasted image 20230403165440.png",
     "未命名.canvas"
   ]
 }
