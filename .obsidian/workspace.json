@@ -4,71 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "01058800f9713612",
+        "id": "1ad17a3c24d348f0",
         "type": "tabs",
         "children": [
           {
-            "id": "a46b132252b5e2bf",
+            "id": "d24830c30bbc62ae",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/数据结构/tree/树状数组.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5ec5b2ccca2c6c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/C++六大组件/我们意念合一.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6fd17fc6ab336a9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/算法评估.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81002e72991c414f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/C++六大组件/Container/结构及分类.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e03338a893077160",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/动态规划/线性DP/一条绳上的蚂蚱.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++六大组件/Container/结构及分类.md",
+                "file": "Algorithm/动态规划/线性DP/一条绳上的蚂蚱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++六大组件/Container/结构及分类.md",
+                "file": "Algorithm/动态规划/线性DP/一条绳上的蚂蚱.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++六大组件/Container/结构及分类.md"
+                "file": "Algorithm/动态规划/线性DP/一条绳上的蚂蚱.md"
               }
             }
           }
@@ -195,23 +142,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "81002e72991c414f",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "我狠C/C++六大组件/Container/结构及分类.md",
+    "我狠C/C++六大组件/我们意念合一.md",
+    "Algorithm/算法评估.md",
     "images/Pasted image 20230409115948.png",
     "images/Pasted image 20230409115931.png",
     "images/Pasted image 20230409115903.png",
-    "Algorithm/算法评估.md",
-    "我狠C/C++六大组件/Container/结构及分类.md",
     "images/Pasted image 20230409115507.png",
-    "我狠C/C++六大组件/我们意念合一.md",
     "images/Pasted image 20230409115246.png",
     "Algorithm/数据结构/tree/树状数组.md",
     "我狠C/C++六大组件/Container",
     "我狠C/C++六大组件",
     "设计模式/单例模式",
-    "设计模式/建造者模式",
-    "设计模式/分配器模式",
-    "设计模式/迭代器模式",
+    "设计模式/Builder",
+    "设计模式/Allocator",
+    "设计模式/Iterator",
     "未命名",
     "设计模式",
     "Algorithm/数据结构/tree/trie树.md",
@@ -222,7 +169,6 @@
     "images/Pasted image 20230409093836.png",
     "images/Pasted image 20230409093807.png",
     "images/Pasted image 20230409093753.png",
-    "images/Pasted image 20230409093728.png",
     "数学知识/数论/约数.md",
     "Algorithm/数据结构/数据结构好题/数据的构造是雪的白.md",
     "Algorithm/数据结构/前缀和与差分/前缀和.md",
