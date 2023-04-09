@@ -20,6 +20,42 @@
             }
           },
           {
+            "id": "c5ec5b2ccca2c6c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "我狠C/C++六大组件/我们意念合一.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6fd17fc6ab336a9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm/算法评估.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81002e72991c414f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "我狠C/C++六大组件/Container/结构及分类.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e03338a893077160",
             "type": "leaf",
             "state": {
@@ -31,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -97,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/数据结构/tree/树状数组.md",
+                "file": "我狠C/C++六大组件/Container/结构及分类.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/数据结构/tree/树状数组.md",
+                "file": "我狠C/C++六大组件/Container/结构及分类.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/数据结构/tree/树状数组.md"
+                "file": "我狠C/C++六大组件/Container/结构及分类.md"
               }
             }
           }
@@ -158,8 +195,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "81002e72991c414f",
   "lastOpenFiles": [
+    "images/Pasted image 20230409115948.png",
+    "images/Pasted image 20230409115931.png",
+    "images/Pasted image 20230409115903.png",
+    "Algorithm/算法评估.md",
+    "我狠C/C++六大组件/Container/结构及分类.md",
+    "images/Pasted image 20230409115507.png",
+    "我狠C/C++六大组件/我们意念合一.md",
+    "images/Pasted image 20230409115246.png",
+    "Algorithm/数据结构/tree/树状数组.md",
+    "我狠C/C++六大组件/Container",
+    "我狠C/C++六大组件",
+    "设计模式/单例模式",
+    "设计模式/建造者模式",
+    "设计模式/分配器模式",
+    "设计模式/迭代器模式",
+    "未命名",
+    "设计模式",
     "Algorithm/数据结构/tree/trie树.md",
     "Algorithm/位运算/and  or.md",
     "Algorithm/位运算/xor.md",
@@ -169,29 +223,19 @@
     "images/Pasted image 20230409093807.png",
     "images/Pasted image 20230409093753.png",
     "images/Pasted image 20230409093728.png",
-    "images/Pasted image 20230409093723.png",
     "数学知识/数论/约数.md",
-    "images/Pasted image 20230409092500.png",
-    "images/Pasted image 20230409092457.png",
-    "Algorithm/数据结构/tree/树状数组.md",
     "Algorithm/数据结构/数据结构好题/数据的构造是雪的白.md",
     "Algorithm/数据结构/前缀和与差分/前缀和.md",
     "Algorithm/数据结构/前缀和与差分/差分.md",
-    "images/Pasted image 20230409091650.png",
     "Algorithm/数据结构/优先队列",
     "Algorithm/数据结构/前缀和与差分",
     "Algorithm/动态规划/线性DP/抽象模型.md",
     "Algorithm/动态规划/线性DP/一条绳上的蚂蚱.md",
     "Algorithm/递归模型/树枝型.md",
-    "Algorithm/动态规划/线性DP",
     "Algorithm/递归模型/线型.md",
     "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
-    "Algorithm/数据结构/数据结构好题",
-    "Algorithm/位运算/异或",
-    "Algorithm/位运算",
     "Algorithm/数据结构/heap/堆排序.md",
     "Algorithm/数据结构/tree.md",
-    "Algorithm/数据结构/tree",
     "Algorithm/图论/最短路问题.md",
     "Algorithm/图论/邻接表构建图.md",
     "Algorithm/DFS/构建DFS思路.md",
@@ -199,12 +243,6 @@
     "templates/Algorithm template.md",
     "templates/Algorithm question.md",
     "Algorithm/递归模型/未命名.md",
-    "Algorithm/递归模型",
-    "Algorithm/未命名.md",
-    "Algorithm/DFS/好题收集",
-    "Algorithm/DFS",
-    "Algorithm/排序.md",
-    "Algorithm/图论/稀疏图与稠密图.md",
     "未命名.canvas"
   ]
 }
