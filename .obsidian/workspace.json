@@ -146,8 +146,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "d24830c30bbc62ae",
   "lastOpenFiles": [
+    "images/Pasted image 20230410094428.png",
     "我狠C/C++六大组件/Container/结构及分类.md",
     "操作系统/xv6/xv6-chinese/content/chapter0.md",
     "Algorithm/动态规划/线性DP/一条绳上的蚂蚱.md",
@@ -193,7 +194,6 @@
     "Algorithm/DFS/好题收集/dfs的模型构造及处理.md",
     "templates/Algorithm template.md",
     "templates/Algorithm question.md",
-    "Algorithm/递归模型/未命名.md",
     "未命名.canvas"
   ]
 }
