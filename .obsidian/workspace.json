@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/工具/Makefile/content summary.md",
+                "file": "Algorithm/数学知识/数论/约数.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1f580d721ea83bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm/数学知识/数论/约数.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/工具/Makefile/content summary.md",
+                "file": "Algorithm/数学知识/数论/约数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/工具/Makefile/content summary.md",
+                "file": "Algorithm/数学知识/数论/约数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/工具/Makefile/content summary.md"
+                "file": "Algorithm/数学知识/数论/约数.md"
               }
             }
           }
@@ -148,6 +161,9 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "Algorithm/数学知识/数论/质数筛法.md",
+    "Algorithm/数学知识/数论/约数.md",
+    "我狠C/工具/Makefile/content summary.md",
     "Algorithm/数据结构/tree/树状数组.md",
     "Algorithm/动态规划/线性DP/一条绳上的蚂蚱.md",
     "Algorithm/动态规划/线性DP/抽象模型.md",
@@ -176,7 +192,6 @@
     "images/Pasted image 20230409093938.png",
     "images/Pasted image 20230409093836.png",
     "images/Pasted image 20230409093807.png",
-    "数学知识/数论/约数.md",
     "Algorithm/数据结构/数据结构好题/数据的构造是雪的白.md",
     "Algorithm/数据结构/前缀和与差分/前缀和.md",
     "Algorithm/数据结构/前缀和与差分/差分.md",
@@ -192,7 +207,6 @@
     "Algorithm/DFS/构建DFS思路.md",
     "Algorithm/DFS/好题收集/dfs的模型构造及处理.md",
     "templates/Algorithm template.md",
-    "templates/Algorithm question.md",
     "未命名.canvas"
   ]
 }
