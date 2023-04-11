@@ -56,18 +56,6 @@
             }
           },
           {
-            "id": "15c76c4f2ad4becd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a0886780368553e3",
             "type": "leaf",
             "state": {
@@ -80,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -146,7 +134,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +150,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,9 +171,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -209,11 +193,13 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
+    "操作系统/xv6/xv6-chinese/content/AppendixB.md",
+    "操作系统/xv6/xv6-chinese/content/chapter1.md",
+    "操作系统/xv6/xv6-chinese/content/chapter0.md",
     "Algorithm/数据结构/tree/二叉树/叉叉.md",
+    "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
     "Algorithm/数据结构/tree/trie树.md",
     "Algorithm/数据结构/tree/树状数组.md",
-    "操作系统/xv6/xv6-chinese/content/chapter0.md",
     "Algorithm/数据结构/tree/二叉树",
     "我狠C/grammer&semantic/Operator overloading.md",
     "templates/Cpp Notes.md",
@@ -253,8 +239,6 @@
     "Algorithm/递归模型/线型.md",
     "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
     "Algorithm/数据结构/heap/堆排序.md",
-    "Algorithm/数据结构/tree.md",
-    "Algorithm/图论/最短路问题.md",
     "未命名.canvas"
   ]
 }
