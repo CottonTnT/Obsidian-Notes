@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/grammer&semantic/Operator overloading.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/grammer&semantic/Operator overloading.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/grammer&semantic/Operator overloading.md",
+                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/grammer&semantic/Operator overloading.md"
+                "file": "操作系统/xv6/xv6-chinese/content/chapter0.md"
               }
             }
           }
@@ -185,8 +185,8 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "templates/Cpp Notes.md",
     "我狠C/grammer&semantic/Operator overloading.md",
+    "templates/Cpp Notes.md",
     "images/Pasted image 20230410185146.png",
     "images/Pasted image 20230410185127.png",
     "Algorithm/数学知识/数论/约数.md",
