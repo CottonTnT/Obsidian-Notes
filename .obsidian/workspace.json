@@ -134,6 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,6 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Algorithm/数据结构/tree/二叉树/二叉树遍历.md"
+              }
             }
           }
         ],
@@ -193,6 +197,7 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "操作系统/xv6/xv6-chinese/content/AppendixA.md",
     "操作系统/xv6/xv6-chinese/content/AppendixB.md",
     "操作系统/xv6/xv6-chinese/content/chapter1.md",
     "操作系统/xv6/xv6-chinese/content/chapter0.md",
@@ -238,7 +243,6 @@
     "Algorithm/递归模型/树枝型.md",
     "Algorithm/递归模型/线型.md",
     "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
-    "Algorithm/数据结构/heap/堆排序.md",
     "未命名.canvas"
   ]
 }
