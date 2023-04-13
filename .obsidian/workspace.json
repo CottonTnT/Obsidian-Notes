@@ -4,83 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1ad17a3c24d348f0",
+        "id": "0f4c0d518a04b26e",
         "type": "tabs",
         "children": [
           {
-            "id": "d24830c30bbc62ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/数学知识/数论/约数.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1f580d721ea83bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/数学知识/数论/约数.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80c6a35882d64d89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/数据结构/tree/trie树.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8c8ead39579129d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0886780368553e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/Cpp Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc1011903dcd2648",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "操作系统/xv6/xv6.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "8c6004bb43c67411",
+            "id": "5cf70aeb3b3a4ee4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -91,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,17 +146,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "fc1011903dcd2648",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
+    "images/Pasted image 20230413212035.png",
+    "操作系统/xv6/xv6.md",
+    "images/Pasted image 20230413211233.png",
+    "templates/Cpp Notes.md",
+    "Typora的markdown语法.md",
     "工具是文明的体现/文档工具.md",
     "templates/tool template.md",
-    "templates/Cpp Notes.md",
     "工具是文明的体现",
-    "操作系统/xv6/xv6.md",
     "Algorithm/数学知识/数论/约数.md",
     "操作系统/xv6/XV6-Chinese-2020.html",
     "Algorithm/数据结构/tree/二叉树/叉叉.md",
-    "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
     "操作系统/xv6/xv6-chinese/content/AppendixA.md",
     "操作系统/xv6/xv6-chinese/content/AppendixB.md",
     "操作系统/xv6/xv6-chinese/content/chapter1.md",
@@ -262,11 +192,7 @@
     "设计模式/Iterator",
     "Algorithm/位运算/and  or.md",
     "Algorithm/位运算/xor.md",
-    "images/Pasted image 20230409094015.png",
-    "images/Pasted image 20230409093938.png",
     "Algorithm/数据结构/数据结构好题/数据的构造是雪的白.md",
-    "Algorithm/数据结构/前缀和与差分/前缀和.md",
-    "Algorithm/数据结构/前缀和与差分/差分.md",
     "未命名.canvas"
   ]
 }
