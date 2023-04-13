@@ -1,6 +1,6 @@
 {
   "promptDelete": false,
   "newFileLocation": "current",
-  "attachmentFolderPath": "images",
+  "attachmentFolderPath": "操作系统/xv6",
   "vimMode": true
 }

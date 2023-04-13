@@ -66,9 +66,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fc1011903dcd2648",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "操作系统/xv6/xv6.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8c6004bb43c67411",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "操作系统/xv6/xv6.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
+                "file": "操作系统/xv6/xv6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
+                "file": "操作系统/xv6/xv6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/数据结构/tree/二叉树/二叉树遍历.md"
+                "file": "操作系统/xv6/xv6.md"
               }
             }
           }
@@ -195,8 +219,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "fc1011903dcd2648",
   "lastOpenFiles": [
+    "工具是文明的体现/文档工具.md",
+    "templates/tool template.md",
+    "templates/Cpp Notes.md",
+    "工具是文明的体现",
+    "操作系统/xv6/xv6.md",
+    "Algorithm/数学知识/数论/约数.md",
+    "操作系统/xv6/XV6-Chinese-2020.html",
     "Algorithm/数据结构/tree/二叉树/叉叉.md",
     "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
     "操作系统/xv6/xv6-chinese/content/AppendixA.md",
@@ -207,10 +238,8 @@
     "Algorithm/数据结构/tree/树状数组.md",
     "Algorithm/数据结构/tree/二叉树",
     "我狠C/grammer&semantic/Operator overloading.md",
-    "templates/Cpp Notes.md",
     "images/Pasted image 20230410185146.png",
     "images/Pasted image 20230410185127.png",
-    "Algorithm/数学知识/数论/约数.md",
     "我狠C/grammer&semantic",
     "Algorithm/数学知识/数论/质数筛法.md",
     "我狠C/工具/Makefile/content summary.md",
@@ -231,8 +260,6 @@
     "设计模式/Builder",
     "设计模式/Allocator",
     "设计模式/Iterator",
-    "未命名",
-    "设计模式",
     "Algorithm/位运算/and  or.md",
     "Algorithm/位运算/xor.md",
     "images/Pasted image 20230409094015.png",
@@ -240,9 +267,6 @@
     "Algorithm/数据结构/数据结构好题/数据的构造是雪的白.md",
     "Algorithm/数据结构/前缀和与差分/前缀和.md",
     "Algorithm/数据结构/前缀和与差分/差分.md",
-    "Algorithm/递归模型/树枝型.md",
-    "Algorithm/递归模型/线型.md",
-    "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
     "未命名.canvas"
   ]
 }
