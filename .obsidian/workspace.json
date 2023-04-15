@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具是文明的体现/文档工具.md",
+                "file": "操作系统/xv6/xv6.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具是文明的体现/文档工具.md",
+                "file": "操作系统/xv6/xv6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具是文明的体现/文档工具.md",
+                "file": "操作系统/xv6/xv6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具是文明的体现/文档工具.md"
+                "file": "操作系统/xv6/xv6.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "工具是文明的体现/文档工具.md",
     "操作系统/xv6/xv6.md",
     "Algorithm/数据结构/tree/树状数组.md",
     "Algorithm/数据结构/数据结构好题/数据的构造是雪的白.md",
@@ -157,7 +158,6 @@
     "images/Pasted image 20230413211233.png",
     "templates/Cpp Notes.md",
     "Typora的markdown语法.md",
-    "工具是文明的体现/文档工具.md",
     "templates/tool template.md",
     "工具是文明的体现",
     "Algorithm/数学知识/数论/约数.md",
