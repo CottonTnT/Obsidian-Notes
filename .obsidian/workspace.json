@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
+                "file": "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
+                "file": "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
+                "file": "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md"
+                "file": "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md"
               }
             }
           }
@@ -183,15 +183,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "6290ba595280a4f1",
   "lastOpenFiles": [
+    "images/Pasted image 20230416160620.png",
+    "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
     "images/Pasted image 20230416150753.png",
     "images/Pasted image 20230416150658.png",
     "images/Pasted image 20230416150505.png",
     "images/Pasted image 20230416150417.png",
     "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md",
     "images/Pasted image 20230416144447.png",
-    "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
     "templates/Math theory.md",
     "images/Pasted image 20230416141509.png",
     "Algorithm/数学知识/容斥原理与组合计数",
@@ -220,7 +221,6 @@
     "操作系统/xv6/xv6-chinese/content/chapter0.md",
     "Algorithm/数据结构/tree/二叉树",
     "我狠C/grammer&semantic/Operator overloading.md",
-    "images/Pasted image 20230410185146.png",
     "我狠C/grammer&semantic",
     "Algorithm/数学知识/数论/质数筛法.md",
     "我狠C/工具/Makefile/content summary.md",
