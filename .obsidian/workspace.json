@@ -18,8 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4643d146096079da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm/数学知识/容斥原理与组合计数/什么是容斥原理与组合计数.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6290ba595280a4f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4fe08da7674bb55c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/Math theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/xv6/xv6.md",
+                "file": "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/xv6/xv6.md",
+                "file": "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/xv6/xv6.md"
+                "file": "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md"
               }
             }
           }
@@ -146,12 +183,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "6290ba595280a4f1",
   "lastOpenFiles": [
+    "Algorithm/数学知识/容斥原理与组合计数/什么是容斥原理与组合计数.md",
+    "images/Pasted image 20230416144447.png",
+    "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
+    "templates/Math theory.md",
+    "images/Pasted image 20230416141509.png",
+    "Algorithm/数学知识/容斥原理与组合计数",
+    "images/Pasted image 20230416140609.png",
+    "images/Pasted image 20230416140210.png",
+    "操作系统/xv6/xv6.md",
     "我狠C/grammer&semantic/blogs/运算符优先级.md",
     "Algorithm/数据结构/tree/树状数组.md",
     "我狠C/grammer&semantic/blogs",
-    "操作系统/xv6/xv6.md",
     "工具是文明的体现/文档工具.md",
     "Algorithm/数据结构/数据结构好题/数据的构造是雪的白.md",
     "Algorithm/数据结构/tree/trie树.md",
@@ -180,19 +225,11 @@
     "Algorithm/动态规划/线性DP/抽象模型.md",
     "images/Pasted image 20230410094428.png",
     "我狠C/grammer&semantic/C++六大组件/Container/结构及分类.md",
-    "我狠C/grammer&semantic/C++六大组件/我们意念合一.md",
-    "Algorithm/算法评估.md",
     "images/Pasted image 20230409115948.png",
-    "images/Pasted image 20230409115931.png",
-    "images/Pasted image 20230409115903.png",
-    "images/Pasted image 20230409115507.png",
-    "images/Pasted image 20230409115246.png",
     "我狠C/grammer&semantic/C++六大组件/Container",
     "我狠C/grammer&semantic/C++六大组件",
     "设计模式/单例模式",
     "设计模式/Builder",
-    "设计模式/Allocator",
-    "Algorithm/位运算/and  or.md",
     "未命名.canvas"
   ]
 }
