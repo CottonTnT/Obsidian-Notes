@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9a55250422da2ab6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm/数学知识/数论/高斯消元.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/数学知识/数论/快速幂.md",
+                "file": "Algorithm/数学知识/数论/高斯消元.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/数学知识/数论/快速幂.md",
+                "file": "Algorithm/数学知识/数论/高斯消元.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/数学知识/数论/快速幂.md"
+                "file": "Algorithm/数学知识/数论/高斯消元.md"
               }
             }
           }
@@ -146,15 +159,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a92e7a3ae4744259",
+  "active": "9a55250422da2ab6",
   "lastOpenFiles": [
+    "images/Pasted image 20230418192027.png",
+    "images/Pasted image 20230418191800.png",
+    "Algorithm/数学知识/数论/快速幂.md",
+    "Algorithm/数学知识/数论/欧拉函数.md",
+    "Algorithm/数学知识/数论/高斯消元.md",
+    "images/Pasted image 20230418191319.png",
     "images/Pasted image 20230418183515.png",
     "images/Pasted image 20230418181654.png",
     "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md",
     "Algorithm/数学知识/数论/质数筛法.md",
-    "Algorithm/数学知识/数论/快速幂.md",
     "templates/Math theory.md",
-    "Algorithm/数学知识/数论/欧拉函数.md",
     "Algorithm/位运算/and  or.md",
     "Algorithm/位运算/mod.md",
     "Algorithm/位运算/xor.md",
@@ -167,9 +184,6 @@
     "images/Pasted image 20230418164857.png",
     "images/Pasted image 20230418164835.png",
     "images/20230418_164555.jpg",
-    "images/Pasted image 20230418163740.png",
-    "images/Pasted image 20230416222739.png",
-    "images/Pasted image 20230416222711.png",
     "Algorithm/数学知识/容斥原理与组合计数",
     "操作系统/xv6/xv6.md",
     "我狠C/grammer&semantic/blogs/运算符优先级.md",
@@ -187,7 +201,6 @@
     "Algorithm/数据结构/tree/二叉树/叉叉.md",
     "操作系统/xv6/xv6-chinese/content/AppendixA.md",
     "操作系统/xv6/xv6-chinese/content/AppendixB.md",
-    "操作系统/xv6/xv6-chinese/content/chapter1.md",
     "Algorithm/数据结构/tree/二叉树",
     "我狠C/grammer&semantic",
     "我狠C/grammer&semantic/C++六大组件/Container",
