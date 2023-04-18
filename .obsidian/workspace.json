@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5cf70aeb3b3a4ee4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "操作系统/xv6/xv6.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4643d146096079da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6290ba595280a4f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/数学知识/数论/质数筛法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a92e7a3ae4744259",
             "type": "leaf",
             "state": {
@@ -54,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2281202c8502d2ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/数学知识/数论/欧拉函数.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4fe08da7674bb55c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/Math theory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/数学知识/数论/欧拉函数.md",
+                "file": "Algorithm/数学知识/数论/快速幂.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/数学知识/数论/欧拉函数.md",
+                "file": "Algorithm/数学知识/数论/快速幂.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/数学知识/数论/欧拉函数.md"
+                "file": "Algorithm/数学知识/数论/快速幂.md"
               }
             }
           }
@@ -207,26 +146,30 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "a92e7a3ae4744259",
   "lastOpenFiles": [
-    "Algorithm/数学知识/数论/约数与质数的理论基础.md",
+    "images/Pasted image 20230418183515.png",
+    "images/Pasted image 20230418181654.png",
+    "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md",
     "Algorithm/数学知识/数论/质数筛法.md",
-    "Algorithm/算法评估.md",
     "Algorithm/数学知识/数论/快速幂.md",
+    "templates/Math theory.md",
     "Algorithm/数学知识/数论/欧拉函数.md",
+    "Algorithm/位运算/and  or.md",
+    "Algorithm/位运算/mod.md",
+    "Algorithm/位运算/xor.md",
+    "images/Pasted image 20230418180828.png",
+    "images/Pasted image 20230418180749.png",
+    "images/Pasted image 20230418180731.png",
+    "Algorithm/数学知识/数论/约数与质数的理论基础.md",
     "Algorithm/数学知识/数论/pei.md",
+    "Algorithm/算法评估.md",
     "images/Pasted image 20230418164857.png",
     "images/Pasted image 20230418164835.png",
     "images/20230418_164555.jpg",
     "images/Pasted image 20230418163740.png",
-    "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md",
     "images/Pasted image 20230416222739.png",
     "images/Pasted image 20230416222711.png",
-    "images/Pasted image 20230416160620.png",
-    "images/Pasted image 20230416150753.png",
-    "images/Pasted image 20230416150658.png",
-    "images/Pasted image 20230416150505.png",
-    "templates/Math theory.md",
     "Algorithm/数学知识/容斥原理与组合计数",
     "操作系统/xv6/xv6.md",
     "我狠C/grammer&semantic/blogs/运算符优先级.md",
@@ -245,12 +188,8 @@
     "操作系统/xv6/xv6-chinese/content/AppendixA.md",
     "操作系统/xv6/xv6-chinese/content/AppendixB.md",
     "操作系统/xv6/xv6-chinese/content/chapter1.md",
-    "操作系统/xv6/xv6-chinese/content/chapter0.md",
     "Algorithm/数据结构/tree/二叉树",
-    "我狠C/grammer&semantic/Operator overloading.md",
     "我狠C/grammer&semantic",
-    "我狠C/工具/Makefile/content summary.md",
-    "Algorithm/动态规划/线性DP/一条绳上的蚂蚱.md",
     "我狠C/grammer&semantic/C++六大组件/Container",
     "我狠C/grammer&semantic/C++六大组件",
     "设计模式/单例模式",
