@@ -37,6 +37,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Algorithm/数学知识/数论/质数筛法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a92e7a3ae4744259",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm/数学知识/数论/快速幂.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2281202c8502d2ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
                 "mode": "source",
                 "source": false
@@ -56,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -183,13 +207,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "2281202c8502d2ac",
   "lastOpenFiles": [
+    "images/Pasted image 20230418163740.png",
+    "Algorithm/数学知识/数论/pei.md",
+    "Algorithm/数学知识/数论/快速幂.md",
+    "Algorithm/数学知识/数论/质数筛法.md",
+    "Algorithm/数学知识/数论/裴蜀定理与扩展欧几里得算法.md",
+    "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
     "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md",
     "images/Pasted image 20230416222739.png",
     "images/Pasted image 20230416222711.png",
     "images/Pasted image 20230416160620.png",
-    "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
     "images/Pasted image 20230416150753.png",
     "images/Pasted image 20230416150658.png",
     "images/Pasted image 20230416150505.png",
@@ -211,7 +240,6 @@
     "Typora的markdown语法.md",
     "templates/tool template.md",
     "工具是文明的体现",
-    "Algorithm/数学知识/数论/约数.md",
     "操作系统/xv6/XV6-Chinese-2020.html",
     "Algorithm/数据结构/tree/二叉树/叉叉.md",
     "操作系统/xv6/xv6-chinese/content/AppendixA.md",
@@ -221,11 +249,8 @@
     "Algorithm/数据结构/tree/二叉树",
     "我狠C/grammer&semantic/Operator overloading.md",
     "我狠C/grammer&semantic",
-    "Algorithm/数学知识/数论/质数筛法.md",
     "我狠C/工具/Makefile/content summary.md",
     "Algorithm/动态规划/线性DP/一条绳上的蚂蚱.md",
-    "Algorithm/动态规划/线性DP/抽象模型.md",
-    "我狠C/grammer&semantic/C++六大组件/Container/结构及分类.md",
     "我狠C/grammer&semantic/C++六大组件/Container",
     "我狠C/grammer&semantic/C++六大组件",
     "设计模式/单例模式",
