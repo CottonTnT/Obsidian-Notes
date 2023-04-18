@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
+                "file": "Algorithm/数学知识/数论/欧拉函数.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
+                "file": "Algorithm/数学知识/数论/欧拉函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
+                "file": "Algorithm/数学知识/数论/欧拉函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md"
+                "file": "Algorithm/数学知识/数论/欧拉函数.md"
               }
             }
           }
@@ -207,14 +207,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2281202c8502d2ac",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "images/Pasted image 20230418163740.png",
-    "Algorithm/数学知识/数论/pei.md",
-    "Algorithm/数学知识/数论/快速幂.md",
+    "Algorithm/数学知识/数论/约数与质数的理论基础.md",
     "Algorithm/数学知识/数论/质数筛法.md",
-    "Algorithm/数学知识/数论/裴蜀定理与扩展欧几里得算法.md",
-    "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
+    "Algorithm/算法评估.md",
+    "Algorithm/数学知识/数论/快速幂.md",
+    "Algorithm/数学知识/数论/欧拉函数.md",
+    "Algorithm/数学知识/数论/pei.md",
+    "images/Pasted image 20230418164857.png",
+    "images/Pasted image 20230418164835.png",
+    "images/20230418_164555.jpg",
+    "images/Pasted image 20230418163740.png",
     "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md",
     "images/Pasted image 20230416222739.png",
     "images/Pasted image 20230416222711.png",
@@ -222,12 +226,8 @@
     "images/Pasted image 20230416150753.png",
     "images/Pasted image 20230416150658.png",
     "images/Pasted image 20230416150505.png",
-    "images/Pasted image 20230416150417.png",
-    "images/Pasted image 20230416144447.png",
     "templates/Math theory.md",
-    "images/Pasted image 20230416141509.png",
     "Algorithm/数学知识/容斥原理与组合计数",
-    "images/Pasted image 20230416140609.png",
     "操作系统/xv6/xv6.md",
     "我狠C/grammer&semantic/blogs/运算符优先级.md",
     "Algorithm/数据结构/tree/树状数组.md",
