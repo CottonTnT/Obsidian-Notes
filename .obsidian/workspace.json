@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md",
+                "file": "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md",
+                "file": "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md",
+                "file": "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md"
+                "file": "Algorithm/数学知识/容斥原理与组合计数/欧拉函数.md"
               }
             }
           }
@@ -183,8 +183,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6290ba595280a4f1",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md",
     "images/Pasted image 20230416222739.png",
     "images/Pasted image 20230416222711.png",
     "images/Pasted image 20230416160620.png",
@@ -193,13 +194,11 @@
     "images/Pasted image 20230416150658.png",
     "images/Pasted image 20230416150505.png",
     "images/Pasted image 20230416150417.png",
-    "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md",
     "images/Pasted image 20230416144447.png",
     "templates/Math theory.md",
     "images/Pasted image 20230416141509.png",
     "Algorithm/数学知识/容斥原理与组合计数",
     "images/Pasted image 20230416140609.png",
-    "images/Pasted image 20230416140210.png",
     "操作系统/xv6/xv6.md",
     "我狠C/grammer&semantic/blogs/运算符优先级.md",
     "Algorithm/数据结构/tree/树状数组.md",
