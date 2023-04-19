@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/数学知识/数论/欧拉函数与费马小定理.md",
+                "file": "Algorithm/数学知识/数论/Euler定理与Feimat小定理.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/数学知识/数论/欧拉函数与费马小定理.md",
+                "file": "Algorithm/数学知识/数论/Euler定理与Feimat小定理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/数学知识/数论/欧拉函数与费马小定理.md",
+                "file": "Algorithm/数学知识/数论/Euler定理与Feimat小定理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/数学知识/数论/欧拉函数与费马小定理.md"
+                "file": "Algorithm/数学知识/数论/Euler定理与Feimat小定理.md"
               }
             }
           }
@@ -159,10 +159,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "9a55250422da2ab6",
   "lastOpenFiles": [
+    "images/Pasted image 20230419153517.png",
+    "images/Pasted image 20230419153502.png",
+    "images/Pasted image 20230419151546.png",
     "Algorithm/数学知识/数论/pei.md",
-    "Algorithm/数学知识/数论/欧拉函数与费马小定理.md",
+    "Algorithm/数学知识/数论/Euler定理与Feimat小定理.md",
     "Algorithm/数学知识/数论/快速幂.md",
     "images/Pasted image 20230419145527.png",
     "Algorithm/数据结构/数据结构好题/数据的构造是雪的白.md",
@@ -181,10 +184,8 @@
     "Algorithm/位运算/xor.md",
     "images/Pasted image 20230418180828.png",
     "images/Pasted image 20230418180749.png",
-    "images/Pasted image 20230418180731.png",
     "Algorithm/数学知识/数论/约数与质数的理论基础.md",
     "Algorithm/算法评估.md",
-    "images/Pasted image 20230418164857.png",
     "Algorithm/数学知识/容斥原理与组合计数",
     "操作系统/xv6/xv6.md",
     "我狠C/grammer&semantic/blogs/运算符优先级.md",
