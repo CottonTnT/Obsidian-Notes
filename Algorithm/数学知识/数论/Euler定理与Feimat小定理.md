@@ -69,7 +69,7 @@ $\therefore$ 两同时 $*a$ 可得如上定理
 
 #### 定义
 
-- 若整数 b, m 互质，并且对于 $\forall$ 整数 a, 如果满足 b $|$ a, 则存在一个整数 x, 使得$a/b\equiv{a}\times{x}\pmod{m}$ ,则称 x 为 b 的模 m 乘法逆元，记为 $b^{-1}\pmod{m}$
+- 若整数 b, m 互质，并且对于 $\forall$ 整数 a, 如果满足 b $|$ a (b 能整除 a), 则存在一个整数 x, 使得 $a/b\equiv{a}\times{x}\pmod{m}$ ,则称 x 为 b 的模 m 乘法逆元，记为 $b^{-1}\pmod{m}$
 
 #### 妙用
 
