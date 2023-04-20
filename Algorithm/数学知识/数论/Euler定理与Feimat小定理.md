@@ -62,7 +62,7 @@ $$
 由欧拉定理可得，$a^{\varphi{(p)}}\equiv{1}$
 $\because$ p 是质数 $\implies$ 由欧拉函数得 $\varphi{(p)}=p-1$
 $\therefore{a}^{\varphi{(p)}}=a^{p-1}\equiv{1}\pmod{p}$
-$\therefore$ 两同时 $*a$ 可得如上定理
+$\therefore$ 两同时 $\times{a}$ 可得如上定理
 
 
 # 乘法逆元
