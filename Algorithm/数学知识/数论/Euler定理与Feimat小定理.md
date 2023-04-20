@@ -46,13 +46,32 @@
 - 设 a, m $\in{N}^{+}$, 且 gcd(a, m) = 1, 则我们有: $$
 a^{\varphi(m)}\equiv{1}\pmod{m}
 $$
+#### 证明
+![[Pasted image 20230420094412.png]]
+
+
 
 # 费马小定理
 
 
-## 定义
+#### 定义
 - 若 p 为质数，a 为任意质数，则 $a^{p}\equiv{a}\pmod{p}$
-- 
+
+#### 证明
+
+由欧拉定理可得，$a^{\varphi{(p)}}\equiv{1}$
+$\because$ p 是质数 $\implies$ 由欧拉函数得 $\varphi{(p)}=p-1$
+$\therefore{a}^{\varphi{(p)}}=a^{p-1}\equiv{1}\pmod{p}$
+$\therefore$ 两同时 $*a$ 可得如上定理
 
 
+# 乘法逆元
+
+#### 定义
+
+- 若整数 b, m 互质，并且对于 $\forall$ 整数 a, 如果满足 b $|$ a, 则存在一个整数 x, 使得$a/b\equiv{a}\times{x}\pmod{m}$ ,则称 x 为 b 的模 m 乘法逆元，记为 $b^{-1}\pmod{m}$
+
+#### 妙用
+
+- b 存在乘法逆元的充要条件是 b 与模数 m 互质。当模数 m 为质数是，$b^{m-2}$ 即为 b 的乘法逆元
 
