@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/数据结构/tree/树状数组.md",
+                "file": "我狠C/grammer&semantic/blogs/运算符优先级.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/数据结构/tree/树状数组.md",
+                "file": "我狠C/grammer&semantic/blogs/运算符优先级.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/数据结构/tree/树状数组.md",
+                "file": "我狠C/grammer&semantic/blogs/运算符优先级.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/数据结构/tree/树状数组.md"
+                "file": "我狠C/grammer&semantic/blogs/运算符优先级.md"
               }
             }
           }
@@ -161,6 +161,7 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "Algorithm/数据结构/tree/树状数组.md",
     "Algorithm/数据结构/tree/trie树.md",
     "Algorithm/数学知识/数论/Euler定理与Feimat小定理.md",
     "images/Pasted image 20230420094412.png",
@@ -171,7 +172,6 @@
     "Algorithm/数学知识/数论/快速幂.md",
     "images/Pasted image 20230419145527.png",
     "Algorithm/数据结构/数据结构好题/数据的构造是雪的白.md",
-    "Algorithm/数据结构/tree/树状数组.md",
     "Algorithm/数学知识/数论/高斯消元.md",
     "images/Pasted image 20230418192027.png",
     "images/Pasted image 20230418191800.png",
