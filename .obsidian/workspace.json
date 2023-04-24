@@ -30,9 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4e77b7c97b776574",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "操作系统/linux操作系统/文件系统/未命名.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "234851ee33c867b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "操作系统/linux操作系统/文件系统/数据结构/stat 与 dirent的区别.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/grammer&semantic/blogs/运算符优先级.md",
+                "file": "操作系统/linux操作系统/文件系统/数据结构/stat 与 dirent的区别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/grammer&semantic/blogs/运算符优先级.md",
+                "file": "操作系统/linux操作系统/文件系统/数据结构/stat 与 dirent的区别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/grammer&semantic/blogs/运算符优先级.md"
+                "file": "操作系统/linux操作系统/文件系统/数据结构/stat 与 dirent的区别.md"
               }
             }
           }
@@ -161,6 +185,13 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "操作系统/linux操作系统/文件系统/未命名.md",
+    "操作系统/linux操作系统/文件系统/数据结构/stat 与 dirent的区别.md",
+    "操作系统/linux操作系统/文件系统/数据结构",
+    "我狠C/grammer&semantic/blogs/运算符优先级.md",
+    "操作系统/linux操作系统/文件系统",
+    "未命名",
+    "操作系统/linux操作系统",
     "Algorithm/数学知识/数论/Euler定理与Feimat小定理.md",
     "Algorithm/数学知识/数论/质数筛法.md",
     "Algorithm/数学知识/数论/裴蜀定理.md",
@@ -168,7 +199,6 @@
     "Algorithm/数学知识/数论/快速幂.md",
     "Algorithm/数据结构/hash/字符串hash.md",
     "images/Pasted image 20230422151819.png",
-    "我狠C/grammer&semantic/blogs/运算符优先级.md",
     "Algorithm/数据结构/数据结构好题/数据的构造是雪的白.md",
     "Algorithm/数学知识/数论/高斯消元.md",
     "images/Pasted image 20230421100034.png",
@@ -198,15 +228,9 @@
     "操作系统/xv6/xv6.md",
     "我狠C/grammer&semantic/blogs",
     "工具是文明的体现/文档工具.md",
-    "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
-    "Typora的markdown语法.md",
     "工具是文明的体现",
     "操作系统/xv6/XV6-Chinese-2020.html",
     "Algorithm/数据结构/tree/二叉树",
-    "我狠C/grammer&semantic",
-    "我狠C/grammer&semantic/C++六大组件/Container",
-    "我狠C/grammer&semantic/C++六大组件",
-    "设计模式/单例模式",
     "未命名.canvas"
   ]
 }
