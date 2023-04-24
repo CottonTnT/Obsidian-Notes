@@ -4,47 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e5f7befd93c743e0",
+        "id": "d87736d1ca580f7b",
         "type": "tabs",
         "children": [
           {
-            "id": "364fee3258db562b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/数学知识/数论/Euler定理与Feimat小定理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71335df3d33a2086",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/grammer&semantic/blogs/运算符优先级.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e77b7c97b776574",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "操作系统/linux操作系统/文件系统/未命名.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "234851ee33c867b5",
+            "id": "6cd51bbd781e35a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,6 +149,7 @@
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
     "操作系统/linux操作系统/文件系统/未命名.md",
+    "templates/系统函数.md",
     "操作系统/linux操作系统/文件系统/数据结构/stat 与 dirent的区别.md",
     "操作系统/linux操作系统/文件系统/数据结构",
     "我狠C/grammer&semantic/blogs/运算符优先级.md",
@@ -227,7 +191,6 @@
     "Algorithm/数学知识/容斥原理与组合计数",
     "操作系统/xv6/xv6.md",
     "我狠C/grammer&semantic/blogs",
-    "工具是文明的体现/文档工具.md",
     "工具是文明的体现",
     "操作系统/xv6/XV6-Chinese-2020.html",
     "Algorithm/数据结构/tree/二叉树",

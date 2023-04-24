@@ -18,7 +18,35 @@ struct stat {
 	time_t st_ctime; /* time of last status change */ };
 ```
 
+### 2.相关函数
 
+####   1.stat
+
+##### 函数原型
+
+```c
+int stat(const char *path, struct stat *buf);
+```
+
+##### 参数介绍
+-  其中，path 参数为文件路径，buf 参数为存储文件状态信息的结构体指针。调用成功后，文件状态信息将被存储在 buf 指向的结构体中。 
+
+
+##### 返回值
+- stat 函数返回值为0表示调用成功，返回-1表示调用失败。调用失败时，可以通过 errno 变量获取错误码。 
+
+####  2. fstat
+
+##### 函数原型
+```c
+int fstat(int fd, struct stat *buf);
+```
+
+##### 参数介绍
+- 其中，fd 参数为已打开文件的文件描述符，buf 参数为存储文件状态信息的结构体指针。调用成功后，文件状态信息将被存储在 buf 指向的结构体中。
+
+##### 返回值
+- fstat 函数返回值为0表示调用成功，返回-1表示调用失败。调用失败时，可以通过 errno 变量获取错误码。
 
 
 ## struct dirent
