@@ -1,6 +1,6 @@
 ## Struct stat
-
 ### 1.定义
+- 用于储存文件的属性信息，类型、大小、权限、所有者、创建时间、修改时间等
 ```c
 struct stat { 
 	dev_t st_dev; /* ID of device containing file */ 
@@ -16,4 +16,22 @@ struct stat {
 	time_t st_atime; /* time of last access */ 
 	time_t st_mtime; /* time of last modification */ 
 	time_t st_ctime; /* time of last status change */ };
+```
+
+
+
+
+## struct dirent
+
+### 1. 定义
+
+- 用于储存目录中的文件信息，包括文件名、文件类型等等。它的定义如下
+```c
+struct dirent { 
+	ino_t d_ino; /* inode number */ 
+	off_t d_off; /* offset to the next dirent */ 
+	unsigned short d_reclen; /* length of this record */ 
+	unsigned char d_type; /* type of file; not supported by all file system types */ 
+	char d_name[256]; /* filename */ 
+};
 ```
