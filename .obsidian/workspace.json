@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/linux操作系统/文件系统/数据结构/stat 与 dirent的区别.md",
+                "file": "Algorithm/图论/最短路问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/linux操作系统/文件系统/数据结构/stat 与 dirent的区别.md",
+                "file": "Algorithm/图论/最短路问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/linux操作系统/文件系统/数据结构/stat 与 dirent的区别.md",
+                "file": "Algorithm/图论/最短路问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/linux操作系统/文件系统/数据结构/stat 与 dirent的区别.md"
+                "file": "Algorithm/图论/最短路问题.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "操作系统/linux操作系统/文件系统/数据结构/stat 与 dirent的区别.md",
     "操作系统/linux操作系统/文件系统/未命名.md",
     "templates/系统函数.md",
-    "操作系统/linux操作系统/文件系统/数据结构/stat 与 dirent的区别.md",
     "操作系统/linux操作系统/文件系统/数据结构",
     "我狠C/grammer&semantic/blogs/运算符优先级.md",
     "操作系统/linux操作系统/文件系统",
