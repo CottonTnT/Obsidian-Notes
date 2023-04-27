@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/图论/最短路问题.md",
+                "file": "操作系统/xv6/xv6.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/图论/最短路问题.md",
+                "file": "操作系统/xv6/xv6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/图论/最短路问题.md",
+                "file": "操作系统/xv6/xv6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/图论/最短路问题.md"
+                "file": "操作系统/xv6/xv6.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "Algorithm/图论/最短路问题.md",
     "操作系统/linux操作系统/文件系统/数据结构/stat 与 dirent的区别.md",
     "操作系统/linux操作系统/文件系统/未命名.md",
     "templates/系统函数.md",
@@ -189,7 +190,6 @@
     "Algorithm/位运算/xor.md",
     "Algorithm/算法评估.md",
     "Algorithm/数学知识/容斥原理与组合计数",
-    "操作系统/xv6/xv6.md",
     "我狠C/grammer&semantic/blogs",
     "工具是文明的体现",
     "操作系统/xv6/XV6-Chinese-2020.html",
