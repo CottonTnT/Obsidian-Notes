@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d87736d1ca580f7b",
+        "id": "18d6ba9ecb61ce21",
         "type": "tabs",
         "children": [
           {
-            "id": "6cd51bbd781e35a4",
+            "id": "d432ff14dbcfcfb9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/图论/最短路问题.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "929503a3b58e9d4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/grammer&semantic/简朴的C/C标准/未命名.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74f9565e3a52a150",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
+                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
+                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md"
+                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md"
               }
             }
           }
@@ -173,8 +144,8 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "我狠C/grammer&semantic/简朴的C/C标准/未命名.md",
     "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
+    "我狠C/grammer&semantic/简朴的C/C标准/未命名.md",
     "我狠C/grammer&semantic/简朴的C/C标准/IO",
     "Algorithm/图论/最短路问题.md",
     "我狠C/grammer&semantic/简朴的C/C标准",
