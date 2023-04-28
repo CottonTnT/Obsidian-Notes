@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/动态规划/状态机模型/如何抽象模型.md",
+                "file": "Algorithm/图论/最短路问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/动态规划/状态机模型/如何抽象模型.md",
+                "file": "Algorithm/图论/最短路问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/动态规划/状态机模型/如何抽象模型.md",
+                "file": "Algorithm/图论/最短路问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/动态规划/状态机模型/如何抽象模型.md"
+                "file": "Algorithm/图论/最短路问题.md"
               }
             }
           }
@@ -159,13 +159,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d2887a48480a2bd7",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "Algorithm/动态规划/线性DP/抽象模型.md",
+    "Algorithm/图论/邻接表构建图.md",
+    "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
     "Algorithm/动态规划/状态机模型/如何抽象模型.md",
+    "Algorithm/动态规划/线性DP/抽象模型.md",
     "Algorithm/动态规划/我是无数的你进化.md",
     "Algorithm/动态规划/状态机模型",
-    "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
     "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
     "我狠C/grammer&semantic/简朴的C/C标准/未命名.md",
     "我狠C/grammer&semantic/简朴的C/C标准/IO",
@@ -205,7 +206,6 @@
     "templates/Math theory.md",
     "images/Pasted image 20230329193328.png",
     "images/Pasted image 20230405135256.png",
-    "Algorithm/数据结构/tree/线段树.md",
     "Algorithm/数学知识/容斥原理与组合计数",
     "未命名.canvas"
   ]
