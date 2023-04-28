@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "929503a3b58e9d4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "我狠C/grammer&semantic/简朴的C/C标准/未命名.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "74f9565e3a52a150",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/图论/最短路问题.md",
+                "file": "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/图论/最短路问题.md",
+                "file": "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/图论/最短路问题.md"
+                "file": "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md"
               }
             }
           }
@@ -148,9 +173,14 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "我狠C/grammer&semantic/简朴的C/C标准/未命名.md",
+    "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
+    "我狠C/grammer&semantic/简朴的C/C标准/IO",
+    "Algorithm/图论/最短路问题.md",
+    "我狠C/grammer&semantic/简朴的C/C标准",
+    "我狠C/grammer&semantic/简朴的C",
     "Algorithm/数据结构/heap/堆排序.md",
     "操作系统/xv6/xv6.md",
-    "Algorithm/图论/最短路问题.md",
     "操作系统/linux操作系统/文件系统/数据结构/stat 与 dirent的区别.md",
     "操作系统/linux操作系统/文件系统/未命名.md",
     "templates/系统函数.md",
@@ -187,13 +217,8 @@
     "Algorithm/数据结构/tree/trie树.md",
     "Algorithm/数学知识/数论/pei.md",
     "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md",
-    "Algorithm/位运算/and  or.md",
-    "Algorithm/位运算/mod.md",
     "Algorithm/数学知识/容斥原理与组合计数",
     "我狠C/grammer&semantic/blogs",
-    "工具是文明的体现",
-    "操作系统/xv6/XV6-Chinese-2020.html",
-    "Algorithm/数据结构/tree/二叉树",
     "未命名.canvas"
   ]
 }
