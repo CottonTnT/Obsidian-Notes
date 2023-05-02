@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/图论/最短路问题.md",
+                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/图论/最短路问题.md",
+                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/图论/最短路问题.md",
+                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/图论/最短路问题.md"
+                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md"
               }
             }
           }
@@ -158,14 +158,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d432ff14dbcfcfb9",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "Algorithm/图论/最短路问题.md",
     "images/Pasted image 20230429144420.png",
     "images/Pasted image 20230429144401.png",
     "images/Pasted image 20230429114305.png",
     "Algorithm/动态规划/线性DP/抽象模型.md",
     "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
-    "Algorithm/图论/最短路问题.md",
     "Algorithm/图论/邻接表构建图.md",
     "Algorithm/动态规划/状态机模型/如何抽象模型.md",
     "Algorithm/动态规划/我是无数的你进化.md",
@@ -201,7 +201,6 @@
     "images/Pasted image 20230405135618.png",
     "images/Pasted image 20230407120412.png",
     "images/Pasted image 20230407120424.png",
-    "images/Pasted image 20230407120346.png",
     "templates/Algorithm question.md",
     "templates/Algorithm template.md",
     "templates/Cpp Notes.md",
