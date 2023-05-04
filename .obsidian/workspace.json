@@ -89,6 +89,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "41a95fe5037e7b80",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -171,7 +179,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b06a93fec45c4a99",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
     "images/Pasted image 20230504133432.png",
     "images/Pasted image 20230504132654.png",
