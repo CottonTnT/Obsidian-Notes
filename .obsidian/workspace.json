@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
+                "file": "Algorithm/数学知识/数论/质数筛法.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
+                "file": "Algorithm/数学知识/数论/质数筛法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
+                "file": "Algorithm/数学知识/数论/质数筛法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md"
+                "file": "Algorithm/数学知识/数论/质数筛法.md"
               }
             }
           }
@@ -160,6 +160,8 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "Algorithm/数学知识/数论/Euler定理与Feimat小定理.md",
+    "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
     "Algorithm/图论/最短路问题.md",
     "Algorithm/图论/邻接表构建图.md",
     "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
@@ -170,7 +172,6 @@
     "Algorithm/动态规划/状态机模型/如何抽象模型.md",
     "Algorithm/动态规划/我是无数的你进化.md",
     "Algorithm/动态规划/状态机模型",
-    "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
     "我狠C/grammer&semantic/简朴的C/C标准/未命名.md",
     "我狠C/grammer&semantic/简朴的C/C标准/IO",
     "我狠C/grammer&semantic/简朴的C/C标准",
@@ -185,7 +186,6 @@
     "操作系统/linux操作系统/文件系统",
     "未命名",
     "操作系统/linux操作系统",
-    "Algorithm/数学知识/数论/Euler定理与Feimat小定理.md",
     "Algorithm/数学知识/数论/质数筛法.md",
     "Algorithm/数学知识/数论/裴蜀定理.md",
     "Algorithm/数学知识/数论/卢卡斯定理.md",
