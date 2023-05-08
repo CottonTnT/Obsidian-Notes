@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/系统函数.md",
+                "file": "Algorithm/图论/最短路问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/系统函数.md",
+                "file": "Algorithm/图论/最短路问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/系统函数.md",
+                "file": "Algorithm/图论/最短路问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/系统函数.md"
+                "file": "Algorithm/图论/最短路问题.md"
               }
             }
           }
@@ -181,10 +181,12 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "templates/Algorithm principle.md",
     "templates/Algorithm question.md",
-    "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
-    "templates/Algorithm template.md",
+    "templates/Cpp Notes.md",
     "templates/Math theory.md",
+    "templates/系统函数.md",
+    "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
     "templates/tool template.md",
     "Algorithm/数据结构/并查集/并查集.md",
     "我狠C/grammer&semantic/blogs/运算符优先级.md",
@@ -215,7 +217,6 @@
     "Algorithm/数据结构/heap/堆排序.md",
     "操作系统/linux操作系统/文件系统/数据结构/stat 与 dirent的区别.md",
     "操作系统/linux操作系统/文件系统/未命名.md",
-    "templates/系统函数.md",
     "操作系统/linux操作系统/文件系统/数据结构",
     "操作系统/linux操作系统/文件系统",
     "未命名",
@@ -223,7 +224,6 @@
     "Algorithm/数学知识/数论/裴蜀定理.md",
     "Algorithm/数学知识/数论/卢卡斯定理.md",
     "Algorithm/数学知识/数论/快速幂.md",
-    "Algorithm/数据结构/hash/字符串hash.md",
     "images/Pasted image 20230422151819.png",
     "images/Pasted image 20230421100034.png",
     "Algorithm/数据结构/hash",
