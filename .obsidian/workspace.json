@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/动态规划/状态机模型/如何抽象模型.md",
+                "file": "Algorithm/动态规划/背包问题/01背包.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/动态规划/状态机模型/如何抽象模型.md",
+                "file": "Algorithm/动态规划/背包问题/01背包.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/动态规划/状态机模型/如何抽象模型.md",
+                "file": "Algorithm/动态规划/背包问题/01背包.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/动态规划/状态机模型/如何抽象模型.md"
+                "file": "Algorithm/动态规划/背包问题/01背包.md"
               }
             }
           }
@@ -181,6 +181,9 @@
   },
   "active": "d2887a48480a2bd7",
   "lastOpenFiles": [
+    "Algorithm/动态规划/状态机模型/如何抽象模型.md",
+    "Algorithm/动态规划/背包问题/01背包.md",
+    "Algorithm/动态规划/背包问题",
     "images/Pasted image 20230508122238.png",
     "Algorithm/图论/最短路问题.md",
     "Algorithm/图论/邻接表构建图.md",
@@ -209,7 +212,6 @@
     "images/Pasted image 20230429144401.png",
     "images/Pasted image 20230429114305.png",
     "Algorithm/动态规划/线性DP/抽象模型.md",
-    "Algorithm/动态规划/状态机模型/如何抽象模型.md",
     "Algorithm/动态规划/我是无数的你进化.md",
     "Algorithm/动态规划/状态机模型",
     "我狠C/grammer&semantic/简朴的C/C标准/未命名.md",
@@ -225,8 +227,6 @@
     "操作系统/linux操作系统",
     "Algorithm/数学知识/数论/裴蜀定理.md",
     "Algorithm/数学知识/数论/卢卡斯定理.md",
-    "images/Pasted image 20230422151819.png",
-    "Algorithm/数据结构/hash",
     "未命名.canvas"
   ]
 }
