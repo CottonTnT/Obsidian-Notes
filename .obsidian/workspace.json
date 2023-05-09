@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/数学知识/数论/质数筛法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b06a93fec45c4a99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/图论/树/树的直径与树的中心.md",
+                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/图论/树/树的直径与树的中心.md",
+                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/图论/树/树的直径与树的中心.md",
+                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/图论/树/树的直径与树的中心.md"
+                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md"
               }
             }
           }
@@ -169,8 +156,13 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "Algorithm/图论/树/未命名.md",
+    "Algorithm/数据结构/tree/树状数组.md",
+    "Algorithm/数据结构/tree/trie树.md",
+    "Algorithm/数据结构/tree/线段树.md",
     "Algorithm/图论/树/树的直径与树的中心.md",
+    "Algorithm/数学知识/数论/质数筛法.md",
+    "images/20230418_164555.jpg",
+    "Algorithm/图论/树/未命名.md",
     "Algorithm/图论/邻接表构建图.md",
     "Algorithm/图论/树",
     "Algorithm/图论/最短路问题.md",
@@ -198,12 +190,10 @@
     "images/Pasted image 20230504123858.png",
     "Algorithm/数据结构/未命名.md",
     "Algorithm/数据结构/并查集",
-    "Algorithm/数学知识/数论/质数筛法.md",
     "Algorithm/数学知识/数论/Euler定理与Feimat小定理.md",
     "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
     "images/Pasted image 20230429144420.png",
     "images/Pasted image 20230429144401.png",
-    "images/Pasted image 20230429114305.png",
     "Algorithm/动态规划/线性DP/抽象模型.md",
     "Algorithm/动态规划/我是无数的你进化.md",
     "Algorithm/算法模型/状态机模型",
@@ -211,9 +201,6 @@
     "我狠C/grammer&semantic/简朴的C/C标准/IO",
     "我狠C/grammer&semantic/简朴的C/C标准",
     "我狠C/grammer&semantic/简朴的C",
-    "Algorithm/数据结构/heap/堆排序.md",
-    "操作系统/linux操作系统/文件系统/数据结构/stat 与 dirent的区别.md",
-    "操作系统/linux操作系统/文件系统/未命名.md",
     "操作系统/linux操作系统/文件系统/数据结构",
     "未命名.canvas"
   ]
