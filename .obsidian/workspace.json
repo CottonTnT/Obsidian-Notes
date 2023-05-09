@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md",
+                "file": "Algorithm/图论/最短路问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md",
+                "file": "Algorithm/图论/最短路问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md",
+                "file": "Algorithm/图论/最短路问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md"
+                "file": "Algorithm/图论/最短路问题.md"
               }
             }
           }
@@ -156,6 +156,7 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "Algorithm/数据结构/tree/二叉树/叉叉.md",
     "Algorithm/数据结构/tree/树状数组.md",
     "Algorithm/数据结构/tree/trie树.md",
     "Algorithm/数据结构/tree/线段树.md",
@@ -197,7 +198,6 @@
     "Algorithm/动态规划/线性DP/抽象模型.md",
     "Algorithm/动态规划/我是无数的你进化.md",
     "Algorithm/算法模型/状态机模型",
-    "我狠C/grammer&semantic/简朴的C/C标准/未命名.md",
     "我狠C/grammer&semantic/简朴的C/C标准/IO",
     "我狠C/grammer&semantic/简朴的C/C标准",
     "我狠C/grammer&semantic/简朴的C",
