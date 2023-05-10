@@ -11,8 +11,12 @@
             "id": "7fe4984c428432a0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm/动态规划/我是无数的你进化.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Algorithm/动态规划/我是无数的你进化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Algorithm/动态规划/我是无数的你进化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Algorithm/动态规划/我是无数的你进化.md"
+              }
             }
           }
         ],
@@ -146,7 +154,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7fe4984c428432a0",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
     "templates/Algorithm question.md",
     "templates/Math theory.md",
