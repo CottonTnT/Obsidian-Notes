@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "18d6ba9ecb61ce21",
+        "id": "d49feb00624f5de2",
         "type": "tabs",
         "children": [
           {
-            "id": "d432ff14dbcfcfb9",
+            "id": "7fe4984c428432a0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/动态规划/我是无数的你进化.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/动态规划/我是无数的你进化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/动态规划/我是无数的你进化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algorithm/动态规划/我是无数的你进化.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -154,8 +146,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d432ff14dbcfcfb9",
+  "active": "7fe4984c428432a0",
   "lastOpenFiles": [
+    "templates/Algorithm question.md",
+    "templates/Math theory.md",
+    "Algorithm/动态规划/我是无数的你进化.md",
     "Algorithm/动态规划/背包问题/分组背包问题.md",
     "Algorithm/动态规划/背包问题/01背包.md",
     "我狠C/grammer&semantic/Operator overloading.md",
@@ -180,9 +175,7 @@
     "images/Pasted image 20230508122238.png",
     "images/Pasted image 20230508103603.png",
     "templates/Algorithm principle.md",
-    "templates/Algorithm question.md",
     "templates/Cpp Notes.md",
-    "templates/Math theory.md",
     "templates/系统函数.md",
     "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
     "templates/tool template.md",
@@ -193,7 +186,6 @@
     "images/Pasted image 20230504132511.png",
     "images/Pasted image 20230504132150.png",
     "images/Pasted image 20230504123858.png",
-    "Algorithm/数据结构/未命名.md",
     "Algorithm/数据结构/并查集",
     "images/Pasted image 20230429144420.png",
     "images/Pasted image 20230429144401.png",
