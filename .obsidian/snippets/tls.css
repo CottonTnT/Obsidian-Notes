@@ -7,17 +7,20 @@ body {
   --h4-weight: 600;
   --h5-weight: 550;
   --h6-weight: 450;
-  --strong-color: #e81e63;  /*加粗颜色*/
-  --em-color: #133888;      /*斜体颜色*/
-  --bold-weight: 700;         /*加粗字重*/
+  --strong-color: #E81E63;
+  /*加粗颜色*/
+  --em-color: #59C0FB;
+  /*斜体颜色*/
+  --bold-weight: 700;
+  /*加粗字重*/
 }
 
-/* 关闭文章标题显示 */
-.inline-title {
+/* 关闭文章标题显示, 现在可以在设置中关闭*/
+/* .inline-title {
   display: none;
   font-weight: 800;
   margin: auto;
-}
+} */
 
 /* 标题颜色 */
 .theme-light {
@@ -41,25 +44,26 @@ body {
 }
 
 /* 一二级标题下线 */
-.HyperMD-header-1, .HyperMD-header-2 {
+.HyperMD-header-1,
+.HyperMD-header-2 {
   line-height: 1.8;
   border-bottom: 2px solid var(--h1h2-border);
 }
 
 /* 图片居中 */
 img {
-  max-height: 42vh;
+  max-height: 50vh;
   left: 50%;
   position: relative;
   transform: translateX(-50%);
 }
 
-/* 行号居中 */
-.cm-gutterElement {
+/* 行号居中, 貌似主题改了，现在不用手动做居中设置 */
+/* .cm-gutterElement {
   line-height: 27px !important;
-}
+} */
 
-/* 表格居中 */
+/* 表格居中, 效果不太好 */
 /* .ob-table-enhancer {
   width: 95%;
   margin: 0 auto;
@@ -76,10 +80,11 @@ img {
 }
 
 /* 空行缩小 */
+/* 引用前后 */
 body {
   --animation: 0.2s ease-in;
   --hover-color: var(--text-accent);
-  --blank-line-height: 0.6;
+  --blank-line-height: 0.4;
 }
 
 .is-live-preview [class="cm-active cm-line"] {
@@ -94,4 +99,16 @@ body {
 
 .is-live-preview :is([class=cm-line]:has(+ :is(.HyperMD-quote, .cm-callout)), :is(.HyperMD-quote, .cm-callout) + [class=cm-line]):hover {
   background-color: var(--hover-color);
+}
+
+/* 块后 */
+.is-live-preview :is(.cm-line):not(:has(br)) + [class=cm-line]:has(br), :is(img) + [class=cm-line]:has(br) {
+  line-height: var(--blank-line-height);
+  transition: var(--animation);
+  border-radius: var(--radius-s);
+}
+
+/* 不显示缩进行的行号 */
+.cm-gutterElement[style*="height: 6px"] {
+  visibility: hidden;
 }

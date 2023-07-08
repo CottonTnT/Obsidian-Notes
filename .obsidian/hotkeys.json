@@ -34,5 +34,14 @@
       ],
       "key": "I"
     }
+  ],
+  "editor:fold-less": [],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "="
+    }
   ]
 }

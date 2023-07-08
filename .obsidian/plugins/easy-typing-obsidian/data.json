@@ -50,7 +50,7 @@
   "userSelRuleSettingsOpen": true,
   "userDelRuleSettingsOpen": true,
   "userCvtRuleSettingsOpen": true,
-  "EnterTwice": false,
+  "EnterTwice": true,
   "TryFixChineseIM": false,
   "PuncRectify": false
 }
