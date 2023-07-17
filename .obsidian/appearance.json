@@ -1,13 +1,13 @@
 {
   "accentColor": "#8eace6",
-  "theme": "system",
-  "interfaceFontFamily": "MiSans,思源宋体",
-  "textFontFamily": "MiSans,思源宋体",
+  "theme": "moonstone",
+  "interfaceFontFamily": "微软雅黑",
+  "textFontFamily": "思源宋体 CN",
   "monospaceFontFamily": "Consolas",
   "translucency": false,
   "cssTheme": "Things",
   "enabledCssSnippets": [
     "tls"
   ],
-  "baseFontSize": 20
+  "baseFontSize": 25
 }
