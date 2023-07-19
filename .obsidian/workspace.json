@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文随笔/Some terms.md",
+                "file": "tools/命令行环境.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,19 +32,67 @@
             }
           },
           {
+            "id": "6c7a955baaa3a562",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7bc31d0f253cecc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/bash 脚本.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "abd69ed07b835c33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/命令行环境.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "debe9b58e557a1d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/命令行环境.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b91fdf1e10e296e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文随笔/Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi.md",
+                "file": "tools/git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -181,20 +229,26 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "tools/命令行环境.md",
+    "tools/安全与密码学.md",
     "tools/bash 脚本.md",
-    "tools/实用网站.md",
+    "论文随笔/Some terms.md",
     "tools/git.md",
-    "images/Pasted image 20230717133606.png",
     "论文随笔/Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi.md",
+    "操作系统/xv6/xv6book.md",
+    "2023-03-29.md",
+    "资源整理",
+    "tools/未命名",
+    "资源整理/实用网站.md",
+    "images/Pasted image 20230717133606.png",
     "images/Pasted image 20230716213930.png",
     "操作系统/xv6/kernel 详解/fs.c.md",
     "操作系统/xv6/kernel 详解/sysfile.c.md",
-    "tools/壁纸.md",
+    "资源整理/壁纸.md",
     "操作系统/xv6/一些分布图/mem与disk.md",
     "images/Pasted image 20230715144144.png",
     "操作系统/xv6/kernel 详解/vm.c.md",
-    "论文随笔/Some terms.md",
     "images/Pasted image 20230715092434.png",
     "操作系统/xv6/kernel 详解/proc.c.md",
     "操作系统/xv6/kernel 详解/kfree.c.md",
@@ -203,7 +257,6 @@
     "论文随笔/多普勒效应.md",
     "templates/论文笔记模板.md",
     "templates/系统函数.md",
-    "操作系统/xv6/xv6book.md",
     "论文随笔",
     "images/Pasted image 20230712095954.png",
     "images/Pasted image 20230711214421.png",
@@ -216,16 +269,12 @@
     "templates/Algorithm principle.md",
     "templates/Algorithm question.md",
     "templates/Cpp Notes.md",
-    "templates/tool template.md",
-    "templates/Math theory.md",
     "操作系统/xv6/一些分布图",
     "操作系统/xv6/xv6内核文件函数详解",
     "Vim使用说明",
     "操作系统/riscv汇编编程",
     "我狠C/grammer&semantic/简朴的C/GNU C扩展",
     "Algorithm/图论/树",
-    "Algorithm/动态规划/树形DP",
-    "Algorithm/算法模型",
     "未命名.canvas"
   ]
 }

@@ -2,5 +2,7 @@
   "promptDelete": false,
   "newFileLocation": "current",
   "attachmentFolderPath": "images",
-  "vimMode": true
+  "vimMode": true,
+  "showLineNumber": true,
+  "strictLineBreaks": true
 }

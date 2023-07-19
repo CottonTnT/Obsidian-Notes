@@ -281,7 +281,13 @@ esac
 ```
 
 
+### 正则表达式
 
+```c
+if [[ string =~ regex ]];then//regex
+	...
+fi
+```
 ## Loops!
 
 
