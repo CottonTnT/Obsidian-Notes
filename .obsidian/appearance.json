@@ -1,4 +1,9 @@
 {
   "accentColor": "",
-  "baseFontSize": 18
+  "baseFontSize": 18,
+  "enabledCssSnippets": [
+    "tls"
+  ],
+  "cssTheme": "Things",
+  "theme": "moonstone"
 }
