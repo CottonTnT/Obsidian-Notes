@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/modern effective c ++/条条款款.md",
+                "file": "tools/计算机相关杂项.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/modern effective c ++/条条款款.md",
+                "file": "tools/计算机相关杂项.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/modern effective c ++/条条款款.md",
+                "file": "tools/计算机相关杂项.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/modern effective c ++/条条款款.md"
+                "file": "tools/计算机相关杂项.md"
               }
             }
           }
@@ -147,11 +146,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ad651b062e9f83fa",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "我狠C/modern effective c ++/条条款款.md",
+    "tools/计算机相关杂项.md",
     "我狠C/grammer&semantic/C++六大组件/我们意念合一.md",
     "我狠C/grammer&semantic/Operator overloading.md",
-    "我狠C/modern effective c ++/条条款款.md",
     "我狠C/modern effective c ++/C ++中的类型转换.md",
     "tools/git.md",
     "tools/bash 脚本.md",
@@ -185,7 +185,6 @@
     "操作系统/xv6/kernel 详解/kfree.c.md",
     "操作系统/xv6/kernel 详解/spinlock.c.md",
     "操作系统/xv6/kernel 详解/uart.c.md",
-    "论文随笔/多普勒效应.md",
     "论文随笔",
     "images/Pasted image 20230712095954.png",
     "images/Pasted image 20230711214421.png",
