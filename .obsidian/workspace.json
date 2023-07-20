@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/计算机相关杂项.md",
+                "file": "我狠C/modern effective c ++/条条款款.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/计算机相关杂项.md",
+                "file": "我狠C/modern effective c ++/条条款款.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/计算机相关杂项.md",
+                "file": "我狠C/modern effective c ++/条条款款.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/计算机相关杂项.md"
+                "file": "我狠C/modern effective c ++/条条款款.md"
               }
             }
           }
@@ -146,13 +146,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "b91fdf1e10e296e1",
   "lastOpenFiles": [
-    "我狠C/modern effective c ++/条条款款.md",
+    "images/Pasted image 20230720155333.png",
+    "images/Pasted image 20230720150111.png",
+    "images/Pasted image 20230720141823.png",
+    "我狠C/modern effective c ++/C ++中的类型转换.md",
     "tools/计算机相关杂项.md",
+    "我狠C/modern effective c ++/条条款款.md",
     "我狠C/grammer&semantic/C++六大组件/我们意念合一.md",
     "我狠C/grammer&semantic/Operator overloading.md",
-    "我狠C/modern effective c ++/C ++中的类型转换.md",
     "tools/git.md",
     "tools/bash 脚本.md",
     "tools/命令行环境.md",
@@ -184,13 +187,10 @@
     "images/Pasted image 20230715092434.png",
     "操作系统/xv6/kernel 详解/kfree.c.md",
     "操作系统/xv6/kernel 详解/spinlock.c.md",
-    "操作系统/xv6/kernel 详解/uart.c.md",
     "论文随笔",
     "images/Pasted image 20230712095954.png",
     "images/Pasted image 20230711214421.png",
     "images/Pasted image 20230711214418 1.png",
-    "images/Pasted image 20230711214418.png",
-    "images/Pasted image 20230710155646.png",
     "操作系统/xv6/kernel 详解",
     "操作系统/xv6/一些分布图",
     "操作系统/xv6/xv6内核文件函数详解",
