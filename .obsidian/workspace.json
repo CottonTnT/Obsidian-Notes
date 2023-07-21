@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0e7c6e43b8731992",
+        "id": "d85824ef8775fae3",
         "type": "tabs",
         "children": [
           {
-            "id": "b91fdf1e10e296e1",
+            "id": "362332822f164201",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/modern effective c ++/条条款款.md",
+                "file": "我狠C/编译与链接/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/modern effective c ++/条条款款.md",
+                "file": "我狠C/编译与链接/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/modern effective c ++/条条款款.md",
+                "file": "我狠C/编译与链接/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/modern effective c ++/条条款款.md"
+                "file": "我狠C/编译与链接/未命名.md"
               }
             }
           }
@@ -146,26 +146,31 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b91fdf1e10e296e1",
+  "active": "362332822f164201",
   "lastOpenFiles": [
+    "images/Pasted image 20230721222943.png",
+    "images/Pasted image 20230721222126.png",
+    "images/Pasted image 20230721221711.png",
+    "我狠C/编译与链接/未命名 1.md",
+    "资源整理/实用网站.md",
+    "我狠C/modern effective c ++/C ++中的类型转换.md",
+    "我狠C/编译与链接/未命名.md",
+    "templates/center text.md",
+    "images/Pasted image 20230721201458.png",
+    "我狠C/modern effective c ++/条条款款.md",
+    "我狠C/编译与链接",
+    "我狠C/编译与链接.md",
     "images/Pasted image 20230721171157.png",
     "images/Pasted image 20230721171137.png",
     "images/Pasted image 20230721170949.png",
     "images/Pasted image 20230721170738.png",
-    "我狠C/modern effective c ++/C ++中的类型转换.md",
     "我狠C/grammer&semantic/blogs/运算符优先级.md",
-    "我狠C/未命名.md",
     "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
     "我狠C/工具/Makefile/content summary.md",
-    "我狠C/modern effective c ++/条条款款.md",
     "images/Pasted image 20230721144655.png",
     "images/Pasted image 20230721144323.png",
     "images/Pasted image 20230721144212.png",
     "操作系统/linux操作系统/文件系统/根目录文件夹的分工.md",
-    "images/Pasted image 20230721103720.png",
-    "images/Pasted image 20230721103139.png",
-    "images/Pasted image 20230721103118.png",
-    "images/Pasted image 20230721101748.png",
     "tools/计算机相关杂项.md",
     "我狠C/grammer&semantic/C++六大组件/我们意念合一.md",
     "我狠C/grammer&semantic/Operator overloading.md",
@@ -184,16 +189,11 @@
     "论文随笔/Some terms.md",
     "论文随笔/Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi.md",
     "操作系统/xv6/xv6book.md",
-    "2023-03-29.md",
     "资源整理",
     "tools/未命名",
-    "资源整理/实用网站.md",
-    "操作系统/xv6/kernel 详解/fs.c.md",
-    "资源整理/壁纸.md",
     "论文随笔",
     "操作系统/xv6/kernel 详解",
     "操作系统/xv6/一些分布图",
-    "操作系统/xv6/xv6内核文件函数详解",
     "未命名.canvas"
   ]
 }
