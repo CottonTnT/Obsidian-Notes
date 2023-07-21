@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/modern effective c ++/条条款款.md",
+                "file": "操作系统/linux操作系统/文件系统/根目录文件夹的分工.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/modern effective c ++/条条款款.md",
+                "file": "操作系统/linux操作系统/文件系统/根目录文件夹的分工.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/modern effective c ++/条条款款.md",
+                "file": "操作系统/linux操作系统/文件系统/根目录文件夹的分工.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/modern effective c ++/条条款款.md"
+                "file": "操作系统/linux操作系统/文件系统/根目录文件夹的分工.md"
               }
             }
           }
@@ -148,14 +148,19 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "我狠C/modern effective c ++/C ++中的类型转换.md",
     "我狠C/modern effective c ++/条条款款.md",
+    "操作系统/linux操作系统/文件系统/根目录文件夹的分工.md",
+    "images/Pasted image 20230721103720.png",
+    "images/Pasted image 20230721103139.png",
+    "images/Pasted image 20230721103118.png",
+    "images/Pasted image 20230721101748.png",
+    "images/Pasted image 20230721101715.png",
+    "images/Pasted image 20230720223644.png",
+    "我狠C/modern effective c ++/C ++中的类型转换.md",
     "images/Pasted image 20230720165549.png",
     "images/Pasted image 20230720165053.png",
     "images/Pasted image 20230720164329.png",
     "images/Pasted image 20230720155333.png",
-    "images/Pasted image 20230720150111.png",
-    "images/Pasted image 20230720141823.png",
     "tools/计算机相关杂项.md",
     "我狠C/grammer&semantic/C++六大组件/我们意念合一.md",
     "我狠C/grammer&semantic/Operator overloading.md",
@@ -166,7 +171,6 @@
     "计算机网络/CS144.md",
     "计算机网络",
     "未命名",
-    "images/Pasted image 20230719132030.png",
     "我狠C/未命名.md",
     "我狠C/modern effective c ++",
     "操作系统/xv6/kernel 详解/proc.c.md",
@@ -180,12 +184,9 @@
     "资源整理",
     "tools/未命名",
     "资源整理/实用网站.md",
-    "images/Pasted image 20230717133606.png",
-    "images/Pasted image 20230716213930.png",
     "操作系统/xv6/kernel 详解/fs.c.md",
     "资源整理/壁纸.md",
     "操作系统/xv6/一些分布图/mem与disk.md",
-    "images/Pasted image 20230715144144.png",
     "操作系统/xv6/kernel 详解/vm.c.md",
     "操作系统/xv6/kernel 详解/kfree.c.md",
     "操作系统/xv6/kernel 详解/spinlock.c.md",
