@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d85824ef8775fae3",
+        "id": "db09473a3696d40e",
         "type": "tabs",
         "children": [
           {
-            "id": "362332822f164201",
+            "id": "b69cb64da18daa80",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.51103591918945,
-    "collapsed": true
+    "width": 260.51103591918945
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -147,17 +146,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "362332822f164201",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "我狠C/编译与链接/未命名.md",
+    "我狠C/编译与链接/未命名 1.md",
     "images/Pasted image 20230722103354.png",
     "images/Pasted image 20230722095303.png",
     "images/Pasted image 20230721222943.png",
     "images/Pasted image 20230721222126.png",
     "images/Pasted image 20230721221711.png",
-    "我狠C/编译与链接/未命名 1.md",
     "资源整理/实用网站.md",
     "我狠C/modern effective c ++/C ++中的类型转换.md",
-    "我狠C/编译与链接/未命名.md",
     "templates/center text.md",
     "images/Pasted image 20230721201458.png",
     "我狠C/modern effective c ++/条条款款.md",
@@ -170,7 +171,6 @@
     "我狠C/grammer&semantic/blogs/运算符优先级.md",
     "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
     "我狠C/工具/Makefile/content summary.md",
-    "images/Pasted image 20230721144655.png",
     "操作系统/linux操作系统/文件系统/根目录文件夹的分工.md",
     "tools/计算机相关杂项.md",
     "我狠C/grammer&semantic/C++六大组件/我们意念合一.md",
@@ -194,7 +194,6 @@
     "tools/未命名",
     "论文随笔",
     "操作系统/xv6/kernel 详解",
-    "操作系统/xv6/一些分布图",
-    "未命名.canvas"
+    "操作系统/xv6/一些分布图"
   ]
 }
