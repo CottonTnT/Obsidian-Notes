@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/编译与链接/未命名.md",
+                "file": "我狠C/modern effective c ++/条条款款.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/编译与链接/未命名.md",
+                "file": "我狠C/modern effective c ++/条条款款.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/编译与链接/未命名.md",
+                "file": "我狠C/modern effective c ++/条条款款.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/编译与链接/未命名.md"
+                "file": "我狠C/modern effective c ++/条条款款.md"
               }
             }
           }
@@ -146,29 +146,28 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b69cb64da18daa80",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "images/Pasted image 20230722194813.png",
-    "images/Pasted image 20230722154356.png",
-    "images/Pasted image 20230722154321.png",
-    "images/Pasted image 20230722153247.png",
+    "我狠C/编译与链接/程序员的自我修养笔记.md",
+    "images/Pasted image 20230722224821.png",
+    "images/Pasted image 20230722224626.png",
+    "images/Pasted image 20230722224431.png",
+    "images/Pasted image 20230722224422.png",
+    "images/Pasted image 20230722223827.png",
+    "images/Pasted image 20230722223723.png",
+    "images/Pasted image 20230722223655.png",
+    "images/Pasted image 20230722222711.png",
+    "images/Pasted image 20230722222603.png",
+    "images/Pasted image 20230722222323.png",
     "资源整理/实用网站.md",
-    "我狠C/编译与链接/未命名.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "我狠C/编译与链接/未命名 1.md",
-    "images/Pasted image 20230722103354.png",
-    "images/Pasted image 20230722095303.png",
-    "images/Pasted image 20230721222943.png",
-    "images/Pasted image 20230721222126.png",
-    "images/Pasted image 20230721221711.png",
     "我狠C/modern effective c ++/C ++中的类型转换.md",
     "templates/center text.md",
-    "images/Pasted image 20230721201458.png",
     "我狠C/modern effective c ++/条条款款.md",
     "我狠C/编译与链接",
     "我狠C/编译与链接.md",
-    "images/Pasted image 20230721171157.png",
     "我狠C/grammer&semantic/blogs/运算符优先级.md",
     "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
     "我狠C/工具/Makefile/content summary.md",
