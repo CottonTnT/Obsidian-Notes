@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "浏览器/Edge快捷键.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a693ad92b086f072",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "我狠C/modern effective c ++/条条款款.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,8 +159,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "a693ad92b086f072",
   "lastOpenFiles": [
+    "images/Pasted image 20230723123305.png",
+    "浏览器/Edge快捷键.md",
+    "templates/论文笔记模板.md",
+    "浏览器",
+    "templates/系统函数.md",
+    "templates/Algorithm principle.md",
+    "templates/Algorithm question.md",
+    "templates/tool template.md",
+    "我狠C/modern effective c ++/条条款款.md",
+    "templates/center text.md",
+    "templates/Cpp Notes.md",
+    "images/Pasted image 20230723105928.png",
+    "images/Pasted image 20230723104026.png",
     "我狠C/编译与链接/程序员的自我修养笔记.md",
     "images/Pasted image 20230722224821.png",
     "images/Pasted image 20230722224626.png",
@@ -157,15 +183,11 @@
     "images/Pasted image 20230722223723.png",
     "images/Pasted image 20230722223655.png",
     "images/Pasted image 20230722222711.png",
-    "images/Pasted image 20230722222603.png",
-    "images/Pasted image 20230722222323.png",
     "资源整理/实用网站.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "我狠C/编译与链接/未命名 1.md",
     "我狠C/modern effective c ++/C ++中的类型转换.md",
-    "templates/center text.md",
-    "我狠C/modern effective c ++/条条款款.md",
     "我狠C/编译与链接",
     "我狠C/编译与链接.md",
     "我狠C/grammer&semantic/blogs/运算符优先级.md",
@@ -181,15 +203,7 @@
     "计算机网络/CS144",
     "计算机网络/CS144.md",
     "计算机网络",
-    "未命名",
     "我狠C/modern effective c ++",
-    "操作系统/xv6/kernel 详解/proc.c.md",
-    "操作系统/xv6/kernel 详解/sysfile.c.md",
-    "conflict-files-obsidian-git.md",
-    "tools/安全与密码学.md",
-    "论文随笔/Some terms.md",
-    "论文随笔/Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi.md",
-    "操作系统/xv6/xv6book.md",
     "资源整理",
     "tools/未命名",
     "论文随笔",
