@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/modern effective c ++/C ++中的类型转换.md",
+                "file": "我狠C/C++ 内存模型/对象模型.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/modern effective c ++/C ++中的类型转换.md",
+                "file": "我狠C/C++ 内存模型/对象模型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/modern effective c ++/C ++中的类型转换.md",
+                "file": "我狠C/C++ 内存模型/对象模型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/modern effective c ++/C ++中的类型转换.md"
+                "file": "我狠C/C++ 内存模型/对象模型.md"
               }
             }
           }
@@ -161,6 +161,10 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "我狠C/C++ 内存模型/未命名.md",
+    "我狠C/C++ 内存模型/对象模型.md",
+    "我狠C/modern effective c ++/C ++中的类型转换.md",
+    "我狠C/C++ 内存模型",
     "我狠C/编译与链接/程序员的自我修养笔记.md",
     "images/Pasted image 20230723162141.png",
     "images/Pasted image 20230723154708.png",
@@ -186,7 +190,6 @@
     "未命名 1.canvas",
     "未命名.canvas",
     "我狠C/编译与链接/未命名 1.md",
-    "我狠C/modern effective c ++/C ++中的类型转换.md",
     "我狠C/编译与链接",
     "我狠C/编译与链接.md",
     "我狠C/grammer&semantic/blogs/运算符优先级.md",
@@ -200,13 +203,11 @@
     "tools/bash 脚本.md",
     "tools/命令行环境.md",
     "计算机网络/CS144",
-    "计算机网络/CS144.md",
     "计算机网络",
     "我狠C/modern effective c ++",
     "资源整理",
     "tools/未命名",
     "论文随笔",
-    "操作系统/xv6/kernel 详解",
-    "操作系统/xv6/一些分布图"
+    "操作系统/xv6/kernel 详解"
   ]
 }
