@@ -34,5 +34,14 @@
       ],
       "key": "I"
     }
-  ]
+  ],
+  "editor:insert-wikilink": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-checklist-status": []
 }

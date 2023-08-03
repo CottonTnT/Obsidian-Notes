@@ -2,20 +2,7 @@
 # 用 complier 取代 preprocessor
 
 
-***即用 consts, enums 和 inlines 取代  \#defines***
-
-
-```c
-#define ASPECT_RATIO 1.653 //No!
-const double AspectRation = 1.653 //Yes!
-```
-
-
-
-### define 与 const 的优缺点
-
-  https://blog.csdn.net/weibo1230123/article/details/81981384 
-
+- 即用 consts, enums 和 [[关键字详解#inline | `inline`]]. 取代  [[关键字详解#define | `#define `]] 
 
 
 
@@ -37,28 +24,6 @@ const std::string str = ("Scott Meyers");
 
 ## 用 enum 替代
 
-
-
-
-## 用 inline 替代
-
-```c
-//call f with the maximum of a and b
-// #define版
-
-#define CALL_WITH_MAX(a, b) f((a) > (b) ? (a) : (b))
-int a = 5, b = 0;
-CALL_WITH_MAX(++a, b); // a is incremented twice
-CALL_WITH_MAX(++a, b+10); // a is incremented once
-
-// inline 版
-template<typename T>                               // because we don't
-inline void callWithMax(const T& a, const T& b)    // know what T is, we
-{                                                  // pass by reference-to-
-  f(a > b ? a : b);                                // const - see Item 20
-}
-
-```
 
 
 
