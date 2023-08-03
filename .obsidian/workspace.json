@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 内存模型/对象模型.md",
+                "file": "我狠C/编辑器/vscode、.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 内存模型/对象模型.md",
+                "file": "我狠C/编辑器/vscode、.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 内存模型/对象模型.md",
+                "file": "我狠C/编辑器/vscode、.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 内存模型/对象模型.md"
+                "file": "我狠C/编辑器/vscode、.md"
               }
             }
           }
@@ -171,13 +171,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "e77f78d986b72322",
   "lastOpenFiles": [
-    "我狠C/modern effective c ++/C ++中的类型转换.md",
+    "images/Pasted image 20230802211944.png",
+    "tools/安全与密码学.md",
+    "我狠C/编辑器/vscode、.md",
+    "我狠C/编辑器/vscode.md",
+    "我狠C/C++ 内存模型/未命名.md",
+    "tools/计算机相关杂项.md",
+    "tools/命令行环境.md",
+    "tools/bash 脚本.md",
+    "tools/git.md",
     "我狠C/C++ 内存模型/对象模型.md",
+    "我狠C/编辑器",
+    "我狠C/未命名.md",
+    "我狠C/modern effective c ++/C ++中的类型转换.md",
     "我狠C/编译与链接/程序员的自我修养笔记.md",
     "浏览器/Edge快捷键.md",
-    "我狠C/C++ 内存模型/未命名.md",
     "我狠C/C++ 内存模型",
     "images/Pasted image 20230723162141.png",
     "images/Pasted image 20230723154708.png",
@@ -205,21 +215,11 @@
     "我狠C/编译与链接",
     "我狠C/编译与链接.md",
     "我狠C/grammer&semantic/blogs/运算符优先级.md",
-    "我狠C/grammer&semantic/简朴的C/C标准/IO/fgets.md",
-    "我狠C/工具/Makefile/content summary.md",
-    "操作系统/linux操作系统/文件系统/根目录文件夹的分工.md",
-    "tools/计算机相关杂项.md",
-    "我狠C/grammer&semantic/C++六大组件/我们意念合一.md",
-    "我狠C/grammer&semantic/Operator overloading.md",
-    "tools/git.md",
-    "tools/bash 脚本.md",
-    "tools/命令行环境.md",
     "计算机网络/CS144",
     "计算机网络",
     "我狠C/modern effective c ++",
     "资源整理",
     "tools/未命名",
-    "论文随笔",
-    "操作系统/xv6/kernel 详解"
+    "论文随笔"
   ]
 }
