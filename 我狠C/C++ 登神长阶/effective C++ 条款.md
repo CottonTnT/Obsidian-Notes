@@ -1,56 +1,11 @@
 
-# 用 complier 取代 preprocessor
+# 1.用 complier 取代 preprocessor
 
 
-- 即用 consts, enums 和 [[关键字详解#inline | `inline`]]. 取代  [[关键字详解#define | `#define `]] 
+- 即用 [[关键字详解#const | `const`]] , enums 和 [[关键字详解#inline | `inline`]]. 取代  [[关键字详解#define | `#define `]] 
 
 
-
-## 用 const 替换 defines 注意情况
-
-
-- 常量字符串
-```c
-#define str "Scott Meyers"
-const char * const str = "Scott Meyers"; //放在头文件中时，肯定不希望指针本身、指针指向的内容改变
-const std::string str = ("Scott Meyers");
-```
-  
-
-
-- 涉及到 class-specific constants
-
-
-
-## 用 enum 替代
-
-
-
-
-# 只要可能就用const
-
-
-## 顶层 const 与底层 const
-
-
-*顶层 const* ：表示指针本身是一个常量, 放在\*右边
-
-*底层 const*：表示指针所指的对象是一个常量\*左边
-
-
-```c
-const int a = 10;//顶层
-const int * const p = new int(10); //底层， 顶层
-const int & ra = 10; //底层，引用机制类似指针, 一个引用变量相当于一个指针常量
-```
-
-
-
-### 一个规则
-
-- **当执行对象拷贝操作是，常量的顶层 const 不受什么影响，而底层的 const 必须一致
- 
-
+# 2.只要可能就用 const
 
 
 ## iterator 与 const
