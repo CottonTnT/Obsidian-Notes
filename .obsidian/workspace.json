@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/effective C++ 条款.md",
+                "file": "我狠C/C++ 登神长阶/terms in CPP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/effective C++ 条款.md",
+                "file": "我狠C/C++ 登神长阶/terms in CPP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/effective C++ 条款.md",
+                "file": "我狠C/C++ 登神长阶/terms in CPP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/effective C++ 条款.md"
+                "file": "我狠C/C++ 登神长阶/terms in CPP.md"
               }
             }
           }
@@ -146,14 +146,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "e77f78d986b72322",
   "lastOpenFiles": [
-    "我狠C/C++ 登神长阶/对象模型.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
+    "我狠C/C++ 登神长阶/terms in CPP.md",
+    "templates/To be solved.md",
+    "我狠C/C++ 登神长阶/c++遗忘录.md",
+    "www.tlsblog.xyz.md",
     "我狠C/C++ 登神长阶/effective C++ 条款.md",
+    "我狠C/C++ 登神长阶/对象模型.md",
     "我狠C/C++ 登神长阶/C ++中的类型转换.md",
     "Typora的markdown语法.md",
-    "www.tlsblog.xyz.md",
     "操作系统/gnome/常用快捷键.md",
     "我狠C/C++ 登神长阶/关键字详解 1.md",
     "我狠C/编辑器/vscode、.md",
@@ -185,9 +188,6 @@
     "浏览器",
     "templates/系统函数.md",
     "templates/Algorithm principle.md",
-    "templates/Algorithm question.md",
-    "templates/tool template.md",
-    "templates/center text.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "我狠C/编译与链接",
