@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/To be solved.md",
+                "file": "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/To be solved.md",
+                "file": "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/To be solved.md",
+                "file": "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/To be solved.md"
+                "file": "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md"
               }
             }
           }
@@ -146,16 +146,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "e77f78d986b72322",
   "lastOpenFiles": [
-    "templates/To be solved.md",
+    "我狠C/C++ 登神长阶/C++ STL/结构及分类.md",
+    "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
+    "我狠C/C++ 登神长阶/对象模型.md",
     "我狠C/C++ 登神长阶/To be solved.md",
+    "templates/To be solved.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
     "我狠C/C++ 登神长阶/terms in CPP.md",
     "我狠C/C++ 登神长阶/c++遗忘录.md",
     "www.tlsblog.xyz.md",
     "我狠C/C++ 登神长阶/effective C++ 条款.md",
-    "我狠C/C++ 登神长阶/对象模型.md",
     "我狠C/C++ 登神长阶/C ++中的类型转换.md",
     "Typora的markdown语法.md",
     "操作系统/gnome/常用快捷键.md",
@@ -185,9 +187,7 @@
     "images/Pasted image 20230723145356.png",
     "images/Pasted image 20230723145106.png",
     "images/Pasted image 20230723144243.png",
-    "templates/论文笔记模板.md",
     "浏览器",
-    "templates/系统函数.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "我狠C/编译与链接",
