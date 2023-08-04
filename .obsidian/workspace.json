@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/terms in CPP.md",
+                "file": "我狠C/C++ 登神长阶/To be solved.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/terms in CPP.md",
+                "file": "我狠C/C++ 登神长阶/To be solved.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/terms in CPP.md",
+                "file": "我狠C/C++ 登神长阶/To be solved.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/terms in CPP.md"
+                "file": "我狠C/C++ 登神长阶/To be solved.md"
               }
             }
           }
@@ -146,11 +146,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e77f78d986b72322",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "templates/To be solved.md",
+    "我狠C/C++ 登神长阶/To be solved.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
     "我狠C/C++ 登神长阶/terms in CPP.md",
-    "templates/To be solved.md",
     "我狠C/C++ 登神长阶/c++遗忘录.md",
     "www.tlsblog.xyz.md",
     "我狠C/C++ 登神长阶/effective C++ 条款.md",
@@ -187,7 +188,6 @@
     "templates/论文笔记模板.md",
     "浏览器",
     "templates/系统函数.md",
-    "templates/Algorithm principle.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "我狠C/编译与链接",
