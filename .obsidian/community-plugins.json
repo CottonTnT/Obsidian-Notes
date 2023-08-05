@@ -1,7 +1,6 @@
 [
   "obsidian-reveal-active-file",
   "obsidian-better-command-palette",
-  "cmenu-plugin",
   "easy-typing-obsidian",
   "obsidian-hider",
   "link-favicon",
@@ -10,5 +9,6 @@
   "quickadd",
   "obsidian-vimrc-support",
   "quick-latex",
-  "obsidian-code-block-enhancer"
+  "obsidian-code-block-enhancer",
+  "text-snippets-obsidian"
 ]

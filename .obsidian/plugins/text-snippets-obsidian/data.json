@@ -1,0 +1,15 @@
+{
+  "snippets_file": "'sup : <sup>$end$</sup>'\ncenter : <center>$end$</center>",
+  "snippets": [
+    "'sup : <sup>$end$</sup>'",
+    "center : <center>$end$</center>"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "$nl$",
+  "stopSymbol": "$tb$",
+  "pasteSymbol": "$pst$",
+  "useTab": true,
+  "useSpace": false,
+  "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
+  "isWYSIWYG": true
+}
