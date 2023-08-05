@@ -110,7 +110,7 @@ public:
 - deque 是一种伪连续的容器, 具体存储结构如下
  ![[Pasted image 20230805154218.png]]
 
-![[Pasted image 20230805163926.png]]
+![[  ]]
 ```cpp
 
 
