@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c2b04da0190495f2",
+        "id": "9bd03dbae0e0fc71",
         "type": "tabs",
         "children": [
           {
-            "id": "dceb25fc746c7340",
+            "id": "bc523af41c0cd88e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,8 +146,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "dceb25fc746c7340",
+  "active": "bc523af41c0cd88e",
   "lastOpenFiles": [
+    "images/Pasted image 20230805163926.png",
+    "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
     "images/Pasted image 20230805154218.png",
     "images/Pasted image 20230805153525.png",
     "images/Pasted image 20230805144613.png",
@@ -155,14 +157,12 @@
     "images/Pasted image 20230805144553.png",
     "我狠C/C++ 登神长阶/To be solved.md",
     "我狠C/C++ 登神长阶/c++遗忘录.md",
-    "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
     "images/Pasted image 20230805135714.png",
     "images/Pasted image 20230805135645.png",
     "images/Pasted image 20230805135617.png",
     "images/Pasted image 20230805122210.png",
     "我狠C/C++ 登神长阶/C++ STL/未命名.md",
     "images/Pasted image 20230805120711 1.png",
-    "images/Pasted image 20230805120711.png",
     "我狠C/C++ 登神长阶/C++ STL/结构及分类.md",
     "我狠C/C++ 登神长阶/对象模型.md",
     "templates/To be solved.md",

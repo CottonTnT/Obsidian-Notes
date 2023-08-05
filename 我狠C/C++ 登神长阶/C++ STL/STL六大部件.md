@@ -110,8 +110,10 @@ public:
 - deque 是一种伪连续的容器, 具体存储结构如下
  ![[Pasted image 20230805154218.png]]
 
-
+![[Pasted image 20230805163926.png]]
 ```cpp
+
+
 template <class T, class Allo = alloc, size_t BufSiz=0>//BufSize是指每个buffer容纳的元素个数
 class deque{
 public:
