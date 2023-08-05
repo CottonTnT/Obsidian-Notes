@@ -94,3 +94,21 @@ int main() {}
 
 - C++ 数组的引用
 - 模板能在编译期推断出数组的大小 
+
+
+
+# 
+
+## confusion code
+
+```cpp
+template <class I>
+struct iterator_traits{
+	typedef typename I::value_type value_type;  //1
+};
+```
+- 1 中的 typename 是干什么的
+
+## knowledge point
+
+- 我们需要使用"typename"关键字来告诉编译器"I:: value_type"是一个类型，而不是一个静态成员。

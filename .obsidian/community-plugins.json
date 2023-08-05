@@ -1,14 +1,12 @@
 [
   "obsidian-reveal-active-file",
   "obsidian-better-command-palette",
-  "easy-typing-obsidian",
-  "obsidian-hider",
   "link-favicon",
   "obsidian-git",
   "obsidian-table-generator",
   "quickadd",
   "obsidian-vimrc-support",
   "quick-latex",
-  "obsidian-code-block-enhancer",
-  "text-snippets-obsidian"
+  "text-snippets-obsidian",
+  "easy-typing-obsidian"
 ]

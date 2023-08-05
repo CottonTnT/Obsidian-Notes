@@ -4,5 +4,8 @@
   "attachmentFolderPath": "images",
   "vimMode": true,
   "showLineNumber": true,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "useTab": true,
+  "tabSize": 2,
+  "spellcheck": true
 }

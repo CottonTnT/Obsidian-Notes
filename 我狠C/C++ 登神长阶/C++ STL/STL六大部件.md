@@ -61,10 +61,77 @@ struct _list_iterator{
 ![[Pasted image 20230805120711.png]]
 
 
+## vector
 
+- vector 的内存增长，每次要重新申请一块更大的连在一起的内存，还要对以前的值进行复制
+![[Pasted image 20230805144613.png]]
+```cpp
+template <class T, class Alloc = alloc>
+class vector{
+public:
+		typedef T value_type;
+		typedef value_type* iterator;
+		typedef value_type& reference;
+		typedef size_t size_type;
+protected:
+		iterator start;
+		iterator finish;
+		iterator end_of_storage;
+public:
+		iterator begin(){return start};
+		iterator end(){return finish}；
+		size_type size() const{
+			return size_type(end_of_storage-begin());
+		}
+		bool empty() const{return begin() == end();}
+		reference operator[](size_type n){
+			return *(begin() + n);
+		}
+		reference front(){
+			return *begin();
+		}
+		reference back(){
+			return *(end() - 1)；
+		}
+}
+```
+
+
+## array
+
+- 模拟普通数组
+
+ ![[Pasted image 20230805153525.png]]
+
+
+## deque
+
+
+- deque 是一种伪连续的容器, 具体存储结构如下
+ ![[Pasted image 20230805154218.png]]
+
+
+```cpp
+template <class T, class Allo = alloc, size_t BufSiz=0>//BufSize是指每个buffer容纳的元素个数
+class deque{
+public:
+		typedef T value_type;
+		typedef __deque_iterator<T, T&, T*, BufSize> Iterator;
+protected:
+		typedef pointer* map_pointer; //T**
+protected:
+		iterator start;
+		iterator finish;
+		map_pointer map;
+		size_type map_size;
+public:
+		iterator begin(){return start;}
+		iterator end(){return finish;}
+		size_type size() const {return finish - start;}
+...
+}
+```
 # Iterator 
-
-
 ## 设计原则
 
 
@@ -86,14 +153,31 @@ inline void algorithm(I first, I last){//算法提问
 }
 ```
 
-
 ##  Iterator Traits
 
 > 用以分离 `class iterator` 和 `non-class iterator` <sup>1</sup>
 
+![[Pasted image 20230805135714.png]]
+
+
+
 -  利用 partial specialization 来分辨
+ 
 
+```cpp
+template <class I>
+struct iterator_traits{
+		typedef typename I::value_type value_type;
+};
 
+template <class I>
+struct iterator_traits<T*>{
+	typedef T value_type
+}
+```
 
 --- 
-<sup>1</sup>
+<sup>1</sup>  Non class (template)  iterators 即 native pointer, 无法定义 associated type. 但其 associated type 
+
+
+
