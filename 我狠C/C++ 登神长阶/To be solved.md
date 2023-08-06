@@ -112,3 +112,29 @@ struct iterator_traits{
 ## knowledge point
 
 - 我们需要使用"typename"关键字来告诉编译器"I:: value_type"是一个类型，而不是一个静态成员。
+
+# 5
+
+## confusion code
+
+```cpp
+template <typename T>
+class A;
+
+template <typename T>
+std::ostream& operator<<(std::ostream& os, const A<T>& rhs);
+
+template <typename T>
+class A {
+  friend std::ostream& operator<<<T>(std::ostream& os, const A<T>& rhs); //这里的<T>是用来干嘛的
+
+ private:
+  int n = 0;
+};
+```
+
+- 9 行的 \<T> 是用来干嘛的
+
+## knowledge point
+
+- 在 C++模板中，`<T>`是用来*指定模板参数*的。在这个例子中，`operator<<`是一个模板函数，它需要一个模板参数来指定其操作数的类型。这里的`<T>`就是用来指定这个类型的。当你在类模板中声明友元函数模板时，你需要在函数名后面加上`<T>`来指定这个友元函数模板的模板参数。这是因为在类模板中，友元函数模板并不会自动地从类模板中继承模板参数。所以，`operator<< <T>`中的`<T>`是必须的，它告诉编译器这是一个模板函数，并且其模板参数是`T`。如果你不加`<T>`，编译器就会认为这是一个普通的非模板函数，这会导致编译错误。

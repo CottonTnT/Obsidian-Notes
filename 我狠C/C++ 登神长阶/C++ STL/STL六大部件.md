@@ -186,4 +186,31 @@ struct iterator_traits<T*>{
 
 
  - Algorithm 看不见 containers, 所需要的一切信息来自 Iterators, 
- - 
+
+
+
+# tuple
+
+
+- G 4.8 源码节录并简化
+
+```cpp
+template<typename... Values> class tuple;
+template<>class tuple<>{};
+---
+
+template<typename Head, typename... Tail>
+class tuple<Head, Tail...>: private tuple<Tail...>{
+
+	typedef tuple<Tail...> inherited;
+public:
+	tuple(){}
+	tuple(Head v, Tail... vtail):m_head(v), inherited(vtail...){}
+}
+
+
+```
+
+
+
+ 
