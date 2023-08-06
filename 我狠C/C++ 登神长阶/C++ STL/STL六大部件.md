@@ -109,8 +109,6 @@ public:
 
 - deque 是一种伪连续的容器, 具体存储结构如下
  ![[Pasted image 20230805154218.png]]
-
-![[  ]]
 ```cpp
 
 
@@ -183,3 +181,9 @@ struct iterator_traits<T*>{
 
 
 
+
+# Algorithm
+
+
+ - Algorithm 看不见 containers, 所需要的一切信息来自 Iterators, 
+ - 
