@@ -46,9 +46,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4ce1fbf0938b79b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "我狠C/编辑器/vscode、.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/计算机相关杂项.md",
+                "file": "我狠C/编辑器/vscode、.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/计算机相关杂项.md",
+                "file": "我狠C/编辑器/vscode、.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/计算机相关杂项.md"
+                "file": "我狠C/编辑器/vscode、.md"
               }
             }
           },
@@ -212,12 +224,12 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "3153fe424994907f",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "tools/计算机相关杂项.md",
     "English/wordDB.md",
     "English/reviewDB.md",
     "English",
-    "tools/计算机相关杂项.md",
     "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
     "我狠C/C++ 登神长阶/To be solved.md",
     "我狠C/编辑器/vscode、.md",
