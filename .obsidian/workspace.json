@@ -4,11 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "cbbf40e5aa920567",
+        "id": "e373ea5bcf4092df",
         "type": "tabs",
         "children": [
           {
-            "id": "acda3bd9fe301568",
+            "id": "dda09e93c71e16ce",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "3153fe424994907f",
+            "type": "leaf",
+            "state": {
+              "type": "langr-data-panel",
+              "state": {}
+            }
+          },
+          {
+            "id": "ad11922561bae9ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "English/wordDB.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ca8ffbc71837b9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,7 +47,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,6 +91,14 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "fdbfac55a2d5b68c",
+            "type": "leaf",
+            "state": {
+              "type": "langr-search-panel",
               "state": {}
             }
           }
@@ -128,9 +165,33 @@
                 "file": "tools/计算机相关杂项.md"
               }
             }
+          },
+          {
+            "id": "d9c6e7ca30ca084c",
+            "type": "leaf",
+            "state": {
+              "type": "langr-learn-panel",
+              "state": {}
+            }
+          },
+          {
+            "id": "d58d5e38202ac756",
+            "type": "leaf",
+            "state": {
+              "type": "langr-stat",
+              "state": {}
+            }
+          },
+          {
+            "id": "3dc27f38642c7b9f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -143,11 +204,20 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-language-learner:打开查词面板": false,
+      "obsidian-language-learner:打开新词面板": false,
+      "obsidian-language-learner:打开统计": false,
+      "obsidian-language-learner:单词列表": false,
+      "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "3153fe424994907f",
   "lastOpenFiles": [
+    "English/wordDB.md",
+    "English/reviewDB.md",
+    "English",
+    "tools/计算机相关杂项.md",
     "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
     "我狠C/C++ 登神长阶/To be solved.md",
     "我狠C/编辑器/vscode、.md",
@@ -181,9 +251,7 @@
     "tools/安全与密码学.md",
     "我狠C/编辑器/vscode.md",
     "我狠C/C++ 内存模型/未命名.md",
-    "tools/计算机相关杂项.md",
     "tools/命令行环境.md",
-    "tools/bash 脚本.md",
     "我狠C/编辑器",
     "我狠C/C++ 登神长阶",
     "浏览器",
@@ -193,7 +261,6 @@
     "计算机网络/CS144",
     "计算机网络",
     "我狠C/C++ 登神长阶/modern effective c ++笔记提炼",
-    "资源整理",
-    "tools/未命名"
+    "资源整理"
   ]
 }

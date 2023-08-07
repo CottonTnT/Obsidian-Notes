@@ -11,5 +11,5 @@
   "useTab": false,
   "useSpace": false,
   "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
-  "isWYSIWYG": false
+  "isWYSIWYG": true
 }
