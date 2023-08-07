@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/编辑器/vscode、.md",
+                "file": "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/编辑器/vscode、.md",
+                "file": "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/编辑器/vscode、.md",
+                "file": "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/编辑器/vscode、.md"
+                "file": "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md"
               }
             }
           },
@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -224,15 +224,15 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "90d947202b2994d7",
   "lastOpenFiles": [
+    "我狠C/编辑器/vscode、.md",
     "tools/计算机相关杂项.md",
     "English/wordDB.md",
     "English/reviewDB.md",
     "English",
     "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
     "我狠C/C++ 登神长阶/To be solved.md",
-    "我狠C/编辑器/vscode、.md",
     "Algorithm/数据结构/tree/二叉树/平衡树.md",
     "images/Pasted image 20230805203528.png",
     "images/Pasted image 20230805202928.png",
