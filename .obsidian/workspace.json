@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
+                "file": "tools/计算机相关杂项.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
+                "file": "tools/计算机相关杂项.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
+                "file": "tools/计算机相关杂项.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md"
+                "file": "tools/计算机相关杂项.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "我狠C/C++ 登神长阶/To be solved.md",
     "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
+    "我狠C/C++ 登神长阶/To be solved.md",
     "我狠C/编辑器/vscode、.md",
     "Algorithm/数据结构/tree/二叉树/平衡树.md",
     "images/Pasted image 20230805203528.png",
