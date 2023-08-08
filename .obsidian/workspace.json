@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
+                "file": "我狠C/编译与链接/程序员的自我修养笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
+                "file": "我狠C/编译与链接/程序员的自我修养笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
+                "file": "我狠C/编译与链接/程序员的自我修养笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md"
+                "file": "我狠C/编译与链接/程序员的自我修养笔记.md"
               }
             }
           },
@@ -224,14 +224,16 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "90d947202b2994d7",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "我狠C/编译与链接/程序员的自我修养笔记.md",
+    "我狠C/C++ 登神长阶/关键字详解.md",
+    "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
     "我狠C/编辑器/vscode、.md",
     "tools/计算机相关杂项.md",
     "English/wordDB.md",
     "English/reviewDB.md",
     "English",
-    "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
     "我狠C/C++ 登神长阶/To be solved.md",
     "Algorithm/数据结构/tree/二叉树/平衡树.md",
     "images/Pasted image 20230805203528.png",
@@ -249,7 +251,6 @@
     "我狠C/C++ 登神长阶/C++ STL/结构及分类.md",
     "我狠C/C++ 登神长阶/对象模型.md",
     "templates/To be solved.md",
-    "我狠C/C++ 登神长阶/关键字详解.md",
     "我狠C/C++ 登神长阶/terms in CPP.md",
     "www.tlsblog.xyz.md",
     "我狠C/C++ 登神长阶/effective C++ 条款.md",
@@ -263,7 +264,6 @@
     "tools/安全与密码学.md",
     "我狠C/编辑器/vscode.md",
     "我狠C/C++ 内存模型/未命名.md",
-    "tools/命令行环境.md",
     "我狠C/编辑器",
     "我狠C/C++ 登神长阶",
     "浏览器",
