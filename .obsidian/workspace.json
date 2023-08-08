@@ -11,26 +11,6 @@
             "id": "dda09e93c71e16ce",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "4ce1fbf0938b79b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Typora的markdown语法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa8f96c15e44e7c9",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "我狠C/编译与链接/程序员的自我修养笔记.md",
@@ -47,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -213,16 +192,20 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "d9c6e7ca30ca084c",
+  "active": "dda09e93c71e16ce",
   "lastOpenFiles": [
+    "images/Pasted image 20230808210911.png",
+    "images/Pasted image 20230808210857.png",
+    "images/Pasted image 20230808210856.png",
+    "images/Pasted image 20230808210845.png",
     "Typora的markdown语法.md",
+    "我狠C/编译与链接/程序员的自我修养笔记.md",
     "我狠C/C++ 登神长阶/C ++中的类型转换.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
     "English/wordDB.md",
     "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
     "我狠C/C++ 登神长阶/C++ STL/结构及分类.md",
     "我狠C/C++ 登神长阶/C++ STL/未命名.md",
-    "我狠C/编译与链接/程序员的自我修养笔记.md",
     "tools/计算机相关杂项.md",
     "我狠C/编辑器/vscode、.md",
     "English/reviewDB.md",
@@ -236,10 +219,7 @@
     "images/Pasted image 20230805153525.png",
     "images/Pasted image 20230805144613.png",
     "images/Pasted image 20230805144602.png",
-    "images/Pasted image 20230805144553.png",
     "我狠C/C++ 登神长阶/c++遗忘录.md",
-    "images/Pasted image 20230805135714.png",
-    "images/Pasted image 20230805135645.png",
     "我狠C/C++ 登神长阶/对象模型.md",
     "templates/To be solved.md",
     "我狠C/C++ 登神长阶/terms in CPP.md",
@@ -252,7 +232,6 @@
     "浏览器/Edge快捷键.md",
     "tools/安全与密码学.md",
     "我狠C/编辑器/vscode.md",
-    "我狠C/C++ 内存模型/未命名.md",
     "我狠C/编辑器",
     "我狠C/C++ 登神长阶",
     "浏览器",
