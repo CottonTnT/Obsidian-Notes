@@ -20,6 +20,16 @@ to communicate by writing a letter or sending an email
 **
 
 #word
+#### devise
+?
+v. 设计，发明；<法律>（通过遗嘱）遗赠（不动产）；<古>图谋
+n. <法律>（遗嘱中）遗赠不动产的条款
+**Notes**:
+to invent a plan, system, object, etc., usually using your intelligence or imagination
+**Sentences**:
+**
+
+#word
 #### emulate
 ?
 v. 仿效，模仿；仿真；努力赶上
@@ -61,6 +71,19 @@ the condition of being dealt with before other things or of being considered mor
 n. （计划或理论的）纲要，图解；（逻）（三段论法的）格；（康德哲学的）先验图式
 **Notes**:
 a drawing that represents an idea or theory and makes it easier to understand
+
+#word
+#### thwart
+?
+v. 反对，阻挠，挫败；横过
+n. （划艇上的）横坐板
+adv. <古，文>横跨（地）
+prep. <古，文>横跨（地）
+adj. 横放的；固执的
+**Notes**:
+to stop something from happening or someone from doing something
+**Sentences**:
+**
 
 #word
 #### vulnerability
