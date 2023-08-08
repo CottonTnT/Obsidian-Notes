@@ -16,39 +16,19 @@
             }
           },
           {
-            "id": "3153fe424994907f",
-            "type": "leaf",
-            "state": {
-              "type": "langr-data-panel",
-              "state": {}
-            }
-          },
-          {
-            "id": "ad11922561bae9ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "English/wordDB.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ca8ffbc71837b9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/计算机相关杂项.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4ce1fbf0938b79b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Typora的markdown语法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa8f96c15e44e7c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,9 +38,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "360305a75f86bfb6",
+            "type": "leaf",
+            "state": {
+              "type": "langr-data-panel",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -114,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -203,7 +192,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -224,14 +213,18 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "d9c6e7ca30ca084c",
   "lastOpenFiles": [
-    "我狠C/编译与链接/程序员的自我修养笔记.md",
+    "Typora的markdown语法.md",
+    "我狠C/C++ 登神长阶/C ++中的类型转换.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
-    "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
-    "我狠C/编辑器/vscode、.md",
-    "tools/计算机相关杂项.md",
     "English/wordDB.md",
+    "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
+    "我狠C/C++ 登神长阶/C++ STL/结构及分类.md",
+    "我狠C/C++ 登神长阶/C++ STL/未命名.md",
+    "我狠C/编译与链接/程序员的自我修养笔记.md",
+    "tools/计算机相关杂项.md",
+    "我狠C/编辑器/vscode、.md",
     "English/reviewDB.md",
     "English",
     "我狠C/C++ 登神长阶/To be solved.md",
@@ -247,15 +240,11 @@
     "我狠C/C++ 登神长阶/c++遗忘录.md",
     "images/Pasted image 20230805135714.png",
     "images/Pasted image 20230805135645.png",
-    "我狠C/C++ 登神长阶/C++ STL/未命名.md",
-    "我狠C/C++ 登神长阶/C++ STL/结构及分类.md",
     "我狠C/C++ 登神长阶/对象模型.md",
     "templates/To be solved.md",
     "我狠C/C++ 登神长阶/terms in CPP.md",
     "www.tlsblog.xyz.md",
     "我狠C/C++ 登神长阶/effective C++ 条款.md",
-    "我狠C/C++ 登神长阶/C ++中的类型转换.md",
-    "Typora的markdown语法.md",
     "操作系统/gnome/常用快捷键.md",
     "我狠C/C++ 登神长阶/关键字详解 1.md",
     "操作系统/gnome",
