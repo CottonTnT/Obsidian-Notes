@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/编译与链接/程序员的自我修养笔记.md",
+                "file": "我狠C/C++ 登神长阶/工具/Makefile/content summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/编译与链接/程序员的自我修养笔记.md",
+                "file": "我狠C/C++ 登神长阶/工具/Makefile/content summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/编译与链接/程序员的自我修养笔记.md",
+                "file": "我狠C/C++ 登神长阶/工具/Makefile/content summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/编译与链接/程序员的自我修养笔记.md"
+                "file": "我狠C/C++ 登神长阶/工具/Makefile/content summary.md"
               }
             }
           },
@@ -192,8 +191,11 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "dda09e93c71e16ce",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "我狠C/编译与链接/程序员的自我修养笔记.md",
+    "我狠C/C++ 登神长阶/terms in CPP.md",
+    "我狠C/C++ 登神长阶/c++遗忘录.md",
     "images/Pasted image 20230809104701.png",
     "images/Pasted image 20230809101744.png",
     "images/Pasted image 20230809100157.png",
@@ -202,7 +204,6 @@
     "images/Pasted image 20230808210856.png",
     "images/Pasted image 20230808210845.png",
     "Typora的markdown语法.md",
-    "我狠C/编译与链接/程序员的自我修养笔记.md",
     "我狠C/C++ 登神长阶/C ++中的类型转换.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
     "English/wordDB.md",
@@ -218,11 +219,8 @@
     "images/Pasted image 20230805203528.png",
     "images/Pasted image 20230805202928.png",
     "images/Pasted image 20230805163926.png",
-    "images/Pasted image 20230805154218.png",
-    "我狠C/C++ 登神长阶/c++遗忘录.md",
     "我狠C/C++ 登神长阶/对象模型.md",
     "templates/To be solved.md",
-    "我狠C/C++ 登神长阶/terms in CPP.md",
     "www.tlsblog.xyz.md",
     "我狠C/C++ 登神长阶/effective C++ 条款.md",
     "操作系统/gnome/常用快捷键.md",
