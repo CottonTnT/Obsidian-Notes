@@ -8,26 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dda09e93c71e16ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/C++ 登神长阶/工具/Makefile/content summary.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "360305a75f86bfb6",
             "type": "leaf",
             "state": {
               "type": "langr-data-panel",
               "state": {}
             }
+          },
+          {
+            "id": "6857c6a10e7d46ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/工具/Makefile/content summary.md",
+                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/工具/Makefile/content summary.md",
+                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/工具/Makefile/content summary.md"
+                "file": "我狠C/C++ 登神长阶/工具/Makefile.md"
               }
             }
           },
@@ -193,6 +194,11 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "images/Pasted image 20230809192331.png",
+    "img/1.png.md",
+    "img",
+    "我狠C/C++ 登神长阶/工具/Makefile/content summary.md",
+    "我狠C/C++ 登神长阶/工具/Makefile.md",
     "我狠C/编译与链接/程序员的自我修养笔记.md",
     "我狠C/C++ 登神长阶/terms in CPP.md",
     "我狠C/C++ 登神长阶/c++遗忘录.md",
@@ -227,9 +233,6 @@
     "我狠C/C++ 登神长阶/关键字详解 1.md",
     "操作系统/gnome",
     "操作系统/未命名.md",
-    "浏览器/Edge快捷键.md",
-    "tools/安全与密码学.md",
-    "我狠C/编辑器/vscode.md",
     "我狠C/编辑器",
     "我狠C/C++ 登神长阶",
     "浏览器",
@@ -238,7 +241,6 @@
     "我狠C/编译与链接",
     "计算机网络/CS144",
     "计算机网络",
-    "我狠C/C++ 登神长阶/modern effective c ++笔记提炼",
-    "资源整理"
+    "我狠C/C++ 登神长阶/modern effective c ++笔记提炼"
   ]
 }

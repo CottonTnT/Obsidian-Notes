@@ -4,6 +4,9 @@
   "enabledCssSnippets": [
     "tls"
   ],
-  "cssTheme": "Things",
-  "theme": "moonstone"
+  "cssTheme": "Obsidian gruvbox",
+  "theme": "obsidian",
+  "monospaceFontFamily": "Comic Sans MS",
+  "interfaceFontFamily": "思源黑体 CN,微软雅黑",
+  "textFontFamily": "思源黑体 CN"
 }
