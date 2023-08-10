@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -179,12 +179,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
+      "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "canvas:新建白板": true,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
       "obsidian-language-learner:打开查词面板": false,
       "obsidian-language-learner:打开新词面板": false,
       "obsidian-language-learner:打开统计": false,
@@ -192,7 +192,7 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "6857c6a10e7d46ab",
+  "active": "90d947202b2994d7",
   "lastOpenFiles": [
     "images/Pasted image 20230809192331.png",
     "img/1.png.md",

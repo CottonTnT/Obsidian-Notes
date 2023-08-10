@@ -178,9 +178,13 @@ test.o: test.cpp test.h
 ```
 
 
+
+
 ## 依赖
 
+
 ### 依赖类型
+
 
 **普通依赖**
 
@@ -188,6 +192,7 @@ test.o: test.cpp test.h
 
 1. 如果这一依赖是由其他规则生成的文件，那么执行到这一目标前会先执行生成依赖的那一规则 
 2. *如果任何一个依赖文件修改时间比目标晚，那么就重新生成目标文件*
+
 
 **order-only依赖**
 
@@ -201,7 +206,7 @@ test.o: test.cpp test.h
 targets : normal-prerequisites | order-only-prerequisites
 ```
 
-normal-prerequisites部分可以为空
+>normal-prerequisites部分可以为空
 
 
 ### 指定依赖搜索路径
@@ -250,12 +255,14 @@ target … (目标): prerequisites …(依赖)
 
 更新方法实际上是一些Shell指令，通常*以Tab开头*，或直接放在目标-依赖列表后面，用分号隔开。*这些指令都需要交给Shell执行，所以需要符合Shell语法*。默认使用的Shell是sh，在Windows上如果没有安装sh.exe的话会自动查找使用cmd.exe之类的终端。这时有的指令写法，例如循环语句，与Linux不同，需要注意。
 
+
 可以通过SHELL变量手动指定Shell
 
 ```makefile
 SHELL = C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
 SHELL = cmd.exe
 ```
+
 
 *默认的执行方式为一条指令重新调用一个Shell进程来执行*。有时为了提高性能或其他原因，想让这个目标的所有指令都在同一进程中执行，可以在Makefile中添加 .ONESHELL
 
@@ -369,9 +376,12 @@ GNU make分两个阶段来执行Makefile，第一阶段(读取阶段)：
 **显式规则中，目标和依赖部分都是立即展开，在更新方法中延迟展开**
 
 
+
 ### 变量赋值
 
+
 #### 递归展开赋值（延迟展开）
+
 
 第一种方式就是直接使用<kbd>=</kbd>，这种方式如果赋值的时候右边是其他变量引用或者函数调用之类的，将不会做处理，直接保留原样，在使用到该变量的时候再来进行处理得到变量值（Makefile执行的第二个阶段再进行变量展开得到变量值）
 
@@ -392,7 +402,7 @@ bar2 = ThisIsBar2No.2
 
 #### 简单赋值(立即展开)
 
-简单赋值使用<kbd>\:=</kbd>或<kbd>::=</kbd>，这种方式如果等号右边是其他变量或者引用的话，将会在赋值的时候就进行处理得到变量值。（Makefile执行第一阶段进行变量展开）
+简单赋值使用<kbd>:=</kbd>或<kbd>::=</kbd>，这种方式如果等号右边是其他变量或者引用的话，将会在赋值的时候就进行处理得到变量值。（Makefile执行第一阶段进行变量展开）
 
 ```makefile
 bar2 := ThisIsBar2No.1
@@ -466,13 +476,8 @@ files != ls .
 
 > 如果使用Windows需要注意，这种赋值方式只适用于与Linux相同的Shell指令，Windows独有的指令不能这样使用。
 
-&nbsp;
 
-&nbsp;
 
-&nbsp;
-
-&nbsp;
 
 ### 定义多行变量
 
@@ -496,7 +501,6 @@ define <varable_name> +=
 endef
 ```
 
-&nbsp;
 
 **示例**
 
@@ -587,15 +591,9 @@ make OverridDemo=ThisIsFromOutShell
 
 输出结果依然是ThisIsInMakefile
 
-&nbsp;
 
-&nbsp;
 
-&nbsp;
 
-&nbsp;
-
-&nbsp;
 
 ### 自动变量
 
@@ -615,7 +613,6 @@ __\$*__：(简单理解)目标文件名的主干部分(即不包括后缀名)
 
 **\$%**：如果目标不是归档文件，则为空；如果目标是归档文件成员，则为对应的成员文件名
 
-&nbsp;
 
 以下变量对应上述变量，D为对应变量所在的目录，结尾不带/，F为对应变量除去目录部分的文件名
 
@@ -647,15 +644,10 @@ __\$(?D)__
 
 __\$(?F)__
 
-&nbsp;
 
-&nbsp;
 
-&nbsp;
 
-&nbsp;
 
-&nbsp;
 
 ### 绑定目标的变量
 
@@ -707,15 +699,11 @@ t3:
     @echo $@ -- $(var2)
 ```
 
-&nbsp;
 
-&nbsp;
 
-&nbsp;
 
-&nbsp;
 
-&nbsp;
+
 
 ### 二次展开
 
@@ -730,23 +718,14 @@ all: $$(VAR1)
 VAR1 = hello.cpp
 ```
 
-&nbsp;
 
-&nbsp;
 
-&nbsp;
 
-&nbsp;
 
-&nbsp;
 
-&nbsp;
 
-&nbsp;
 
-&nbsp;
 
-&nbsp;
 
 # 自动推导与隐式规则
 
