@@ -93,6 +93,16 @@ to stop something from happening or someone from doing something
 **
 
 #word
+#### transpose
+?
+vt. 调换；移项；颠倒顺序
+vi. 进行变换
+n. 转置阵
+**Notes**:
+1.to change something from one position to another, or to exchange the positions of two things
+2.to play or write a piece of music in a different key
+
+#word
 #### vulnerability
 ?
 n. 易损性，弱点；（桥牌）局况
