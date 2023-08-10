@@ -20,6 +20,13 @@ to communicate by writing a letter or sending an email
 **
 
 #word
+#### demarcate
+?
+vt. 划分界线；区别
+**Notes**:
+to show the limits of something
+
+#word
 #### devise
 ?
 v. 设计，发明；<法律>（通过遗嘱）遗赠（不动产）；<古>图谋

@@ -7,5 +7,6 @@
   "strictLineBreaks": true,
   "useTab": true,
   "tabSize": 2,
-  "spellcheck": true
+  "spellcheck": true,
+  "readableLineLength": true
 }

@@ -13,6 +13,7 @@ body {
   --animation: 0.2s ease-in;
   --hover-color: var(--text-accent);
   --blank-line-height: 0.4;
+  --file-line-width: calc(82vh); /*控制栏宽*/
 }
 
 .is-live-preview [class="cm-active cm-line"] {

@@ -42,16 +42,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8e39effb7c798476",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
             "id": "ad651b062e9f83fa",
             "type": "leaf",
             "state": {
@@ -81,12 +71,23 @@
               "type": "langr-search-panel",
               "state": {}
             }
+          },
+          {
+            "id": "90d947202b2994d7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "我狠C/C++ 登神长阶/工具/Makefile.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 260.51103591918945
+    "width": 298.5
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -96,6 +97,16 @@
         "id": "2c1421625739e5da",
         "type": "tabs",
         "children": [
+          {
+            "id": "8e39effb7c798476",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
           {
             "id": "ee9aab81f7f82e1d",
             "type": "leaf",
@@ -137,16 +148,6 @@
             }
           },
           {
-            "id": "90d947202b2994d7",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "我狠C/C++ 登神长阶/工具/Makefile.md"
-              }
-            }
-          },
-          {
             "id": "d9c6e7ca30ca084c",
             "type": "leaf",
             "state": {
@@ -170,12 +171,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 316.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,7 +192,7 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "6857c6a10e7d46ab",
   "lastOpenFiles": [
     "images/Pasted image 20230809192331.png",
     "img/1.png.md",
