@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e373ea5bcf4092df",
+        "id": "8c42ab3cba40eca4",
         "type": "tabs",
         "children": [
           {
-            "id": "360305a75f86bfb6",
+            "id": "f9a43cf4109b32f8",
             "type": "leaf",
             "state": {
-              "type": "langr-data-panel",
+              "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "6857c6a10e7d46ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -77,13 +64,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "我狠C/C++ 登神长阶/工具/Makefile.md"
-              }
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -113,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 286.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,14 +176,16 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "90d947202b2994d7",
+  "active": "d9c6e7ca30ca084c",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/To be solved.md",
+    "我狠C/编译与链接/程序员的自我修养笔记.md",
+    "Typora的markdown语法.md",
+    "我狠C/C++ 登神长阶/工具/Makefile.md",
     "images/Pasted image 20230809192331.png",
     "img/1.png.md",
     "img",
     "我狠C/C++ 登神长阶/工具/Makefile/content summary.md",
-    "我狠C/C++ 登神长阶/工具/Makefile.md",
-    "我狠C/编译与链接/程序员的自我修养笔记.md",
     "我狠C/C++ 登神长阶/terms in CPP.md",
     "我狠C/C++ 登神长阶/c++遗忘录.md",
     "images/Pasted image 20230809104701.png",
@@ -210,7 +195,6 @@
     "images/Pasted image 20230808210857.png",
     "images/Pasted image 20230808210856.png",
     "images/Pasted image 20230808210845.png",
-    "Typora的markdown语法.md",
     "我狠C/C++ 登神长阶/C ++中的类型转换.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
     "English/wordDB.md",
@@ -221,11 +205,9 @@
     "我狠C/编辑器/vscode、.md",
     "English/reviewDB.md",
     "English",
-    "我狠C/C++ 登神长阶/To be solved.md",
     "Algorithm/数据结构/tree/二叉树/平衡树.md",
     "images/Pasted image 20230805203528.png",
     "images/Pasted image 20230805202928.png",
-    "images/Pasted image 20230805163926.png",
     "我狠C/C++ 登神长阶/对象模型.md",
     "templates/To be solved.md",
     "www.tlsblog.xyz.md",

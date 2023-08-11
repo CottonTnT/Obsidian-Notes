@@ -64,6 +64,14 @@ to include something as part of something larger
 **
 
 #word
+#### parse
+?
+v. 对（句子）作语法分析；仔细研究，分析
+n. （计算机）句法分析，句法分析结果
+**Notes**:
+to separate a sentence into grammatical parts, such as subject, verb, etc.
+
+#word
 #### precedence
 ?
 n. （重要性或地位的）领先，优先权；地位先后，级别高低
@@ -78,6 +86,13 @@ the condition of being dealt with before other things or of being considered mor
 n. （计划或理论的）纲要，图解；（逻）（三段论法的）格；（康德哲学的）先验图式
 **Notes**:
 a drawing that represents an idea or theory and makes it easier to understand
+
+#word
+#### specify
+?
+v. 明确指出；具体说明；把……列入说明书
+**Notes**:
+to explain or describe something clearly and exactly
 
 #word
 #### thwart
