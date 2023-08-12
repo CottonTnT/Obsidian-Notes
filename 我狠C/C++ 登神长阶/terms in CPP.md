@@ -18,5 +18,9 @@
 - defining a class means giving all of the methods of the class and the fields. 
 - Once something is defined, that also counts as declaring it; so you can often both declare and define a function, class or variable at the same time. But you don't have to
 
-# 内部链接 与 外部链接
+# 内部链接(static linkage) 与 外部链接(extern)
+
+
+
+
 

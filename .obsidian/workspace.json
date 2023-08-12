@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8c42ab3cba40eca4",
+        "id": "6ed528e1536a95f0",
         "type": "tabs",
         "children": [
           {
-            "id": "f9a43cf4109b32f8",
+            "id": "49465661642ffb92",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -64,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "我狠C/C++ 登神长阶/工具/Makefile.md"
+              }
             }
           }
         ],
@@ -98,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,8 +184,9 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "d9c6e7ca30ca084c",
+  "active": "49465661642ffb92",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/terms in CPP.md",
     "我狠C/C++ 登神长阶/To be solved.md",
     "我狠C/编译与链接/程序员的自我修养笔记.md",
     "Typora的markdown语法.md",
@@ -186,7 +195,6 @@
     "img/1.png.md",
     "img",
     "我狠C/C++ 登神长阶/工具/Makefile/content summary.md",
-    "我狠C/C++ 登神长阶/terms in CPP.md",
     "我狠C/C++ 登神长阶/c++遗忘录.md",
     "images/Pasted image 20230809104701.png",
     "images/Pasted image 20230809101744.png",
