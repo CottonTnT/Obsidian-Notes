@@ -27,6 +27,13 @@ vt. 划分界线；区别
 to show the limits of something
 
 #word
+#### denote
+?
+v. 标志，预示；表示，意指
+**Notes**:
+to represent something
+
+#word
 #### devise
 ?
 v. 设计，发明；<法律>（通过遗嘱）遗赠（不动产）；<古>图谋
@@ -66,10 +73,10 @@ to include something as part of something larger
 #word
 #### parse
 ?
-v. 对（句子）作语法分析；仔细研究，分析
-n. （计算机）句法分析，句法分析结果
+n. 精神健全，精神正常；明智，通情达理
 **Notes**:
-to separate a sentence into grammatical parts, such as subject, verb, etc.
+1.the state of having a healthy mind and not being mentally ill
+2.the fact of showing good judgment and understanding
 
 #word
 #### precedence
@@ -79,6 +86,14 @@ n. （重要性或地位的）领先，优先权；地位先后，级别高低
 the condition of being dealt with before other things or of being considered more important than other things
 **Sentences**:
 **
+
+#word
+#### sanity
+?
+n. 精神健全，精神正常；明智，通情达理
+**Notes**:
+1.the state of having a healthy mind and not being mentally ill
+2.the fact of showing good judgment and understanding
 
 #word
 #### schema

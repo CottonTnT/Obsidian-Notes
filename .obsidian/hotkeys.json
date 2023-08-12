@@ -44,7 +44,7 @@
     }
   ],
   "editor:toggle-checklist-status": [],
-  "file-explorer:new-file-in-current-tab": [
+  "file-explorer:new-file": [
     {
       "modifiers": [
         "Mod"
@@ -52,7 +52,6 @@
       "key": "N"
     }
   ],
-  "file-explorer:new-file": [],
   "workspace:next-tab": [
     {
       "modifiers": [
