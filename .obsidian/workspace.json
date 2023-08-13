@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/terms in CPP.md",
+                "file": "我狠C/编译与链接/程序员的自我修养笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,12 +94,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/terms in CPP.md"
+                "file": "我狠C/编译与链接/程序员的自我修养笔记.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/terms in CPP.md",
+                "file": "我狠C/编译与链接/程序员的自我修养笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/terms in CPP.md",
+                "file": "我狠C/编译与链接/程序员的自我修养笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,8 +209,9 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "fdbfac55a2d5b68c",
+  "active": "90d947202b2994d7",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/terms in CPP.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
     "Typora的markdown语法.md",
     "我狠C/C++ 登神长阶/C ++中的类型转换.md",
@@ -222,7 +223,6 @@
     "我狠C/编译与链接/程序员的自我修养笔记.md",
     "images/Pasted image 20230812165739.png",
     "images/Pasted image 20230812164010.png",
-    "我狠C/C++ 登神长阶/terms in CPP.md",
     "我狠C/C++ 登神长阶/工具/Makefile.md",
     "我狠C/C++ 登神长阶/To be solved.md",
     "images/Pasted image 20230809192331.png",
