@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -187,8 +187,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -209,19 +208,22 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "fc46f3155911c8dc",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "未命名.md",
+    "我狠C/编译与链接/程序员的自我修养笔记.md",
+    "未命名.canvas",
+    "images/Pasted image 20230816153805.png",
+    "images/Pasted image 20230816144351.png",
+    "images/Pasted image 20230816143430.png",
     "images/Pasted image 20230816135415.png",
     "Typora的markdown语法.md",
-    "我狠C/编译与链接/程序员的自我修养笔记.md",
     "images/Pasted image 20230816133111.png",
     "images/Pasted image 20230816132725.png",
     "我狠C/C++ 登神长阶/C ++中的类型转换.md",
     "我狠C/C++ 登神长阶/terms in CPP.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
-    "未命名.md",
     "我狠C/C++ 登神长阶/未命名.md",
-    "未命名.canvas",
     "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
     "我狠C/C++ 登神长阶/C++ STL/未命名.md",
     "images/Pasted image 20230812165739.png",
@@ -234,10 +236,6 @@
     "我狠C/C++ 登神长阶/工具/Makefile/content summary.md",
     "我狠C/C++ 登神长阶/c++遗忘录.md",
     "images/Pasted image 20230809104701.png",
-    "images/Pasted image 20230809101744.png",
-    "images/Pasted image 20230809100157.png",
-    "images/Pasted image 20230808210911.png",
-    "images/Pasted image 20230808210857.png",
     "English/wordDB.md",
     "我狠C/C++ 登神长阶/C++ STL/结构及分类.md",
     "tools/计算机相关杂项.md",
