@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "970268a561084584",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fc46f3155911c8dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/编译与链接/程序员的自我修养笔记.md",
+                "file": "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/编辑器/vscode、.md",
+                "file": "Algorithm/数学知识/线性代数/how to think about linear-algebra.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,17 +76,17 @@
             }
           },
           {
-            "id": "90d947202b2994d7",
+            "id": "8e39effb7c798476",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "file-explorer",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md"
+                "sortOrder": "alphabetical"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -114,22 +101,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8e39effb7c798476",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
             "id": "ee9aab81f7f82e1d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md",
+                "file": "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md",
+                "file": "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,11 +149,13 @@
             }
           },
           {
-            "id": "d58d5e38202ac756",
+            "id": "90d947202b2994d7",
             "type": "leaf",
             "state": {
-              "type": "langr-stat",
-              "state": {}
+              "type": "outline",
+              "state": {
+                "file": "我狠C/C++ 登神长阶/C++ 异常机制实现.md"
+              }
             }
           },
           {
@@ -186,8 +165,17 @@
               "type": "review-queue-list-view",
               "state": {}
             }
+          },
+          {
+            "id": "d58d5e38202ac756",
+            "type": "leaf",
+            "state": {
+              "type": "langr-stat",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -202,16 +190,22 @@
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "obsidian-language-learner:打开查词面板": false,
-      "obsidian-language-learner:打开新词面板": false,
-      "obsidian-language-learner:打开统计": false,
+      "obsidian-language-learner:打开新词面板": true,
+      "obsidian-language-learner:打开统计": true,
       "obsidian-language-learner:单词列表": false,
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "Typora的markdown语法.md",
     "我狠C/编译与链接/程序员的自我修养笔记.md",
+    "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
+    "我狠C/C++ 登神长阶/C ++中的类型转换.md",
+    "Algorithm/数学知识/线性代数/how to think about linear-algebra.md",
+    "我狠C/编辑器/vscode、.md",
+    "Algorithm/数学知识/未命名.md",
+    "Algorithm/数学知识/线性代数",
+    "Typora的markdown语法.md",
     "未命名.md",
     "未命名.canvas",
     "images/Pasted image 20230816153805.png",
@@ -220,7 +214,6 @@
     "images/Pasted image 20230816135415.png",
     "images/Pasted image 20230816133111.png",
     "images/Pasted image 20230816132725.png",
-    "我狠C/C++ 登神长阶/C ++中的类型转换.md",
     "我狠C/C++ 登神长阶/terms in CPP.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
     "我狠C/C++ 登神长阶/未命名.md",
@@ -239,15 +232,12 @@
     "English/wordDB.md",
     "我狠C/C++ 登神长阶/C++ STL/结构及分类.md",
     "tools/计算机相关杂项.md",
-    "我狠C/编辑器/vscode、.md",
     "English/reviewDB.md",
     "English",
     "Algorithm/数据结构/tree/二叉树/平衡树.md",
     "我狠C/C++ 登神长阶/对象模型.md",
     "templates/To be solved.md",
     "www.tlsblog.xyz.md",
-    "我狠C/C++ 登神长阶/effective C++ 条款.md",
-    "操作系统/gnome/常用快捷键.md",
     "操作系统/gnome",
     "我狠C/编辑器",
     "我狠C/C++ 登神长阶",
@@ -255,7 +245,6 @@
     "未命名 1.canvas",
     "我狠C/编译与链接",
     "计算机网络/CS144",
-    "计算机网络",
-    "我狠C/C++ 登神长阶/modern effective c ++笔记提炼"
+    "计算机网络"
   ]
 }
