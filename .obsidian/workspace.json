@@ -13,34 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0ffe7ab0700f2472",
-            "type": "leaf",
-            "state": {
-              "type": "langr-data-panel",
-              "state": {}
-            }
-          },
-          {
-            "id": "1ce6a8b8f5dcf7f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/数学知识/线性代数/how to think about linear-algebra.md",
+                "file": "我狠C/C++ 登神长阶/grammer&semantic/blogs/运算符优先级.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -77,14 +56,6 @@
             }
           },
           {
-            "id": "fdbfac55a2d5b68c",
-            "type": "leaf",
-            "state": {
-              "type": "langr-search-panel",
-              "state": {}
-            }
-          },
-          {
             "id": "8e39effb7c798476",
             "type": "leaf",
             "state": {
@@ -115,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
+                "file": "我狠C/C++ 登神长阶/grammer&semantic/blogs/运算符优先级.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
+                "file": "我狠C/C++ 登神长阶/grammer&semantic/blogs/运算符优先级.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++ 异常机制实现.md"
+                "file": "我狠C/C++ 登神长阶/grammer&semantic/blogs/运算符优先级.md"
               }
             }
           },
@@ -205,10 +176,11 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "fdbfac55a2d5b68c",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "我狠C/编译与链接/程序员的自我修养笔记.md",
+    "我狠C/C++ 登神长阶/grammer&semantic/Operator overloading.md",
     "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
+    "我狠C/编译与链接/程序员的自我修养笔记.md",
     "我狠C/C++ 登神长阶/C ++中的类型转换.md",
     "Algorithm/数学知识/线性代数/how to think about linear-algebra.md",
     "我狠C/编辑器/vscode、.md",
@@ -246,7 +218,6 @@
     "Algorithm/数据结构/tree/二叉树/平衡树.md",
     "我狠C/C++ 登神长阶/对象模型.md",
     "templates/To be solved.md",
-    "www.tlsblog.xyz.md",
     "操作系统/gnome",
     "我狠C/编辑器",
     "我狠C/C++ 登神长阶",
