@@ -20,6 +20,14 @@
             }
           },
           {
+            "id": "0ffe7ab0700f2472",
+            "type": "leaf",
+            "state": {
+              "type": "langr-data-panel",
+              "state": {}
+            }
+          },
+          {
             "id": "1ce6a8b8f5dcf7f8",
             "type": "leaf",
             "state": {
@@ -31,7 +39,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -196,7 +205,7 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "fdbfac55a2d5b68c",
   "lastOpenFiles": [
     "我狠C/编译与链接/程序员的自我修养笔记.md",
     "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
