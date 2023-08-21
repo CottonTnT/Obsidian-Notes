@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a1b2920ea43c6411",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -64,6 +73,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "832f123c6c6c926a",
+            "type": "leaf",
+            "state": {
+              "type": "langr-search-panel",
+              "state": {}
+            }
           }
         ],
         "currentTab": 2
@@ -86,7 +103,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/关键字详解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +119,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/关键字详解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +148,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "我狠C/C++ 登神长阶/关键字详解.md"
-              }
+              "state": {}
             }
           },
           {
@@ -176,8 +189,9 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "a1b2920ea43c6411",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/关键字详解.md",
     "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
     "我狠C/C++ 登神长阶/未命名.md",
     "我狠C/C++ 登神长阶/effective C++ 条款.md",
@@ -200,7 +214,6 @@
     "images/Pasted image 20230816133111.png",
     "images/Pasted image 20230816132725.png",
     "我狠C/C++ 登神长阶/terms in CPP.md",
-    "我狠C/C++ 登神长阶/关键字详解.md",
     "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
     "我狠C/C++ 登神长阶/C++ STL/未命名.md",
     "images/Pasted image 20230812165739.png",
