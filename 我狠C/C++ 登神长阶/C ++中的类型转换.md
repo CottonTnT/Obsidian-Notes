@@ -57,3 +57,6 @@ reinterpret_cast<typeid>(expression)
 - dynamic_cast 不用于内置基本数据类型的强制转换，只能对指针或引用进行强制转换
 - dynamic_cast 转换成功返回的是指向类的指针或引用，*转换失败返回nullptr*
 
+
+### 底层实现
+

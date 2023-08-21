@@ -23,8 +23,12 @@
             "id": "a1b2920ea43c6411",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -103,6 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,6 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +154,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md"
+              }
             }
           },
           {
@@ -168,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -189,11 +197,14 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "a1b2920ea43c6411",
+  "active": "90d947202b2994d7",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/对象模型.md",
+    "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
+    "images/Pasted image 20230821171147.png",
+    "我狠C/C++ 登神长阶/To be solved.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
     "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
-    "我狠C/C++ 登神长阶/未命名.md",
     "我狠C/C++ 登神长阶/effective C++ 条款.md",
     "我狠C/C++ 登神长阶/c++遗忘录.md",
     "我狠C/C++ 登神长阶/grammer&semantic/blogs/运算符优先级.md",
@@ -219,18 +230,15 @@
     "images/Pasted image 20230812165739.png",
     "images/Pasted image 20230812164010.png",
     "我狠C/C++ 登神长阶/工具/Makefile.md",
-    "我狠C/C++ 登神长阶/To be solved.md",
     "images/Pasted image 20230809192331.png",
     "img/1.png.md",
     "img",
     "我狠C/C++ 登神长阶/工具/Makefile/content summary.md",
-    "images/Pasted image 20230809104701.png",
     "English/wordDB.md",
     "我狠C/C++ 登神长阶/C++ STL/结构及分类.md",
     "tools/计算机相关杂项.md",
     "English/reviewDB.md",
     "English",
-    "Algorithm/数据结构/tree/二叉树/平衡树.md",
     "操作系统/gnome",
     "我狠C/编辑器",
     "我狠C/C++ 登神长阶",
