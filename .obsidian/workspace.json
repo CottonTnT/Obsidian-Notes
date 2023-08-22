@@ -4,35 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "9ce06bd0fc40e65f",
+        "id": "7992fec3ab133055",
         "type": "tabs",
         "children": [
           {
-            "id": "3bb3f74121c934ff",
+            "id": "b7cf9335599e2208",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/关键字详解.md",
+                "file": "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a1b2920ea43c6411",
+            "id": "3ec2fbd046d9afcd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "langr-data-panel",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#include",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -107,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
+                "file": "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
+                "file": "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md"
+                "file": "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md"
               }
             }
           },
@@ -176,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -191,21 +186,24 @@
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "obsidian-language-learner:打开查词面板": false,
-      "obsidian-language-learner:打开新词面板": true,
+      "obsidian-language-learner:打开新词面板": false,
       "obsidian-language-learner:打开统计": true,
       "obsidian-language-learner:单词列表": false,
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "b7cf9335599e2208",
   "lastOpenFiles": [
+    "English/wordDB.md",
+    "English/reviewDB.md",
+    "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
+    "我狠C/C++ 登神长阶/关键字详解.md",
+    "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
     "我狠C/C++ 登神长阶/effective C++ 条款.md",
     "我狠C/C++ 登神长阶/C ++中的类型转换.md",
     "我狠C/C++ 登神长阶/对象模型.md",
-    "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
     "images/Pasted image 20230821171147.png",
     "我狠C/C++ 登神长阶/To be solved.md",
-    "我狠C/C++ 登神长阶/关键字详解.md",
     "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
     "我狠C/C++ 登神长阶/c++遗忘录.md",
     "我狠C/C++ 登神长阶/grammer&semantic/blogs/运算符优先级.md",
@@ -234,10 +232,7 @@
     "img/1.png.md",
     "img",
     "我狠C/C++ 登神长阶/工具/Makefile/content summary.md",
-    "English/wordDB.md",
     "我狠C/C++ 登神长阶/C++ STL/结构及分类.md",
-    "tools/计算机相关杂项.md",
-    "English/reviewDB.md",
     "English",
     "操作系统/gnome",
     "我狠C/编辑器",

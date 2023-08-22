@@ -10,6 +10,17 @@ to avoid something, especially cleverly or illegally
 **
 
 #word
+#### compendium
+?
+n. 候选人，申请者；有望体验（得到）……的人（物）；投考者，考生；攻读学位者
+**Notes**:
+1.a person who is competing to get a job or elected position
+2.a person or thing considered likely to receive or experience something
+3.someone who is taking an exam
+**Sentences**:
+**
+
+#word
 #### correspond
 ?
 v. 类似于，相当于；通信；相一致，符合
