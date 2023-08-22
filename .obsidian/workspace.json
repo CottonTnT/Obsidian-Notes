@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md",
+                "file": "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md",
+                "file": "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md",
+                "file": "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md"
+                "file": "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md"
               }
             }
           },
@@ -197,20 +197,20 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "90d947202b2994d7",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/effective C++ 条款.md",
+    "我狠C/C++ 登神长阶/C ++中的类型转换.md",
     "我狠C/C++ 登神长阶/对象模型.md",
     "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
     "images/Pasted image 20230821171147.png",
     "我狠C/C++ 登神长阶/To be solved.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
     "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
-    "我狠C/C++ 登神长阶/effective C++ 条款.md",
     "我狠C/C++ 登神长阶/c++遗忘录.md",
     "我狠C/C++ 登神长阶/grammer&semantic/blogs/运算符优先级.md",
     "我狠C/C++ 登神长阶/grammer&semantic/Operator overloading.md",
     "我狠C/编译与链接/程序员的自我修养笔记.md",
-    "我狠C/C++ 登神长阶/C ++中的类型转换.md",
     "Algorithm/数学知识/线性代数/how to think about linear-algebra.md",
     "我狠C/编辑器/vscode、.md",
     "Algorithm/数学知识/未命名.md",
