@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/xv6/xv6book.md",
+                "file": "我狠C/C++ 登神长阶/C++对象模型.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,11 +82,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 265.5
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/xv6/xv6book.md",
+                "file": "我狠C/C++ 登神长阶/C++对象模型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/xv6/xv6book.md",
+                "file": "我狠C/C++ 登神长阶/C++对象模型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/xv6/xv6book.md"
+                "file": "我狠C/C++ 登神长阶/C++对象模型.md"
               }
             }
           },
@@ -194,17 +194,18 @@
   },
   "active": "b7cf9335599e2208",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/C ++中的类型转换.md",
+    "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
+    "我狠C/C++ 登神长阶/关键字详解.md",
+    "我狠C/C++ 登神长阶/C++对象模型.md",
+    "操作系统/xv6/xv6book.md",
     "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
     "English/wordDB.md",
     "English/reviewDB.md",
-    "我狠C/C++ 登神长阶/关键字详解.md",
     "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
     "我狠C/C++ 登神长阶/effective C++ 条款.md",
-    "我狠C/C++ 登神长阶/C ++中的类型转换.md",
-    "我狠C/C++ 登神长阶/对象模型.md",
     "images/Pasted image 20230821171147.png",
     "我狠C/C++ 登神长阶/To be solved.md",
-    "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
     "我狠C/C++ 登神长阶/c++遗忘录.md",
     "我狠C/C++ 登神长阶/grammer&semantic/blogs/运算符优先级.md",
     "我狠C/C++ 登神长阶/grammer&semantic/Operator overloading.md",
@@ -232,7 +233,6 @@
     "img/1.png.md",
     "img",
     "我狠C/C++ 登神长阶/工具/Makefile/content summary.md",
-    "我狠C/C++ 登神长阶/C++ STL/结构及分类.md",
     "English",
     "操作系统/gnome",
     "我狠C/编辑器",
