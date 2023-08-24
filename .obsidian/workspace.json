@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
+                "file": "操作系统/xv6/xv6book.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
+                "file": "操作系统/xv6/xv6book.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
+                "file": "操作系统/xv6/xv6book.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md"
+                "file": "操作系统/xv6/xv6book.md"
               }
             }
           },
@@ -194,9 +194,9 @@
   },
   "active": "b7cf9335599e2208",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
     "English/wordDB.md",
     "English/reviewDB.md",
-    "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
     "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
     "我狠C/C++ 登神长阶/effective C++ 条款.md",
