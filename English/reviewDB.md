@@ -72,6 +72,15 @@ a small device or machine with a particular purpose
 **
 
 #word
+#### gait
+?
+n. 步法，步态
+vt. 训练步法
+**Notes**:
+1.a particular way of walking
+2.the particular way a horse walks or runs
+
+#word
 #### incorporate
 ?
 v. 包含，合并；组成公司；掺和，混合（成分）；使具体化，体现
@@ -97,6 +106,14 @@ n. （重要性或地位的）领先，优先权；地位先后，级别高低
 the condition of being dealt with before other things or of being considered more important than other things
 **Sentences**:
 **
+
+#word
+#### repetition
+?
+n. 重复，重说，重做； 重做的事，重说的话；重复的事物，复制品；（乐）（章节或音节的）反复；<古>教师指定的背诵材料
+**Notes**:
+1.the act of doing or saying something again
+2.something that happens in the same way as something that happened before
 
 #word
 #### sanity
@@ -142,6 +159,17 @@ n. 转置阵
 **Notes**:
 1.to change something from one position to another, or to exchange the positions of two things
 2.to play or write a piece of music in a different key
+
+#word
+#### volume
+?
+n. 体积，容积；总数，总量；音量，响度；（控制音量的）旋钮，控制杆；（成套图书中的）卷，册；（期刊）合订本；书籍；<史>（写在羊皮纸或纸草纸上的）书卷；（尤指头发的）厚，多
+adj. 大量的
+v. 以卷的形式发出；成团卷起
+**Notes**:
+1.the amount of space that is contained within an object or solid shape
+2.the level of sound produced by a television, radio, etc., or the switch or other device controlling this
+3.one in a set of related books or a book
 
 #word
 #### vulnerability
