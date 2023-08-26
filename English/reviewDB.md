@@ -55,6 +55,13 @@ to invent a plan, system, object, etc., usually using your intelligence or imagi
 **
 
 #word
+#### dropdown
+?
+adj. 可折叠的，可展开的；（计算机菜单）下拉式的
+**Notes**:
+
+
+#word
 #### emulate
 ?
 v. 仿效，模仿；仿真；努力赶上
@@ -145,6 +152,13 @@ a drawing that represents an idea or theory and makes it easier to understand
 v. 明确指出；具体说明；把……列入说明书
 **Notes**:
 to explain or describe something clearly and exactly
+
+#word
+#### squiggle
+?
+n．潦草的线条，涂鸦：无规律、随意的线条或图案，通常用于描述手写或绘画中的不规则线条。
+**Notes**:
+a short line that has been written or drawn and that curves and twists in a way that is not regular
 
 #word
 #### thwart
