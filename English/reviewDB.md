@@ -108,6 +108,15 @@ the condition of being dealt with before other things or of being considered mor
 **
 
 #word
+#### proprietary
+?
+adj. 所有的，所有权的；专卖的，专利的；所有者的；私有的，私密的
+n. 所有权；所有人
+**Notes**:
+1.relating to owning something, or relating to or like an owner
+2.Proprietary goods are made and sent out by a particular company whose name is on the product.
+
+#word
 #### repetition
 ?
 n. 重复，重说，重做； 重做的事，重说的话；重复的事物，复制品；（乐）（章节或音节的）反复；<古>教师指定的背诵材料
