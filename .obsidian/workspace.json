@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/编辑器/vscode、.md",
+                "file": "论文随笔/Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/编辑器/vscode、.md",
+                "file": "论文随笔/Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/编辑器/vscode、.md",
+                "file": "论文随笔/Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/编辑器/vscode、.md"
+                "file": "论文随笔/Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi.md"
               }
             }
           },
@@ -184,8 +184,9 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "57ce7dc368ebbb01",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "我狠C/编辑器/vscode、.md",
     "English/wordDB.md",
     "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
     "我狠C/C++ 登神长阶/C++对象模型.md",
@@ -204,7 +205,6 @@
     "我狠C/C++ 登神长阶/grammer&semantic/Operator overloading.md",
     "我狠C/编译与链接/程序员的自我修养笔记.md",
     "Algorithm/数学知识/线性代数/how to think about linear-algebra.md",
-    "我狠C/编辑器/vscode、.md",
     "Algorithm/数学知识/未命名.md",
     "Algorithm/数学知识/线性代数",
     "Typora的markdown语法.md",
