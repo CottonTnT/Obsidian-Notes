@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文随笔/Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi.md",
+                "file": "Algorithm/算法模型/递归.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文随笔/Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi.md",
+                "file": "Algorithm/算法模型/递归.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文随笔/Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi.md",
+                "file": "Algorithm/算法模型/递归.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文随笔/Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi.md"
+                "file": "Algorithm/算法模型/递归.md"
               }
             }
           },
@@ -186,6 +186,13 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "Algorithm/DFS/构建DFS思路.md",
+    "Algorithm/DFS/好题收集/dfs的模型构造及处理.md",
+    "Algorithm/算法模型/递归.md",
+    "Algorithm/算法模型/递归模型/未命名.md",
+    "Algorithm/算法模型/递归模型/线型.md",
+    "Algorithm/算法模型/递归模型/树枝型.md",
+    "论文随笔/Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi.md",
     "我狠C/编辑器/vscode、.md",
     "English/wordDB.md",
     "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
@@ -207,8 +214,6 @@
     "Algorithm/数学知识/线性代数/how to think about linear-algebra.md",
     "Algorithm/数学知识/未命名.md",
     "Algorithm/数学知识/线性代数",
-    "Typora的markdown语法.md",
-    "未命名.md",
     "未命名.canvas",
     "images/Pasted image 20230816153805.png",
     "images/Pasted image 20230816144351.png",
@@ -216,15 +221,10 @@
     "images/Pasted image 20230816135415.png",
     "images/Pasted image 20230816133111.png",
     "images/Pasted image 20230816132725.png",
-    "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
-    "我狠C/C++ 登神长阶/C++ STL/未命名.md",
     "images/Pasted image 20230812165739.png",
     "images/Pasted image 20230812164010.png",
-    "我狠C/C++ 登神长阶/工具/Makefile.md",
     "images/Pasted image 20230809192331.png",
-    "img/1.png.md",
     "img",
-    "我狠C/C++ 登神长阶/工具/Makefile/content summary.md",
     "English",
     "操作系统/gnome",
     "我狠C/编辑器",
