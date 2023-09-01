@@ -98,12 +98,35 @@ to include something as part of something larger
 **
 
 #word
+#### lever
+?
+n. （车辆或机器的）操纵杆，控制杆；杠杆；（用于达到某一目的的）手段，方法
+v. （用杠杆）撬动；挤走（某人）；（均衡地用力）移动；把……作为杠杆
+**Notes**:
+1.a bar or handle that moves around a fixed point, so that one end of it can be pushed or pulled in order to control the operation of a machine or move a heavy or stiff object
+2.something you use, often unfairly, to try to persuade someone to do what you want
+
+#word
+#### leverage
+?
+n. 影响力，手段；杠杆力，杠杆作用；<美>杠杆比率
+v. <英>举债经营；充分利用（资源、观点等）
+
+#word
 #### parse
 ?
 n. 精神健全，精神正常；明智，通情达理
 **Notes**:
 1.the state of having a healthy mind and not being mentally ill
 2.the fact of showing good judgment and understanding
+
+#word
+#### perceive
+?
+vt. 认为，理解；察觉，注意到；意识到
+**Notes**:
+1.to come to an opinion about something, or have a belief about something
+2.to see something or someone, or to notice something that is obvious
 
 #word
 #### precedence
