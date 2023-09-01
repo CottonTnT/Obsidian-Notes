@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/动态规划/线性DP/抽象模型.md",
+                "file": "Algorithm/动态规划/背包问题/01背包.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/动态规划/线性DP/抽象模型.md",
+                "file": "Algorithm/动态规划/背包问题/01背包.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/动态规划/线性DP/抽象模型.md",
+                "file": "Algorithm/动态规划/背包问题/01背包.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/动态规划/线性DP/抽象模型.md"
+                "file": "Algorithm/动态规划/背包问题/01背包.md"
               }
             }
           },
@@ -186,8 +186,8 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "Algorithm/动态规划/我是无数的你进化.md",
     "Algorithm/动态规划/线性DP/抽象模型.md",
+    "Algorithm/动态规划/我是无数的你进化.md",
     "Algorithm/动态规划/线性DP/().md",
     "Algorithm/动态规划/背包问题/分组背包问题.md",
     "Algorithm/动态规划/背包问题/01背包.md",
