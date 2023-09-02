@@ -88,6 +88,13 @@ vt. 训练步法
 2.the particular way a horse walks or runs
 
 #word
+#### granularity
+?
+n. 间隔尺寸，[岩] 粒度
+**Notes**:
+
+
+#word
 #### incorporate
 ?
 v. 包含，合并；组成公司；掺和，混合（成分）；使具体化，体现
@@ -161,6 +168,14 @@ n. 精神健全，精神正常；明智，通情达理
 **Notes**:
 1.the state of having a healthy mind and not being mentally ill
 2.the fact of showing good judgment and understanding
+
+#word
+#### scatter
+?
+v. 撒，播撒；（使）散开，（使）散布在各处；（物理）散射（电磁辐射或粒子）；（棒球）（被击中但没有得分的）有效投（球）
+n. 零星散布的东西；（统计）（对某一变量作反复测量或观察所得数值的）离差；（物理）（光、其他电磁波或粒子的）散射
+**Notes**:
+
 
 #word
 #### schema
