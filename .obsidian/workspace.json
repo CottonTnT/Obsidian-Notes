@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/动态规划/背包问题/01背包.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f73d2a3ab85701a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "论文随笔/未命名.md",
+                "file": "通信原理/信号与系统.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文随笔/未命名.md",
+                "file": "通信原理/信号与系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文随笔/未命名.md",
+                "file": "通信原理/信号与系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文随笔/未命名.md"
+                "file": "通信原理/信号与系统.md"
               }
             }
           },
@@ -199,7 +186,15 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "论文随笔/未命名.md",
+    "通信原理/电磁场与电磁波.md",
+    "images/Pasted image 20230904161439.png",
+    "images/Pasted image 20230904161420.png",
+    "通信原理/信号与系统.md",
+    "images/Pasted image 20230904135637.png",
+    "images/Pasted image 20230904133721.png",
+    "images/Pasted image 20230904133543.png",
+    "论文随笔/学习指南.md",
+    "通信原理",
     "Algorithm/动态规划/背包问题/01背包.md",
     "Algorithm/动态规划/线性DP/抽象模型.md",
     "Algorithm/动态规划/我是无数的你进化.md",
@@ -222,9 +217,6 @@
     "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
     "操作系统/xv6/xv6book.md",
-    "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
-    "English/reviewDB.md",
-    "我狠C/C++ 登神长阶/effective C++ 条款.md",
     "images/Pasted image 20230821171147.png",
     "Algorithm/数学知识/线性代数",
     "未命名.canvas",
@@ -232,11 +224,6 @@
     "images/Pasted image 20230816144351.png",
     "images/Pasted image 20230816143430.png",
     "images/Pasted image 20230816135415.png",
-    "images/Pasted image 20230816133111.png",
-    "images/Pasted image 20230816132725.png",
-    "images/Pasted image 20230812165739.png",
-    "images/Pasted image 20230812164010.png",
-    "images/Pasted image 20230809192331.png",
     "img",
     "English",
     "操作系统/gnome",
@@ -245,7 +232,6 @@
     "浏览器",
     "未命名 1.canvas",
     "我狠C/编译与链接",
-    "计算机网络/CS144",
-    "计算机网络"
+    "计算机网络/CS144"
   ]
 }
