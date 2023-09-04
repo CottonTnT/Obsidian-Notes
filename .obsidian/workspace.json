@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "016cd93b61f5d8d9",
+        "id": "6f603ca1e8179f2f",
         "type": "tabs",
         "children": [
           {
-            "id": "415cac2de4a98958",
+            "id": "ed55dbffb582a212",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "通信原理/信号与系统.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "通信原理/信号与系统.md",
+                "file": "Algorithm/图论/最短路问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "通信原理/信号与系统.md",
+                "file": "Algorithm/图论/最短路问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "通信原理/信号与系统.md"
+                "file": "Algorithm/图论/最短路问题.md"
               }
             }
           },
@@ -186,10 +182,10 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "通信原理/信号与系统.md",
     "通信原理/电磁场与电磁波.md",
     "images/Pasted image 20230904161439.png",
     "images/Pasted image 20230904161420.png",
-    "通信原理/信号与系统.md",
     "images/Pasted image 20230904135637.png",
     "images/Pasted image 20230904133721.png",
     "images/Pasted image 20230904133543.png",
