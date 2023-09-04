@@ -23,8 +23,12 @@
             "id": "1f73d2a3ab85701a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "论文随笔/未命名.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -83,7 +87,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -103,6 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "论文随笔/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,6 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "论文随笔/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +154,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "论文随笔/未命名.md"
+              }
             }
           },
           {
@@ -189,8 +197,9 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "1f73d2a3ab85701a",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "论文随笔/未命名.md",
     "Algorithm/动态规划/背包问题/01背包.md",
     "Algorithm/动态规划/线性DP/抽象模型.md",
     "Algorithm/动态规划/我是无数的你进化.md",
@@ -217,7 +226,6 @@
     "English/reviewDB.md",
     "我狠C/C++ 登神长阶/effective C++ 条款.md",
     "images/Pasted image 20230821171147.png",
-    "我狠C/C++ 登神长阶/To be solved.md",
     "Algorithm/数学知识/线性代数",
     "未命名.canvas",
     "images/Pasted image 20230816153805.png",
