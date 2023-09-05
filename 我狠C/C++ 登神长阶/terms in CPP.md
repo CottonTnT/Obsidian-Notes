@@ -46,3 +46,10 @@
 
 [what does const static mean in C and C ++](https://stackoverflow.com/questions/177437/what-does-const-static-mean-in-c-and-c/177781#177781?newreg=5e127facde354737af6946e99af9ae62)
 
+
+# 数组名
+
+
+## material
+
+[is an array name a pointer](https://stackoverflow.com/questions/1641957/is-an-array-name-a-pointer)
