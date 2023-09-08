@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "img/1.png.md",
+                "file": "资源整理/壁纸.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "img/1.png.md",
+                "file": "资源整理/壁纸.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "img/1.png.md",
+                "file": "资源整理/壁纸.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "img/1.png.md"
+                "file": "资源整理/壁纸.md"
               }
             }
           },
@@ -184,8 +184,9 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "ed55dbffb582a212",
   "lastOpenFiles": [
+    "img/1.png.md",
     "通信原理/信号与系统.md",
     "通信原理/电磁场与电磁波.md",
     "我狠C/C++ 登神长阶/terms in CPP.md",
@@ -217,7 +218,6 @@
     "我狠C/C++ 登神长阶/C ++中的类型转换.md",
     "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
-    "操作系统/xv6/xv6book.md",
     "images/Pasted image 20230821171147.png",
     "Algorithm/数学知识/线性代数",
     "未命名.canvas",
