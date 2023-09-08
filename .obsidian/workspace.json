@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通信原理/信号与系统.md",
+                "file": "img/1.png.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "通信原理/信号与系统.md",
+                "file": "img/1.png.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "通信原理/信号与系统.md",
+                "file": "img/1.png.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "通信原理/信号与系统.md"
+                "file": "img/1.png.md"
               }
             }
           },
@@ -171,25 +171,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": true,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": true,
-      "daily-notes:打开/创建今天的日记": true,
-      "templates:插入模板": true,
-      "command-palette:打开命令面板": true,
-      "obsidian-language-learner:打开查词面板": false,
-      "obsidian-language-learner:打开新词面板": false,
-      "obsidian-language-learner:打开统计": true,
-      "obsidian-language-learner:单词列表": false,
-      "obsidian-spaced-repetition:复习卡片": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-language-learner:Open word search panel": false,
+      "obsidian-language-learner:Open new word panel": false,
+      "obsidian-language-learner:Open statistics": false,
+      "obsidian-language-learner:Data Panel": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "通信原理/信号与系统.md",
     "通信原理/电磁场与电磁波.md",
     "我狠C/C++ 登神长阶/terms in CPP.md",
     "Algorithm/图论/最短路问题.md",
-    "通信原理/信号与系统.md",
     "images/Pasted image 20230904161439.png",
     "images/Pasted image 20230904161420.png",
     "images/Pasted image 20230904135637.png",
