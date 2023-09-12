@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/数据结构/前缀和与差分/前缀和.md",
+                "file": "资源整理/壁纸.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/数据结构/前缀和与差分/前缀和.md",
+                "file": "资源整理/壁纸.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/数据结构/前缀和与差分/前缀和.md",
+                "file": "资源整理/壁纸.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/数据结构/前缀和与差分/前缀和.md"
+                "file": "资源整理/壁纸.md"
               }
             }
           },
@@ -184,10 +184,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "ed55dbffb582a212",
   "lastOpenFiles": [
-    "Algorithm/数据结构/前缀和与差分/差分.md",
     "Algorithm/数据结构/前缀和与差分/前缀和.md",
+    "Algorithm/数据结构/前缀和与差分/差分.md",
     "Algorithm/算法评估.md",
     "Algorithm/字符串/字符串hash.md",
     "资源整理/壁纸.md",
