@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/字符串/KMP.md",
+                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/字符串/KMP.md",
+                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/字符串/KMP.md",
+                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/字符串/KMP.md"
+                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md"
               }
             }
           },
@@ -186,8 +186,11 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "Algorithm/字符串/字符串hash.md",
+    "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
+    "Algorithm/数据结构/tree/二叉树/平衡树.md",
+    "Algorithm/数据结构/tree/二叉树/叉叉.md",
     "Algorithm/字符串/KMP.md",
+    "Algorithm/字符串/字符串hash.md",
     "资源整理/壁纸.md",
     "Algorithm/数据结构/前缀和与差分/前缀和.md",
     "Algorithm/数据结构/前缀和与差分/差分.md",
@@ -216,9 +219,6 @@
     "Algorithm/DFS/好题收集/dfs的模型构造及处理.md",
     "Algorithm/算法模型/递归模型/未命名.md",
     "Algorithm/算法模型/递归模型/线型.md",
-    "Algorithm/算法模型/递归模型/树枝型.md",
-    "论文随笔/Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi.md",
-    "English/wordDB.md",
     "images/Pasted image 20230821171147.png",
     "Algorithm/数学知识/线性代数",
     "未命名.canvas",
