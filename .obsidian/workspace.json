@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6f603ca1e8179f2f",
+        "id": "d418ab4052a5b0d5",
         "type": "tabs",
         "children": [
           {
-            "id": "ed55dbffb582a212",
+            "id": "1e89cd2e2e3c1937",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algorithm/数据结构/tree/二叉树/叉叉.md"
-              }
+              "state": {}
             }
           },
           {
@@ -160,6 +152,16 @@
             "state": {
               "type": "langr-stat",
               "state": {}
+            }
+          },
+          {
+            "id": "de6d158eac405474",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -184,8 +186,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "1e89cd2e2e3c1937",
   "lastOpenFiles": [
+    "tools/安全与密码学.md",
+    "images/Pasted image 20230401220255.png",
     "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
     "Algorithm/数据结构/tree/二叉树/平衡树.md",
     "Algorithm/数据结构/tree/二叉树/叉叉.md",
@@ -218,14 +222,12 @@
     "Algorithm/DFS/构建DFS思路.md",
     "Algorithm/DFS/好题收集/dfs的模型构造及处理.md",
     "Algorithm/算法模型/递归模型/未命名.md",
-    "Algorithm/算法模型/递归模型/线型.md",
     "images/Pasted image 20230821171147.png",
     "Algorithm/数学知识/线性代数",
     "未命名.canvas",
     "images/Pasted image 20230816153805.png",
     "images/Pasted image 20230816144351.png",
     "images/Pasted image 20230816143430.png",
-    "images/Pasted image 20230816135415.png",
     "img",
     "English",
     "操作系统/gnome",
