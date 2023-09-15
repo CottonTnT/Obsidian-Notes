@@ -11,8 +11,12 @@
             "id": "1e89cd2e2e3c1937",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "通信原理/电磁场与电磁波.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "images/Pasted image 20230904133721.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "images/Pasted image 20230904133721.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "images/Pasted image 20230904133721.png"
+              }
             }
           },
           {
@@ -186,8 +194,9 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1e89cd2e2e3c1937",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "通信原理/电磁场与电磁波.md",
     "tools/安全与密码学.md",
     "images/Pasted image 20230401220255.png",
     "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
@@ -202,7 +211,6 @@
     "Algorithm/字符串",
     "img/1.png.md",
     "通信原理/信号与系统.md",
-    "通信原理/电磁场与电磁波.md",
     "我狠C/C++ 登神长阶/terms in CPP.md",
     "Algorithm/图论/最短路问题.md",
     "images/Pasted image 20230904161439.png",
