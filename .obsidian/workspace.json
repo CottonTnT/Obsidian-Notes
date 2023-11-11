@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/字符串/KMP.md",
+                "file": "tools/git.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/字符串/KMP.md",
+                "file": "tools/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/字符串/KMP.md",
+                "file": "tools/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/字符串/KMP.md"
+                "file": "tools/git.md"
               }
             }
           },
@@ -177,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,53 +197,52 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "Algorithm/字符串/字符串hash.md",
-    "通信原理/电磁场与电磁波.md",
-    "tools/安全与密码学.md",
-    "images/Pasted image 20230401220255.png",
-    "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
-    "Algorithm/数据结构/tree/二叉树/平衡树.md",
-    "Algorithm/数据结构/tree/二叉树/叉叉.md",
-    "Algorithm/字符串/KMP.md",
-    "资源整理/壁纸.md",
-    "Algorithm/数据结构/前缀和与差分/前缀和.md",
-    "Algorithm/数据结构/前缀和与差分/差分.md",
+    "论文随笔/CNN.md",
+    "images/Pasted image 20231110190458.png",
+    "images/Pasted image 20231110163944.png",
+    "images/Pasted image 20231109141753.png",
+    "论文随笔/优化方法.md",
+    "images/Pasted image 20231109134606.png",
+    "images/Pasted image 20231109130440.png",
+    "images/Pasted image 20231109130313.png",
+    "images/Pasted image 20231109125427.png",
+    "论文随笔/Python.md",
+    "images/Pasted image 20231104211811.png",
+    "tools/bash 脚本.md",
+    "Algorithm/变换技巧/矩阵.md",
+    "Algorithm/数据结构/矩阵加速.md",
     "Algorithm/算法评估.md",
-    "Algorithm/字符串",
-    "img/1.png.md",
-    "通信原理/信号与系统.md",
-    "我狠C/C++ 登神长阶/terms in CPP.md",
-    "Algorithm/图论/最短路问题.md",
-    "images/Pasted image 20230904161439.png",
-    "images/Pasted image 20230904161420.png",
-    "images/Pasted image 20230904135637.png",
-    "images/Pasted image 20230904133721.png",
-    "images/Pasted image 20230904133543.png",
-    "论文随笔/学习指南.md",
-    "通信原理",
-    "Algorithm/动态规划/背包问题/01背包.md",
-    "Algorithm/动态规划/线性DP/抽象模型.md",
-    "Algorithm/动态规划/我是无数的你进化.md",
-    "Algorithm/动态规划/线性DP/().md",
-    "Algorithm/动态规划/背包问题/分组背包问题.md",
-    "我狠C/编辑器/vscode、.md",
+    "Algorithm/数据结构/Untitled",
+    "Algorithm/算法模型/Recursion.md",
     "Algorithm/算法模型/递归.md",
-    "Algorithm/DFS/构建DFS思路.md",
-    "Algorithm/DFS/好题收集/dfs的模型构造及处理.md",
+    "Algorithm/算法模型/Untitled",
+    "Algorithm/算法模型/递归模型/树枝型.md",
     "Algorithm/算法模型/递归模型/未命名.md",
-    "images/Pasted image 20230821171147.png",
+    "Algorithm/算法模型/递归模型/线型.md",
+    "Algorithm/DFS/构建DFS思路.md",
+    "Algorithm/数学知识/欧拉公式.md",
+    "images/Pasted image 20230924142342.png",
+    "images/Pasted image 20230924135418.png",
+    "我狠C/编辑器/vim.md",
+    "Algorithm/数学知识/Untitled",
+    "Algorithm/数学知识/欧拉公式/Untitled.md",
+    "Algorithm/数学知识/欧拉公式",
+    "我狠C/编辑器/vscode、.md",
+    "Algorithm/数据结构/倍增.md",
+    "vim.md",
+    "Algorithm/字符串/字符串hash.md",
+    "Algorithm/变换技巧/环.md",
+    "Deep Learning/d2l.md",
+    "Algorithm/变换技巧",
+    "Deep Learning/Untitled.md",
+    "Algorithm/字符串/KMP.md",
+    "Algorithm/字符串/Untitled.md",
+    "Deep Learning/d2l",
+    "Deep Learning",
+    "Algorithm/字符串",
+    "通信原理",
     "Algorithm/数学知识/线性代数",
     "未命名.canvas",
-    "images/Pasted image 20230816153805.png",
-    "images/Pasted image 20230816144351.png",
-    "images/Pasted image 20230816143430.png",
-    "img",
-    "English",
-    "操作系统/gnome",
-    "我狠C/编辑器",
-    "我狠C/C++ 登神长阶",
-    "浏览器",
-    "未命名 1.canvas",
-    "我狠C/编译与链接"
+    "未命名 1.canvas"
   ]
 }
