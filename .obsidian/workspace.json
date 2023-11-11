@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/git.md",
+                "file": "我狠C/编辑器/vim.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/git.md",
+                "file": "我狠C/编辑器/vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/git.md",
+                "file": "我狠C/编辑器/vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/git.md"
+                "file": "我狠C/编辑器/vim.md"
               }
             }
           },
@@ -197,6 +197,7 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "tools/git.md",
     "论文随笔/CNN.md",
     "images/Pasted image 20231110190458.png",
     "images/Pasted image 20231110163944.png",
