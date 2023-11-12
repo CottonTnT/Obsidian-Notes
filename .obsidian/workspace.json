@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文随笔/Batch Normalization.md",
+                "file": "论文随笔/Normalization in NN.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文随笔/Batch Normalization.md",
+                "file": "论文随笔/Normalization in NN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文随笔/Batch Normalization.md",
+                "file": "论文随笔/Normalization in NN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文随笔/Batch Normalization.md"
+                "file": "论文随笔/Normalization in NN.md"
               }
             }
           },
@@ -195,10 +195,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "1e89cd2e2e3c1937",
   "lastOpenFiles": [
+    "images/Pasted image 20231112150451.png",
+    "images/Pasted image 20231112150317.png",
     "Deep Learning/d2l.md",
-    "论文随笔/Batch Normalization.md",
+    "论文随笔/Normalization in NN.md",
     "操作系统/xv6/xv6book.md",
     "我狠C/编辑器/vim.md",
     "tools/git.md",
@@ -227,7 +229,6 @@
     "Algorithm/DFS/构建DFS思路.md",
     "Algorithm/数学知识/欧拉公式.md",
     "images/Pasted image 20230924142342.png",
-    "images/Pasted image 20230924135418.png",
     "Algorithm/数学知识/Untitled",
     "Algorithm/数学知识/欧拉公式/Untitled.md",
     "Algorithm/数学知识/欧拉公式",
@@ -237,7 +238,6 @@
     "Algorithm/字符串/字符串hash.md",
     "Algorithm/变换技巧/环.md",
     "Algorithm/变换技巧",
-    "Deep Learning/Untitled.md",
     "Deep Learning/d2l",
     "Deep Learning",
     "Algorithm/字符串",
