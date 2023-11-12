@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/编辑器/vim.md",
+                "file": "论文随笔/Batch Normalization.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/编辑器/vim.md",
+                "file": "论文随笔/Batch Normalization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/编辑器/vim.md",
+                "file": "论文随笔/Batch Normalization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/编辑器/vim.md"
+                "file": "论文随笔/Batch Normalization.md"
               }
             }
           },
@@ -197,6 +197,10 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "Deep Learning/d2l.md",
+    "论文随笔/Batch Normalization.md",
+    "操作系统/xv6/xv6book.md",
+    "我狠C/编辑器/vim.md",
     "tools/git.md",
     "论文随笔/CNN.md",
     "images/Pasted image 20231110190458.png",
@@ -224,7 +228,6 @@
     "Algorithm/数学知识/欧拉公式.md",
     "images/Pasted image 20230924142342.png",
     "images/Pasted image 20230924135418.png",
-    "我狠C/编辑器/vim.md",
     "Algorithm/数学知识/Untitled",
     "Algorithm/数学知识/欧拉公式/Untitled.md",
     "Algorithm/数学知识/欧拉公式",
@@ -233,11 +236,8 @@
     "vim.md",
     "Algorithm/字符串/字符串hash.md",
     "Algorithm/变换技巧/环.md",
-    "Deep Learning/d2l.md",
     "Algorithm/变换技巧",
     "Deep Learning/Untitled.md",
-    "Algorithm/字符串/KMP.md",
-    "Algorithm/字符串/Untitled.md",
     "Deep Learning/d2l",
     "Deep Learning",
     "Algorithm/字符串",
