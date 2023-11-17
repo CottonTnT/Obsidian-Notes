@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++对象模型.md",
+                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++对象模型.md",
+                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++对象模型.md",
+                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C++对象模型.md"
+                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md"
               }
             }
           },
@@ -197,9 +197,13 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/关键字详解.md",
+    "我狠C/C++ 登神长阶/C ++中的类型转换.md",
+    "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
+    "我狠C/C++ 登神长阶/effective C++ 条款.md",
+    "我狠C/C++ 登神长阶/C++对象模型.md",
     "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
     "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
-    "我狠C/C++ 登神长阶/C ++中的类型转换.md",
     "论文随笔/Normalization in NN.md",
     "images/Pasted image 20231112150451.png",
     "images/Pasted image 20231112150317.png",
@@ -232,11 +236,7 @@
     "Algorithm/DFS/构建DFS思路.md",
     "Algorithm/数学知识/欧拉公式.md",
     "Algorithm/数学知识/Untitled",
-    "Algorithm/数学知识/欧拉公式/Untitled.md",
     "Algorithm/数学知识/欧拉公式",
-    "我狠C/编辑器/vscode、.md",
-    "Algorithm/数据结构/倍增.md",
-    "vim.md",
     "Algorithm/变换技巧",
     "Deep Learning/d2l",
     "Deep Learning",
