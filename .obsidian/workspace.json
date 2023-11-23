@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md",
+                "file": "Deep Learning/d2l.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md",
+                "file": "Deep Learning/d2l.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md",
+                "file": "Deep Learning/d2l.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C ++中的类型转换.md"
+                "file": "Deep Learning/d2l.md"
               }
             }
           },
@@ -195,11 +195,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "1e89cd2e2e3c1937",
   "lastOpenFiles": [
+    "images/Pasted image 20231123162056.png",
+    "我狠C/C++ 登神长阶/C ++中的类型转换.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
     "Algorithm/数据结构/tree/trie树.md",
-    "我狠C/C++ 登神长阶/C ++中的类型转换.md",
     "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
     "我狠C/C++ 登神长阶/effective C++ 条款.md",
     "我狠C/C++ 登神长阶/C++对象模型.md",
@@ -234,7 +235,6 @@
     "Algorithm/算法模型/递归模型/树枝型.md",
     "Algorithm/算法模型/递归模型/未命名.md",
     "Algorithm/算法模型/递归模型/线型.md",
-    "Algorithm/DFS/构建DFS思路.md",
     "Algorithm/数学知识/Untitled",
     "Algorithm/数学知识/欧拉公式",
     "Algorithm/变换技巧",
