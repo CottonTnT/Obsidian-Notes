@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/编辑器/vscode、.md",
+                "file": "我狠C/C++ 登神长阶/grammer&semantic/三种权限说明符.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/编辑器/vscode、.md",
+                "file": "我狠C/C++ 登神长阶/grammer&semantic/三种权限说明符.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/编辑器/vscode、.md",
+                "file": "我狠C/C++ 登神长阶/grammer&semantic/三种权限说明符.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/编辑器/vscode、.md"
+                "file": "我狠C/C++ 登神长阶/grammer&semantic/三种权限说明符.md"
               }
             }
           },
@@ -195,8 +195,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "1e89cd2e2e3c1937",
   "lastOpenFiles": [
+    "images/Pasted image 20231127132914.png",
+    "我狠C/编辑器/vscode、.md",
+    "我狠C/C++ 登神长阶/grammer&semantic/三种权限说明符.md",
     "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
     "Deep Learning/d2l.md",
     "images/Pasted image 20231123162056.png",
@@ -232,9 +235,6 @@
     "Algorithm/算法模型/Recursion.md",
     "Algorithm/算法模型/递归.md",
     "Algorithm/算法模型/Untitled",
-    "Algorithm/算法模型/递归模型/树枝型.md",
-    "Algorithm/算法模型/递归模型/未命名.md",
-    "Algorithm/算法模型/递归模型/线型.md",
     "Algorithm/数学知识/Untitled",
     "Algorithm/数学知识/欧拉公式",
     "Algorithm/变换技巧",
