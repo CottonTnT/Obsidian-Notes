@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/grammer&semantic/三种权限说明符.md",
+                "file": "我狠C/C++ 登神长阶/自动存储类型.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/grammer&semantic/三种权限说明符.md",
+                "file": "我狠C/C++ 登神长阶/自动存储类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/grammer&semantic/三种权限说明符.md",
+                "file": "我狠C/C++ 登神长阶/自动存储类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/grammer&semantic/三种权限说明符.md"
+                "file": "我狠C/C++ 登神长阶/自动存储类型.md"
               }
             }
           },
@@ -197,9 +197,10 @@
   },
   "active": "1e89cd2e2e3c1937",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/grammer&semantic/三种权限说明符.md",
+    "我狠C/C++ 登神长阶/自动存储类型.md",
     "images/Pasted image 20231127132914.png",
     "我狠C/编辑器/vscode、.md",
-    "我狠C/C++ 登神长阶/grammer&semantic/三种权限说明符.md",
     "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
     "Deep Learning/d2l.md",
     "images/Pasted image 20231123162056.png",
@@ -225,7 +226,6 @@
     "images/Pasted image 20231109134606.png",
     "images/Pasted image 20231109130440.png",
     "images/Pasted image 20231109130313.png",
-    "images/Pasted image 20231109125427.png",
     "论文随笔/Python.md",
     "tools/bash 脚本.md",
     "Algorithm/变换技巧/矩阵.md",
