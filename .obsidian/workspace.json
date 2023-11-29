@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 273.5
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -195,8 +195,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "1e89cd2e2e3c1937",
   "lastOpenFiles": [
+    "操作系统/xv6/xv6-riscv-book-Chinese/1.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
     "操作系统/xv6/xv6book.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-6.md",
@@ -233,7 +235,6 @@
     "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
     "论文随笔/Normalization in NN.md",
     "我狠C/编辑器/vim.md",
-    "tools/git.md",
     "Algorithm/数据结构/Untitled",
     "Algorithm/算法模型/Untitled",
     "Algorithm/数学知识/Untitled",
