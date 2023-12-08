@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/grammer&semantic/简朴的C/C标准/IO/sprintf.md",
+                "file": "我狠C/编译与链接/程序员的自我修养笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/grammer&semantic/简朴的C/C标准/IO/sprintf.md",
+                "file": "我狠C/编译与链接/程序员的自我修养笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/grammer&semantic/简朴的C/C标准/IO/sprintf.md",
+                "file": "我狠C/编译与链接/程序员的自我修养笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/grammer&semantic/简朴的C/C标准/IO/sprintf.md"
+                "file": "我狠C/编译与链接/程序员的自我修养笔记.md"
               }
             }
           },
@@ -177,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,11 +194,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "1e89cd2e2e3c1937",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/grammer&semantic/简朴的C/C标准/IO/sprintf.md",
     "操作系统/xv6/xv6-riscv-book-Chinese.zip",
     "我狠C/C++ 登神长阶/grammer&semantic/简朴的C/C标准/IO/fgets.md",
-    "我狠C/C++ 登神长阶/grammer&semantic/简朴的C/C标准/IO/sprintf.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/1.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
@@ -242,7 +241,6 @@
     "Algorithm/变换技巧",
     "Deep Learning/d2l",
     "Deep Learning",
-    "Algorithm/字符串",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
