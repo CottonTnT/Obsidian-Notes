@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,14 +64,6 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "832f123c6c6c926a",
-            "type": "leaf",
-            "state": {
-              "type": "langr-search-panel",
-              "state": {}
-            }
           }
         ],
         "currentTab": 2
@@ -95,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,37 +122,13 @@
             }
           },
           {
-            "id": "d9c6e7ca30ca084c",
-            "type": "leaf",
-            "state": {
-              "type": "langr-learn-panel",
-              "state": {}
-            }
-          },
-          {
             "id": "90d947202b2994d7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md"
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md"
               }
-            }
-          },
-          {
-            "id": "3dc27f38642c7b9f",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "d58d5e38202ac756",
-            "type": "leaf",
-            "state": {
-              "type": "langr-stat",
-              "state": {}
             }
           },
           {
@@ -174,7 +142,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -187,18 +155,13 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-language-learner:Open word search panel": false,
-      "obsidian-language-learner:Open new word panel": false,
-      "obsidian-language-learner:Open statistics": false,
-      "obsidian-language-learner:Data Panel": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "1e89cd2e2e3c1937",
   "lastOpenFiles": [
-    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
+    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
     "Algorithm/图论/最短路问题.md",
     "Algorithm/图论/邻接表构建图.md",
     "我狠C/编译与链接/程序员的自我修养笔记.md",

@@ -26,7 +26,7 @@ void f(ParamType param);
 ````cpp
 f(expr);                        //使用表达式调用f
 ````
-在编译期间，编译器使用`expr`进行两个类型推导：一个是针对`T`的，另一个是针对`ParamType`的。这两个类型通常是不同的，因为`ParamType`包含一些修饰，比如`const`和引用修饰符。举个例子，如果模板这样声明：
+在编译期间，编译器使用`expr`进行两个类型推导：*一个是针对`T`的*，*另一个是针对`ParamType`的*。这两个类型通常是不同的，因为`ParamType`包含一些修饰，比如`const`和引用修饰符。举个例子，如果模板这样声明：
 ````cpp
 template<typename T>
 void f(const T& param);         //ParamType是const T&
@@ -38,7 +38,7 @@ f(x);                           //用一个int类型的变量调用f
 ````
 `T`被推导为`int`，`ParamType`却被推导为`const int&`
 
-我们可能很自然的期望`T`和传递进函数的实参是相同的类型，也就是，`T`为`expr`的类型。在上面的例子中，事实就是那样：`x`是`int`，`T`被推导为`int`。但有时情况并非总是如此，`T`的类型推导不仅取决于`expr`的类型，也取决于`ParamType`的类型。这里有三种情况：
+我们可能很自然的期望`T`和传递进函数的实参是相同的类型，也就是，`T`为`expr`的类型。在上面的例子中，事实就是那样：`x`是`int`，`T`被推导为`int`。但有时情况并非总是如此，`T`的类型推导*不仅取决于`expr`的类型，也取决于`ParamType`的类型*。这里有三种情况：
 
 + `ParamType`是一个指针或引用，但不是通用引用（关于通用引用请参见[Item24](../5.RRefMovSemPerfForw/item24.md)。在这里你只需要知道它存在，而且不同于左值引用和右值引用）
 + `ParamType`是一个通用引用
@@ -118,7 +118,7 @@ f(px);                          //T是const int，param的类型是const int*
 
 模板使用通用引用形参的话，那事情就不那么明显了。这样的形参被声明为像右值引用一样（也就是，在函数模板中假设有一个类型形参`T`，那么通用引用声明形式就是`T&&`)，它们的行为在传入左值实参时大不相同。完整的叙述请参见[Item24](../5.RRefMovSemPerfForw/item24.md)，在这有些最必要的你还是需要知道：
 
-+ 如果`expr`是左值，`T`和`ParamType`都会被推导为左值引用。这非常不寻常，第一，这是模板类型推导中唯一一种`T`被推导为引用的情况。第二，虽然`ParamType`被声明为右值引用类型，但是最后推导的结果是左值引用。
++ 如果`expr`是左值，`T`和`ParamType`都会被推导为左值引用。这非常不寻常，第一，这是*模板类型推导中**唯一**一种`T`被推导为引用的情况*。第二，虽然`ParamType`被声明为右值引用类型，但*是最后推导的结果是**左值引用***。
 + 如果`expr`是右值，就使用正常的（也就是**情景一**）推导规则
 
 举个例子：
@@ -151,7 +151,7 @@ f(27);                          //27是右值，所以T是int，
 template<typename T>
 void f(T param);                //以传值的方式处理param
 ````
-这意味着无论传递什么`param`都会成为它的一份拷贝——一个完整的新对象。事实上`param`成为一个新对象这一行为会影响`T`如何从`expr`中推导出结果。
+这意味着无论传递什么`param`都会成为它的一份**拷贝**——*一个完整的新对象*。事实上`param`成为一个新对象这一行为会影响`T`如何从`expr`中推导出结果。
 
 1. 和之前一样，如果`expr`的类型是一个引用，忽略这个引用部分
 2. 如果忽略`expr`的引用性（reference-ness）之后，`expr`是一个`const`，那就再忽略`const`。如果它是`volatile`，也忽略`volatile`（`volatile`对象不常见，它通常用于驱动程序的开发中。关于`volatile`的细节请参见[Item40](../7.TheConcurrencyAPI/item40.md)）
@@ -166,7 +166,7 @@ f(x);                           //T和param的类型都是int
 f(cx);                          //T和param的类型都是int
 f(rx);                          //T和param的类型都是int
 ````
-注意即使`cx`和`rx`表示`const`值，`param`也不是`const`。这是有意义的。`param`是一个完全独立于`cx`和`rx`的对象——是`cx`或`rx`的一个拷贝。具有常量性的`cx`和`rx`不可修改并不代表`param`也是一样。这就是为什么`expr`的常量性`const`ness（或易变性`volatile`ness)在推导`param`类型时会被忽略：因为`expr`不可修改并不意味着它的拷贝也不能被修改。
+注意即使`cx`和`rx`表示`const`值，`param`也不是`const`。这是有意义的。**`param`是一个完全独立于`cx`和`rx`的对象——是`cx`或`rx`的一个拷贝**。具有常量性的`cx`和`rx`不可修改并不代表`param`也是一样。这就是为什么`expr`的常量性`const`ness（或易变性`volatile`ness)在推导`param`类型时会被忽略：*因为`expr`不可修改并不意味着它的拷贝也不能被修改*。
 
 认识到只有在传值给形参时才会忽略`const`（和`volatile`）这一点很重要，正如我们看到的，对于reference-to-`const`和pointer-to-`const`形参来说，`expr`的常量性`const`ness在推导时会被保留。但是考虑这样的情况，`expr`是一个`const`指针，指向`const`对象，`expr`通过传值传递给`param`：
 ````cpp
@@ -202,7 +202,7 @@ f(name);                                //T和param会推导成什么类型?
 ````cpp
 void myFunc(int param[]);
 ````
-但是数组声明会被视作指针声明，这意味着`myFunc`的声明和下面声明是等价的：
+但是*数组声明会被视作指针声明*，这意味着`myFunc`的声明和下面声明是等价的：
 ````cpp
 void myFunc(int* param);                //与上面相同的函数
 ````
