@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md"
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md"
               }
             }
           },
@@ -160,6 +160,7 @@
   },
   "active": "1e89cd2e2e3c1937",
   "lastOpenFiles": [
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
     "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
     "Algorithm/图论/最短路问题.md",
@@ -198,7 +199,6 @@
     "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
     "Deep Learning/d2l.md",
     "我狠C/C++ 登神长阶/C ++中的类型转换.md",
-    "我狠C/C++ 登神长阶/关键字详解.md",
     "Algorithm/数据结构/Untitled",
     "Algorithm/算法模型/Untitled",
     "Algorithm/数学知识/Untitled",
