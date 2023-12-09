@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/编译与链接/程序员的自我修养笔记.md",
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/编译与链接/程序员的自我修养笔记.md",
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/编译与链接/程序员的自我修养笔记.md",
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/编译与链接/程序员的自我修养笔记.md"
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md"
               }
             }
           },
@@ -196,6 +197,11 @@
   },
   "active": "1e89cd2e2e3c1937",
   "lastOpenFiles": [
+    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
+    "Algorithm/图论/最短路问题.md",
+    "Algorithm/图论/邻接表构建图.md",
+    "我狠C/编译与链接/程序员的自我修养笔记.md",
     "我狠C/C++ 登神长阶/grammer&semantic/简朴的C/C标准/IO/sprintf.md",
     "操作系统/xv6/xv6-riscv-book-Chinese.zip",
     "我狠C/C++ 登神长阶/grammer&semantic/简朴的C/C标准/IO/fgets.md",
@@ -230,10 +236,6 @@
     "Deep Learning/d2l.md",
     "我狠C/C++ 登神长阶/C ++中的类型转换.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
-    "Algorithm/数据结构/tree/trie树.md",
-    "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
-    "我狠C/C++ 登神长阶/effective C++ 条款.md",
-    "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
     "Algorithm/数据结构/Untitled",
     "Algorithm/算法模型/Untitled",
     "Algorithm/数学知识/Untitled",
