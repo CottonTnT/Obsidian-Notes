@@ -60,7 +60,7 @@ std::atomic<int> ai3 = 0;       //错误！
 ````
 因此我们很容易理解为什么括号初始化又叫统一初始化，在C++中这三种方式都被看做是初始化表达式，但是只有花括号任何地方都能被使用。
 
-括号表达式还有一个少见的特性，即它不允许内置类型间隐式的变窄转换（*narrowing conversion*）。如果一个使用了括号初始化的表达式的值，不能保证由被初始化的对象的类型来表示，代码就不会通过编译：
+括号表达式还有一个少见的特性，即*它不允许内置类型间隐式的变窄转换*（*narrowing conversion*）。如果一个使用了括号初始化的表达式的值，不能保证由被初始化的对象的类型来表示，代码就不会通过编译：
 ````cpp
 double x, y, z;
 
@@ -102,7 +102,7 @@ Widget w2{10, true};            //也调用第一个构造函数
 Widget w3(10, 5.0);             //调用第二个构造函数
 Widget w4{10, 5.0};             //也调用第二个构造函数
 ````
-然而，如果有一个或者多个构造函数的声明包含一个`std::initializer_list`形参，那么使用括号初始化语法的调用更倾向于选择带`std::initializer_list`的那个构造函数。如果编译器遇到一个括号初始化并且有一个带std::initializer_list的构造函数，那么它一定会选择该构造函数。如果上面的`Widget`类有一个`std::initializer_list<long double>`作为参数的构造函数，就像这样：
+然而，如果有一个或者多个构造函数的声明包含一个`std::initializer_list`形参，那么*使用括号初始化语法的调用更倾向于选择带`std::initializer_list`的那个构造函数*。如果编译器遇到一个括号初始化并且有一个带std::initializer_list的构造函数，那么它一定会选择该构造函数。如果上面的`Widget`类有一个`std::initializer_list<long double>`作为参数的构造函数，就像这样：
 ````cpp
 class Widget { 
 public:  
@@ -164,7 +164,7 @@ Widget w{10, 5.0};              //错误！要求变窄转换
 ````
 这里，编译器会直接忽略前面两个构造函数（其中第二个构造函数是所有实参类型的最佳匹配），然后尝试调用`std::initializer_list<bool>`构造函数。调用这个函数将会把`int(10)`和`double(5.0)`转换为`bool`，由于会产生变窄转换（`bool`不能准确表示其中任何一个值），括号初始化拒绝变窄转换，所以这个调用无效，代码无法通过编译。
 
-只有当没办法把括号初始化中实参的类型转化为`std::initializer_list`时，编译器才会回到正常的函数决议流程中。比如我们在构造函数中用`std::initializer_list<std::string>`代替`std::initializer_list<bool>`，这时非`std::initializer_list`构造函数将再次成为函数决议的候选者，因为没有办法把`int`和`bool`转换为`std::string`:
+*只有当没办法把括号初始化中实参的类型转化为`std::initializer_list`时，编译器才会回到正常的函数决议流程中*。比如我们在构造函数中用`std::initializer_list<std::string>`代替`std::initializer_list<bool>`，这时非`std::initializer_list`构造函数将再次成为函数决议的候选者，因为没有办法把`int`和`bool`转换为`std::string`:
 
 ````cpp
 class Widget { 
@@ -183,7 +183,7 @@ Widget w4{10, 5.0};      // 使用花括号初始化，现在调用第二个构�
 ````
 代码的行为和我们刚刚的论述如出一辙。这里还有一个有趣的[边缘情况](https://en.wikipedia.org/wiki/Edge_case)。假如你使用的花括号初始化是空集，并且你欲构建的对象有默认构造函数，也有`std::initializer_list`构造函数。你的空的花括号意味着什么？如果它们意味着没有实参，就该使用默认构造函数，但如果它意味着一个空的`std::initializer_list`，就该调用`std::initializer_list`构造函数。
 
-最终会调用默认构造函数。空的花括号意味着没有实参，不是一个空的`std::initializer_list`：
+最*终会调用默认构造函数*。**空的花括号意味着没有实参，不是一个空的`std::initializer_list`**：
 ````cpp
 class Widget { 
 public:  
