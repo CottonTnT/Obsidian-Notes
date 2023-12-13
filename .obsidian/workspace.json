@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
+                "file": "DBMS/15445.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
+                "file": "DBMS/15445.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
+                "file": "DBMS/15445.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md"
+                "file": "DBMS/15445.md"
               }
             }
           },
@@ -160,6 +160,20 @@
   },
   "active": "1e89cd2e2e3c1937",
   "lastOpenFiles": [
+    "images/Pasted image 20231213160538.png",
+    "images/Pasted image 20231213160333.png",
+    "images/Pasted image 20231213154957.png",
+    "images/Pasted image 20231213154209.png",
+    "images/Pasted image 20231213154135.png",
+    "images/Pasted image 20231213153934.png",
+    "images/Pasted image 20231213153808.png",
+    "images/Pasted image 20231213153727.png",
+    "images/Pasted image 20231213153419.png",
+    "images/Pasted image 20231213153146.png",
+    "images/Pasted image 20231213153059.png",
+    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
+    "DBMS/15445.md",
+    "DBMS",
     "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item23.md",
     "我狠C/Effective Modern Cpp/4.SmartPointers/item18.md",
     "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item15.md",
@@ -176,7 +190,6 @@
     "我狠C/Effective Modern Cpp/1.DeducingTypes/Untitled.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
-    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
     "Algorithm/图论/最短路问题.md",
     "Algorithm/图论/邻接表构建图.md",
     "我狠C/编译与链接/程序员的自我修养笔记.md",
@@ -185,18 +198,6 @@
     "我狠C/C++ 登神长阶/grammer&semantic/简朴的C/C标准/IO/fgets.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/1.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
-    "操作系统/xv6/xv6book.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-8.3.png",
-    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-8.2.png",
-    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-8.1.png",
-    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-7.1.png",
-    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-6.3.png",
-    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-6.2.png",
-    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-6.1.png",
-    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.4.jpg",
-    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.3.jpg",
-    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.2.jpg",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets",
     "操作系统/xv6/xv6-riscv-book-Chinese",
     "Algorithm/数据结构/Untitled",
@@ -205,7 +206,6 @@
     "Algorithm/数学知识/欧拉公式",
     "Algorithm/变换技巧",
     "Deep Learning/d2l",
-    "Deep Learning",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
