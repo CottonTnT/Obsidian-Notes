@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/4.SmartPointers/item18.md",
+                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/4.SmartPointers/item18.md",
+                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/4.SmartPointers/item18.md",
+                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/4.SmartPointers/item18.md"
+                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md"
               }
             }
           },
@@ -160,6 +160,8 @@
   },
   "active": "1e89cd2e2e3c1937",
   "lastOpenFiles": [
+    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item23.md",
+    "我狠C/Effective Modern Cpp/4.SmartPointers/item18.md",
     "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item15.md",
     "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item12.md",
     "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item11.md",
@@ -185,8 +187,6 @@
     "操作系统/xv6/xv6-riscv-book-Chinese/1.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
     "操作系统/xv6/xv6book.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-6.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-8.3.png",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-8.2.png",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-8.1.png",
