@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/动态规划/线性DP/抽象模型.md",
+                "file": "DBMS/15445.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/动态规划/线性DP/抽象模型.md",
+                "file": "DBMS/15445.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/动态规划/线性DP/抽象模型.md",
+                "file": "DBMS/15445.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/动态规划/线性DP/抽象模型.md"
+                "file": "DBMS/15445.md"
               }
             }
           },
@@ -157,22 +157,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "1e89cd2e2e3c1937",
   "lastOpenFiles": [
-    "Algorithm/动态规划/我是无数的你进化.md",
+    "images/Pasted image 20231216145026.png",
+    "images/Pasted image 20231216144935.png",
+    "images/Pasted image 20231216144300.png",
+    "images/Pasted image 20231216142916.png",
+    "images/Pasted image 20231216142903.png",
+    "images/Pasted image 20231216142852.png",
+    "images/Pasted image 20231216142457.png",
+    "images/Pasted image 20231216141833.png",
+    "images/Pasted image 20231216141728.png",
+    "images/Pasted image 20231216141622.png",
+    "images/Pasted image 20231216141104.png",
     "Algorithm/动态规划/线性DP/抽象模型.md",
+    "Algorithm/动态规划/我是无数的你进化.md",
     "Deep Learning/Attention.md",
     "DBMS/15445.md",
-    "images/Pasted image 20231213181141.png",
-    "images/Pasted image 20231213181044.png",
-    "images/Pasted image 20231213180950.png",
-    "images/Pasted image 20231213180834.png",
-    "images/Pasted image 20231213180341.png",
-    "images/Pasted image 20231213160538.png",
-    "images/Pasted image 20231213160333.png",
-    "images/Pasted image 20231213154957.png",
-    "images/Pasted image 20231213154209.png",
-    "images/Pasted image 20231213154135.png",
     "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
     "DBMS",
     "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item23.md",
@@ -196,7 +197,6 @@
     "我狠C/编译与链接/程序员的自我修养笔记.md",
     "我狠C/C++ 登神长阶/grammer&semantic/简朴的C/C标准/IO/sprintf.md",
     "操作系统/xv6/xv6-riscv-book-Chinese.zip",
-    "我狠C/C++ 登神长阶/grammer&semantic/简朴的C/C标准/IO/fgets.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets",
     "操作系统/xv6/xv6-riscv-book-Chinese",
     "Algorithm/数据结构/Untitled",
