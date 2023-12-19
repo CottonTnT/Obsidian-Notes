@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBMS/15445.md",
+                "file": "tools/计算机相关杂项.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DBMS/15445.md",
+                "file": "tools/计算机相关杂项.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DBMS/15445.md",
+                "file": "tools/计算机相关杂项.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DBMS/15445.md"
+                "file": "tools/计算机相关杂项.md"
               }
             }
           },
@@ -157,8 +157,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1e89cd2e2e3c1937",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "论文随笔/Some terms.md",
+    "DBMS/15445.md",
     "images/Pasted image 20231216162019.png",
     "images/Pasted image 20231216161917.png",
     "images/Pasted image 20231216161830.png",
@@ -169,11 +171,9 @@
     "images/Pasted image 20231216160510.png",
     "images/Pasted image 20231216160346.png",
     "images/Pasted image 20231216160152.png",
-    "images/Pasted image 20231216160042.png",
     "Algorithm/动态规划/线性DP/抽象模型.md",
     "Algorithm/动态规划/我是无数的你进化.md",
     "Deep Learning/Attention.md",
-    "DBMS/15445.md",
     "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
     "DBMS",
     "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item23.md",
