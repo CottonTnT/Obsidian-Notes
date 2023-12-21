@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/计算机相关杂项.md",
+                "file": "NetWorks/socket.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/计算机相关杂项.md",
+                "file": "NetWorks/socket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/计算机相关杂项.md",
+                "file": "NetWorks/socket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/计算机相关杂项.md"
+                "file": "NetWorks/socket.md"
               }
             }
           },
@@ -159,6 +159,10 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "tools/Untitled.md",
+    "NetWorks/socket.md",
+    "NetWorks",
+    "tools/计算机相关杂项.md",
     "论文随笔/Some terms.md",
     "DBMS/15445.md",
     "images/Pasted image 20231216162019.png",
@@ -193,9 +197,6 @@
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
     "Algorithm/图论/最短路问题.md",
-    "Algorithm/图论/邻接表构建图.md",
-    "我狠C/编译与链接/程序员的自我修养笔记.md",
-    "我狠C/C++ 登神长阶/grammer&semantic/简朴的C/C标准/IO/sprintf.md",
     "操作系统/xv6/xv6-riscv-book-Chinese.zip",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets",
     "操作系统/xv6/xv6-riscv-book-Chinese",
@@ -204,7 +205,6 @@
     "Algorithm/数学知识/Untitled",
     "Algorithm/数学知识/欧拉公式",
     "Algorithm/变换技巧",
-    "Deep Learning/d2l",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
