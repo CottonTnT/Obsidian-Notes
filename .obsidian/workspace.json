@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NetWorks/socket.md",
+                "file": "DBMS/project one.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NetWorks/socket.md",
+                "file": "DBMS/project one.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NetWorks/socket.md",
+                "file": "DBMS/project one.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NetWorks/socket.md"
+                "file": "DBMS/project one.md"
               }
             }
           },
@@ -157,14 +157,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "1e89cd2e2e3c1937",
   "lastOpenFiles": [
-    "tools/Untitled.md",
+    "DBMS/15445.md",
+    "DBMS/project one.md",
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
+    "我狠C/C++ 登神长阶/To be solved.md",
+    "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
     "NetWorks/socket.md",
+    "我狠C/C++ 登神长阶/effective C++ 条款.md",
+    "tools/Untitled.md",
     "NetWorks",
     "tools/计算机相关杂项.md",
     "论文随笔/Some terms.md",
-    "DBMS/15445.md",
     "images/Pasted image 20231216162019.png",
     "images/Pasted image 20231216161917.png",
     "images/Pasted image 20231216161830.png",
@@ -192,11 +197,6 @@
     "我狠C/Effective Modern Cpp/2.Auto/item6.md",
     "我狠C/Effective Modern Cpp/2.Auto/item5.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item4.md",
-    "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
-    "我狠C/Effective Modern Cpp/1.DeducingTypes/Untitled.md",
-    "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
-    "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
-    "Algorithm/图论/最短路问题.md",
     "操作系统/xv6/xv6-riscv-book-Chinese.zip",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets",
     "操作系统/xv6/xv6-riscv-book-Chinese",
