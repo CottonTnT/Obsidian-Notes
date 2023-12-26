@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/编译器的优化机制.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
                 "mode": "source",
                 "source": false
               }
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/编译器的优化机制.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/编译器的优化机制.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/编译器的优化机制.md"
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md"
               }
             }
           },
@@ -158,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,10 +174,14 @@
   },
   "active": "de2233cfc22a828e",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/C ++中的类型转换.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
+    "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
+    "我狠C/C++ 登神长阶/C++对象模型.md",
+    "我狠C/C++ 登神长阶/编译器的优化机制.md",
     "我狠C/C++ 登神长阶/变参模板.md",
     "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
     "我狠C/C++ 登神长阶/template metaprogramming",
-    "我狠C/C++ 登神长阶/编译器的优化机制.md",
     "Typora的markdown语法.md",
     "DBMS/project one.md",
     "DBMS/15445.md",
@@ -207,10 +213,6 @@
     "我狠C/Effective Modern Cpp/4.SmartPointers/item18.md",
     "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item15.md",
     "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item12.md",
-    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item11.md",
-    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item10.md",
-    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item9.md",
-    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item8.md",
     "操作系统/xv6/xv6-riscv-book-Chinese.zip",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets",
     "操作系统/xv6/xv6-riscv-book-Chinese",
