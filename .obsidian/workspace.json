@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/变参模板.md",
+                "file": "我狠C/C++ 登神长阶/编译器的优化机制.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/变参模板.md",
+                "file": "我狠C/C++ 登神长阶/编译器的优化机制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/变参模板.md",
+                "file": "我狠C/C++ 登神长阶/编译器的优化机制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/变参模板.md"
+                "file": "我狠C/C++ 登神长阶/编译器的优化机制.md"
               }
             }
           },
@@ -172,8 +172,8 @@
   },
   "active": "de2233cfc22a828e",
   "lastOpenFiles": [
-    "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
     "我狠C/C++ 登神长阶/变参模板.md",
+    "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
     "我狠C/C++ 登神长阶/template metaprogramming",
     "我狠C/C++ 登神长阶/编译器的优化机制.md",
     "Typora的markdown语法.md",
