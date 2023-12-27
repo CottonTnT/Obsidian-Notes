@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
+                "file": "我狠C/C++ 登神长阶/类的初始化.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -100,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
+                "file": "我狠C/C++ 登神长阶/类的初始化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
+                "file": "我狠C/C++ 登神长阶/类的初始化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md"
+                "file": "我狠C/C++ 登神长阶/类的初始化.md"
               }
             }
           },
@@ -159,8 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,16 +169,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de2233cfc22a828e",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
+    "我狠C/C++ 登神长阶/显式类型转换.md",
+    "我狠C/C++ 登神长阶/类的初始化.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/Untitled.md",
+    "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
     "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
-    "我狠C/C++ 登神长阶/C ++中的类型转换.md",
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
     "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
     "我狠C/C++ 登神长阶/C++对象模型.md",
     "我狠C/C++ 登神长阶/编译器的优化机制.md",
     "我狠C/C++ 登神长阶/变参模板.md",
-    "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
     "我狠C/C++ 登神长阶/template metaprogramming",
     "Typora的markdown语法.md",
     "DBMS/project one.md",
@@ -211,8 +210,6 @@
     "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
     "DBMS",
     "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item23.md",
-    "我狠C/Effective Modern Cpp/4.SmartPointers/item18.md",
-    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item15.md",
     "操作系统/xv6/xv6-riscv-book-Chinese.zip",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets",
     "操作系统/xv6/xv6-riscv-book-Chinese",
