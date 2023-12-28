@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/类的初始化.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/类的初始化.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/类的初始化.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/类的初始化.md"
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md"
               }
             }
           },
@@ -171,8 +171,8 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "我狠C/C++ 登神长阶/显式类型转换.md",
     "我狠C/C++ 登神长阶/类的初始化.md",
+    "我狠C/C++ 登神长阶/显式类型转换.md",
     "我狠C/C++ 登神长阶/template metaprogramming/Untitled.md",
     "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
     "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
