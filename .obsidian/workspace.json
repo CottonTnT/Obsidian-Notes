@@ -8,30 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1e89cd2e2e3c1937",
+            "id": "de2233cfc22a828e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/非类型模板参数.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "de2233cfc22a828e",
+            "id": "1f381ccbdfad08fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md"
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md"
               }
             }
           },
@@ -169,13 +170,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "1f381ccbdfad08fd",
   "lastOpenFiles": [
+    "images/Pasted image 20231228215611.png",
+    "我狠C/C++ 登神长阶/template metaprogramming/非类型模板参数.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
     "我狠C/C++ 登神长阶/类的初始化.md",
     "我狠C/C++ 登神长阶/显式类型转换.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/Untitled.md",
     "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
     "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
     "我狠C/C++ 登神长阶/C++对象模型.md",
@@ -207,9 +210,7 @@
     "Algorithm/动态规划/线性DP/抽象模型.md",
     "Algorithm/动态规划/我是无数的你进化.md",
     "Deep Learning/Attention.md",
-    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
     "DBMS",
-    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item23.md",
     "操作系统/xv6/xv6-riscv-book-Chinese.zip",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets",
     "操作系统/xv6/xv6-riscv-book-Chinese",
