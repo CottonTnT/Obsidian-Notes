@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/非类型模板参数.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/非类型模板参数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/非类型模板参数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md"
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/非类型模板参数.md"
               }
             }
           },
@@ -170,11 +170,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1f381ccbdfad08fd",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
     "images/Pasted image 20231228215611.png",
     "我狠C/C++ 登神长阶/template metaprogramming/非类型模板参数.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
     "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
     "我狠C/C++ 登神长阶/类的初始化.md",
     "我狠C/C++ 登神长阶/显式类型转换.md",
@@ -206,7 +206,6 @@
     "images/Pasted image 20231216160656.png",
     "images/Pasted image 20231216160510.png",
     "images/Pasted image 20231216160346.png",
-    "images/Pasted image 20231216160152.png",
     "Algorithm/动态规划/线性DP/抽象模型.md",
     "Algorithm/动态规划/我是无数的你进化.md",
     "Deep Learning/Attention.md",
