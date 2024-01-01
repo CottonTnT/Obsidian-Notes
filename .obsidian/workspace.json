@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/非类型模板参数.md",
+                "file": "操作系统/文件系统/Disk spindle.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -100,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/cocurrent/future, promise以及async.md",
+                "file": "操作系统/文件系统/Disk spindle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/cocurrent/future, promise以及async.md",
+                "file": "操作系统/文件系统/Disk spindle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/cocurrent/future, promise以及async.md"
+                "file": "操作系统/文件系统/Disk spindle.md"
               }
             }
           },
@@ -150,12 +148,13 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -172,9 +171,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1f381ccbdfad08fd",
+  "active": "de2233cfc22a828e",
   "lastOpenFiles": [
+    "images/Pasted image 20240101155537.png",
+    "操作系统/文件系统/抽象.md",
+    "操作系统/文件系统/Disk spindle.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/Untitled.md",
     "我狠C/C++ 登神长阶/template metaprogramming/非类型模板参数.md",
+    "操作系统/文件系统",
     "我狠C/C++ 登神长阶/cocurrent/future, promise以及async.md",
     "我狠C/C++ 登神长阶/cocurrent",
     "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
@@ -200,7 +204,6 @@
     "tools/Untitled.md",
     "NetWorks",
     "tools/计算机相关杂项.md",
-    "论文随笔/Some terms.md",
     "images/Pasted image 20231216162019.png",
     "images/Pasted image 20231216161917.png",
     "images/Pasted image 20231216161830.png",
@@ -210,16 +213,12 @@
     "images/Pasted image 20231216160656.png",
     "images/Pasted image 20231216160510.png",
     "images/Pasted image 20231216160346.png",
-    "Algorithm/动态规划/线性DP/抽象模型.md",
-    "Algorithm/动态规划/我是无数的你进化.md",
-    "Deep Learning/Attention.md",
     "DBMS",
     "操作系统/xv6/xv6-riscv-book-Chinese.zip",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets",
     "操作系统/xv6/xv6-riscv-book-Chinese",
     "Algorithm/数据结构/Untitled",
     "Algorithm/算法模型/Untitled",
-    "Algorithm/数学知识/Untitled",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
