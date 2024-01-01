@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/文件系统/Disk spindle.md",
+                "file": "操作系统/文件系统/分块读写.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/文件系统/Disk spindle.md",
+                "file": "操作系统/文件系统/分块读写.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/文件系统/Disk spindle.md",
+                "file": "操作系统/文件系统/分块读写.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/文件系统/Disk spindle.md"
+                "file": "操作系统/文件系统/分块读写.md"
               }
             }
           },
@@ -171,11 +171,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de2233cfc22a828e",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "img/1.png.md",
+    "操作系统/文件系统/分块读写.md",
+    "images/Pasted image 20240101165537.png",
+    "操作系统/文件系统/Disk spindle.md",
     "images/Pasted image 20240101155537.png",
     "操作系统/文件系统/抽象.md",
-    "操作系统/文件系统/Disk spindle.md",
     "我狠C/C++ 登神长阶/template metaprogramming/Untitled.md",
     "我狠C/C++ 登神长阶/template metaprogramming/非类型模板参数.md",
     "操作系统/文件系统",
@@ -203,7 +206,6 @@
     "我狠C/C++ 登神长阶/effective C++ 条款.md",
     "tools/Untitled.md",
     "NetWorks",
-    "tools/计算机相关杂项.md",
     "images/Pasted image 20231216162019.png",
     "images/Pasted image 20231216161917.png",
     "images/Pasted image 20231216161830.png",
@@ -211,8 +213,6 @@
     "images/Pasted image 20231216161452.png",
     "images/Pasted image 20231216160841.png",
     "images/Pasted image 20231216160656.png",
-    "images/Pasted image 20231216160510.png",
-    "images/Pasted image 20231216160346.png",
     "DBMS",
     "操作系统/xv6/xv6-riscv-book-Chinese.zip",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets",
