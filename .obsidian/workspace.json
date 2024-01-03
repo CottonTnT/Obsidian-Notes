@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/文件系统/inode.md",
+                "file": "操作系统/文件系统/目录结构.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/文件系统/inode.md",
+                "file": "操作系统/文件系统/目录结构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/文件系统/inode.md",
+                "file": "操作系统/文件系统/目录结构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/文件系统/inode.md"
+                "file": "操作系统/文件系统/目录结构.md"
               }
             }
           },
@@ -196,11 +196,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "ec01e76a3e5389b9",
   "lastOpenFiles": [
+    "images/Pasted image 20240103235834.png",
+    "操作系统/文件系统/inode.md",
+    "操作系统/文件系统/目录结构.md",
+    "images/Pasted image 20240103230830.png",
     "操作系统/文件系统/分块读写.md",
     "操作系统/文件系统/内核文件表.md",
-    "操作系统/文件系统/inode.md",
     "images/Pasted image 20240103155333.png",
     "images/Pasted image 20240103155200.png",
     "images/Pasted image 20240103152641.png",
@@ -219,7 +222,6 @@
     "我狠C/C++ 登神长阶/cocurrent/future, promise以及async.md",
     "我狠C/C++ 登神长阶/cocurrent",
     "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
-    "images/Pasted image 20231228215611.png",
     "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
     "我狠C/C++ 登神长阶/类的初始化.md",
     "我狠C/C++ 登神长阶/显式类型转换.md",
@@ -235,7 +237,6 @@
     "DBMS/15445.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
     "我狠C/C++ 登神长阶/To be solved.md",
-    "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
     "NetWorks",
     "DBMS",
     "操作系统/xv6/xv6-riscv-book-Chinese.zip",
