@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "操作系统/文件系统/内核文件表.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec01e76a3e5389b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "操作系统/文件系统/分块读写.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d2dc687a9b85a42e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "操作系统/文件系统/抽象.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,12 +198,21 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "img/1.png.md",
-    "操作系统/文件系统/分块读写.md",
-    "images/Pasted image 20240101165537.png",
+    "操作系统/文件系统/内核文件表.md",
+    "操作系统/文件系统/inode.md",
+    "images/Pasted image 20240103155333.png",
+    "images/Pasted image 20240103155200.png",
+    "images/Pasted image 20240103152641.png",
+    "images/Pasted image 20240103143420.png",
+    "images/Pasted image 20240103143055.png",
     "操作系统/文件系统/Disk spindle.md",
-    "images/Pasted image 20240101155537.png",
     "操作系统/文件系统/抽象.md",
+    "操作系统/文件系统/分块读写.md",
+    "images/Pasted image 20240103134549.png",
+    "images/Pasted image 20240103134236.png",
+    "img/1.png.md",
+    "images/Pasted image 20240101165537.png",
+    "images/Pasted image 20240101155537.png",
     "我狠C/C++ 登神长阶/template metaprogramming/Untitled.md",
     "我狠C/C++ 登神长阶/template metaprogramming/非类型模板参数.md",
     "操作系统/文件系统",
@@ -202,17 +236,7 @@
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
     "我狠C/C++ 登神长阶/To be solved.md",
     "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
-    "NetWorks/socket.md",
-    "我狠C/C++ 登神长阶/effective C++ 条款.md",
-    "tools/Untitled.md",
     "NetWorks",
-    "images/Pasted image 20231216162019.png",
-    "images/Pasted image 20231216161917.png",
-    "images/Pasted image 20231216161830.png",
-    "images/Pasted image 20231216161538.png",
-    "images/Pasted image 20231216161452.png",
-    "images/Pasted image 20231216160841.png",
-    "images/Pasted image 20231216160656.png",
     "DBMS",
     "操作系统/xv6/xv6-riscv-book-Chinese.zip",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets",
