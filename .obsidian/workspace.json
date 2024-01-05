@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dab9088d06abce86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/编译器的优化机制.md",
+                "file": "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/编译器的优化机制.md",
+                "file": "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/编译器的优化机制.md"
+                "file": "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md"
               }
             }
           },
@@ -161,6 +174,8 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/编译器的优化机制.md",
+    "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
     "我狠C/C++ 登神长阶/显式类型转换.md",
     "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
     "操作系统/文件系统/内核文件表.md",
@@ -191,7 +206,6 @@
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
     "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
     "我狠C/C++ 登神长阶/C++对象模型.md",
-    "我狠C/C++ 登神长阶/编译器的优化机制.md",
     "我狠C/C++ 登神长阶/变参模板.md",
     "我狠C/C++ 登神长阶/template metaprogramming",
     "Typora的markdown语法.md",
