@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "02949c5a4f795732",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -83,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -99,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
+                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
+                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md"
+                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md"
               }
             }
           },
@@ -172,10 +185,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "02949c5a4f795732",
   "lastOpenFiles": [
-    "我狠C/C++ 登神长阶/编译器的优化机制.md",
+    "我狠C/C++ 登神长阶/使用等号的语法会让编译器认为是复制构造, 但编译器通常会优化掉. 恰好例子中的流对象是不可复制构造的, 因此只有上面这种写法..md",
+    "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
     "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
+    "我狠C/C++ 登神长阶/Untitled",
+    "我狠C/C++ 登神长阶/template metaprogramming/Untitled.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/Untitled 1.md",
+    "我狠C/C++ 登神长阶/编译器的优化机制.md",
     "我狠C/C++ 登神长阶/显式类型转换.md",
     "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
     "操作系统/文件系统/内核文件表.md",
@@ -195,7 +213,6 @@
     "images/Pasted image 20240103134236.png",
     "img/1.png.md",
     "images/Pasted image 20240101165537.png",
-    "我狠C/C++ 登神长阶/template metaprogramming/Untitled.md",
     "我狠C/C++ 登神长阶/template metaprogramming/非类型模板参数.md",
     "操作系统/文件系统",
     "我狠C/C++ 登神长阶/cocurrent/future, promise以及async.md",
@@ -210,16 +227,12 @@
     "我狠C/C++ 登神长阶/template metaprogramming",
     "Typora的markdown语法.md",
     "DBMS/project one.md",
-    "DBMS/15445.md",
-    "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
-    "我狠C/C++ 登神长阶/To be solved.md",
     "NetWorks",
     "DBMS",
     "操作系统/xv6/xv6-riscv-book-Chinese.zip",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets",
     "操作系统/xv6/xv6-riscv-book-Chinese",
     "Algorithm/数据结构/Untitled",
-    "Algorithm/算法模型/Untitled",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
