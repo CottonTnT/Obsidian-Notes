@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1f381ccbdfad08fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/C++ 登神长阶/编译器的优化机制.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dab9088d06abce86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "02949c5a4f795732",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,8 +88,8 @@
               "type": "backlink",
               "state": {
                 "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -130,7 +105,7 @@
               "type": "outgoing-link",
               "state": {
                 "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
-                "linksCollapsed": false,
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -168,12 +143,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,15 +160,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02949c5a4f795732",
+  "active": "4ceacfa0fc1d0102",
   "lastOpenFiles": [
-    "我狠C/C++ 登神长阶/使用等号的语法会让编译器认为是复制构造, 但编译器通常会优化掉. 恰好例子中的流对象是不可复制构造的, 因此只有上面这种写法..md",
-    "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
+    "我狠C/C++ 登神长阶/c语言堆栈机制.md",
+    "我狠C/C++ 登神长阶/编译器的优化机制.md",
     "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
+    "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
+    "我狠C/C++ 登神长阶/使用等号的语法会让编译器认为是复制构造, 但编译器通常会优化掉. 恰好例子中的流对象是不可复制构造的, 因此只有上面这种写法..md",
     "我狠C/C++ 登神长阶/Untitled",
     "我狠C/C++ 登神长阶/template metaprogramming/Untitled.md",
     "我狠C/C++ 登神长阶/template metaprogramming/Untitled 1.md",
-    "我狠C/C++ 登神长阶/编译器的优化机制.md",
     "我狠C/C++ 登神长阶/显式类型转换.md",
     "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
     "操作系统/文件系统/内核文件表.md",
@@ -226,7 +202,6 @@
     "我狠C/C++ 登神长阶/变参模板.md",
     "我狠C/C++ 登神长阶/template metaprogramming",
     "Typora的markdown语法.md",
-    "DBMS/project one.md",
     "NetWorks",
     "DBMS",
     "操作系统/xv6/xv6-riscv-book-Chinese.zip",
