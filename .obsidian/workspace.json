@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/4.SmartPointers/item22.md",
+                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/4.SmartPointers/item22.md",
+                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/4.SmartPointers/item22.md",
+                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/4.SmartPointers/item22.md"
+                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md"
               }
             }
           },
@@ -159,8 +160,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "02949c5a4f795732",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/grammer&semantic/三种权限说明符.md",
+    "我狠C/Effective Modern Cpp/4.SmartPointers/item22.md",
     "我狠C/Effective Modern Cpp/4.SmartPointers/item19.md",
     "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
     "我狠C/C++ 登神长阶/c语言堆栈机制.md",
@@ -198,8 +201,6 @@
     "我狠C/C++ 登神长阶/类的初始化.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
     "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
-    "我狠C/C++ 登神长阶/C++对象模型.md",
-    "我狠C/C++ 登神长阶/变参模板.md",
     "我狠C/C++ 登神长阶/template metaprogramming",
     "NetWorks",
     "DBMS",
