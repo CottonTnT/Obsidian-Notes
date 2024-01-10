@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "汇编/x86/命令详解.md",
+                "file": "我狠C/C++ 登神长阶/c语言堆栈机制.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "294e01e962c177a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "汇编/伪操作.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "汇编/x86/命令详解.md",
+                "file": "汇编/伪操作.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "汇编/x86/命令详解.md",
+                "file": "汇编/伪操作.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "汇编/x86/命令详解.md"
+                "file": "汇编/伪操作.md"
               }
             }
           },
@@ -159,10 +172,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02949c5a4f795732",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "汇编/x86/寄存器详解.md",
+    "汇编/Untitled.md",
+    "汇编/伪操作.md",
+    "汇编/标签.md",
     "汇编/x86/命令详解.md",
+    "汇编/x86/Untitled.md",
+    "汇编/x86/寄存器详解.md",
+    "我狠C/C++ 登神长阶/c语言堆栈机制.md",
     "操作系统/BIOS.md",
     "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
     "汇编/x86架构.md",
@@ -171,7 +189,6 @@
     "我狠C/C++ 登神长阶/grammer&semantic/三种权限说明符.md",
     "我狠C/Effective Modern Cpp/4.SmartPointers/item22.md",
     "我狠C/Effective Modern Cpp/4.SmartPointers/item19.md",
-    "我狠C/C++ 登神长阶/c语言堆栈机制.md",
     "我狠C/C++ 登神长阶/编译器的优化机制.md",
     "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
     "我狠C/C++ 登神长阶/使用等号的语法会让编译器认为是复制构造, 但编译器通常会优化掉. 恰好例子中的流对象是不可复制构造的, 因此只有上面这种写法..md",
@@ -195,13 +212,9 @@
     "操作系统/文件系统/Disk spindle.md",
     "images/Pasted image 20240103134549.png",
     "images/Pasted image 20240103134236.png",
-    "img/1.png.md",
     "images/Pasted image 20240101165537.png",
-    "我狠C/C++ 登神长阶/template metaprogramming/非类型模板参数.md",
     "操作系统/文件系统",
-    "我狠C/C++ 登神长阶/cocurrent/future, promise以及async.md",
     "我狠C/C++ 登神长阶/cocurrent",
-    "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
     "我狠C/C++ 登神长阶/template metaprogramming",
     "NetWorks",
     "DBMS",
