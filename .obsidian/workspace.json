@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/BIOS.md",
+                "file": "汇编/x86/命令详解.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/BIOS.md",
+                "file": "汇编/x86/命令详解.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/BIOS.md",
+                "file": "汇编/x86/命令详解.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/BIOS.md"
+                "file": "汇编/x86/命令详解.md"
               }
             }
           },
@@ -162,6 +162,7 @@
   "active": "02949c5a4f795732",
   "lastOpenFiles": [
     "汇编/x86/寄存器详解.md",
+    "汇编/x86/命令详解.md",
     "操作系统/BIOS.md",
     "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
     "汇编/x86架构.md",
@@ -201,7 +202,6 @@
     "我狠C/C++ 登神长阶/cocurrent/future, promise以及async.md",
     "我狠C/C++ 登神长阶/cocurrent",
     "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
     "我狠C/C++ 登神长阶/template metaprogramming",
     "NetWorks",
     "DBMS",
