@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "汇编/伪操作.md",
+                "file": "编译器/gcc/ld 链接选项.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d6d4cd4f59ca2c2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "汇编/伪操作.md",
+                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "汇编/伪操作.md",
+                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "汇编/伪操作.md"
+                "file": "我狠C/C++ 登神长阶/工具/Makefile.md"
               }
             }
           },
@@ -172,12 +184,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "d6d4cd4f59ca2c2a",
   "lastOpenFiles": [
-    "汇编/Untitled.md",
-    "汇编/伪操作.md",
-    "汇编/标签.md",
     "汇编/x86/命令详解.md",
+    "编译器/gcc/ld 链接选项.md",
+    "编译器/gcc/gcc 编译选项.md",
+    "我狠C/C++ 登神长阶/工具/Makefile.md",
+    "编译器/gcc",
+    "编译器/Untitled.md",
+    "编译器",
+    "汇编/伪操作.md",
+    "汇编/Untitled.md",
+    "汇编/标签.md",
     "汇编/x86/Untitled.md",
     "汇编/x86/寄存器详解.md",
     "我狠C/C++ 登神长阶/c语言堆栈机制.md",
@@ -199,17 +217,13 @@
     "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
     "操作系统/文件系统/内核文件表.md",
     "操作系统/文件系统/抽象.md",
-    "操作系统/文件系统/目录结构.md",
     "images/Pasted image 20240103235834.png",
-    "操作系统/文件系统/inode.md",
     "images/Pasted image 20240103230830.png",
-    "操作系统/文件系统/分块读写.md",
     "images/Pasted image 20240103155333.png",
     "images/Pasted image 20240103155200.png",
     "images/Pasted image 20240103152641.png",
     "images/Pasted image 20240103143420.png",
     "images/Pasted image 20240103143055.png",
-    "操作系统/文件系统/Disk spindle.md",
     "images/Pasted image 20240103134549.png",
     "images/Pasted image 20240103134236.png",
     "images/Pasted image 20240101165537.png",
@@ -218,8 +232,6 @@
     "我狠C/C++ 登神长阶/template metaprogramming",
     "NetWorks",
     "DBMS",
-    "操作系统/xv6/xv6-riscv-book-Chinese.zip",
-    "操作系统/xv6/xv6-riscv-book-Chinese/assets",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
