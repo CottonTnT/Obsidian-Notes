@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d418ab4052a5b0d5",
+        "id": "bbd83e6cff370d95",
         "type": "tabs",
         "children": [
           {
-            "id": "294e01e962c177a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "编译器/gcc/ld 链接选项.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6d4cd4f59ca2c2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6faa98b886c3be9f",
+            "id": "ef5f3784437e5fcd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,11 +160,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6faa98b886c3be9f",
+  "active": "ef5f3784437e5fcd",
   "lastOpenFiles": [
     "编译器/gcc/ld 链接选项.md",
-    "我狠C/C++ 登神长阶/c语言堆栈机制.md",
     "我狠C/C++ 登神长阶/工具/Makefile.md",
+    "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
+    "我狠C/C++ 登神长阶/c语言堆栈机制.md",
     "汇编/x86/命令详解.md",
     "编译器/gcc/gcc 编译选项.md",
     "编译器/gcc",
@@ -201,7 +177,6 @@
     "汇编/x86/Untitled.md",
     "汇编/x86/寄存器详解.md",
     "操作系统/BIOS.md",
-    "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
     "汇编/x86架构.md",
     "汇编/x86",
     "汇编",
