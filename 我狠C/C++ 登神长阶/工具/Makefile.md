@@ -1,12 +1,12 @@
-# Makefile基础知识
+# 1 Makefile基础知识
 
-## make使用流程
+## 1.1 make使用流程
 
 1. 准备好需要编译的源代码
 2. 编写Makefile文件
 3. 在命令行执行make命令
 
-## 最简单的Makefile
+## 1.2 最简单的Makefile
 
 ```makefile
 hello: hello.cpp
@@ -39,7 +39,7 @@ target … (目标): prerequisites …(依赖); recipe(方法) ;…
 ```
 
 
-## Makefile文件的命名与指定
+## 1.3 Makefile文件的命名与指定
 
 Make会自动查找makefile文件，查找顺序为GNUmakefile -> makefile -> Makefile
 
@@ -60,7 +60,7 @@ make --file=mkfile # make --file=<filename>
 
 
 
-## Makefile文件内容组成
+## 1.4 Makefile文件内容组成
 
 一个Makefile文件通常由五种类型的内容组成：显式规则、隐式规则、变量定义、指令和注释
 
@@ -81,7 +81,7 @@ make --file=mkfile # make --file=<filename>
 **注释**(*comments*)：一行当中 # 后面的内容都是注释，不会被make执行。make当中只有单行注释。如果需要用到#而不是注释，用\\\#。
 
 
-## 一个稍微复杂的Makefile
+## 1.5 一个稍微复杂的Makefile
 
 ![[Pasted image 20230809192331.png]]
 ```makefile
@@ -122,11 +122,11 @@ target … (目标): prerequisites …(依赖)
         …
 ```
 
-## 目标
+## 1.6 目标
 
 1. Makefile中会有很多目标，但最终目标只有一个，其他所有内容都是为这个最终目标服务的，写Makefile的时候**先写出最终目标，再依次解决总目标的依赖**
 
-2. 一般情况第一条规则中的目标会被确立为最终目标，第一条规则默认会被make执行
+2. *一般情况第一条规则中的目标会被确立为最终目标，第一条规则默认会被make执行*
 
 3. 通常来说目标是一个文件，一条规则的目的就是生成或更新目标文件。
 
@@ -153,7 +153,7 @@ target … (目标): prerequisites …(依赖)
 
 
 
-## 伪目标
+## 1.7 伪目标
 
 如果一个标并不是一个文件，则这个目标就是伪目标。例如前面的clean目标。*如果说在当前目录下有一个文件名称和这个目标名称冲突了*，则这个目标就没法执行。这时候需要用到一个特殊的目标 .PHONY，将上面的clean目标改写如下 
 
@@ -164,7 +164,7 @@ clean:
     rm sudoku.exe
 ```
 
-这样即使当前目录下存在与目标同名的文件，该目标也能正常执行。
+这样*即使当前目录下存在与目标同名的文件，该目标也能正常执行*。
 
 **伪目标的其他应用方式**
 
@@ -180,9 +180,9 @@ test.o: test.cpp test.h
 
 
 
-## 依赖
+## 1.8 依赖
 
-### 依赖类型
+### 1.8.1 依赖类型
 
 
 **普通依赖**
@@ -208,7 +208,7 @@ targets : normal-prerequisites | order-only-prerequisites
 >normal-prerequisites部分可以为空
 
 
-### 指定依赖搜索路径
+### 1.8.2 指定依赖搜索路径
 
 make默认在Makefile文件所在的目录下查找依赖文件，如果找不到，就会报错。这时候就需要手动指定搜索路径，用VPATH变量或vpath指令。
 
@@ -241,7 +241,7 @@ vpath hello.cpp src  # hello.cpp文件在src查找
 
 
 
-## 更新方法
+## 1.9 更新方法
 
 ```makefile
 target … (目标): prerequisites …(依赖)
@@ -250,7 +250,7 @@ target … (目标): prerequisites …(依赖)
         …
 ```
 
-#### 关于执行终端
+#### 1.9.1.1 关于执行终端
 
 更新方法**实际上是一些Shell指令**，通常*以Tab开头*，或直接放在目标-依赖列表后面，用分号隔开。*这些指令都需要交给Shell执行，所以需要符合Shell语法*。默认使用的Shell是sh，在Windows上如果没有安装sh.exe的话会自动查找使用cmd.exe之类的终端。这时有的指令写法，例如循环语句，与Linux不同，需要注意。
 
@@ -271,7 +271,7 @@ SHELL = cmd.exe
 
 这样所有指令都会在同一次Shell调用中执行
 
-#### Shell语句回显问题
+#### 1.9.1.2 Shell语句回显问题
 
 通常make在执行一条Shell语句前都会先打印这条语句，如果不想打印可以在语句开头在@
 
@@ -286,7 +286,7 @@ SHELL = cmd.exe
 .SILENT: main all
 ```
 
-#### 错误处理
+#### 1.9.1.3 错误处理
 
 如果一条规则当中包含多条Shell指令，每条指令执行完之后make都会检查返回状态，如果返回状态是0，则执行成功，继续执行下一条指令，直到最后一条指令执行完成之后，一条规则也就结束了。
 
@@ -309,7 +309,7 @@ clean:
 ```
 
 
-## 变量应用
+## 1.10 变量应用
 
 Makefile中的变量有点类似C语言中的宏定义，即用一个名称表示一串文本。但与C语言宏定义不同的是，Makefile的变量值是可以改变的。变量定义之后可以在目标、依赖、方法等Makefile文件的任意地方进行引用。
 
@@ -327,7 +327,7 @@ Makefile中的变量有点类似C语言中的宏定义，即用一个名称表�
 
 - ......
 
-### 变量定义与引用方式
+### 1.10.1 变量定义与引用方式
 
 **定义方式**
 
@@ -350,7 +350,7 @@ main.o : $(files) # 或者 ${files}
 
 > 如果变量名只有一个字符，使用时可以不用括号，如\$a, \$b， 但不建议这样用，不管是否只有一个字符都写成\$(a), \$(b)这种形式
 
-### Makefile读取过程
+### 1.10.2 Makefile读取过程
 
 GNU make分两个阶段来执行Makefile，第一阶段(读取阶段)：
 
@@ -377,10 +377,10 @@ GNU make分两个阶段来执行Makefile，第一阶段(读取阶段)：
 
 
 
-### 变量赋值
+### 1.10.3 变量赋值
 
 
-#### 递归展开赋值（延迟展开）
+#### 1.10.3.1 递归展开赋值（延迟展开）
 
 
 第一种方式就是直接使用<kbd>=</kbd>，这种方式如果赋值的时候右边是其他变量引用或者函数调用之类的，将不会做处理，直接保留原样，在使用到该变量的时候再来进行处理得到变量值（Makefile执行的第二个阶段再进行变量展开得到变量值）
@@ -400,7 +400,7 @@ ugh = Huh?
 bar2 = ThisIsBar2No.2
 ```
 
-#### 简单赋值(立即展开)
+#### 1.10.3.2 简单赋值(立即展开)
 
 简单赋值使用<kbd>:=</kbd>或<kbd>::=</kbd>，这种方式如果等号右边是其他变量或者引用的话，将会在赋值的时候就进行处理得到变量值。（Makefile执行第一阶段进行变量展开）
 
@@ -419,7 +419,7 @@ ugh := Huh?
 bar2 := ThisIsBar2No.2
 ```
 
-#### 条件赋值
+#### 1.10.3.3 条件赋值
 
 条件赋值使用<kbd>?=</kbd>，如果变量已经定义过了（即已经有值了），那么就保持原来的值，如果变量还没赋值过，就把右边的值赋给变量。
 
@@ -453,7 +453,7 @@ z = Hello
 a := $($(x))
 ```
 
-#### 追加
+#### 1.10.3.4 追加
 
 使用<kbd>+=</kbd>在变量已有的基础上追加内容
 
@@ -465,7 +465,7 @@ all:
     @echo $(files)
 ```
 
-#### Shell运行赋值
+#### 1.10.3.5 Shell运行赋值
 
 使用<kbd>!=</kbd>，运行一个Shell指令后将返回值赋给一个变量
 
@@ -479,7 +479,7 @@ files != ls .
 
 
 
-### 定义多行变量
+### 1.10.4 定义多行变量
 
 前面定义的变量都是单行的。
 
@@ -519,7 +519,7 @@ all:
     $(echosomething)
 ```
 
-### 取消变量
+### 1.10.5 取消变量
 
 如果想清除一个变量，用以下方法
 
@@ -527,7 +527,7 @@ all:
 undefine <变量名>   如 undefine files,  undefine objs
 ```
 
-### 环境变量的使用
+### 1.10.6 环境变量的使用
 
 系统中的环境变量可以直接在Makefile中直接使用，使用方法跟普通变量一样
 
@@ -538,7 +538,7 @@ all:
     @echo $(SystemRoot)
 ```
 
-### 变量替换引用
+### 1.10.7 变量替换引用
 
 语法：__\$(var:a=b)__，意思是将变量var的值当中每一项结尾的a替换为b，直接上例子
 
@@ -549,7 +549,7 @@ objs := $(files:.cpp=.o) # main.o hello.o
 objs := $(files:%.cpp=%.o)
 ```
 
-### 变量覆盖
+### 1.10.8 变量覆盖
 
 所有在Makefile中的变量，都可以在执行make时能过指定参数的方式进行覆盖。
 
@@ -595,7 +595,7 @@ make OverridDemo=ThisIsFromOutShell
 
 
 
-### 自动变量
+### 1.10.9 自动变量
 
 **\$@**：①本条规则的目标名；②如果目标是归档文件的成员，则为归档文件名；③在多目标的模式规则中, 为导致本条规则方法执行的那个目标名；
 **\$<**：本条规则的第一个依赖名称
@@ -648,7 +648,7 @@ __\$(?F)__
 
 
 
-### 绑定目标的变量
+### 1.10.10 绑定目标的变量
 
 Makefile中的变量一般是全局变量。也就是说定义之后在Makefile的任意位置都可以使用。但也可以将变量指定在某个目标的范围内，这样这个变量就只能在这个目标对应的规则里面保用
 
@@ -704,7 +704,7 @@ t3:
 
 
 
-### 二次展开
+### 1.10.11 二次展开
 
 前面说过依赖中的变量都是在Makefile读取阶段立即展开的。如果想让依赖的的变量延迟展开，可以使用.SECONDEXPANSION:，添加之后，在依赖中使用变量时用`$$`，可以让变量在第二阶段进行二次展开，从而达到延迟展开的效果。
 
@@ -726,13 +726,13 @@ VAR1 = hello.cpp
 
 
 
-# 自动推导与隐式规则
+# 2 自动推导与隐式规则
 
 Makefile中有一些生成目标文件的规则使用频率非常高，比如由.c或.cpp文件编译成.o文件，这样的规则在make中可以自动推导，所以可以不用明确写出来，这样的规则称为隐式规则。
 
-## 一些make预定义的规则
+## 2.1 一些make预定义的规则
 
-### C语言编译
+### 2.1.1 C语言编译
 
 从.c到.o
 
@@ -740,7 +740,7 @@ Makefile中有一些生成目标文件的规则使用频率非常高，比如由
 $(CC) $(CPPFLAGS) $(CFLAGS) -c
 ```
 
-### C++编译
+### 2.1.2 C++编译
 
 从.cc .cpp .C到.o
 
@@ -748,7 +748,7 @@ $(CC) $(CPPFLAGS) $(CFLAGS) -c
 $(CXX) $(CPPFLAGS) $(CXXFLAGS) -c
 ```
 
-### 链接
+### 2.1.3 链接
 
 由.o文件链接到可执行文件
 
@@ -756,47 +756,47 @@ $(CXX) $(CPPFLAGS) $(CXXFLAGS) -c
 $(CC) $(LDFLAGS) *.o $(LOADLIBES) $(LDLIBS)
 ```
 
-## 隐式规则中常用一些变量
+## 2.2 隐式规则中常用一些变量
 
 这些变量都有默认值，也可以自行修改
 
-### CC
+### 2.2.1 CC
 
 编译C语言的程序，默认为 `cc`
 
-### CXX
+### 2.2.2 CXX
 
 编译C++的程序，默认为 `g++`
 
-### AR
+### 2.2.3 AR
 
 归档程序，默认为 `ar`
 
-### CPP
+### 2.2.4 CPP
 
 C语言预处理程序，默认为 `$(CC) -E`
 
-### RM
+### 2.2.5 RM
 
 删除文件的程序，默认为`rm -f`
 
-### CFLAGS
+### 2.2.6 CFLAGS
 
 传递给C编译器的一些选项，如-O2 -Iinclude
 
-### CXXFLAGS
+### 2.2.7 CXXFLAGS
 
 传递给C++编译器的一些选项，如-std=c++ 11 -fexec-charset=GBK   
 
-### CPPFLAGS
+### 2.2.8 CPPFLAGS
 
 C语言预处理的一些选项
 
-### LDFLAGS
+### 2.2.9 LDFLAGS
 
 链接选项，如-L.
 
-### LDLIBS
+### 2.2.10 LDLIBS
 
 链接需要用到的库，如-lkernel32 -luser32 -lgdi32
 
@@ -807,11 +807,11 @@ C语言预处理的一些选项
 
 
 
-# 多目标与多规则
+# 3 多目标与多规则
 
 显式规则中一条规则可以有多个目标，多个目标可以是相互独立的目标，也可以是组合目标，用写法来区分
 
-## 独立多目标
+## 3.1 独立多目标
 
 相互独立的多个目标与依赖之间直接用`:`，常用这种方式的有以下两种情况
 
@@ -882,7 +882,7 @@ C语言预处理的一些选项
 
 独立多目标虽然写在一起，但是每个目标都是单独调用一次方法来更新的。和分开写效果一样。
 
-## 组合多目标
+## 3.2 组合多目标
 
 多目标与依赖之前用`&:`，这样的多个目标称为组合目标。与独立多目标的区别在于，独立多目标每个目标的更新需要单独调用一次更新方法。而组合多目标调用一次方法将更新所有目标
 
@@ -895,7 +895,7 @@ block.o input.o scene.o &: block.cpp input.cpp scene.cpp common.h
 
 所有目标的更新方法都写到其中，每次更新只会调用一次。
 
-## 同一目标多条规则
+## 3.3 同一目标多条规则
 
 同一目标可以对应多条规则。同一目标的所有规则中的依赖会被合并。但如果同一目标对应的多条规则都写了更新方法，则会使用最新的一条更新方法，并且会输出警告信息。
 
@@ -914,7 +914,7 @@ input.o main.o scene.o : common.h
 
 同时给三个目标添加了一个依赖common.h，但是不用修改上面已写好的部分。
 
-# 静态模式
+# 4 静态模式
 
 独立多目标可以简化Makefile的书写，但是不利于将各个目标的依赖分开，让目标文件根据各自的依赖进行更新。静态模式可以在一定程度上改进依赖分开问题。
 
@@ -963,7 +963,7 @@ main.o: main.cpp scene.h input.h test.h
     g++ -c $<
 ```
 
-# 条件判断
+# 5 条件判断
 
 使用条件指令可以让make执行或略过Makefile文件中的一些部分。
 
@@ -1040,7 +1040,7 @@ ifeq '$(OS)' "Windows_NT"
 
 &nbsp;
 
-# 文本处理函数
+# 6 文本处理函数
 
 C语言中，函数调用方法是function(arguments)；但在Makefile中调用函数的写法不同
 
@@ -1049,9 +1049,9 @@ $(function arguments) 或 ${function arguments}
 $(function arg1,$(arg2),arg3 ...)  # 参数之间不要有空格
 ```
 
-## 字符替换与分析
+## 6.1 字符替换与分析
 
-#### **subst**
+#### 6.1.1.1 **subst**
 
 文本替换函数，返回替换后的文本
 
@@ -1089,7 +1089,7 @@ srcs = $(subst %.o,%.cpp,$(objs))
 headers = $(subst %.cpp,%.h,$(srcs))    
 ```
 
-#### **strip**
+#### 6.1.1.2 **strip**
 
 去除字符串头部和尾部的空格，中间如果连续有多个空格，则用一个空格替换，返回去除空格后的文本
 
@@ -1103,7 +1103,7 @@ files := $(subst aa,        ,$(files))
 files2 = $(strip $(files))
 ```
 
-#### findstring
+#### 6.1.1.3 findstring
 
 查找字符串，如果找到了，则返回对应的字符串，如果没找到，则反回空串
 
@@ -1117,7 +1117,7 @@ find = $(findstring hel,$(files))
 find = $(findstring HEL,$(files))
 ```
 
-#### filter
+#### 6.1.1.4 filter
 
 从文本中筛选出符合模式的内容并返回
 
@@ -1130,7 +1130,7 @@ files = hello.cpp main.cpp test.cpp main.o hello.o hello.h
 files2 = $(filter %.o %.h,$(files))
 ```
 
-#### filter-out
+#### 6.1.1.5 filter-out
 
 与filter相反，过滤掉符合模式的，返回剩下的内容
 
@@ -1144,7 +1144,7 @@ files = hello.cpp main.cpp test.cpp main.o hello.o hello.h
 files2 = $(filter-out %.o %.cpp,$(files))
 ```
 
-#### sort
+#### 6.1.1.6 sort
 
 将文本内的各项按字典顺序排列，并且移除重复项
 
@@ -1157,7 +1157,7 @@ files = hello.cpp main.cpp test.cpp main.o hello.o hello.h main.cpp hello.cpp
 files2 = $(sort $(files))
 ```
 
-#### word
+#### 6.1.1.7 word
 
 用于返回文本中第n个单词
 
@@ -1170,7 +1170,7 @@ files = hello.cpp main.cpp test.cpp main.o hello.o hello.h main.cpp hello.cpp
 files2 = $(word 3,$(files))
 ```
 
-#### wordlist
+#### 6.1.1.8 wordlist
 
 用于返回文本指定范围内的单词列表
 
@@ -1183,7 +1183,7 @@ files = hello.cpp main.cpp test.cpp main.o hello.o hello.h main.cpp hello.cpp
 files2 = $(wordlist 3,6,$(files))
 ```
 
-#### words
+#### 6.1.1.9 words
 
 返回文本中单词数
 
@@ -1196,7 +1196,7 @@ files = hello.cpp main.cpp test.cpp main.o hello.o hello.h main.cpp hello.cpp
 nums = $(words $(files))
 ```
 
-#### firstword
+#### 6.1.1.10 firstword
 
 返回第一个单词
 
@@ -1204,7 +1204,7 @@ nums = $(words $(files))
 $(firstword text)
 ```
 
-#### lastword
+#### 6.1.1.11 lastword
 
 返回最后一个单词
 
@@ -1212,9 +1212,9 @@ $(firstword text)
 $(lastword text)
 ```
 
-## 文件名处理函数
+## 6.2 文件名处理函数
 
-#### dir
+#### 6.2.1.1 dir
 
 返回文件目录
 
@@ -1227,7 +1227,7 @@ files = src/hello.cpp main.cpp
 files2 = $(dir $(files))
 ```
 
-#### notdir
+#### 6.2.1.2 notdir
 
 返回除目录部分的文件名
 
@@ -1239,7 +1239,7 @@ files = src/hello.cpp main.cpp
 files2 = $(notdir $(files))
 ```
 
-#### suffix
+#### 6.2.1.3 suffix
 
 返回文件后缀名，如果没有后缀返回空
 
@@ -1252,7 +1252,7 @@ files = src/hello.cpp main.cpp hello.o hello.hpp hello
 files2 = $(suffix $(files))
 ```
 
-#### basename
+#### 6.2.1.4 basename
 
 返回文件名除后缀的部分
 
@@ -1265,7 +1265,7 @@ files = src/hello.cpp main.cpp hello.o hello.hpp hello
 files2 = $(basename $(files))
 ```
 
-#### addsuffix
+#### 6.2.1.5 addsuffix
 
 给文件名添加后缀
 
@@ -1278,7 +1278,7 @@ files = src/hello.cpp main.cpp hello.o hello.hpp hello
 files2 = $(addsuffix .exe,$(files))
 ```
 
-#### addprefix
+#### 6.2.1.6 addprefix
 
 给文件名添加前缀
 
@@ -1291,7 +1291,7 @@ files = src/hello.cpp main.cpp hello.o hello.hpp hello
 files2 = $(addprefix make/,$(files))
 ```
 
-#### join
+#### 6.2.1.7 join
 
 将两个列表中的内容一对一连接，如果两个列表内容数量不相等，则多出来的部分原样返回
 
@@ -1306,7 +1306,7 @@ f2 = .cpp .hpp
 files2 = $(join $(f1),$(f2))
 ```
 
-#### wildcard
+#### 6.2.1.8 wildcard
 
 返回符合通配符的文件列表
 
@@ -1319,7 +1319,7 @@ files2 = $(wildcard *)
 files2 = $(wildcard src/*.cpp)
 ```
 
-#### realpath
+#### 6.2.1.9 realpath
 
 返回文件的绝对路径
 
@@ -1331,7 +1331,7 @@ f3 = $(wildcard src/*)
 files2 = $(realpath $(f3))
 ```
 
-#### abspath
+#### 6.2.1.10 abspath
 
 返回绝对路径，用法同realpath，如果一个文件名不存在，realpath不会返回内容，abspath则会返回一个当前文件夹一下的绝对路径
 
@@ -1339,9 +1339,9 @@ files2 = $(realpath $(f3))
 $(abspath files)
 ```
 
-## 条件函数
+## 6.3 条件函数
 
-#### if
+#### 6.3.1.1 if
 
 条伯判断，如果条件展开不是空串，则反回真的部分，否则返回假的部分
 
@@ -1355,7 +1355,7 @@ files = src/hello.cpp main.cpp hello.o hello.hpp hello
 files2 = $(if $(files),有文件,没有文件)
 ```
 
-#### or
+#### 6.3.1.2 or
 
 返回条件中第一个不为空的部分
 
@@ -1369,7 +1369,7 @@ f4 = main.cpp
 files2 = $(or $(f1),$(f2),$(f3),$(f4))
 ```
 
-#### and
+#### 6.3.1.3 and
 
 如果条件中有一个为空串，则返回空，如果全都不为空，则返回最后一个条件
 
@@ -1383,7 +1383,7 @@ f4 = main.cpp
 files2 = $(and $(f1),$(f2),$(f3),$(f4))
 ```
 
-#### intcmp
+#### 6.3.1.4 intcmp
 
 比较两个整数大小，并返回对应操作结果（GNU make 4.4以上版本）
 
@@ -1404,7 +1404,7 @@ $(intcmp lhs,rhs[,lt-part[,eq-part[,gt-part]]])
 @echo $(intcmp 2,2,-1,0,1)
 ```
 
-## file
+## 6.4 file
 
 读写文件
 
@@ -1423,7 +1423,7 @@ write = $(file > makewrite.txt,$(files))
 read = $(file < makewrite.txt)
 ```
 
-## foreach
+## 6.5 foreach
 
 对一列用空格隔开的字符序列中每一项进行处理，并返回处理后的列表
 
@@ -1451,7 +1451,7 @@ for(int i = 0; i < 5; i++)
 // 此时result即为返回结果
 ```
 
-## call
+## 6.6 call
 
 将一些复杂的表达式写成一个变量，用call可以像调用函数一样进行调用。类似于编程语言中的自定义函数。在函数中可以用$(n)来访问第n个参数
 
@@ -1464,7 +1464,7 @@ dirof =  $(dir $(realpath $(1))) $(dir $(realpath $(2)))
 result = $(call dirof,main.cpp,src/hello.cpp)
 ```
 
-## value
+## 6.7 value
 
 对于不是立即展开的变量，可以查看变量的原始定义；对于立即展开的变量，直接返回变量值
 
@@ -1479,7 +1479,7 @@ all:
     @echo $(value var3)
 ```
 
-## origin
+## 6.8 origin
 
 查看一个变量定义来源
 
@@ -1496,7 +1496,7 @@ all:
     @echo $(origin @)        # automatic 自动变量
 ```
 
-## flavor
+## 6.9 flavor
 
 查看一个变量的赋值方式
 
@@ -1511,7 +1511,7 @@ all:
     @echo $(flavor var3)    # simple 简单赋值
 ```
 
-## eval
+## 6.10 eval
 
 可以将一段文本生成Makefile的内容
 
@@ -1528,7 +1528,7 @@ $(eval $(eval_target))
 
 以上，运行make时将会执行eval目标
 
-## shell
+## 6.11 shell
 
 用于执行Shell命令
 
@@ -1537,7 +1537,7 @@ files = $(shell ls *.cpp)
 $(shell echo This is from shell function)
 ```
 
-## let
+## 6.12 let
 
 将一个字符串序列中的项拆开放入多个变量中，并对各个变量进行操作（GNU make 4.4以上版本）
 
@@ -1560,9 +1560,9 @@ reverse = $(let first rest,$(1),$(if $(rest),$(call reverse,$(rest)) )$(first))
 all: ; @echo $(call reverse,d c b a)
 ```
 
-## 信息提示函数
+## 6.13 信息提示函数
 
-#### error
+#### 6.13.1.1 error
 
 提示错误信息并终止make执行
 
@@ -1576,7 +1576,7 @@ ifneq (0, $(EXIT_STATUS))
 endif
 ```
 
-#### warning
+#### 6.13.1.2 warning
 
 提示警告信息，make不会终止
 
@@ -1588,7 +1588,7 @@ ifneq (0, $(EXIT_STATUS))
 endif
 ```
 
-#### info
+#### 6.13.1.3 info
 
 输出一些信息
 
@@ -1599,9 +1599,9 @@ $(info 编译开始.......)
 $(info 编译结束)
 ```
 
-# 同一项目中有多个Makefile文件
+# 7 同一项目中有多个Makefile文件
 
-## 包含其他makefile文件
+## 7.1 包含其他makefile文件
 
 使用`include`指令可以读入其他makefile文件的内容，效果就如同在include的位置用对应的文件内容替换一样。
 
@@ -1616,7 +1616,7 @@ include *.mk    # 可以用通配符，表示引入所有以.mk结尾的文件
 -include mkf1 mkf2
 ```
 
-#### 应用实例：自动生成依赖
+#### 7.1.1.1 应用实例：自动生成依赖
 
 ```makefile
 objs = block.o command.o input.o main.o scene.o test.o
@@ -1638,7 +1638,7 @@ include $(objs:%.o=%.d)
     @echo $^
 ```
 
-## 嵌套make
+## 7.2 嵌套make
 
 如果将一个大项目分为许多小项目，则可以使用嵌套（递归）使用make。具体做法为，写一个总的Makefile，然后在每个子项目中都写一个Makefile，在总Makefile中进行调用。
 
@@ -1712,7 +1712,7 @@ unexport    # 取消传递
 
 &nbsp;
 
-# 后续学习过程
+# 8 后续学习过程
 
 读一些开源项目的Makefile
 

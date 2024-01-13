@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
+                "file": "脚本/ANSI Escape Code.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
+                "file": "脚本/ANSI Escape Code.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
+                "file": "脚本/ANSI Escape Code.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md"
+                "file": "脚本/ANSI Escape Code.md"
               }
             }
           },
@@ -162,9 +161,16 @@
   },
   "active": "ef5f3784437e5fcd",
   "lastOpenFiles": [
-    "编译器/gcc/ld 链接选项.md",
     "我狠C/C++ 登神长阶/工具/Makefile.md",
+    "脚本/ANSI Escape Code.md",
+    "脚本/shell",
+    "脚本/shell.md",
+    "脚本/python",
     "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
+    "脚本/python.md",
+    "脚本",
+    "tools/Untitled.md",
+    "编译器/gcc/ld 链接选项.md",
     "我狠C/C++ 登神长阶/c语言堆栈机制.md",
     "汇编/x86/命令详解.md",
     "编译器/gcc/gcc 编译选项.md",
@@ -188,11 +194,6 @@
     "我狠C/C++ 登神长阶/使用等号的语法会让编译器认为是复制构造, 但编译器通常会优化掉. 恰好例子中的流对象是不可复制构造的, 因此只有上面这种写法..md",
     "我狠C/C++ 登神长阶/Untitled",
     "我狠C/C++ 登神长阶/template metaprogramming/Untitled.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/Untitled 1.md",
-    "我狠C/C++ 登神长阶/显式类型转换.md",
-    "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
-    "操作系统/文件系统/内核文件表.md",
-    "操作系统/文件系统/抽象.md",
     "images/Pasted image 20240103235834.png",
     "images/Pasted image 20240103230830.png",
     "images/Pasted image 20240103155333.png",
@@ -205,9 +206,6 @@
     "images/Pasted image 20240101165537.png",
     "操作系统/文件系统",
     "我狠C/C++ 登神长阶/cocurrent",
-    "我狠C/C++ 登神长阶/template metaprogramming",
-    "NetWorks",
-    "DBMS",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
