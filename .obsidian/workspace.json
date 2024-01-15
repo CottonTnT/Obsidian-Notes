@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/并发/信号量.md",
+                "file": "操作系统/并发/常见并发问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/并发/信号量.md",
+                "file": "操作系统/并发/常见并发问题.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/并发/信号量.md",
+                "file": "操作系统/并发/常见并发问题.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/并发/信号量.md"
+                "file": "操作系统/并发/常见并发问题.md"
               }
             }
           },
@@ -159,10 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "ef5f3784437e5fcd",
   "lastOpenFiles": [
-    "操作系统/并发/条件变量.md",
     "操作系统/并发/信号量.md",
+    "操作系统/并发/常见并发问题.md",
+    "操作系统/并发/条件变量.md",
     "images/Pasted image 20240115144147.png",
     "操作系统/并发/锁.md",
     "操作系统/并发",
@@ -195,7 +196,6 @@
     "汇编/x86",
     "汇编",
     "我狠C/C++ 登神长阶/grammer&semantic/三种权限说明符.md",
-    "我狠C/Effective Modern Cpp/4.SmartPointers/item22.md",
     "我狠C/C++ 登神长阶/Untitled",
     "images/Pasted image 20240103235834.png",
     "images/Pasted image 20240103230830.png",
