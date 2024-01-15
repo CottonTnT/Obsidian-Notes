@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/并发/条件变量.md",
+                "file": "操作系统/并发/信号量.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/并发/条件变量.md",
+                "file": "操作系统/并发/信号量.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/并发/条件变量.md",
+                "file": "操作系统/并发/信号量.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/并发/条件变量.md"
+                "file": "操作系统/并发/信号量.md"
               }
             }
           },
@@ -161,8 +161,10 @@
   },
   "active": "ef5f3784437e5fcd",
   "lastOpenFiles": [
-    "操作系统/并发/锁.md",
     "操作系统/并发/条件变量.md",
+    "操作系统/并发/信号量.md",
+    "images/Pasted image 20240115144147.png",
+    "操作系统/并发/锁.md",
     "操作系统/并发",
     "Algorithm/变换技巧/取整.md",
     "Algorithm/变换技巧/矩阵.md",
@@ -194,7 +196,6 @@
     "汇编",
     "我狠C/C++ 登神长阶/grammer&semantic/三种权限说明符.md",
     "我狠C/Effective Modern Cpp/4.SmartPointers/item22.md",
-    "我狠C/Effective Modern Cpp/4.SmartPointers/item19.md",
     "我狠C/C++ 登神长阶/Untitled",
     "images/Pasted image 20240103235834.png",
     "images/Pasted image 20240103230830.png",
@@ -205,7 +206,6 @@
     "images/Pasted image 20240103143055.png",
     "images/Pasted image 20240103134549.png",
     "images/Pasted image 20240103134236.png",
-    "images/Pasted image 20240101165537.png",
     "操作系统/文件系统",
     "未命名.canvas",
     "未命名 1.canvas"
