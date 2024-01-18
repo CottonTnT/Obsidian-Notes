@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编译器/gcc/ld 链接选项.md",
+                "file": "编译器/gcc/gcc 编译选项.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编译器/gcc/ld 链接选项.md",
+                "file": "编译器/gcc/gcc 编译选项.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编译器/gcc/ld 链接选项.md",
+                "file": "编译器/gcc/gcc 编译选项.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编译器/gcc/ld 链接选项.md"
+                "file": "编译器/gcc/gcc 编译选项.md"
               }
             }
           },
@@ -186,8 +186,10 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "编译器/gcc/gcc 编译选项.md",
+    "编译器/GDB/常用命令大全.md",
     "编译器/gcc/ld 链接选项.md",
+    "编译器/GDB",
+    "编译器/gcc/gcc 编译选项.md",
     "我狠C/C++ 登神长阶/工具/Makefile.md",
     "汇编/x86/寄存器详解.md",
     "操作系统/并发/常见并发问题.md",
@@ -218,7 +220,6 @@
     "汇编/Untitled.md",
     "汇编/标签.md",
     "汇编/x86/Untitled.md",
-    "汇编/x86架构.md",
     "汇编/x86",
     "汇编",
     "我狠C/C++ 登神长阶/Untitled",
@@ -231,7 +232,6 @@
     "images/Pasted image 20240103143055.png",
     "images/Pasted image 20240103134549.png",
     "images/Pasted image 20240103134236.png",
-    "操作系统/文件系统",
     "未命名.canvas",
     "未命名 1.canvas"
   ]

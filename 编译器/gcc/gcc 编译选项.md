@@ -37,3 +37,15 @@
 
 - -Wl, option
 	选项允许将参数传递给连接器，以便控制连接过程的行为。您可以使用 -Wl 将连接器选项传递给连接器，例如链接库、指定输出文件名等
+
+
+# 6 Directory Options
+> These options specify directories to search for header files, for libraries and for parts of the compiler:
+
+- `-I dir`
+
+- `-iquote dir`
+
+- `-isystem dir`
+
+- `-idirafter dir`
