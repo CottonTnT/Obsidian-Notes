@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编译器/gcc/ld 链接选项.md",
+                "file": "我狠C/杂项.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,14 +61,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/c语言堆栈机制.md",
+                "file": "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -136,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编译器/程序员的自我修养笔记.md",
+                "file": "我狠C/杂项.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -153,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编译器/程序员的自我修养笔记.md",
+                "file": "我狠C/杂项.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编译器/程序员的自我修养笔记.md"
+                "file": "我狠C/杂项.md"
               }
             }
           },
@@ -209,13 +207,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "469cbd2819c73c37",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
+    "我狠C/杂项.md",
     "我狠C/C++ 登神长阶/c语言堆栈机制.md",
+    "我狠C/C++ 登神长阶/工具/Makefile.md",
     "编译器/程序员的自我修养笔记.md",
     "汇编/x86/命令详解.md",
     "编译器/gcc/ld 链接选项.md",
-    "我狠C/C++ 登神长阶/工具/Makefile.md",
     "images/Pasted image 20230722194813.png",
     "编译器/gcc/gcc 编译选项.md",
     "编译器/GDB/常用命令大全.md",
@@ -244,7 +244,6 @@
     "编译器/Untitled.md",
     "编译器",
     "汇编/伪操作.md",
-    "汇编/Untitled.md",
     "汇编/x86",
     "汇编",
     "我狠C/C++ 登神长阶/Untitled",
