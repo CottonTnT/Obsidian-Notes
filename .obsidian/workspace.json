@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bbd83e6cff370d95",
+        "id": "ec0862da6e2da08f",
         "type": "tabs",
         "children": [
           {
-            "id": "ef5f3784437e5fcd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/杂项.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "530808b9219218fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "469cbd2819c73c37",
+            "id": "9f9b171bc27482a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,24 +20,12 @@
             }
           },
           {
-            "id": "cc0f55d0170e786f",
+            "id": "df7e94d714917c4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "汇编/x86/命令详解.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b6fe5cbe058c923",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
+                "file": "编译器/程序员的自我修养笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -134,9 +99,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/杂项.md",
-                "collapseAll": true,
-                "extraContext": true,
+                "file": "编译器/程序员的自我修养笔记.md",
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -151,8 +116,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/杂项.md",
-                "linksCollapsed": true,
+                "file": "编译器/程序员的自我修养笔记.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -174,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/杂项.md"
+                "file": "编译器/程序员的自我修养笔记.md"
               }
             }
           },
@@ -207,54 +172,55 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "9f9b171bc27482a7",
   "lastOpenFiles": [
-    "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
-    "我狠C/杂项.md",
-    "我狠C/C++ 登神长阶/c语言堆栈机制.md",
-    "我狠C/C++ 登神长阶/工具/Makefile.md",
-    "编译器/程序员的自我修养笔记.md",
-    "汇编/x86/命令详解.md",
-    "编译器/gcc/ld 链接选项.md",
-    "images/Pasted image 20230722194813.png",
-    "编译器/gcc/gcc 编译选项.md",
-    "编译器/GDB/常用命令大全.md",
-    "编译器/GDB",
-    "汇编/x86/寄存器详解.md",
-    "操作系统/并发/常见并发问题.md",
-    "操作系统/并发/信号量.md",
-    "操作系统/并发/条件变量.md",
-    "操作系统/BIOS.md",
-    "我狠C/C++ 登神长阶/字面量的类型.md",
-    "操作系统/并发/锁.md",
-    "脚本/ANSI Escape Code.md",
-    "images/Pasted image 20240115144147.png",
-    "操作系统/并发",
-    "Algorithm/变换技巧/取整.md",
-    "Algorithm/变换技巧/矩阵.md",
-    "Algorithm/变换技巧/环.md",
-    "脚本/shell",
-    "脚本/shell.md",
-    "脚本/python",
-    "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
-    "脚本/python.md",
-    "脚本",
-    "tools/Untitled.md",
-    "编译器/gcc",
-    "编译器/Untitled.md",
-    "编译器",
-    "汇编/伪操作.md",
-    "汇编/x86",
-    "汇编",
-    "我狠C/C++ 登神长阶/Untitled",
-    "images/Pasted image 20240103235834.png",
-    "images/Pasted image 20240103230830.png",
-    "images/Pasted image 20240103155333.png",
-    "images/Pasted image 20240103155200.png",
-    "images/Pasted image 20240103152641.png",
-    "images/Pasted image 20240103143420.png",
-    "images/Pasted image 20240103143055.png",
-    "images/Pasted image 20240103134549.png",
+    "Typora的markdown语法.md",
+    "Untitled.canvas",
+    "conflict-files-obsidian-git.md",
+    "模板里的技巧.md",
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
+    "操作系统/文件系统/抽象.md",
+    "操作系统/文件系统/Disk spindle.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/非类型模板参数.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/Untitled.md",
+    "我狠C/C++ 登神长阶/cocurrent/future, promise以及async.md",
+    "我狠C/C++ 登神长阶/cocurrent",
+    "images/Pasted image 20240101155537.png",
+    "images/Pasted image 20231228215611.png",
+    "操作系统/文件系统",
+    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item23.md",
+    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/media/item29_fig1.png",
+    "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/类模板.md",
+    "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
+    "我狠C/C++ 登神长阶/变参模板.md",
+    "我狠C/C++ 登神长阶/显式类型转换.md",
+    "tools/git.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese.zip",
+    "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig2.png",
+    "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig1.png",
+    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/media/item29_fig2.png",
+    "我狠C/Effective Modern Cpp/4.SmartPointers/media/item20_fig1.png",
+    "我狠C/Effective Modern Cpp/4.SmartPointers/media/item20_fig2.png",
+    "我狠C/Effective Modern Cpp/4.SmartPointers/media/item18_fig1.png",
+    "我狠C/Effective Modern Cpp/4.SmartPointers/media/item19_fig1.png",
+    "我狠C/Effective Modern Cpp/8.Tweaks/item42.md",
+    "我狠C/Effective Modern Cpp/8.Tweaks/item41.md",
+    "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/media",
+    "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/item40.md",
+    "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/item39.md",
+    "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/item38.md",
+    "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/item37.md",
+    "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/item36.md",
+    "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/Item35.md",
+    "我狠C/Effective Modern Cpp/6.LambdaExpressions/item34.md",
+    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/media",
+    "我狠C/Effective Modern Cpp/4.SmartPointers/media",
+    "我狠C/Effective Modern Cpp/8.Tweaks",
+    "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI",
+    "我狠C/Effective Modern Cpp/6.LambdaExpressions",
+    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw",
     "未命名.canvas",
     "未命名 1.canvas"
   ]

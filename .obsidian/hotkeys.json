@@ -215,5 +215,21 @@
       ],
       "key": "6"
     }
+  ],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "E"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
   ]
 }
