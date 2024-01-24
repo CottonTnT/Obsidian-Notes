@@ -30,8 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b40a71c3554982de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/git.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,8 +185,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9f9b171bc27482a7",
+  "active": "df7e94d714917c4e",
   "lastOpenFiles": [
+    "images/Pasted image 20240124135024.png",
+    "images/Pasted image 20240124135018.png",
+    "images/Pasted image 20230722213204.png",
+    "编译器/程序员的自我修养笔记.md",
+    "tools/git.md",
+    "images/Pasted image 20240124114207.png",
+    "images/Pasted image 20240124112932.png",
+    "images/Pasted image 20240124112354.png",
     "Typora的markdown语法.md",
     "Untitled.canvas",
     "conflict-files-obsidian-git.md",
@@ -196,15 +217,9 @@
     "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
     "我狠C/C++ 登神长阶/变参模板.md",
     "我狠C/C++ 登神长阶/显式类型转换.md",
-    "tools/git.md",
     "操作系统/xv6/xv6-riscv-book-Chinese.zip",
     "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig2.png",
     "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig1.png",
-    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/media/item29_fig2.png",
-    "我狠C/Effective Modern Cpp/4.SmartPointers/media/item20_fig1.png",
-    "我狠C/Effective Modern Cpp/4.SmartPointers/media/item20_fig2.png",
-    "我狠C/Effective Modern Cpp/4.SmartPointers/media/item18_fig1.png",
-    "我狠C/Effective Modern Cpp/4.SmartPointers/media/item19_fig1.png",
     "我狠C/Effective Modern Cpp/8.Tweaks/item42.md",
     "我狠C/Effective Modern Cpp/8.Tweaks/item41.md",
     "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/media",
@@ -213,8 +228,6 @@
     "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/item38.md",
     "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/item37.md",
     "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/item36.md",
-    "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/Item35.md",
-    "我狠C/Effective Modern Cpp/6.LambdaExpressions/item34.md",
     "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/media",
     "我狠C/Effective Modern Cpp/4.SmartPointers/media",
     "我狠C/Effective Modern Cpp/8.Tweaks",

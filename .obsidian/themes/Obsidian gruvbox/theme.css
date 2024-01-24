@@ -426,6 +426,9 @@ input[type=checkbox]:checked:after {
 
 code[class*="language-"],
 pre[class*="language-"] {
+    word-break: normal;
+    word-wrap: break-word;
+    white-space: pre;
     line-height: var(--line-height-tight) !important;
 }
 
