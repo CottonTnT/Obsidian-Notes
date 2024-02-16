@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ec0862da6e2da08f",
+        "id": "843c19ad46e38ece",
         "type": "tabs",
         "children": [
           {
-            "id": "9f9b171bc27482a7",
+            "id": "982a0fa17f921629",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编译器/程序员的自我修养笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df7e94d714917c4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "编译器/程序员的自我修养笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b40a71c3554982de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/git.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b808f9b33b88c2da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "脚本/python/Untitled.md",
+                "file": "ismism/大纲.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编译器/程序员的自我修养笔记.md",
+                "file": "ismism/大纲.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编译器/程序员的自我修养笔记.md",
+                "file": "ismism/大纲.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编译器/程序员的自我修养笔记.md"
+                "file": "ismism/大纲.md"
               }
             }
           },
@@ -196,12 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "982a0fa17f921629",
   "lastOpenFiles": [
+    "ismism/Pasted image 20240216101119.png.md",
+    "ismism/大纲.md",
+    "images/Pasted image 20240216101119.png",
+    "images/Pasted image 20240216100333.png",
+    "编译器/程序员的自我修养笔记.md",
+    "ismism",
     "论文随笔/Python.md",
     "脚本/python/Untitled.md",
     "脚本/python",
-    "编译器/程序员的自我修养笔记.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-2.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
@@ -222,8 +190,6 @@
     "images/Pasted image 20240124135018.png",
     "images/Pasted image 20230722213204.png",
     "images/Pasted image 20240124114207.png",
-    "images/Pasted image 20240124112932.png",
-    "images/Pasted image 20240124112354.png",
     "Typora的markdown语法.md",
     "Untitled.canvas",
     "conflict-files-obsidian-git.md",
@@ -234,17 +200,14 @@
     "我狠C/C++ 登神长阶/template metaprogramming/非类型模板参数.md",
     "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
     "我狠C/C++ 登神长阶/template metaprogramming/Untitled.md",
-    "我狠C/C++ 登神长阶/cocurrent/future, promise以及async.md",
     "我狠C/C++ 登神长阶/cocurrent",
     "操作系统/文件系统",
-    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item23.md",
     "操作系统/xv6/xv6-riscv-book-Chinese.zip",
     "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/media",
     "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/media",
     "我狠C/Effective Modern Cpp/4.SmartPointers/media",
     "我狠C/Effective Modern Cpp/8.Tweaks",
     "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI",
-    "我狠C/Effective Modern Cpp/6.LambdaExpressions",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
