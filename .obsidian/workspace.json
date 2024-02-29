@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "843c19ad46e38ece",
+        "id": "7782018fa3119e5a",
         "type": "tabs",
         "children": [
           {
-            "id": "982a0fa17f921629",
+            "id": "b37995e5fc001044",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ismism/大纲.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,9 +82,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ismism/大纲.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "汇编/x86/命令详解.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -103,8 +99,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ismism/大纲.md",
-                "linksCollapsed": false,
+                "file": "汇编/x86/命令详解.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -126,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ismism/大纲.md"
+                "file": "汇编/x86/命令详解.md"
               }
             }
           },
@@ -159,55 +155,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "982a0fa17f921629",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "ismism/Pasted image 20240216101119.png.md",
-    "ismism/大纲.md",
-    "images/Pasted image 20240216101119.png",
-    "images/Pasted image 20240216100333.png",
-    "编译器/程序员的自我修养笔记.md",
-    "ismism",
-    "论文随笔/Python.md",
+    "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
+    "我狠C/杂项.md",
     "脚本/python/Untitled.md",
-    "脚本/python",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-2.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-5.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-6.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/README.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-9.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-8.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
+    "编译器/Pasted image 20230812164010.png.md",
+    "ismism/大纲.md",
+    "ismism/Pasted image 20240216101119.png.md",
+    "ismism",
+    "images/Pasted image 20240216100333.png",
     "images/Pasted image 20240126232011.png",
     "images/Pasted image 20240126232004.png",
     "images/Pasted image 20240125142544.png",
-    "编译器/Pasted image 20230812164010.png.md",
-    "tools/git.md",
-    "images/Pasted image 20230812164010.png",
     "images/Pasted image 20240124135024.png",
     "images/Pasted image 20240124135018.png",
-    "images/Pasted image 20230722213204.png",
     "images/Pasted image 20240124114207.png",
-    "Typora的markdown语法.md",
-    "Untitled.canvas",
-    "conflict-files-obsidian-git.md",
-    "模板里的技巧.md",
-    "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
-    "操作系统/文件系统/抽象.md",
-    "操作系统/文件系统/Disk spindle.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/非类型模板参数.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/Untitled.md",
-    "我狠C/C++ 登神长阶/cocurrent",
-    "操作系统/文件系统",
-    "操作系统/xv6/xv6-riscv-book-Chinese.zip",
-    "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI/media",
-    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/media",
-    "我狠C/Effective Modern Cpp/4.SmartPointers/media",
-    "我狠C/Effective Modern Cpp/8.Tweaks",
-    "我狠C/Effective Modern Cpp/7.TheConcurrencyAPI",
+    "images/Pasted image 20240124112932.png",
+    "images/Pasted image 20240124112354.png",
+    "我狠C/C++ 登神长阶/c语言堆栈机制.md",
+    "我狠C/C++ 登神长阶/工具/Makefile.md",
+    "编译器/程序员的自我修养笔记.md",
+    "汇编/x86/命令详解.md",
+    "编译器/gcc/ld 链接选项.md",
+    "images/Pasted image 20230722194813.png",
+    "编译器/gcc/gcc 编译选项.md",
+    "编译器/GDB/常用命令大全.md",
+    "编译器/GDB",
+    "汇编/x86/寄存器详解.md",
+    "操作系统/并发/常见并发问题.md",
+    "操作系统/并发/信号量.md",
+    "操作系统/并发/条件变量.md",
+    "操作系统/BIOS.md",
+    "我狠C/C++ 登神长阶/字面量的类型.md",
+    "操作系统/并发/锁.md",
+    "脚本/ANSI Escape Code.md",
+    "操作系统/并发",
+    "Algorithm/变换技巧/取整.md",
+    "Algorithm/变换技巧/矩阵.md",
+    "Algorithm/变换技巧/环.md",
+    "脚本/shell",
+    "脚本/shell.md",
+    "脚本/python",
+    "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
+    "脚本",
+    "编译器/gcc",
+    "编译器",
+    "汇编/x86",
+    "汇编",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
