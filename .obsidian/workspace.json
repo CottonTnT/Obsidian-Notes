@@ -11,8 +11,10 @@
             "id": "b37995e5fc001044",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
             }
           }
         ]
@@ -155,7 +157,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "b37995e5fc001044",
   "lastOpenFiles": [
     "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
     "我狠C/杂项.md",
