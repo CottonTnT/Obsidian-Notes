@@ -11,9 +11,11 @@
             "id": "b37995e5fc001044",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.8"
+                "file": "操作系统/文件系统/抽象.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "汇编/x86/命令详解.md",
+                "file": "操作系统/文件系统/抽象.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -101,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "汇编/x86/命令详解.md",
+                "file": "操作系统/文件系统/抽象.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "汇编/x86/命令详解.md"
+                "file": "操作系统/文件系统/抽象.md"
               }
             }
           },
