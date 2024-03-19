@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/文件系统/抽象.md",
+                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/文件系统/抽象.md",
+                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/文件系统/抽象.md",
+                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/文件系统/抽象.md"
+                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md"
               }
             }
           },
@@ -159,8 +159,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "b37995e5fc001044",
   "lastOpenFiles": [
+    "操作系统/文件系统/抽象.md",
     "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
     "我狠C/杂项.md",
     "脚本/python/Untitled.md",
@@ -201,7 +202,6 @@
     "脚本/shell",
     "脚本/shell.md",
     "脚本/python",
-    "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
     "脚本",
     "编译器/gcc",
     "编译器",
