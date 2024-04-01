@@ -37,7 +37,7 @@ git 是分布式版本控制系统，和其他版本控制系统不同的是他�
 
 ## 3.1 仓库结构
 
-git 分布式的一个重要体现是 git 在本地是有一个完整的 git 仓库也就是 .git 文件目录，通过这个仓库，git 就可以完全离线化操作。在这个本地化的仓库中存储了 git 所有的模型对象。下面是 git 仓库的 tree 和相关说明：
+git 分布式的一个重要体现是 *git 在本地是有一个完整的 git 仓库也就是 `.git`* 文件目录，通过这个仓库，git 就可以完全离线化操作。在这个本地化的仓库中存储了 git 所有的模型对象。下面是 git 仓库的 tree 和相关说明：
 
 ![[Pasted image 20240124114207.png]]
 
@@ -89,12 +89,12 @@ tree
 详细解释如下:
 
 
-
-```
-type commit = struct { // 一推属性，
+## 3.4 commit 对象
+```cpp
+type commit = truct { // 一推属性，
 	parents: array<commit>
 	autuor:string
-	message:string
+	message:strig
 	snapshot:tree  //存了实际的内容，是一课树，代表相应的顶层目录
 }
 //how gits actually stores and address this actual data ?
@@ -119,9 +119,38 @@ type references = map<string, string> //即 name->id
 git 所有操作基本变换的都是 objects 和references
 
 
-## 3.4 git 命令
 
-### 3.4.1 初始化本地仓库
+## 3.5 tag对象
+
+
+
+
+## 3.6 git 对象模型的关系
+
+
+大概如下
+
+![[Pasted image 20240320022102.png]]
+
+
+
+# 4 git 储存模型
+
+git 区别与其他 vcs 系统的一个最主要原因之一是：git 对文件版本管理和其他 vcs 系统对文件版本的实现理念完成不一样。这也就是 git 版本管理为什么如此强大的最核心的地方。
+
+Svn 等其他的 VCS 对文件版本的理念是以文件为水平维度，记录每个文件在每个版本下的 delta 改变。
+
+Git 对文件版本的管理理念却是以每次提交为一次快照，提交时对所有文件做一次全量快照，然后存储快照引用。
+
+Git 在存储层，如果文件数据没有改变的文件，Git 只是存储指向源文件的一个引用，并不会直接多次存储文件，这一点可以在 pack 文件中看见。
+
+如下图所示：
+
+![[Pasted image 20240320022610.png]]
+# 5 git 命令
+
+
+### 5.1.1 初始化本地仓库
 
 ```c
 git init //会默认创建一个master分支，通常代表日常开发中主分支
@@ -136,14 +165,14 @@ git init --bare //裸仓库，同常用来做服务器仓库
 - 裸仓库初始化后，其项目目录下就是标准仓库.git 目录里的内容，没有工作空间。  
 - 这个仓库只保存 git 历史提交的版本信息，而不允许用户在上面进行各种 git 操作（如：push、commit 操作）。
 - 依旧可以使用 git show 命令查看提交内容。
-### 3.4.2 查看当前仓库信息
+### 5.1.2 查看当前仓库信息
 
 ```c
 git status
 ```
 
 
-### 3.4.3 创建快照
+### 5.1.3 创建快照
 
 ```c
 //git让用户在创建快照时能够自由选择需要上传哪些更改，
@@ -156,20 +185,20 @@ git commit  //git snapshot command,即提交更改
 ```
 
 
-### 3.4.4 可视化提交历史
+### 5.1.4 可视化提交历史
 ```c
 git log //查看版本历史记录
 	--all --graph --decorate // 图型化且优雅的查看
 	--oneline //显示更紧凑
 ```
 
-### 3.4.5 一些特殊引用 
+### 5.1.5 一些特殊引用 
 
 ```c
 HEAD  //基本用于指向你当前正在查看的commit，默认指向最后一次snapshot
 ```
 
-### 3.4.6 改变当前工作目录状态
+### 5.1.6 改变当前工作目录状态
 
 ```c
 git checkout [commit-id] 
@@ -183,7 +212,7 @@ git stash pop //重新展示之前保存的更改
 
 ```
 
-### 3.4.7 查看当前目录具体变化
+### 5.1.7 查看当前目录具体变化
 
 ```c
 git diff [files] //即与HEAD的指向相比
@@ -192,7 +221,7 @@ git diff [id/brance] [id/brance] [files] //特定的两个快照，file的不同
  --cached //显示暂存区里的实际保留的更改
 ```
 
-### 3.4.8 分支与合并
+### 5.1.8 分支与合并
 
 分支是为了实行并行开发
 ```c
@@ -211,7 +240,7 @@ git merge [branch-name] //合并branch-name分支到当前head所指分支
 	--continue //解决冲突后继续合并分支
 ```
 
-### 3.4.9 操作远程仓库
+### 5.1.9 操作远程仓库
 远程仓库的目的，即让其他人可以拥有整个 Git 仓库的副本，让你的本地仓库知道其他克隆副本的存在
 
 ```c
@@ -231,9 +260,9 @@ git clone <url> <folder name>//克隆一个仓库到本地，并以此初始化�
 
 ```
 
-## 3.5 配置 git
+## 5.2 配置 git
 
-### 3.5.1 .gitconfig
+### 5.2.1 .gitconfig
 ```c
 git config
 or
@@ -241,20 +270,20 @@ vim .gitconfig
 //copy 同行最方便
 ```
 
-### 3.5.2 .gitignore
+### 5.2.2 .gitignore
 让 git 不要多管闲事
 ```c
 *.o //忽略所有.o文件
 ```
-## 3.6 git internal command
+## 5.3 git internal command
 
-### 3.6.1 查看 ref 的键值
+### 5.3.1 查看 ref 的键值
 ```c
 git cat-file -p [id]
 ```
 
 
 
-## 3.7 git 与 github
+## 5.4 git 与 github
 
 github 只是 git 一个仓库托管平台，loose def 即一个可用的远程仓库

@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7782018fa3119e5a",
+        "id": "9db6cd3c39011108",
         "type": "tabs",
         "children": [
           {
-            "id": "b37995e5fc001044",
+            "id": "3722123363342cec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.5.11"
               }
             }
           }
@@ -86,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md"
-              }
+              "state": {}
             }
           },
           {
@@ -159,8 +153,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b37995e5fc001044",
+  "active": "3722123363342cec",
   "lastOpenFiles": [
+    "tools/git.md",
+    "images/Pasted image 20240320022610.png",
+    "images/Pasted image 20240320022102.png",
+    "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
     "操作系统/文件系统/抽象.md",
     "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
     "我狠C/杂项.md",
@@ -177,13 +175,11 @@
     "images/Pasted image 20240124135018.png",
     "images/Pasted image 20240124114207.png",
     "images/Pasted image 20240124112932.png",
-    "images/Pasted image 20240124112354.png",
     "我狠C/C++ 登神长阶/c语言堆栈机制.md",
     "我狠C/C++ 登神长阶/工具/Makefile.md",
     "编译器/程序员的自我修养笔记.md",
     "汇编/x86/命令详解.md",
     "编译器/gcc/ld 链接选项.md",
-    "images/Pasted image 20230722194813.png",
     "编译器/gcc/gcc 编译选项.md",
     "编译器/GDB/常用命令大全.md",
     "编译器/GDB",
@@ -198,9 +194,7 @@
     "操作系统/并发",
     "Algorithm/变换技巧/取整.md",
     "Algorithm/变换技巧/矩阵.md",
-    "Algorithm/变换技巧/环.md",
     "脚本/shell",
-    "脚本/shell.md",
     "脚本/python",
     "脚本",
     "编译器/gcc",
