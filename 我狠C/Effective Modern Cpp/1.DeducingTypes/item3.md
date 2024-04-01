@@ -1,10 +1,10 @@
-## 条款三：理解`decltype`
+## 0.1 条款三：理解`decltype`
 
 **Item 3: Understand decltype**
 
 `decltype`是一个奇怪的东西。给它一个名字或者表达式`decltype`就会告诉你这个名字或者表达式的类型。通常，它会精确的告诉你你想要的结果。但有时候它得出的结果也会让你挠头半天，最后只能求助网上问答或参考资料寻求启示。
 
-我们将从一个简单的情况开始，没有任何令人惊讶的情况。相比模板类型推导和`auto`类型推导（参见[Item1](../1.DeducingTypes/item1.md)和[Item2](../1.DeducingTypes/item2.md)），`decltype`只是简单的返回名字或者表达式的类型：
+我们将从一个简单的情况开始，没有任何令人惊讶的情况。相比模板类型推导和`auto`类型推导（参见[Item1](../1.DeducingTypes/item1.md)和[Item2](../1.DeducingTypes/item2.md)），`decltype`*只是简单的返回名字或者表达式的类型*：
 ````cpp
 const int i = 0;                //decltype(i)是const int
 
@@ -104,7 +104,7 @@ decltype(auto) myWidget2 = cw;          //decltype类型推导
 template<typename Container, typename Index>
 decltype(auto) authAndAccess(Container& c, Index i);
 ````
-容器通过传引用的方式传递非常量左值引用（lvalue-reference-to-non-**const**），因为返回一个引用允许用户可以修改容器。但是这意味着在不能给这个函数传递右值容器，右值不能被绑定到左值引用上（除非这个左值引用是一个const（lvalue-references-to-**const**），但是这里明显不是）。
+容器通过传引用的方式传递非常量左值引用（lvalue-reference-to-non-**const**），因为返回一个引用允许用户可以修改容器。*但是这意味着在不能给这个函数传递右值容器*，右值不能被绑定到左值引用上（除非这个左值引用是一个const（lvalue-references-to-**const**），但是这里明显不是）。
 
 公认的向`authAndAccess`传递一个右值是一个[edge case](https://en.wikipedia.org/wiki/Edge_case)（译注：在极限操作情况下会发生的事情，类似于会发生但是概率较小的事情）。一个右值容器，是一个临时对象，通常会在`authAndAccess`调用结束被销毁，这意味着`authAndAccess`返回的引用将会成为一个悬置的（dangle）引用。但是使用向`authAndAccess`传递一个临时变量也并不是没有意义，有时候用户可能只是想简单的获得临时容器中的一个元素的拷贝，比如这样：
 ````cpp

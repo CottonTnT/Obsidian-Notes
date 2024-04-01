@@ -1,4 +1,4 @@
-# 第5章 右值引用，移动语义，完美转发
+# 1 第5章 右值引用，移动语义，完美转发
 
 **CHAPTER 5 RValue References, Move Semantics and Perfect Forwarding**
 
@@ -20,7 +20,7 @@ void f(Widget&& w);
 ```
 形参`w`是一个左值，即使它的类型是一个rvalue-reference-to-`Widget`。（如果这里震惊到你了，请重新回顾从本书[简介](../Introduction.md)开始的关于左值和右值的总览。）
 
-## 条款二十三：理解`std::move`和`std::forward`
+## 1.1 条款二十三：理解`std::move`和`std::forward`
 
 **Item 23: Understand `std::move` and `std::forward`**
 
