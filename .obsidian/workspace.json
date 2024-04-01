@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "9db6cd3c39011108",
+        "id": "bad735080e0a3b9d",
         "type": "tabs",
         "children": [
           {
-            "id": "3722123363342cec",
+            "id": "988316b60c95d1f9",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.11"
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -100,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md"
+              }
             }
           },
           {
@@ -153,8 +159,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3722123363342cec",
+  "active": "988316b60c95d1f9",
   "lastOpenFiles": [
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/item4.md",
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/Untitled.md",
+    "我狠C/Effective Modern Cpp/2.Auto/item5.md",
+    "我狠C/Effective Modern Cpp/2.Auto/item6.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item9.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item8.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item13.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item15.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item16.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item17.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item7.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item11.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item10.md",
+    "tools/正则表达式.md",
+    "images/Pasted image 20240401140049.png",
+    "images/Pasted image 20240401134716.png",
+    "images/Pasted image 20240401134649.png",
+    "tools/Untitled.md",
     "tools/git.md",
     "images/Pasted image 20240320022610.png",
     "images/Pasted image 20240320022102.png",
@@ -165,35 +192,14 @@
     "脚本/python/Untitled.md",
     "编译器/Pasted image 20230812164010.png.md",
     "ismism/大纲.md",
-    "ismism/Pasted image 20240216101119.png.md",
     "ismism",
     "images/Pasted image 20240216100333.png",
     "images/Pasted image 20240126232011.png",
     "images/Pasted image 20240126232004.png",
     "images/Pasted image 20240125142544.png",
     "images/Pasted image 20240124135024.png",
-    "images/Pasted image 20240124135018.png",
-    "images/Pasted image 20240124114207.png",
-    "images/Pasted image 20240124112932.png",
-    "我狠C/C++ 登神长阶/c语言堆栈机制.md",
-    "我狠C/C++ 登神长阶/工具/Makefile.md",
-    "编译器/程序员的自我修养笔记.md",
-    "汇编/x86/命令详解.md",
-    "编译器/gcc/ld 链接选项.md",
-    "编译器/gcc/gcc 编译选项.md",
-    "编译器/GDB/常用命令大全.md",
     "编译器/GDB",
-    "汇编/x86/寄存器详解.md",
-    "操作系统/并发/常见并发问题.md",
-    "操作系统/并发/信号量.md",
-    "操作系统/并发/条件变量.md",
-    "操作系统/BIOS.md",
-    "我狠C/C++ 登神长阶/字面量的类型.md",
-    "操作系统/并发/锁.md",
-    "脚本/ANSI Escape Code.md",
     "操作系统/并发",
-    "Algorithm/变换技巧/取整.md",
-    "Algorithm/变换技巧/矩阵.md",
     "脚本/shell",
     "脚本/python",
     "脚本",

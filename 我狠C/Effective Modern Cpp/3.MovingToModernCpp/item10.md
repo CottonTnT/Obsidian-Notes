@@ -1,4 +1,4 @@
-## 条款十：优先考虑限域`enum`而非未限域`enum`
+## 0.1 条款十：优先考虑限域`enum`而非未限域`enum`
 
 **Item 10: Prefer scoped `enum`s to unscoped `enum`s**
 
