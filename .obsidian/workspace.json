@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/杂项.md",
+                "file": "我狠C/C++ 登神长阶/编译器的优化机制.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/杂项.md",
+                "file": "我狠C/C++ 登神长阶/编译器的优化机制.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/杂项.md",
+                "file": "我狠C/C++ 登神长阶/编译器的优化机制.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/杂项.md"
+                "file": "我狠C/C++ 登神长阶/编译器的优化机制.md"
               }
             }
           },
@@ -161,6 +161,11 @@
   },
   "active": "988316b60c95d1f9",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
+    "我狠C/C++ 登神长阶/类的初始化.md",
+    "我狠C/C++ 登神长阶/使用等号的语法会让编译器认为是复制构造, 但编译器通常会优化掉. 恰好例子中的流对象是不可复制构造的, 因此只有上面这种写法..md",
+    "我狠C/C++ 登神长阶/显式类型转换.md",
+    "我狠C/杂项.md",
     "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item23.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
@@ -187,11 +192,6 @@
     "images/Pasted image 20240320022610.png",
     "images/Pasted image 20240320022102.png",
     "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
-    "操作系统/文件系统/抽象.md",
-    "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
-    "我狠C/杂项.md",
-    "脚本/python/Untitled.md",
-    "编译器/Pasted image 20230812164010.png.md",
     "ismism",
     "images/Pasted image 20240216100333.png",
     "images/Pasted image 20240126232011.png",
