@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ed0a1852f6b4f2a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
+                "file": "tools/git.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
+                "file": "tools/git.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md"
+                "file": "tools/git.md"
               }
             }
           },
@@ -174,6 +186,7 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
     "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
     "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
     "我狠C/C++ 登神长阶/编译器的优化机制.md",
@@ -183,7 +196,6 @@
     "我狠C/C++ 登神长阶/显式类型转换.md",
     "我狠C/杂项.md",
     "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item23.md",
-    "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item4.md",
