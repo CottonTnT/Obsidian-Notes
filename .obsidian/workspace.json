@@ -54,9 +54,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "53e6ed5ecea5f470",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -196,7 +206,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "53e6ed5ecea5f470",
   "lastOpenFiles": [
     "我狠C/C++ 登神长阶/现代C++基础.md",
     "tools/正则表达式.md",
