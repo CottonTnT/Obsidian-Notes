@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/类模板.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/正则表达式.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/类模板.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/正则表达式.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/类模板.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/正则表达式.md"
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/类模板.md"
               }
             }
           },
@@ -196,17 +195,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e8be0fc59c60a2a",
+  "active": "988316b60c95d1f9",
   "lastOpenFiles": [
-    "我狠C/C++ 登神长阶/现代C++基础.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/类模板.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/非类型模板参数.md",
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
+    "tools/git.md",
     "tools/正则表达式.md",
+    "我狠C/C++ 登神长阶/现代C++基础.md",
     "images/Pasted image 20240412010224.png",
     "images/Pasted image 20240412005953.png",
     "images/Pasted image 20240412005416.png",
     "images/Pasted image 20240412005308.png",
-    "tools/git.md",
-    "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
     "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
     "我狠C/C++ 登神长阶/编译器的优化机制.md",
     "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
@@ -225,9 +227,6 @@
     "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item8.md",
     "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item13.md",
     "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item15.md",
-    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item16.md",
-    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item17.md",
-    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item7.md",
     "images/Pasted image 20240401140049.png",
     "images/Pasted image 20240401134716.png",
     "images/Pasted image 20240401134649.png",
