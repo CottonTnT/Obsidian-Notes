@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/编辑器/vscode、.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/类模板.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/编辑器/vscode、.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/类模板.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/编辑器/vscode、.md"
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/类模板.md"
               }
             }
           },
