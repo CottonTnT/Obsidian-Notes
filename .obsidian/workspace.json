@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
+                "file": "资源整理/壁纸.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
+                "file": "资源整理/壁纸.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
+                "file": "资源整理/壁纸.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md"
+                "file": "资源整理/壁纸.md"
               }
             }
           },
@@ -196,8 +196,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e8be0fc59c60a2a",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "资源整理/实用网站.md",
+    "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
     "Algorithm/数据结构/矩阵加速.md",
     "Algorithm/数据结构/倍增.md",
     "Algorithm/数据结构/tree/trie树.md",
@@ -222,8 +224,6 @@
     "tools/计算机相关杂项.md",
     "2023-03-29.md",
     "tools/Untitled.md",
-    "tools/命令行环境.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/类模板.md",
     "images/Pasted image 20240412010224.png",
     "images/Pasted image 20240412005953.png",
     "images/Pasted image 20240412005416.png",
