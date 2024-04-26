@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "资源整理/壁纸.md",
+                "file": "操作系统/并发/先放弃 再入门.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "资源整理/壁纸.md",
+                "file": "操作系统/并发/先放弃 再入门.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "资源整理/壁纸.md",
+                "file": "操作系统/并发/先放弃 再入门.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "资源整理/壁纸.md"
+                "file": "操作系统/并发/先放弃 再入门.md"
               }
             }
           },
@@ -196,8 +196,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "0e8be0fc59c60a2a",
   "lastOpenFiles": [
+    "操作系统/并发/常见并发问题.md",
+    "操作系统/并发/先放弃 再入门.md",
+    "操作系统/Untitled",
+    "资源整理/壁纸.md",
     "资源整理/实用网站.md",
     "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
     "Algorithm/数据结构/矩阵加速.md",
@@ -220,10 +224,7 @@
     "Algorithm/变换技巧/环.md",
     "Algorithm/变换技巧/矩阵.md",
     "Algorithm/变换技巧/取整.md",
-    "资源整理/壁纸.md",
     "tools/计算机相关杂项.md",
-    "2023-03-29.md",
-    "tools/Untitled.md",
     "images/Pasted image 20240412010224.png",
     "images/Pasted image 20240412005953.png",
     "images/Pasted image 20240412005416.png",
@@ -243,7 +244,6 @@
     "编译器/gcc",
     "编译器",
     "汇编/x86",
-    "汇编",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
