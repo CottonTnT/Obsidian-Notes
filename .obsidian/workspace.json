@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/并发/条件变量.md",
+                "file": "操作系统/Posix Utility Conventions.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/并发/条件变量.md",
+                "file": "操作系统/Posix Utility Conventions.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/并发/条件变量.md",
+                "file": "操作系统/Posix Utility Conventions.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/并发/条件变量.md"
+                "file": "操作系统/Posix Utility Conventions.md"
               }
             }
           },
@@ -198,10 +198,13 @@
   },
   "active": "0e8be0fc59c60a2a",
   "lastOpenFiles": [
+    "操作系统/并发/锁.md",
+    "操作系统/Posix Utility Conventions.md",
+    "操作系统/Untitled",
+    "操作系统/并发/条件变量.md",
     "操作系统/并发/先放弃 再入门.md",
     "操作系统/并发/操作系统中的互斥.md",
     "操作系统/并发/常见并发问题.md",
-    "操作系统/Untitled",
     "资源整理/壁纸.md",
     "资源整理/实用网站.md",
     "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
@@ -222,9 +225,6 @@
     "Algorithm/动态规划/线性DP/抽象模型.md",
     "Algorithm/动态规划/背包问题/分组背包问题.md",
     "Algorithm/动态规划/背包问题/01背包.md",
-    "Algorithm/变换技巧/环.md",
-    "Algorithm/变换技巧/矩阵.md",
-    "Algorithm/变换技巧/取整.md",
     "images/Pasted image 20240412010224.png",
     "images/Pasted image 20240412005953.png",
     "images/Pasted image 20240412005416.png",
