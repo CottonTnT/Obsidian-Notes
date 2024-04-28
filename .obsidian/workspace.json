@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "988316b60c95d1f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/类模板.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9fafac9cae3ea69e",
             "type": "leaf",
             "state": {
@@ -37,14 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/git.md",
+                "file": "我狠C/C语言机制.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,8 +78,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/git.md",
+                "file": "我狠C/C语言机制.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/git.md",
+                "file": "我狠C/C语言机制.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/git.md"
+                "file": "我狠C/C语言机制.md"
               }
             }
           },
@@ -184,8 +171,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "ed0a1852f6b4f2a7",
   "lastOpenFiles": [
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/类模板.md",
+    "我狠C/C语言机制.md",
+    "Algorithm/位运算/nice problem.md",
+    "Algorithm/位运算/Untitled.md",
+    "Algorithm/位运算/mod.md",
+    "Algorithm/位运算/and  or.md",
+    "Algorithm/位运算/xor.md",
+    "Algorithm/位运算/Untitled",
+    "tools/git.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.2.jpg",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.3.jpg",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-6.2.png",
@@ -196,13 +193,11 @@
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.4.jpg",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-2.3.png",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-2.1.png",
-    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-1.1.png",
     "操作系统/xv6/一些分布图/mem与disk.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
     "我狠C/编辑器/vim.md",
     "我狠C/编辑器/vscode、.md",
     "操作系统/Posix Utility Conventions.md",
-    "tools/git.md",
     "操作系统/Untitled.md",
     "操作系统/并发/锁.md",
     "操作系统/Untitled",
@@ -216,13 +211,6 @@
     "Algorithm/数据结构/矩阵加速.md",
     "Algorithm/数据结构/倍增.md",
     "Algorithm/数据结构/tree/trie树.md",
-    "Algorithm/数据结构/tree/线段树.md",
-    "Algorithm/数据结构/tree/树状数组.md",
-    "Algorithm/数据结构/tree/二叉树/平衡树.md",
-    "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
-    "Algorithm/数据结构/tree/二叉树/叉叉.md",
-    "Algorithm/数据结构/heap/堆排序.md",
-    "Algorithm/数据结构/数据结构好题/数据的构造是雪的白.md",
     "ismism",
     "编译器/GDB",
     "操作系统/并发",
@@ -231,7 +219,6 @@
     "脚本",
     "编译器/gcc",
     "编译器",
-    "汇编/x86",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
