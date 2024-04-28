@@ -42,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d856acb8d44dfb24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/编辑器/vim.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/编辑器/vim.md",
+                "file": "tools/git.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/编辑器/vim.md",
+                "file": "tools/git.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/编辑器/vim.md"
+                "file": "tools/git.md"
               }
             }
           },
@@ -180,7 +168,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -196,10 +184,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d856acb8d44dfb24",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "我狠C/编辑器/vscode、.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.2.jpg",
+    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.3.jpg",
+    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-6.2.png",
+    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-8.3.png",
+    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-8.2.png",
+    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-6.3.png",
+    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-6.1.png",
+    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.4.jpg",
+    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-2.3.png",
+    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-2.1.png",
+    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-1.1.png",
+    "操作系统/xv6/一些分布图/mem与disk.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
     "我狠C/编辑器/vim.md",
+    "我狠C/编辑器/vscode、.md",
     "操作系统/Posix Utility Conventions.md",
     "tools/git.md",
     "操作系统/Untitled.md",
@@ -222,20 +223,7 @@
     "Algorithm/数据结构/tree/二叉树/叉叉.md",
     "Algorithm/数据结构/heap/堆排序.md",
     "Algorithm/数据结构/数据结构好题/数据的构造是雪的白.md",
-    "Algorithm/数据结构/前缀和与差分/前缀和.md",
-    "Algorithm/数据结构/前缀和与差分/差分.md",
-    "Algorithm/数据结构/并查集/并查集.md",
-    "images/Pasted image 20240412010224.png",
-    "images/Pasted image 20240412005953.png",
-    "images/Pasted image 20240412005416.png",
-    "images/Pasted image 20240412005308.png",
-    "images/Pasted image 20240401140049.png",
-    "images/Pasted image 20240401134716.png",
-    "images/Pasted image 20240401134649.png",
-    "images/Pasted image 20240320022610.png",
-    "images/Pasted image 20240320022102.png",
     "ismism",
-    "images/Pasted image 20240216100333.png",
     "编译器/GDB",
     "操作系统/并发",
     "脚本/shell",

@@ -1,4 +1,4 @@
-## Disk layout
+## 0.1 Disk layout
 
 
 ![[Pasted image 20230715144144.png]]
