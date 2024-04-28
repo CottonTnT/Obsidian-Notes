@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "0e8be0fc59c60a2a",
+            "id": "d856acb8d44dfb24",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -196,10 +196,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e8be0fc59c60a2a",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "操作系统/并发/锁.md",
+    "tools/git.md",
     "操作系统/Posix Utility Conventions.md",
+    "操作系统/Untitled.md",
+    "操作系统/并发/锁.md",
     "操作系统/Untitled",
     "操作系统/并发/条件变量.md",
     "操作系统/并发/先放弃 再入门.md",
@@ -223,8 +225,6 @@
     "Algorithm/数据结构/并查集/并查集.md",
     "Algorithm/动态规划/我是无数的你进化.md",
     "Algorithm/动态规划/线性DP/抽象模型.md",
-    "Algorithm/动态规划/背包问题/分组背包问题.md",
-    "Algorithm/动态规划/背包问题/01背包.md",
     "images/Pasted image 20240412010224.png",
     "images/Pasted image 20240412005953.png",
     "images/Pasted image 20240412005416.png",
