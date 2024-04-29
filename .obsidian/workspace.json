@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/命令行参数解析.md",
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/命令行参数解析.md",
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/命令行参数解析.md",
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/命令行参数解析.md"
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md"
               }
             }
           },
@@ -159,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9fafac9cae3ea69e",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "python/().md",
     "python/命令行参数解析.md",
+    "python/().md",
     "我狠C/C语言机制.md",
     "python",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
