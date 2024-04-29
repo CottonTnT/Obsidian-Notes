@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dcd201295e8e6021",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
+                "file": "tools/git.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
+                "file": "tools/git.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md"
+                "file": "tools/git.md"
               }
             }
           },
@@ -161,6 +174,7 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
     "python/命令行参数解析.md",
     "python/().md",
     "我狠C/C语言机制.md",
@@ -185,7 +199,6 @@
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-2.3.png",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-2.1.png",
     "操作系统/xv6/一些分布图/mem与disk.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
     "我狠C/编辑器/vim.md",
     "我狠C/编辑器/vscode、.md",
     "操作系统/Posix Utility Conventions.md",
