@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed0a1852f6b4f2a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "我狠C/C语言机制.md",
+                "file": "python/命令行参数解析.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +65,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C语言机制.md",
+                "file": "python/命令行参数解析.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C语言机制.md",
+                "file": "python/命令行参数解析.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C语言机制.md"
+                "file": "python/命令行参数解析.md"
               }
             }
           },
@@ -171,11 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ed0a1852f6b4f2a7",
+  "active": "9fafac9cae3ea69e",
   "lastOpenFiles": [
+    "python/().md",
+    "python/命令行参数解析.md",
+    "我狠C/C语言机制.md",
+    "python",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
     "我狠C/C++ 登神长阶/template metaprogramming/类模板.md",
-    "我狠C/C语言机制.md",
     "Algorithm/位运算/nice problem.md",
     "Algorithm/位运算/Untitled.md",
     "Algorithm/位运算/mod.md",
@@ -209,8 +200,6 @@
     "资源整理/实用网站.md",
     "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
     "Algorithm/数据结构/矩阵加速.md",
-    "Algorithm/数据结构/倍增.md",
-    "Algorithm/数据结构/tree/trie树.md",
     "ismism",
     "编译器/GDB",
     "操作系统/并发",
@@ -218,7 +207,6 @@
     "脚本/python",
     "脚本",
     "编译器/gcc",
-    "编译器",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
