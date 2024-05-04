@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "脚本/shell/bash.md",
+                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "脚本/shell/bash.md",
+                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "脚本/shell/bash.md",
+                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "脚本/shell/bash.md"
+                "file": "我狠C/C++ 登神长阶/工具/Makefile.md"
               }
             }
           },
@@ -172,10 +172,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dcd201295e8e6021",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "脚本/python/os模块.md",
     "脚本/shell/bash.md",
+    "脚本/python/os模块.md",
     "脚本/ANSI Escape Code.md",
     "tools/git.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
