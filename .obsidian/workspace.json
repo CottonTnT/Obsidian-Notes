@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
+                "file": "操作系统/linux操作系统/Unix IO.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
+                "file": "操作系统/linux操作系统/Unix IO.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/工具/Makefile.md",
+                "file": "操作系统/linux操作系统/Unix IO.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/工具/Makefile.md"
+                "file": "操作系统/linux操作系统/Unix IO.md"
               }
             }
           },
@@ -172,11 +172,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "dcd201295e8e6021",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/工具/Makefile.md",
+    "操作系统/linux操作系统/Unix IO.md",
+    "操作系统/linux操作系统/文件系统/Untitled.md",
+    "操作系统/linux操作系统/Unix IO",
     "我狠C/C语言机制.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
-    "我狠C/C++ 登神长阶/工具/Makefile.md",
     "脚本/shell/bash.md",
     "脚本/python/os模块.md",
     "脚本/ANSI Escape Code.md",
@@ -211,15 +214,12 @@
     "操作系统/Untitled",
     "操作系统/并发/条件变量.md",
     "操作系统/并发/先放弃 再入门.md",
-    "操作系统/并发/操作系统中的互斥.md",
-    "操作系统/并发/常见并发问题.md",
     "ismism",
     "编译器/GDB",
     "操作系统/并发",
     "脚本/shell",
     "脚本/python",
     "脚本",
-    "编译器/gcc",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
