@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-2.md",
+                "file": "Algorithm/字符串/KMP.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-2.md",
+                "file": "Algorithm/字符串/KMP.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-2.md",
+                "file": "Algorithm/字符串/KMP.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-2.md"
+                "file": "Algorithm/字符串/KMP.md"
               }
             }
           },
@@ -172,8 +172,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dcd201295e8e6021",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-2.md",
     "操作系统/linux操作系统/Unix IO.md",
     "images/Pasted image 20240508171543.png",
     "我狠C/C++ 登神长阶/工具/Makefile.md",
