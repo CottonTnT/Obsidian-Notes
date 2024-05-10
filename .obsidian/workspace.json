@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
+                "file": "Algorithm/Sort.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
+                "file": "Algorithm/Sort.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
+                "file": "Algorithm/Sort.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md"
+                "file": "Algorithm/Sort.md"
               }
             }
           },
@@ -159,14 +159,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "9fafac9cae3ea69e",
   "lastOpenFiles": [
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
+    "Algorithm/Sort.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-5.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-6.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-8.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-2.md",
     "2024-05-10.md",
     "Algorithm/字符串/KMP.md",
@@ -189,7 +190,6 @@
     "Algorithm/位运算/nice problem.md",
     "Algorithm/位运算/Untitled.md",
     "Algorithm/位运算/mod.md",
-    "Algorithm/位运算/and  or.md",
     "Algorithm/位运算/Untitled",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.2.jpg",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.3.jpg",
