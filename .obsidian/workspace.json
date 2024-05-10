@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "dcd201295e8e6021",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/字符串/KMP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/字符串/KMP.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/字符串/KMP.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/字符串/KMP.md"
+                "file": "2024-05-10.md"
               }
             }
           },
@@ -174,6 +159,8 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "Algorithm/字符串/KMP.md",
+    "2024-05-10.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-2.md",
     "操作系统/linux操作系统/Unix IO.md",
     "images/Pasted image 20240508171543.png",
@@ -211,9 +198,7 @@
     "我狠C/编辑器/vscode、.md",
     "操作系统/Posix Utility Conventions.md",
     "操作系统/Untitled.md",
-    "操作系统/并发/锁.md",
     "操作系统/Untitled",
-    "操作系统/并发/条件变量.md",
     "ismism",
     "编译器/GDB",
     "操作系统/并发",
