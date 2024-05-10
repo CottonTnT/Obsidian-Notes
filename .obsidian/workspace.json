@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/Sort.md",
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/Sort.md",
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/Sort.md",
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Sort.md"
+                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md"
               }
             }
           },
@@ -161,8 +161,14 @@
   },
   "active": "9fafac9cae3ea69e",
   "lastOpenFiles": [
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/item4.md",
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/Untitled.md",
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
+    "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
     "Algorithm/Sort.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-5.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-6.md",
@@ -183,13 +189,7 @@
     "脚本/ANSI Escape Code.md",
     "tools/git.md",
     "python/命令行参数解析.md",
-    "python/().md",
     "python",
-    "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/类模板.md",
-    "Algorithm/位运算/nice problem.md",
-    "Algorithm/位运算/Untitled.md",
-    "Algorithm/位运算/mod.md",
     "Algorithm/位运算/Untitled",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.2.jpg",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.3.jpg",
