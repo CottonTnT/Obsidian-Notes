@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-05-10.md"
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md"
               }
             }
           },
@@ -159,9 +161,15 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "Algorithm/字符串/KMP.md",
-    "2024-05-10.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-5.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-6.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-8.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-2.md",
+    "2024-05-10.md",
+    "Algorithm/字符串/KMP.md",
     "操作系统/linux操作系统/Unix IO.md",
     "images/Pasted image 20240508171543.png",
     "我狠C/C++ 登神长阶/工具/Makefile.md",
@@ -182,7 +190,6 @@
     "Algorithm/位运算/Untitled.md",
     "Algorithm/位运算/mod.md",
     "Algorithm/位运算/and  or.md",
-    "Algorithm/位运算/xor.md",
     "Algorithm/位运算/Untitled",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.2.jpg",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.3.jpg",
@@ -193,11 +200,6 @@
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-6.1.png",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.4.jpg",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-2.3.png",
-    "操作系统/xv6/一些分布图/mem与disk.md",
-    "我狠C/编辑器/vim.md",
-    "我狠C/编辑器/vscode、.md",
-    "操作系统/Posix Utility Conventions.md",
-    "操作系统/Untitled.md",
     "操作系统/Untitled",
     "ismism",
     "编译器/GDB",
