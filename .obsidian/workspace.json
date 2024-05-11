@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bad735080e0a3b9d",
+        "id": "b7624b30c24b187b",
         "type": "tabs",
         "children": [
           {
-            "id": "9fafac9cae3ea69e",
+            "id": "cc339a4839aaa9d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md"
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md"
               }
             }
           },
@@ -159,10 +160,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9fafac9cae3ea69e",
+  "active": "cc339a4839aaa9d6",
   "lastOpenFiles": [
-    "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
+    "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item4.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/Untitled.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
