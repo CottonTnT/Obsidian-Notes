@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
+                "file": "tools/git.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
+                "file": "tools/git.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
+                "file": "tools/git.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md"
+                "file": "tools/git.md"
               }
             }
           },
@@ -162,6 +162,7 @@
   },
   "active": "cc339a4839aaa9d6",
   "lastOpenFiles": [
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item4.md",
@@ -169,7 +170,6 @@
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
     "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
     "Algorithm/Sort.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-5.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-6.md",
