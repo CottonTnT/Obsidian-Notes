@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
+                "file": "操作系统/x86-64 calling convention.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
+                "file": "操作系统/x86-64 calling convention.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
+                "file": "操作系统/x86-64 calling convention.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md"
+                "file": "操作系统/x86-64 calling convention.md"
               }
             }
           },
@@ -162,8 +161,10 @@
   },
   "active": "cc339a4839aaa9d6",
   "lastOpenFiles": [
-    "tools/git.md",
+    "操作系统/riscv call convention.md",
+    "操作系统/x86-64 calling convention.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
+    "tools/git.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item4.md",
@@ -188,8 +189,6 @@
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
     "脚本/shell/bash.md",
     "脚本/python/os模块.md",
-    "脚本/ANSI Escape Code.md",
-    "python/命令行参数解析.md",
     "python",
     "Algorithm/位运算/Untitled",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.2.jpg",
