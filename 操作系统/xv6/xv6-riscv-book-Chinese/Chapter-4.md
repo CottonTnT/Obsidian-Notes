@@ -99,13 +99,15 @@ Xv6用一个包含`uservec`的trampoline页来满足这些条件。Xv6在内核�
 
 `usertrapret`对`userret`的调用传递了参数`a0`，`a1`， `a0`指向`TRAPFRAME`，`a1`指向用户进程页表（kernel/trampoline.S:88），`userret`将`satp`切换到进程的用户页表。回想一下，用户页表同时映射了trampoline页和`TRAPFRAME`，但没有映射内核的其他内容。同样，事实上，在用户页表和内核页表中，trampoline页被映射在相同的虚拟地址上，这也是允许`uservec`在改变`satp`后继续执行的原因。`userret`将`trapframe`中保存的用户`a0`复制到`sscratch`中，为以后与`TRAPFRAME`交换做准备。从这时开始，`userret`能使用的数据只有寄存器内容和`trapframe`的内容。接下来`userret`从trapframe中恢复保存的用户寄存器，对`a0`和`sscratch`做最后的交换，恢复用户`a0`并保存`TRAPFRAME`，为下一次trap做准备，并使用`sret`返回用户空间。
 
-### 1.2.1 Code: Calling system calls
+## 1.3 Code: Calling system calls
 
 `ecall`指令会做3件事
 
  1. ecall changes mode bit from user to supervisor
  2. ecall saves the the program counter register in hte sepc register
  3. ecall sets tth program counter equal to the stvec
+ `sret`指令会做
+ 
 
 第2章以`initcode.S`调用`exec`系统调用结束（user/initcode.S:11）。让我们来看看用户调用是如何在内核中实现`exec`系统调用的。
 
@@ -115,7 +117,7 @@ Xv6用一个包含`uservec`的trampoline页来满足这些条件。Xv6在内核�
 
 当系统调用函数返回时，`syscall`将其返回值记录在`p->trapframe->a0`中。用户空间的`exec()`将会返回该值，因为RISC-V上的C调用通常将返回值放在`a0`中。系统调用返回负数表示错误，0或正数表示成功。如果系统调用号无效，`syscall`会打印错误并返回-1。
 
-### 1.2.2 Code: System call arguments
+## 1.4 Code: System call arguments
 
 内核的系统调用实现需要找到用户代码传递的参数。因为用户代码调用系统调用的包装函数，参数首先会存放在寄存器中，这是C语言存放参数的惯例位置。内核trap代码将用户寄存器保存到当前进程的trap frame中，内核代码可以在那里找到它们。函数`argint`、`argaddr`和`argfd`从trap frame中以整数、指针或文件描述符的形式检索第n个系统调用参数。它们都调用`argraw`来获取保存的用户寄存器（kernel/syscall.c:35）。
 
@@ -125,7 +127,7 @@ Xv6用一个包含`uservec`的trampoline页来满足这些条件。Xv6在内核�
 
 `copyinstr`（kernel/vm.c:406）将用户页表`pagetable`中的虚拟地址`srcva`复制到`dst`，需指定最大复制字节数。它使用`walkaddr`（调用`walk`函数）在软件中模拟分页硬件的操作，以确定`srcva`的物理地址`pa0`。`walkaddr`（kernel/vm.c:95）检查用户提供的虚拟地址是否是进程用户地址空间的一部分，所以程序不能欺骗内核读取其他内存。类似的函数`copyout`，可以将数据从内核复制到用户提供的地址。
 
-### 1.2.3 Traps from kernel space
+## 1.5 Traps from kernel space
 
 Xv6根据用户还是内核代码正在执行，对CPU陷阱寄存器的配置略有不同行为。当内核在CPU上执行时，内核将`stvec`指向`kernelvec`上的汇编代码（kernel/kernelvec.S:10）。由于xv6已经在内核中，`kernelvec`可以使用`satp`，将其设置为内核页表，以及引用有效内核的堆栈指针。`kernelvec`保存所有寄存器，以便中断的代码最后可以在没有中断的情况下恢复。
 
@@ -139,9 +141,9 @@ Xv6根据用户还是内核代码正在执行，对CPU陷阱寄存器的配置�
 
 可以思考一下，如果因为时间中断，`kerneltrap`调用了`yield`，trap return是如何发生的。
 
-当CPU从用户空间进入内核时，Xv6将CPU的`stvec`设置为`kernelvec`；可以在`usertrap`（kernel/trap.c:29）中看到这一点。内核运行但`stvec`被设置为`uservec`时，这期间有一个时间窗口，在这个窗口期，禁用设备中断是至关重要的。幸运的是，RISC-V总是在开始使用trap时禁用中断，xv6在设置`stvec`之前不会再次启用它们。
+当CPU从用户空间进入内核时，Xv6将CPU的`stvec`设置为`kernelvec`；可以在`usertrap`（kernel/trap.c:29）中看到这一点。内核运行但`stvec`被设置为`uservec`时，这期间有一个时间窗口，在这个窗口期，禁用设备中断是至关重要的。幸运的是，**RISC-V总是在开始使用trap时禁用中断**，xv6在设置`stvec`之前不会再次启用它们。
 
-### 1.2.4 Page-fault exceptions
+## 1.6 Page-fault exceptions
 
 Xv6对异常的响应是相当固定：如果一个异常发生在用户空间，内核就会杀死故障进程。如果一个异常发生在内核中，内核就会**panic**。真正的操作系统通常会以更有趣的方式进行响应。
 
@@ -159,11 +161,11 @@ Xv6对异常的响应是相当固定：如果一个异常发生在用户空间�
 
 其他结合分页和分页错误异常的功能包括自动扩展堆栈和内存映射文件。
 
-### 1.2.5 Real world
+## 1.7 Real world
 
 如果将内核内存映射到每个进程的用户页表中（使用适当的PTE权限标志），就不需要特殊的trampoline页了。这也将消除从用户空间trap进入内核时对页表切换的需求。这也可以让内核中的系统调用实现利用当前进程的用户内存被映射的优势，让内核代码直接去间接引用（对地址取值）用户指针。许多操作系统已经使用这些想法来提高效率。Xv6没有实现这些想法，以减少由于无意使用用户指针而导致内核出现安全漏洞的机会，并减少一些复杂性，以确保用户和内核虚拟地址不重叠。
 
-### 1.2.6 Exercises
+## 1.8 Exercises
 
 1. 函数`copyin`和`copyinstr`在软件中walk用户页表。设置内核页表，使内核拥有用户程序的内存映射，`copyin`和`copyinstr`可以使用`memcpy`将系统调用参数复制到内核空间，依靠硬件来完成页表的walk。
 2. 实现内存的懒分配。
