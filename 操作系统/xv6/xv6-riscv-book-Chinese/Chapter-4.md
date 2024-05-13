@@ -103,7 +103,7 @@ Xv6用一个包含`uservec`的trampoline页来满足这些条件。Xv6在内核�
 
 `ecall`指令会做3件事
 
- 1. ecall changes mode from user to supervisor
+ 1. ecall changes mode bit from user to supervisor
  2. ecall saves the the program counter register in hte sepc register
  3. ecall sets tth program counter equal to the stvec
 
