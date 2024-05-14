@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
+                "file": "操作系统/riscv call convention.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
+                "file": "操作系统/riscv call convention.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md"
+                "file": "操作系统/riscv call convention.md"
               }
             }
           },
@@ -172,10 +173,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc339a4839aaa9d6",
+  "active": "4c6b407ffb49b099",
   "lastOpenFiles": [
-    "操作系统/riscv call convention.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
+    "操作系统/riscv call convention.md",
     "images/Pasted image 20240513135832.png",
     "images/Pasted image 20240513133113.png",
     "images/Pasted image 20240513133034.png",
