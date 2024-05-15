@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -100,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/riscv call convention.md",
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/riscv call convention.md",
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/riscv call convention.md"
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md"
               }
             }
           },
@@ -173,9 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c6b407ffb49b099",
+  "active": "cc339a4839aaa9d6",
   "lastOpenFiles": [
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
+    "操作系统/xv6/一些分布图/mem与disk.md",
+    "images/Pasted image 20240515165634.png",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-5.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-6.md",
     "操作系统/riscv call convention.md",
     "images/Pasted image 20240513135832.png",
     "images/Pasted image 20240513133113.png",
@@ -190,8 +192,6 @@
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
     "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
     "Algorithm/Sort.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-5.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-6.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-8.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-2.md",
@@ -212,7 +212,6 @@
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-6.2.png",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-8.3.png",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-8.2.png",
-    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-6.3.png",
     "操作系统/Untitled",
     "ismism",
     "编译器/GDB",
