@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
+                "file": "我狠C/C++ 登神长阶/Type Erasure.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
+                "file": "我狠C/C++ 登神长阶/Type Erasure.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
+                "file": "我狠C/C++ 登神长阶/Type Erasure.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md"
+                "file": "我狠C/C++ 登神长阶/Type Erasure.md"
               }
             }
           },
@@ -171,10 +171,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "cc339a4839aaa9d6",
   "lastOpenFiles": [
-    "操作系统/xv6/xv6-riscv-book-Chinese/2.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
+    "我狠C/C++ 登神长阶/Type Erasure.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/2.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Untitled.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-6.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-5.md",
@@ -204,7 +205,6 @@
     "我狠C/C++ 登神长阶/工具/Makefile.md",
     "操作系统/linux操作系统/文件系统/Untitled.md",
     "操作系统/linux操作系统/Unix IO",
-    "我狠C/C语言机制.md",
     "python",
     "Algorithm/位运算/Untitled",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.2.jpg",
