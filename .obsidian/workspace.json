@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/进程间通信.md",
+                "file": "我狠C/C++ 登神长阶/Type Erasure.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/进程间通信.md",
+                "file": "我狠C/C++ 登神长阶/Type Erasure.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/进程间通信.md",
+                "file": "我狠C/C++ 登神长阶/Type Erasure.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/进程间通信.md"
+                "file": "我狠C/C++ 登神长阶/Type Erasure.md"
               }
             }
           },
@@ -173,9 +173,10 @@
   },
   "active": "cc339a4839aaa9d6",
   "lastOpenFiles": [
+    "操作系统/进程间通信.md",
+    "images/Pasted image 20240521023046.png",
     "images/Pasted image 20240520224658.png",
     "我狠C/C++ 登神长阶/Type Erasure.md",
-    "操作系统/进程间通信.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/2.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Untitled.md",
@@ -210,8 +211,6 @@
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.2.jpg",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-3.3.jpg",
     "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-6.2.png",
-    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-8.3.png",
-    "操作系统/xv6/xv6-riscv-book-Chinese/assets/Figure-8.2.png",
     "操作系统/Untitled",
     "ismism",
     "编译器/GDB",
