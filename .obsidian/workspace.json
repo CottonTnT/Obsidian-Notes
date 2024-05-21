@@ -171,8 +171,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "cc339a4839aaa9d6",
   "lastOpenFiles": [
+    "images/Pasted image 20240521160857.png",
     "操作系统/riscv call convention.md",
     "操作系统/进程间通信.md",
     "操作系统/BIOS.md",
@@ -207,7 +208,6 @@
     "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
     "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
     "Algorithm/Sort.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-8.md",
     "images/Pasted image 20240508171543.png",
     "操作系统/linux操作系统/Unix IO",
     "python",
