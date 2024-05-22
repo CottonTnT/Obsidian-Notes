@@ -1,14 +1,14 @@
-# 六大部件之间的联系
+# 1 六大部件之间的联系
 ![[Pasted image 20230409115246.png]]
 
-# Containters
-## 容器结构及分类
+# 2 Containters
+## 2.1 容器结构及分类
 
 ![[Pasted image 20230409115903.png]]   
 ![[Pasted image 20230409115948.png]]
 
 ![[Pasted image 20230805104709.png]]
-## 深度探索 list
+## 2.2 深度探索 list
 
 
 ```cpp
@@ -61,7 +61,7 @@ struct _list_iterator{
 ![[Pasted image 20230805120711.png]]
 
 
-## vector
+## 2.3 vector
 
 - vector 的内存增长，每次要重新申请一块更大的连在一起的内存，还要对以前的值进行复制
 ![[Pasted image 20230805144613.png]]
@@ -97,14 +97,14 @@ public:
 ```
 
 
-## array
+## 2.4 array
 
 - 模拟普通数组
 
  ![[Pasted image 20230805153525.png]]
 
 
-## deque
+## 2.5 deque
 
 
 - deque 是一种伪连续的容器, 具体存储结构如下
@@ -131,8 +131,8 @@ public:
 ...
 }
 ```
-# Iterator 
-## 设计原则
+# 3 Iterator 
+## 3.1 设计原则
 
 
 ![[Pasted image 20230805122210.png]]
@@ -153,7 +153,7 @@ inline void algorithm(I first, I last){//算法提问
 }
 ```
 
-##  Iterator Traits
+## 3.2 Iterator Traits
 
 > 用以分离 `class iterator` 和 `non-class iterator` <sup>1</sup>
 
@@ -182,14 +182,14 @@ struct iterator_traits<T*>{
 
 
 
-# Algorithm
+# 4 Algorithm
 
 
  - Algorithm 看不见 containers, 所需要的一切信息来自 Iterators, 
 
 
 
-# tuple
+# 5 tuple
 
 
 - G 4.8 源码节录并简化
@@ -218,10 +218,10 @@ protected:
 
 
 
-# traits
+# 6 traits
 
 
-## type traits
+## 6.1 type traits
 
   
 

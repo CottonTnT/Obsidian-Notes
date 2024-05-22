@@ -1,4 +1,4 @@
-## 条款二十二：当使用Pimpl惯用法，请在实现文件中定义特殊成员函数
+## 0.1 条款二十二：当使用Pimpl惯用法，请在实现文件中定义特殊成员函数
 
 **Item 22: When using the Pimpl Idiom, define special member functions in the implementation file**
 

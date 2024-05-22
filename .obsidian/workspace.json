@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/进程间通信.md",
+                "file": "我狠C/Effective Modern Cpp/4.SmartPointers/item22.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,8 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "89574a0e71203e58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "我狠C/C++ 登神长阶/Type Erasure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/进程间通信.md",
+                "file": "我狠C/C++ 登神长阶/Type Erasure.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/进程间通信.md",
+                "file": "我狠C/C++ 登神长阶/Type Erasure.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/进程间通信.md"
+                "file": "我狠C/C++ 登神长阶/Type Erasure.md"
               }
             }
           },
@@ -171,12 +184,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc339a4839aaa9d6",
+  "active": "89574a0e71203e58",
   "lastOpenFiles": [
+    "我狠C/Effective Modern Cpp/4.SmartPointers/item22.md",
+    "我狠C/Effective Modern Cpp/4.SmartPointers/item21.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item12.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item14.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item15.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item16.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item17.md",
+    "我狠C/Effective Modern Cpp/4.SmartPointers/item18.md",
+    "我狠C/Effective Modern Cpp/4.SmartPointers/item20.md",
+    "我狠C/Effective Modern Cpp/4.SmartPointers/item19.md",
+    "我狠C/C++ 登神长阶/lambda.md",
+    "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
+    "我狠C/C++ 登神长阶/C++ STL/STL六大部件.md",
+    "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
+    "我狠C/C++ 登神长阶/Type Erasure.md",
+    "操作系统/进程间通信.md",
+    "images/Pasted image 20240522002851.png",
     "images/Pasted image 20240522000227.png",
     "images/Pasted image 20240521160857.png",
     "操作系统/riscv call convention.md",
-    "操作系统/进程间通信.md",
     "操作系统/BIOS.md",
     "我狠C/C++ 登神长阶/工具/Makefile.md",
     "images/Pasted image 20240521135110.png",
@@ -184,7 +213,6 @@
     "images/Pasted image 20240521133313.png",
     "我狠C/C++ 登神长阶/类的初始化.md",
     "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
-    "我狠C/C++ 登神长阶/Type Erasure.md",
     "我狠C/C++ 登神长阶/关键字详解.md",
     "images/Pasted image 20240521023046.png",
     "images/Pasted image 20240520224658.png",
@@ -192,23 +220,8 @@
     "操作系统/xv6/xv6-riscv-book-Chinese/2.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Untitled.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-6.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-5.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
-    "操作系统/xv6/一些分布图/mem与disk.md",
     "images/Pasted image 20240515165634.png",
     "images/Pasted image 20240513135832.png",
-    "images/Pasted image 20240513133113.png",
-    "images/Pasted image 20240513133034.png",
-    "操作系统/x86-64 calling convention.md",
-    "tools/git.md",
-    "我狠C/Effective Modern Cpp/1.DeducingTypes/item3.md",
-    "我狠C/Effective Modern Cpp/1.DeducingTypes/item2.md",
-    "我狠C/Effective Modern Cpp/1.DeducingTypes/item4.md",
-    "我狠C/Effective Modern Cpp/1.DeducingTypes/Untitled.md",
-    "我狠C/Effective Modern Cpp/1.DeducingTypes/item1.md",
-    "我狠C/C++ 登神长阶/C++ Modern Template Metaprogramming.md",
-    "Algorithm/Sort.md",
     "操作系统/linux操作系统/Unix IO",
     "python",
     "Algorithm/位运算/Untitled",
