@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/C11有什么以及为什么.md"
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md"
               }
             }
           },
@@ -172,12 +172,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "4c6b407ffb49b099",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
     "我狠C/C++ 登神长阶/类的初始化.md",
     "我狠C/C++ 登神长阶/虽然有 `register` 关键字, 但时至今日很少有人会使用它, 并且它在 C++11 中被列为淘汰的关键字.md",
     "我狠C/Effective Modern Cpp/4.SmartPointers/item22.md",
-    "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
     "我狠C/C++ 登神长阶/Type Erasure.md",
     "我狠C/Effective Modern Cpp/4.SmartPointers/item21.md",
     "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item12.md",
