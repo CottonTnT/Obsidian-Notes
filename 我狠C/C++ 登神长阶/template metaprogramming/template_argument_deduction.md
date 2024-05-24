@@ -41,7 +41,54 @@ int main()
 ## 0.2 特殊的推断情况
 
 - 成员函数的推断
+```cpp
+struct B {
+    B() = default;
+    B(int a)
+        : m_a { a } {};
+    void f(const int* p) const noexcept
+    {
+        printf("call B::f %d %d", m_a, *p);
+    }
+    int m_a;
+};
+
+template <typename RT, typename T, typename... Args>
+void fk(RT (T::*fucptr)(Args...) const)
+{
+    T object { 2 };
+    int ia = 3;
+    std::invoke(fucptr, &object, &ia);
+}
+
+int main()
+{
+    fk(&T::B::f);
+    return 0;
+}
 ```
 
+- 参数包的推断
+```cpp
+template <typename T, typename U>
+struct A {};
 
+template <typename T, typename... Args>
+void f(const A<T, Args>&...);
+
+template <typename... T, typename... U>
+void g(const A<T, U>&...);
+
+int main(){
+  f(A<int, bool>{}, A<int, char>{});   // T = int, Args = [bool,char]
+  g(A<int, bool>{}, A<int, char>{});   // T = [int, int], U = [bool, char]
+  g(A<int, bool>{}, A<char, char>{});  // T = [int, char], U = [bool, char]
+  // f(A<int, bool>{}, A<char, char>{});  // 错误，T 分别推断为 int 和 char
+return 0;
+}
 ```
+
+- 完美转发处理空指针常量时，整型值会被当做常量值0
+
+
+
