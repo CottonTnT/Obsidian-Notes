@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/移动语义.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/template_argument_deduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/移动语义.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/template_argument_deduction.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/移动语义.md",
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/template_argument_deduction.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/移动语义.md"
+                "file": "我狠C/C++ 登神长阶/template metaprogramming/template_argument_deduction.md"
               }
             }
           },
@@ -160,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,8 +175,10 @@
   },
   "active": "4c6b407ffb49b099",
   "lastOpenFiles": [
-    "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/Name Lookup.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/template_argument_deduction.md",
     "我狠C/C++ 登神长阶/template metaprogramming/移动语义.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
     "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
     "我狠C/C++ 登神长阶/类的初始化.md",
     "我狠C/C++ 登神长阶/虽然有 `register` 关键字, 但时至今日很少有人会使用它, 并且它在 C++11 中被列为淘汰的关键字.md",
@@ -204,10 +207,8 @@
     "images/Pasted image 20240521134506.png",
     "images/Pasted image 20240521133313.png",
     "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
-    "我狠C/C++ 登神长阶/关键字详解.md",
     "images/Pasted image 20240521023046.png",
     "images/Pasted image 20240520224658.png",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
     "images/Pasted image 20240515165634.png",
     "images/Pasted image 20240513135832.png",
     "操作系统/linux操作系统/Unix IO",
