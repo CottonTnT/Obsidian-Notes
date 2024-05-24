@@ -88,7 +88,116 @@ return 0;
 }
 ```
 
-- 完美转发处理空指针常量时，整型值会被当做常量值0
 
 
+## 0.3 SFINAE
+> subsitution failure is not a error
 
+
+- SFINAE 用于禁止不相关函数模板在重载解析时造成错误，当替换返回类型无意义时，会忽略（SFINAE out）匹配而选择另一个更差的匹配 
+```cpp
+
+#include <vector>
+
+namespace jc {
+
+template <typename T, std::size_t N>
+T* begin(T (&a)[N]) {
+  return a;
+}
+
+template <typename Container>
+typename Container::iterator begin(Container& c) {
+  return c.begin();
+}
+
+}  // namespace jc
+
+int main() {
+  std::vector<int> v;
+  int a[10] = {};
+
+  jc::begin(v);  // OK：只匹配第二个，SFINAE out 第一个
+  jc::begin(a);  // OK：只匹配第一个，SFINAE out 第二个
+}
+
+```
+
+- SFINAE 只发生与函数模板替换的及时上下文中即时上下文中，对于模板定义中不合法的表达式，不会使用`SFINAE`机制
+
+```cpp
+namespace jc {
+template <typename T, typename U>
+auto f(T t, U u) -> decltype(t + u) {
+  return t + u;
+}
+
+void f(...) {}
+
+template <typename T, typename U>
+auto g(T t, U u) -> decltype(auto) {  // 必须实例化 t 和 u 来确定返回类型
+  return t + u;  // 不是即时上下文，不会使用 SFINAE
+}
+
+void g(...) {}
+
+struct X {};
+
+using A = decltype(f(X{}, X{}));  // OK：A 为 void
+using B = decltype(g(X{}, X{}));  // 错误：g<X, X> 的实例化非法,即可以匹配模板函数，但是实例化后的表达式出错，
+
+}  // namespace jc
+
+int main() {}
+```
+
+- - 一个简单的 `SFINAE` 技巧是使用尾置返回类型，用 `decltype` 和逗号运算符定义返回类型，在 `decltype` 中定义必须有效的表达式
+```cpp
+namespace C {
+template <typename T>
+auto size(T&& t) -> decltype(t.size(), T::size_type())
+{
+    return t.size();
+}
+template <typename U>
+auto size(const U&)
+{
+    return 1;
+}
+}
+
+int main(){
+
+C::size(1);
+}
+```
+- 如果替换时使用了类成员，则会实例化类模板，此期间发生的错误不在即时上下文中，即使另一个函数模板匹配无误也不会使用 `SFINAE` 
+```cpp
+namespace jc {
+
+template <typename T>
+class Array {
+ public:
+  using iterator = T*;
+};
+
+template <typename T>
+void f(typename Array<T>::iterator) {}
+
+template <typename T>
+void f(T*) {}
+
+}  // namespace jc
+
+int main() {
+  jc::f<int&>(0);  // 错误：第一个模板实例化 Array<int&>，创建引用的指针是非法的
+}
+```
+- - SFINAE 最出名的应用是 [std::enable_if](https://en.cppreference.com/w/cpp/types/enable_if)
+
+## 0.4 Deduction Guides
+
+- 字符串字面值传引用是推断为字符数组，传值时推断为const char*,- C++17 可以定义 deduction guides 对特定类型的实参指定其推断类型
+```cpp
+
+```
