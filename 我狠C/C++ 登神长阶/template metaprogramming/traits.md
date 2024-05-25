@@ -280,3 +280,122 @@ static_assert(!jc::is_default_constructible_v<A>);
 int main() {}
 ```
 
+- [std::declval](https://en.cppreference.com/w/cpp/utility/declval)
+
+```c
+#include <type_traits>
+
+namespace jc {
+
+template <typename>
+constexpr bool always_false = false;
+
+template <typename T>
+std::add_rvalue_reference_t<T> declval() noexcept {
+  static_assert(always_false<T>, "declval not allowed in an evaluated context");
+}
+
+template <typename, typename = std::void_t<>>
+struct has_less : std::false_type {};
+
+template <typename T>
+struct has_less<T, std::void_t<decltype(jc::declval<T>() < jc::declval<T>())>>
+    : std::true_type {};
+
+template <typename T>
+constexpr bool has_less_v = has_less<T>::value;
+
+}  // namespace jc
+
+struct A {
+  A() = delete;
+  bool operator<(const A& rhs) const { return i < rhs.i; }
+  int i;
+};
+
+static_assert(jc::has_less_v<A>);
+
+int main() {}
+```
+
+- [std::is_convertible](https://en.cppreference.com/w/cpp/types/is_convertible)
+
+```c
+#include <type_traits>
+
+namespace jc {
+
+// 转为 void 类型需要单独处理，转为数组和函数类型总是 false
+template <typename From, typename To,
+          bool = std::is_void_v<To> || std::is_array_v<To> ||
+                 std::is_function_v<To>>
+struct is_convertible_impl {
+  using type = std::bool_constant<std::is_void_v<To> && std::is_void_v<From>>;
+};
+
+template <typename From, typename To>
+struct is_convertible_impl<From, To, false> {
+ private:
+  static void f(To);
+
+  template <typename T, typename U,
+            typename = decltype(f(std::declval<T>()))>  // 将 T 转为 To
+  static std::true_type test(void*);
+
+  template <typename, typename>
+  static std::false_type test(...);
+
+ public:
+  using type = decltype(test<From, To>(nullptr));
+};
+
+template <typename From, typename To>
+struct is_convertible : is_convertible_impl<From, To>::type {};
+
+template <typename From, typename To>
+constexpr bool is_convertible_v = is_convertible<From, To>::value;
+
+}  // namespace jc
+
+struct A {};
+struct B : A {};
+
+static_assert(jc::is_convertible_v<B, A>);
+static_assert(jc::is_convertible_v<B*, A*>);
+static_assert(!jc::is_convertible_v<A*, B*>);
+static_assert(jc::is_convertible_v<void, void>);
+static_assert(!jc::is_convertible_v<int*, int[]>);
+
+int main() {}
+```
+
+- [std::is_class](https://en.cppreference.com/w/cpp/types/is_class)
+
+```c
+#include <string>
+#include <type_traits>
+#include <vector>
+
+namespace jc {
+
+template <typename T, typename = std::void_t<>>
+struct is_class : std::false_type {};
+
+template <typename T>
+struct is_class<T, std::void_t<int T::*>> : std::true_type {};
+
+template <class T>
+constexpr bool is_class_v = is_class<T>::value;
+
+}  // namespace jc
+
+union A {};
+
+static_assert(jc::is_class_v<std::string>);
+static_assert(jc::is_class_v<std::vector<int>>);
+static_assert(jc::is_class_v<A>);
+static_assert(std::is_union_v<A>);   // 仅能由编译器开洞实现
+static_assert(!std::is_class_v<A>);  // 排除了 union 类型
+
+int main() {}
+```
