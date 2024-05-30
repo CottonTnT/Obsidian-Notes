@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/类型擦除.md",
-                "mode": "source",
+                "file": "我狠C/C++ 登神长阶/launder.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/类型擦除.md",
+                "file": "我狠C/C++ 登神长阶/launder.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/类型擦除.md",
+                "file": "我狠C/C++ 登神长阶/launder.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/类型擦除.md"
+                "file": "我狠C/C++ 登神长阶/launder.md"
               }
             }
           },
@@ -160,8 +160,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "cc339a4839aaa9d6",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
+    "我狠C/C++ 登神长阶/类的初始化.md",
+    "我狠C/C++ 登神长阶/字面量的类型.md",
+    "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
+    "我狠C/C++ 登神长阶/terms in CPP.md",
+    "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
+    "我狠C/C++ 登神长阶/launder.md",
+    "我狠C/C++ 登神长阶/To be solved.md",
+    "我狠C/C++ 登神长阶/lambda.md",
+    "我狠C/C++ 登神长阶/编译器的优化机制.md",
+    "我狠C/C++ 登神长阶/变参模板.md",
+    "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
+    "我狠C/C++ 登神长阶/显式类型转换.md",
+    "我狠C/C++ 登神长阶/自动存储类型.md",
+    "我狠C/C++ 登神长阶/union in cpp.md",
+    "我狠C/C++ 登神长阶/template metaprogramming/类型擦除.md",
     "设计模式",
     "操作系统/并发/先放弃 再入门.md",
     "操作系统/并发/条件变量.md",
@@ -169,25 +185,10 @@
     "操作系统/并发/操作系统中的互斥.md",
     "操作系统/并发/常见并发问题.md",
     "操作系统/并发/信号量.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/类型擦除.md",
     "我狠C/C++ 登神长阶/template metaprogramming/Inheritance.md",
     "我狠C/C++ 登神长阶/template metaprogramming/traits.md",
     "我狠C/C++ 登神长阶/template metaprogramming/specialization and overloading.md",
     "我狠C/C++ 登神长阶/template metaprogramming/template_argument_deduction.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/Name Lookup.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/移动语义.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/变参模板.md",
-    "我狠C/C++ 登神长阶/C11有什么以及为什么.md",
-    "我狠C/C++ 登神长阶/类的初始化.md",
-    "我狠C/C++ 登神长阶/虽然有 `register` 关键字, 但时至今日很少有人会使用它, 并且它在 C++11 中被列为淘汰的关键字.md",
-    "我狠C/Effective Modern Cpp/4.SmartPointers/item22.md",
-    "我狠C/C++ 登神长阶/Type Erasure.md",
-    "我狠C/Effective Modern Cpp/4.SmartPointers/item21.md",
-    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item12.md",
-    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item14.md",
-    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item15.md",
-    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item16.md",
-    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item17.md",
     "images/Pasted image 20240522002851.png",
     "images/Pasted image 20240522000227.png",
     "images/Pasted image 20240521160857.png",
@@ -207,7 +208,6 @@
     "操作系统/并发",
     "脚本/shell",
     "脚本/python",
-    "脚本",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
