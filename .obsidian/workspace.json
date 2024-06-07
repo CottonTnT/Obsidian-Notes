@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/进程间通信.md",
+                "file": "我狠C/C++ 登神长阶/union in cpp.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/进程间通信.md",
+                "file": "我狠C/C++ 登神长阶/union in cpp.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/进程间通信.md",
+                "file": "我狠C/C++ 登神长阶/union in cpp.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/进程间通信.md"
+                "file": "我狠C/C++ 登神长阶/union in cpp.md"
               }
             }
           },
@@ -140,6 +140,14 @@
                 "showSearch": false,
                 "searchQuery": ""
               }
+            }
+          },
+          {
+            "id": "7f0e0ed4240f3586",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
             }
           }
         ],
@@ -160,8 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "cc339a4839aaa9d6",
   "lastOpenFiles": [
+    "2024-06-08.md",
+    "操作系统/进程间通信.md",
     "网络编程/TCP与UDP.md",
     "images/Pasted image 20240531003733.png",
     "images/Pasted image 20240531003546.png",
@@ -193,7 +203,6 @@
     "操作系统/并发/常见并发问题.md",
     "操作系统/并发/信号量.md",
     "我狠C/C++ 登神长阶/template metaprogramming/Inheritance.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/traits.md",
     "images/Pasted image 20240522002851.png",
     "images/Pasted image 20240522000227.png",
     "images/Pasted image 20240521160857.png",
