@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/union in cpp.md",
+                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item26.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/union in cpp.md",
+                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item26.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/union in cpp.md",
+                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item26.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/union in cpp.md"
+                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item26.md"
               }
             }
           },
@@ -168,9 +168,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc339a4839aaa9d6",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item25.md",
+    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
+    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item23.md",
+    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/media/item29_fig1.png",
+    "我狠C/Effective Modern Cpp/4.SmartPointers/item21.md",
+    "我狠C/Effective Modern Cpp/4.SmartPointers/item22.md",
+    "我狠C/Effective Modern Cpp/4.SmartPointers/item20.md",
+    "我狠C/Effective Modern Cpp/4.SmartPointers/item19.md",
+    "我狠C/Effective Modern Cpp/4.SmartPointers/item18.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item13.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item14.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item15.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item16.md",
+    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item17.md",
     "2024-06-08.md",
+    "我狠C/C++ 登神长阶/union in cpp.md",
     "操作系统/进程间通信.md",
     "网络编程/TCP与UDP.md",
     "images/Pasted image 20240531003733.png",
@@ -188,28 +203,13 @@
     "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
     "我狠C/C++ 登神长阶/To be solved.md",
     "我狠C/C++ 登神长阶/lambda.md",
-    "我狠C/C++ 登神长阶/编译器的优化机制.md",
-    "我狠C/C++ 登神长阶/变参模板.md",
-    "我狠C/C++ 登神长阶/初始化与隐式类型转换.md",
-    "我狠C/C++ 登神长阶/显式类型转换.md",
-    "我狠C/C++ 登神长阶/自动存储类型.md",
-    "我狠C/C++ 登神长阶/union in cpp.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/类型擦除.md",
     "设计模式",
-    "操作系统/并发/先放弃 再入门.md",
-    "操作系统/并发/条件变量.md",
-    "操作系统/并发/锁.md",
-    "操作系统/并发/操作系统中的互斥.md",
-    "操作系统/并发/常见并发问题.md",
-    "操作系统/并发/信号量.md",
-    "我狠C/C++ 登神长阶/template metaprogramming/Inheritance.md",
     "images/Pasted image 20240522002851.png",
     "images/Pasted image 20240522000227.png",
     "images/Pasted image 20240521160857.png",
     "images/Pasted image 20240521135110.png",
     "images/Pasted image 20240521134506.png",
     "images/Pasted image 20240521133313.png",
-    "images/Pasted image 20240521023046.png",
     "操作系统/linux操作系统/Unix IO",
     "python",
     "Algorithm/位运算/Untitled",
