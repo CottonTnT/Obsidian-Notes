@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item26.md",
+                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item27.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item26.md",
+                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item27.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item26.md",
+                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item27.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item26.md"
+                "file": "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item27.md"
               }
             }
           },
@@ -170,6 +170,7 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item26.md",
     "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item25.md",
     "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item24.md",
     "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item23.md",
@@ -202,7 +203,6 @@
     "我狠C/C++ 登神长阶/terms in CPP.md",
     "我狠C/C++ 登神长阶/RTTI、虚函数和虚基类.md",
     "我狠C/C++ 登神长阶/To be solved.md",
-    "我狠C/C++ 登神长阶/lambda.md",
     "设计模式",
     "images/Pasted image 20240522002851.png",
     "images/Pasted image 20240522000227.png",
