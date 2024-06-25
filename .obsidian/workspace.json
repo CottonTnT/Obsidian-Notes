@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "12d750abc131393d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,7 +179,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc339a4839aaa9d6",
+  "active": "12d750abc131393d",
   "lastOpenFiles": [
     "我狠C/Effective Modern Cpp/4.SmartPointers/item19.md",
     "我狠C/Effective Modern Cpp/4.SmartPointers/item22.md",
