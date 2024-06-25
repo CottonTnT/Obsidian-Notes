@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/4.SmartPointers/item18.md",
+                "file": "我狠C/C++ 登神长阶/宏.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "12d750abc131393d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/4.SmartPointers/item18.md",
+                "file": "我狠C/C++ 登神长阶/宏.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/4.SmartPointers/item18.md",
+                "file": "我狠C/C++ 登神长阶/宏.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/Effective Modern Cpp/4.SmartPointers/item18.md"
+                "file": "我狠C/C++ 登神长阶/宏.md"
               }
             }
           },
@@ -179,13 +168,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "12d750abc131393d",
+  "active": "cc339a4839aaa9d6",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/launder.md",
+    "我狠C/C++ 登神长阶/宏.md",
+    "我狠C/C++ 登神长阶/C++对象模型.md",
+    "我狠C/C++ 登神长阶/编译器的优化机制.md",
+    "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
+    "我狠C/C++ 登神长阶/类的初始化.md",
+    "我狠C/C++ 登神长阶/自动存储类型.md",
+    "我狠C/C++ 登神长阶/字面量的类型.md",
+    "我狠C/C语言机制.md",
+    "我狠C/Effective Modern Cpp/4.SmartPointers/item18.md",
     "我狠C/Effective Modern Cpp/4.SmartPointers/item19.md",
     "我狠C/Effective Modern Cpp/4.SmartPointers/item22.md",
     "我狠C/Effective Modern Cpp/4.SmartPointers/item21.md",
     "我狠C/Effective Modern Cpp/4.SmartPointers/item20.md",
-    "我狠C/Effective Modern Cpp/4.SmartPointers/item18.md",
     "我狠C/杂项.md",
     "我狠C/Effective Modern Cpp/4.SmartPointers/media/item18_fig1.png",
     "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/item27.md",
@@ -200,21 +198,12 @@
     "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item16.md",
     "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item17.md",
     "2024-06-08.md",
-    "我狠C/C++ 登神长阶/union in cpp.md",
-    "操作系统/进程间通信.md",
-    "网络编程/TCP与UDP.md",
     "images/Pasted image 20240531003733.png",
     "images/Pasted image 20240531003546.png",
     "images/Pasted image 20240531003008.png",
-    "我狠C/C++ 登神长阶/launder.md",
     "网络编程",
     "TCP",
     "Untitled 1",
-    "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
-    "我狠C/C++ 登神长阶/类的初始化.md",
-    "我狠C/C++ 登神长阶/字面量的类型.md",
-    "我狠C/C++ 登神长阶/C++ 异常机制实现.md",
-    "我狠C/C++ 登神长阶/terms in CPP.md",
     "设计模式",
     "images/Pasted image 20240522002851.png",
     "images/Pasted image 20240522000227.png",
