@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "990c2caeb6033e19",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,7 +179,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc339a4839aaa9d6",
+  "active": "990c2caeb6033e19",
   "lastOpenFiles": [
     "我狠C/C++ 登神长阶/launder.md",
     "我狠C/C++ 登神长阶/宏.md",
