@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/正则表达式.md",
+                "file": "我狠C/C++ 登神长阶/宏.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/正则表达式.md",
+                "file": "我狠C/C++ 登神长阶/宏.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/正则表达式.md",
+                "file": "我狠C/C++ 登神长阶/宏.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/正则表达式.md"
+                "file": "我狠C/C++ 登神长阶/宏.md"
               }
             }
           },
@@ -168,14 +168,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "1e92da50d10e8ec5",
   "lastOpenFiles": [
+    "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
+    "我狠C/C++ 登神长阶/launder.md",
+    "tools/正则表达式.md",
     "我狠C/C++ 登神长阶/虚继承的实现原理.md",
     "我狠C/C++ 登神长阶/宏.md",
-    "我狠C/C++ 登神长阶/launder.md",
     "我狠C/C++ 登神长阶/C++对象模型.md",
     "我狠C/C++ 登神长阶/编译器的优化机制.md",
-    "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
     "我狠C/C++ 登神长阶/类的初始化.md",
     "我狠C/C++ 登神长阶/自动存储类型.md",
     "我狠C/C++ 登神长阶/字面量的类型.md",
@@ -197,7 +198,6 @@
     "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item14.md",
     "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item15.md",
     "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item16.md",
-    "我狠C/Effective Modern Cpp/3.MovingToModernCpp/item17.md",
     "images/Pasted image 20240531003733.png",
     "images/Pasted image 20240531003546.png",
     "images/Pasted image 20240531003008.png",
