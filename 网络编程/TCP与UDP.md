@@ -1,5 +1,7 @@
 [【网络】【TCP】用了 TCP 协议，数据一定不会丢吗](https://www.cnblogs.com/kukuxjx/p/17458982.html)
 
+[网络】【TCP】如何理解是 TCP 面向字节流协议](https://www.cnblogs.com/kukuxjx/p/17459283.html)
+
 
 # 1 TCP
 
