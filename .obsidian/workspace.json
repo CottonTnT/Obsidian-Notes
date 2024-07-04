@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
+                "file": "网络编程/TCP与UDP详解.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
+                "file": "网络编程/TCP与UDP详解.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
+                "file": "网络编程/TCP与UDP详解.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md"
+                "file": "网络编程/TCP与UDP详解.md"
               }
             }
           },
@@ -155,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,6 +170,9 @@
   "active": "1e92da50d10e8ec5",
   "lastOpenFiles": [
     "网络编程/TCP与UDP.md",
+    "网络编程/TCP与UDP详解.md",
+    "images/Pasted image 20240704143140.png",
+    "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
     "操作系统/linux操作系统/进程环境.md",
     "网络编程/多路复用.md",
     "操作系统/terminal & shell.md",
@@ -194,8 +196,6 @@
     "我狠C/C语言机制.md",
     "我狠C/Effective Modern Cpp/4.SmartPointers/item18.md",
     "我狠C/Effective Modern Cpp/4.SmartPointers/item19.md",
-    "我狠C/Effective Modern Cpp/4.SmartPointers/item22.md",
-    "我狠C/Effective Modern Cpp/4.SmartPointers/item21.md",
     "我狠C/Effective Modern Cpp/4.SmartPointers/media/item18_fig1.png",
     "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/media/item29_fig1.png",
     "images/Pasted image 20240531003733.png",
@@ -209,7 +209,6 @@
     "images/Pasted image 20240522000227.png",
     "images/Pasted image 20240521160857.png",
     "images/Pasted image 20240521135110.png",
-    "images/Pasted image 20240521134506.png",
     "操作系统/linux操作系统/Unix IO",
     "python",
     "Algorithm/位运算/Untitled",
