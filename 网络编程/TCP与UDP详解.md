@@ -766,7 +766,9 @@ so_linger.l_onoff = 1;
 so_linger.l_linger = 0;
 setsockopt(s, SOL_SOCKET, SO_LINGER, &so_linger,sizeof(so_linger));
 
+
 如果`l_onoff`为非 0， 且`l_linger`值为 0，那么调用`close`后，会立该发送一个`RST`标志给对端，该 TCP 连接将跳过四次挥手，也就跳过了`TIME_WAIT`状态，直接关闭。
+
 
 但这为跨越`TIME_WAIT`状态提供了一个可能，不过是一个非常危险的行为，不值得提倡。
 
