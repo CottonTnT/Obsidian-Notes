@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/并发/内存屏障.md",
+                "file": "操作系统/并发/常见并发问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/并发/内存屏障.md",
+                "file": "操作系统/并发/常见并发问题.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/并发/内存屏障.md",
+                "file": "操作系统/并发/常见并发问题.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/并发/内存屏障.md"
+                "file": "操作系统/并发/常见并发问题.md"
               }
             }
           },
@@ -169,8 +169,8 @@
   },
   "active": "1e92da50d10e8ec5",
   "lastOpenFiles": [
-    "C/C语言机制.md",
     "操作系统/并发/内存屏障.md",
+    "C/C语言机制.md",
     "网络编程/常用信号.md",
     "网络编程/soket 与 TCP状态转移.md",
     "网络编程/优化TCP.md",
