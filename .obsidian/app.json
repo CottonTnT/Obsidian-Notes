@@ -8,5 +8,6 @@
   "useTab": true,
   "tabSize": 2,
   "spellcheck": true,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "alwaysUpdateLinks": true
 }

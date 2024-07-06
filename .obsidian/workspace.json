@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络编程/常用信号.md",
+                "file": "操作系统/并发/内存屏障.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络编程/常用信号.md",
+                "file": "操作系统/并发/内存屏障.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络编程/常用信号.md",
+                "file": "操作系统/并发/内存屏障.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络编程/常用信号.md"
+                "file": "操作系统/并发/内存屏障.md"
               }
             }
           },
@@ -169,8 +169,10 @@
   },
   "active": "1e92da50d10e8ec5",
   "lastOpenFiles": [
-    "网络编程/soket 与 TCP状态转移.md",
+    "C/C语言机制.md",
+    "操作系统/并发/内存屏障.md",
     "网络编程/常用信号.md",
+    "网络编程/soket 与 TCP状态转移.md",
     "网络编程/优化TCP.md",
     "网络编程/TCP与UDP详解.md",
     "网络编程/多路复用.md",
@@ -182,7 +184,7 @@
     "操作系统/并发/锁.md",
     "网络编程/TCP与UDP.md",
     "images/Pasted image 20240704143140.png",
-    "我狠C/C++ 登神长阶/template metaprogramming/函数模板.md",
+    "C/C++ 登神长阶/template metaprogramming/函数模板.md",
     "操作系统/linux操作系统/进程环境.md",
     "操作系统/terminal & shell.md",
     "操作系统/linux操作系统/Unix IO.md",
@@ -192,12 +194,10 @@
     "操作系统/linux操作系统/系统调用错误处理.md",
     "操作系统/[Linux.md",
     "操作系统/[解密TTY.md",
-    "我狠C/C++ 登神长阶/宏.md",
-    "我狠C/C++ 登神长阶/可调用对象包装器、绑定器.md",
-    "我狠C/C++ 登神长阶/launder.md",
-    "tools/正则表达式.md",
-    "我狠C/Effective Modern Cpp/4.SmartPointers/media/item18_fig1.png",
-    "我狠C/Effective Modern Cpp/5.RRefMovSemPerfForw/media/item29_fig1.png",
+    "C/C++ 登神长阶/宏.md",
+    "C/C++ 登神长阶/可调用对象包装器、绑定器.md",
+    "C/Effective Modern Cpp/4.SmartPointers/media/item18_fig1.png",
+    "C/Effective Modern Cpp/5.RRefMovSemPerfForw/media/item29_fig1.png",
     "images/Pasted image 20240531003733.png",
     "images/Pasted image 20240531003546.png",
     "images/Pasted image 20240531003008.png",
