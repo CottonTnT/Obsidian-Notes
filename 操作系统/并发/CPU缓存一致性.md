@@ -101,6 +101,8 @@ MESI 协议其实是 CPU Cache 的有限状态机，一共有 4 个状态（MESI
 
 MESI 协议有一个非常 nice 的在线体验网站，你可以对照文章内容，在网站上操作指令区，并观察内存和缓存的数据和状态变化。网站地址：https://www.scss.tcd.ie/Jeremy.Jones/VivioJS/caches/MESI.htm
 
+![[Pasted image 20240707115725.png]]
+
 
 #### 2.3.1.1 **4.4 写缓冲区 & 失效队列**
 
