@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/并发/常见并发问题.md",
+                "file": "操作系统/并发/CPU缓存一致性.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/并发/常见并发问题.md",
+                "file": "操作系统/并发/CPU缓存一致性.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/并发/常见并发问题.md",
+                "file": "操作系统/并发/CPU缓存一致性.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/并发/常见并发问题.md"
+                "file": "操作系统/并发/CPU缓存一致性.md"
               }
             }
           },
@@ -169,6 +170,10 @@
   },
   "active": "1e92da50d10e8ec5",
   "lastOpenFiles": [
+    "images/Pasted image 20240707032404.png",
+    "操作系统/并发/常见并发问题.md",
+    "操作系统/并发/CPU缓存一致性.md",
+    "操作系统/并发/Cache.md",
     "操作系统/并发/内存屏障.md",
     "C/C语言机制.md",
     "网络编程/常用信号.md",
@@ -179,7 +184,6 @@
     "操作系统/并发/条件变量.md",
     "操作系统/并发/信号量.md",
     "操作系统/并发/先放弃 再入门.md",
-    "操作系统/并发/常见并发问题.md",
     "操作系统/并发/操作系统中的互斥.md",
     "操作系统/并发/锁.md",
     "网络编程/TCP与UDP.md",
@@ -193,9 +197,6 @@
     "操作系统/linux操作系统/进程间通信.md",
     "操作系统/linux操作系统/系统调用错误处理.md",
     "操作系统/[Linux.md",
-    "操作系统/[解密TTY.md",
-    "C/C++ 登神长阶/宏.md",
-    "C/C++ 登神长阶/可调用对象包装器、绑定器.md",
     "C/Effective Modern Cpp/4.SmartPointers/media/item18_fig1.png",
     "C/Effective Modern Cpp/5.RRefMovSemPerfForw/media/item29_fig1.png",
     "images/Pasted image 20240531003733.png",
