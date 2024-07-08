@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/变换技巧/子序列问题.md",
+                "file": "Algorithm/数据结构/差分.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/变换技巧/子序列问题.md",
+                "file": "Algorithm/数据结构/差分.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/变换技巧/子序列问题.md",
+                "file": "Algorithm/数据结构/差分.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/变换技巧/子序列问题.md"
+                "file": "Algorithm/数据结构/差分.md"
               }
             }
           },
@@ -169,35 +169,35 @@
   },
   "active": "1e92da50d10e8ec5",
   "lastOpenFiles": [
-    "Algorithm/变换技巧/矩阵.md",
+    "Algorithm/数据结构/前缀和.md",
+    "Algorithm/数据结构/差分.md",
+    "Algorithm/数据结构/tree/二叉树/叉叉.md",
+    "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
+    "Algorithm/数据结构/tree/二叉树/平衡树.md",
+    "Algorithm/数据结构/tree/树状数组.md",
+    "Algorithm/数据结构/tree/线段树.md",
+    "Algorithm/数据结构/tree/trie树.md",
+    "Algorithm/数据结构/倍增.md",
+    "Algorithm/数据结构/矩阵加速.md",
+    "Algorithm/数学知识/数论/pei.md",
+    "Algorithm/数学知识/数论/质数筛法.md",
+    "Algorithm/数学知识/数论/裴蜀定理.md",
+    "Algorithm/数学知识/数论/卢卡斯定理.md",
+    "Algorithm/数学知识/数论/高斯消元.md",
+    "Algorithm/数学知识/数论/快速幂.md",
+    "Algorithm/数学知识/容斥原理与组合计数/容斥原理与组合计数的关系.md",
+    "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
+    "Algorithm/图论/邻接表构建图.md",
+    "Algorithm/图论/最短路问题.md",
     "Algorithm/变换技巧/子序列问题.md",
+    "Algorithm/变换技巧/矩阵.md",
     "Algorithm/变换技巧/环.md",
     "Algorithm/变换技巧/取整.md",
     "操作系统/并发/CPU缓存一致性.md",
     "images/Pasted image 20240707115725.png",
     "images/Pasted image 20240707032404.png",
     "操作系统/并发/常见并发问题.md",
-    "操作系统/并发/Cache.md",
-    "操作系统/并发/内存屏障.md",
-    "C/C语言机制.md",
-    "网络编程/常用信号.md",
-    "网络编程/soket 与 TCP状态转移.md",
-    "网络编程/优化TCP.md",
-    "网络编程/TCP与UDP详解.md",
-    "网络编程/多路复用.md",
-    "操作系统/并发/条件变量.md",
-    "操作系统/并发/信号量.md",
-    "操作系统/并发/先放弃 再入门.md",
-    "操作系统/并发/操作系统中的互斥.md",
-    "操作系统/并发/锁.md",
-    "网络编程/TCP与UDP.md",
     "images/Pasted image 20240704143140.png",
-    "C/C++ 登神长阶/template metaprogramming/函数模板.md",
-    "操作系统/linux操作系统/进程环境.md",
-    "操作系统/terminal & shell.md",
-    "操作系统/linux操作系统/Unix IO.md",
-    "操作系统/linux操作系统/时间.md",
-    "操作系统/linux操作系统/终端.md",
     "C/Effective Modern Cpp/4.SmartPointers/media/item18_fig1.png",
     "C/Effective Modern Cpp/5.RRefMovSemPerfForw/media/item29_fig1.png",
     "images/Pasted image 20240531003733.png",
