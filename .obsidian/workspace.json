@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/并发/CPU缓存一致性.md",
+                "file": "Algorithm/变换技巧/子序列问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/并发/CPU缓存一致性.md",
+                "file": "Algorithm/变换技巧/子序列问题.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/并发/CPU缓存一致性.md",
+                "file": "Algorithm/变换技巧/子序列问题.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/并发/CPU缓存一致性.md"
+                "file": "Algorithm/变换技巧/子序列问题.md"
               }
             }
           },
@@ -170,10 +169,14 @@
   },
   "active": "1e92da50d10e8ec5",
   "lastOpenFiles": [
+    "Algorithm/变换技巧/矩阵.md",
+    "Algorithm/变换技巧/子序列问题.md",
+    "Algorithm/变换技巧/环.md",
+    "Algorithm/变换技巧/取整.md",
+    "操作系统/并发/CPU缓存一致性.md",
     "images/Pasted image 20240707115725.png",
     "images/Pasted image 20240707032404.png",
     "操作系统/并发/常见并发问题.md",
-    "操作系统/并发/CPU缓存一致性.md",
     "操作系统/并发/Cache.md",
     "操作系统/并发/内存屏障.md",
     "C/C语言机制.md",
@@ -195,9 +198,6 @@
     "操作系统/linux操作系统/Unix IO.md",
     "操作系统/linux操作系统/时间.md",
     "操作系统/linux操作系统/终端.md",
-    "操作系统/linux操作系统/进程间通信.md",
-    "操作系统/linux操作系统/系统调用错误处理.md",
-    "操作系统/[Linux.md",
     "C/Effective Modern Cpp/4.SmartPointers/media/item18_fig1.png",
     "C/Effective Modern Cpp/5.RRefMovSemPerfForw/media/item29_fig1.png",
     "images/Pasted image 20240531003733.png",
@@ -209,7 +209,6 @@
     "设计模式",
     "images/Pasted image 20240522002851.png",
     "images/Pasted image 20240522000227.png",
-    "images/Pasted image 20240521160857.png",
     "操作系统/linux操作系统/Unix IO",
     "python",
     "Algorithm/位运算/Untitled",
