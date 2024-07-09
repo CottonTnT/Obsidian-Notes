@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/并发/条件变量.md",
+                "file": "C/C++ 登神长阶/宏.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/并发/条件变量.md",
+                "file": "C/C++ 登神长阶/宏.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/并发/条件变量.md",
+                "file": "C/C++ 登神长阶/宏.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/并发/条件变量.md"
+                "file": "C/C++ 登神长阶/宏.md"
               }
             }
           },
@@ -169,6 +169,12 @@
   },
   "active": "1e92da50d10e8ec5",
   "lastOpenFiles": [
+    "C/杂项.md",
+    "C/C语言机制.md",
+    "操作系统/时间.md",
+    "操作系统/并发/条件变量.md",
+    "Untitled 1",
+    "Untitled",
     "Algorithm/数据结构/差分.md",
     "Algorithm/数据结构/前缀和.md",
     "Algorithm/数据结构/tree/二叉树/叉叉.md",
@@ -191,12 +197,8 @@
     "Algorithm/图论/最短路问题.md",
     "Algorithm/变换技巧/子序列问题.md",
     "Algorithm/变换技巧/矩阵.md",
-    "Algorithm/变换技巧/环.md",
-    "Algorithm/变换技巧/取整.md",
-    "操作系统/并发/CPU缓存一致性.md",
     "images/Pasted image 20240707115725.png",
     "images/Pasted image 20240707032404.png",
-    "操作系统/并发/常见并发问题.md",
     "images/Pasted image 20240704143140.png",
     "C/Effective Modern Cpp/4.SmartPointers/media/item18_fig1.png",
     "C/Effective Modern Cpp/5.RRefMovSemPerfForw/media/item29_fig1.png",
@@ -205,7 +207,6 @@
     "images/Pasted image 20240531003008.png",
     "网络编程",
     "TCP",
-    "Untitled 1",
     "设计模式",
     "images/Pasted image 20240522002851.png",
     "images/Pasted image 20240522000227.png",
@@ -214,7 +215,6 @@
     "Algorithm/位运算/Untitled",
     "操作系统/Untitled",
     "ismism",
-    "编译器/GDB",
     "未命名.canvas",
     "未命名 1.canvas"
   ]

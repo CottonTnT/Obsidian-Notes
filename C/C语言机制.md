@@ -17,7 +17,7 @@ int scanf(const char* format, ...)
 
 ## 2.2 实现原理
 
-C语言中使用 `va_list` 系列变参宏实现变参函数，va means variable-argument(可变参数)。
+C语言中使用 `va_list` 系列变参宏实现变参函数，`va means variable-argument`(可变参数)。
 
 
 x86平台VC6.0编译器中，stdarg.h头文件内变参宏定义如下：
