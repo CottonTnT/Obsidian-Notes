@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编译器/gcc/预编译指令.md",
+                "file": "C/C++ 登神长阶/无法作为返回类型的类型.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编译器/gcc/预编译指令.md",
+                "file": "C/C++ 登神长阶/无法作为返回类型的类型.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编译器/gcc/预编译指令.md",
+                "file": "C/C++ 登神长阶/无法作为返回类型的类型.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编译器/gcc/预编译指令.md"
+                "file": "C/C++ 登神长阶/无法作为返回类型的类型.md"
               }
             }
           },
@@ -169,8 +169,9 @@
   },
   "active": "1e92da50d10e8ec5",
   "lastOpenFiles": [
-    "编译器/gcc/ld 链接选项.md",
     "编译器/gcc/预编译指令.md",
+    "C/C++ 登神长阶/无法作为返回类型的类型.md",
+    "编译器/gcc/ld 链接选项.md",
     "编译器/gcc/gcc 编译选项.md",
     "C/Effective Modern Cpp/4.SmartPointers/item18.md",
     "C/Effective Modern Cpp/4.SmartPointers/item19.md",
@@ -194,7 +195,6 @@
     "C/Effective Modern Cpp/1.DeducingTypes/item1.md",
     "Algorithm/数据结构/前缀和.md",
     "C/Effective Modern Cpp/8.Tweaks/item41.md",
-    "C/Effective Modern Cpp/Introduction.md",
     "Untitled 1",
     "Untitled",
     "images/Pasted image 20240707115725.png",
