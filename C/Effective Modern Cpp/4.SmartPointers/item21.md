@@ -1,10 +1,11 @@
-## 条款二十一：优先考虑使用`std::make_unique`和`std::make_shared`，而非直接使用`new`
+## 0.1 条款二十一：优先考虑使用`std::make_unique`和`std::make_shared`，而非直接使用`new`
 
 **Item 21: Prefer `std::make_unique` and `std::make_shared` to direct use of `new`**
 
-让我们先对`std::make_unique`和`std::make_shared`做个铺垫。`std::make_shared`是C++11标准的一部分，但很可惜的是，`std::make_unique`不是。它从C++14开始加入标准库。如果你在使用C++11，不用担心，一个基础版本的`std::make_unique`是很容易自己写出的，如下：
+`std::make_shared`是C++11标准的一部分，`std::make_unique`是从C++14开始加入标准库。一个基础版本的`std::make_unique`如下：
 
 ```cpp
+//未加入deleter
 template<typename T, typename... Ts>
 std::unique_ptr<T> make_unique(Ts&&... params)
 {
@@ -13,6 +14,7 @@ std::unique_ptr<T> make_unique(Ts&&... params)
 ```
 
 正如你看到的，`make_unique`只是将它的参数完美转发到所要创建的对象的构造函数，从`new`产生的原始指针里面构造出`std::unique_ptr`，并返回这个`std::unique_ptr`。这种形式的函数不支持数组和自定义析构（见[Item18](item18.md)），但它给出了一个示范：只需一点努力就能写出你想要的`make_unique`函数。（要想实现一个特性完备的`make_unique`，就去找提供这个的标准化文件吧，然后拷贝那个实现。你想要的这个文件是N3656，是Stephan T. Lavavej写于2013-04-18的文档。）需要记住的是，不要把它放到`std`命名空间中，因为你可能并不希望看到升级C++14标准库的时候你放进`std`命名空间的内容和编译器供应商提供的`std`命名空间的内容发生冲突。
+
 
 `std::make_unique`和`std::make_shared`是三个**make函数** 中的两个：接收任意的多参数集合，完美转发到构造函数去动态分配一个对象，然后返回这个指向这个对象的指针。第三个`make`函数是`std::allocate_shared`。它行为和`std::make_shared`一样，只不过第一个参数是用来动态分配内存的*allocator*对象。
 
@@ -25,9 +27,8 @@ auto spw1(std::make_shared<Widget>());      //使用make函数
 std::shared_ptr<Widget> spw2(new Widget);   //不使用make函数
 ```
 
-我高亮了关键区别：使用`new`的版本重复了类型，但是`make`函数的版本没有。（译者注：这里高亮的是`Widget`，用`new`的声明语句需要写2遍`Widget`，`make`函数只需要写一次。）重复写类型和软件工程里面一个关键原则相冲突：应该避免重复代码。源代码中的重复增加了编译的时间，会导致目标代码冗余，并且通常会让代码库使用更加困难。它经常演变成不一致的代码，而代码库中的不一致常常导致bug。此外，打两次字比一次更费力，而且没人不喜欢少打字吧？
-
-第二个使用`make`函数的原因和异常安全有关。假设我们有个函数按照某种优先级处理`Widget`：
+1. 使用`new`的版本重复了类型，但是`make`函数的版本没有。重复写类型和软件工程里面一个关键原则相冲突：应该避免重复代码。
+2. 第二个使用`make`函数的原因和异常安全有关。假设我们有个函数按照某种优先级处理`Widget`：
 
 ```c++
 void processWidget(std::shared_ptr<Widget> spw, int priority);

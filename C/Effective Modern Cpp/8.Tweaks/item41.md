@@ -1,10 +1,10 @@
-# 第8章 微调
+# 1 第8章 微调
 
 **CHAPTER 8 Tweaks**
 
 对于C++中的通用技术和特性，总是存在适用和不适用的场景。除了本章覆盖的两个例外，描述什么场景使用哪种通用技术通常来说很容易。这两个例外是传值（pass by value）和安置（emplacement）。决定何时使用这两种技术受到多种因素的影响，本书提供的最佳建议是在使用它们的同时仔细考虑清楚，尽管它们都是高效的现代C++编程的重要角色。接下来的条款提供了使用它们来编写软件是否合适的所需信息。
 
-## 条款四十一：对于移动成本低且总是被拷贝的可拷贝形参，考虑按值传递
+## 1.1 条款四十一：对于移动成本低且总是被拷贝的可拷贝形参，考虑按值传递
 
 **Item 41: Consider pass by value for copyable parameters that are cheap to move and always copied**
 
@@ -73,6 +73,7 @@ w.addName(name + "Jenne");  //使用右值调用addName（见下）
 ```
 
 第一处调用`addName`（当`name`被传递时），形参`newName`是使用左值被初始化。`newName`因此是被拷贝构造，就像在C++98中一样。第二处调用，`newName`使用`std::string`对象被初始化，这个`std::string`对象是调用`std::string`的`operator+`（即*append*操作）得到的结果。这个对象是一个右值，因此`newName`是被移动构造的。
+
 
 就像我们想要的那样，左值拷贝，右值移动，优雅吧？
 
