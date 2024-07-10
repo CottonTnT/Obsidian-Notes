@@ -1,4 +1,4 @@
-## 条款六：`auto`推导若非己愿，使用显式类型初始化惯用法
+## 0.1 条款六：`auto`推导若非己愿，使用显式类型初始化惯用法
 
 **Item 6: Use the explicitly typed initializer idiom when `auto` deduces undesired types**
 

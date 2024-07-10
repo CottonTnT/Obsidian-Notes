@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/数据结构/前缀和.md",
+                "file": "C/Effective Modern Cpp/3.MovingToModernCpp/item17.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/数据结构/前缀和.md",
+                "file": "C/Effective Modern Cpp/3.MovingToModernCpp/item17.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/数据结构/前缀和.md",
+                "file": "C/Effective Modern Cpp/3.MovingToModernCpp/item17.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/数据结构/前缀和.md"
+                "file": "C/Effective Modern Cpp/3.MovingToModernCpp/item17.md"
               }
             }
           },
@@ -169,34 +169,34 @@
   },
   "active": "1e92da50d10e8ec5",
   "lastOpenFiles": [
+    "C/Effective Modern Cpp/3.MovingToModernCpp/item16.md",
+    "C/Effective Modern Cpp/3.MovingToModernCpp/item17.md",
+    "C/Effective Modern Cpp/4.SmartPointers/item22.md",
+    "C/Effective Modern Cpp/3.MovingToModernCpp/item7.md",
+    "C/Effective Modern Cpp/3.MovingToModernCpp/item15.md",
+    "C/Effective Modern Cpp/3.MovingToModernCpp/item12.md",
+    "C/Effective Modern Cpp/3.MovingToModernCpp/item13.md",
+    "C/Effective Modern Cpp/3.MovingToModernCpp/item14.md",
+    "C/Effective Modern Cpp/3.MovingToModernCpp/item11.md",
+    "C/Effective Modern Cpp/3.MovingToModernCpp/item10.md",
+    "C/Effective Modern Cpp/3.MovingToModernCpp/item9.md",
+    "C/Effective Modern Cpp/3.MovingToModernCpp/item8.md",
+    "C/Effective Modern Cpp/2.Auto/item5.md",
+    "C/Effective Modern Cpp/2.Auto/item6.md",
+    "C/Effective Modern Cpp/1.DeducingTypes/item4.md",
+    "C/Effective Modern Cpp/1.DeducingTypes/item3.md",
+    "C/Effective Modern Cpp/1.DeducingTypes/item2.md",
+    "C/Effective Modern Cpp/1.DeducingTypes/item1.md",
+    "Algorithm/数据结构/前缀和.md",
     "C/Effective Modern Cpp/4.SmartPointers/item19.md",
     "C/Effective Modern Cpp/4.SmartPointers/item18.md",
     "C/Effective Modern Cpp/8.Tweaks/item41.md",
     "C/Effective Modern Cpp/Introduction.md",
     "C/Effective Modern Cpp/4.SmartPointers/item21.md",
-    "C/Effective Modern Cpp/4.SmartPointers/item22.md",
     "C/Effective Modern Cpp/5.RRefMovSemPerfForw/item30.md",
     "C/C++ 登神长阶/宏.md",
-    "C/杂项.md",
-    "C/C语言机制.md",
-    "操作系统/时间.md",
-    "操作系统/并发/条件变量.md",
     "Untitled 1",
     "Untitled",
-    "Algorithm/数据结构/差分.md",
-    "Algorithm/数据结构/前缀和.md",
-    "Algorithm/数据结构/tree/二叉树/叉叉.md",
-    "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
-    "Algorithm/数据结构/tree/二叉树/平衡树.md",
-    "Algorithm/数据结构/tree/树状数组.md",
-    "Algorithm/数据结构/tree/线段树.md",
-    "Algorithm/数据结构/tree/trie树.md",
-    "Algorithm/数据结构/倍增.md",
-    "Algorithm/数据结构/矩阵加速.md",
-    "Algorithm/数学知识/数论/pei.md",
-    "Algorithm/数学知识/数论/质数筛法.md",
-    "Algorithm/数学知识/数论/裴蜀定理.md",
-    "Algorithm/数学知识/数论/卢卡斯定理.md",
     "images/Pasted image 20240707115725.png",
     "images/Pasted image 20240707032404.png",
     "images/Pasted image 20240704143140.png",

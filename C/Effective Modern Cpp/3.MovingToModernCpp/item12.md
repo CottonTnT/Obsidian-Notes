@@ -1,4 +1,4 @@
-## 条款十二：使用`override`声明重写函数
+## 0.1 条款十二：使用`override`声明重写函数
 
 **Item 12: Declare overriding functions `override`**
 

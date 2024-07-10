@@ -1,4 +1,4 @@
-## 条款十一：优先考虑使用*deleted*函数而非使用未定义的私有声明
+## 0.1 条款十一：优先考虑使用*deleted*函数而非使用未定义的私有声明
 
 **Item 11: Prefer deleted functions to private undefined ones.**
 
