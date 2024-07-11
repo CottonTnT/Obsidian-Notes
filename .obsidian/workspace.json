@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/时间.md",
+                "file": "C/C++ 登神长阶/字面量的类型.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#include",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/时间.md",
+                "file": "C/C++ 登神长阶/字面量的类型.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/时间.md",
+                "file": "C/C++ 登神长阶/字面量的类型.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/时间.md"
+                "file": "C/C++ 登神长阶/字面量的类型.md"
               }
             }
           },
@@ -166,8 +166,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad651b062e9f83fa",
+  "active": "1e92da50d10e8ec5",
   "lastOpenFiles": [
+    "操作系统/时间.md",
     "C/C++ 登神长阶/无法作为返回类型的类型.md",
     "编译器/gcc/预编译指令.md",
     "编译器/gcc/ld 链接选项.md",
@@ -193,7 +194,6 @@
     "C/Effective Modern Cpp/1.DeducingTypes/item2.md",
     "C/Effective Modern Cpp/1.DeducingTypes/item1.md",
     "Algorithm/数据结构/前缀和.md",
-    "C/Effective Modern Cpp/8.Tweaks/item41.md",
     "Untitled 1",
     "Untitled",
     "images/Pasted image 20240707115725.png",
