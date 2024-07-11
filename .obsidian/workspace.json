@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/C++ 登神长阶/无法作为返回类型的类型.md",
+                "file": "操作系统/时间.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#include",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C/C++ 登神长阶/无法作为返回类型的类型.md",
+                "file": "操作系统/时间.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C/C++ 登神长阶/无法作为返回类型的类型.md",
+                "file": "操作系统/时间.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C/C++ 登神长阶/无法作为返回类型的类型.md"
+                "file": "操作系统/时间.md"
               }
             }
           },
@@ -167,10 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "ad651b062e9f83fa",
   "lastOpenFiles": [
-    "编译器/gcc/预编译指令.md",
     "C/C++ 登神长阶/无法作为返回类型的类型.md",
+    "编译器/gcc/预编译指令.md",
     "编译器/gcc/ld 链接选项.md",
     "编译器/gcc/gcc 编译选项.md",
     "C/Effective Modern Cpp/4.SmartPointers/item18.md",
