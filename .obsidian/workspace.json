@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/C++ 登神长阶/字面量的类型.md",
+                "file": "tools/计算机相关杂项.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C/C++ 登神长阶/字面量的类型.md",
+                "file": "tools/计算机相关杂项.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C/C++ 登神长阶/字面量的类型.md",
+                "file": "tools/计算机相关杂项.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C/C++ 登神长阶/字面量的类型.md"
+                "file": "tools/计算机相关杂项.md"
               }
             }
           },
@@ -166,8 +167,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1e92da50d10e8ec5",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "templates/tool template.md",
+    "汇编/伪操作.md",
+    "C/杂项.md",
+    "汇编/Untitled.md",
+    "English/reviewDB.md",
+    "English/wordDB.md",
+    "tools/正则表达式.md",
+    "NetWorks/socket.md",
+    "tools/bash 脚本.md",
+    "C/C++ 登神长阶/字面量的类型.md",
     "操作系统/时间.md",
     "C/C++ 登神长阶/无法作为返回类型的类型.md",
     "编译器/gcc/预编译指令.md",
@@ -184,16 +195,6 @@
     "C/Effective Modern Cpp/3.MovingToModernCpp/item13.md",
     "C/Effective Modern Cpp/3.MovingToModernCpp/item14.md",
     "C/Effective Modern Cpp/3.MovingToModernCpp/item11.md",
-    "C/Effective Modern Cpp/3.MovingToModernCpp/item10.md",
-    "C/Effective Modern Cpp/3.MovingToModernCpp/item9.md",
-    "C/Effective Modern Cpp/3.MovingToModernCpp/item8.md",
-    "C/Effective Modern Cpp/2.Auto/item5.md",
-    "C/Effective Modern Cpp/2.Auto/item6.md",
-    "C/Effective Modern Cpp/1.DeducingTypes/item4.md",
-    "C/Effective Modern Cpp/1.DeducingTypes/item3.md",
-    "C/Effective Modern Cpp/1.DeducingTypes/item2.md",
-    "C/Effective Modern Cpp/1.DeducingTypes/item1.md",
-    "Algorithm/数据结构/前缀和.md",
     "Untitled 1",
     "Untitled",
     "images/Pasted image 20240707115725.png",
