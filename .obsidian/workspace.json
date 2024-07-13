@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/计算机相关杂项.md",
+                "file": "C/C++ 登神长阶/字面量的类型.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/计算机相关杂项.md",
+                "file": "C/C++ 登神长阶/字面量的类型.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/计算机相关杂项.md",
+                "file": "C/C++ 登神长阶/字面量的类型.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/计算机相关杂项.md"
+                "file": "C/C++ 登神长阶/字面量的类型.md"
               }
             }
           },
@@ -169,6 +169,7 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "tools/计算机相关杂项.md",
     "templates/tool template.md",
     "汇编/伪操作.md",
     "C/杂项.md",
@@ -194,7 +195,6 @@
     "C/Effective Modern Cpp/3.MovingToModernCpp/item12.md",
     "C/Effective Modern Cpp/3.MovingToModernCpp/item13.md",
     "C/Effective Modern Cpp/3.MovingToModernCpp/item14.md",
-    "C/Effective Modern Cpp/3.MovingToModernCpp/item11.md",
     "Untitled 1",
     "Untitled",
     "images/Pasted image 20240707115725.png",
