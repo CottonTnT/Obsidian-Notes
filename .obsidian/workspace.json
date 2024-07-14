@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/C++ 登神长阶/字面量的类型.md",
+                "file": "C/Effective Modern Cpp/4.SmartPointers/item18.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C/C++ 登神长阶/字面量的类型.md",
+                "file": "C/Effective Modern Cpp/4.SmartPointers/item18.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C/C++ 登神长阶/字面量的类型.md",
+                "file": "C/Effective Modern Cpp/4.SmartPointers/item18.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C/C++ 登神长阶/字面量的类型.md"
+                "file": "C/Effective Modern Cpp/4.SmartPointers/item18.md"
               }
             }
           },
@@ -167,8 +167,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "1e92da50d10e8ec5",
   "lastOpenFiles": [
+    "C/C++ 登神长阶/字面量的类型.md",
     "tools/计算机相关杂项.md",
     "templates/tool template.md",
     "汇编/伪操作.md",
@@ -179,7 +180,6 @@
     "tools/正则表达式.md",
     "NetWorks/socket.md",
     "tools/bash 脚本.md",
-    "C/C++ 登神长阶/字面量的类型.md",
     "操作系统/时间.md",
     "C/C++ 登神长阶/无法作为返回类型的类型.md",
     "编译器/gcc/预编译指令.md",

@@ -32,18 +32,19 @@
 ## 1.2 条款十八：对于独占资源使用`std::unique_ptr`
 **Item 18: Use `std::unique_ptr` for exclusive-ownership resource management**
 
-当你需要一个智能指针时，`std::unique_ptr`通常是最合适的。可以合理假设，默认情况下，`std::unique_ptr`大小等同于原始指针，而且对于大多数操作（包括取消引用），他们执行的指令完全相同。这意味着你甚至可以在内存和时间都比较紧张的情况下使用它。如果原始指针够小够快，那么`std::unique_ptr`一样可以。
+- 默认情况下，`std::unique_ptr`*大小等同于原始指针*，而且对于大多数操作（包括取消引用），他们执行的指令完全相同。这意味着你甚至可以在内存和时间都比较紧张的情况下使用它。如果原始指针够小够快，那么`std::unique_ptr`一样可以。
 
 `std::unique_ptr`体现了专有所有权（*exclusive ownership*）语义。
 
 1. 一个non-null `std::unique_ptr`始终拥有其指向的内容。
 2. 移动一个`std::unique_ptr`将所有权从源指针转移到目的指针。（源指针被设为null。）
-3. 拷贝一个`std::unique_ptr`是不允许的，因为如果你能拷贝一个`std::unique_ptr`，你会得到指向相同内容的两个`std::unique_ptr`，每个都认为自己拥有（并且应当最后销毁）资源，销毁时就会出现重复销毁。因此，`std::unique_ptr`是一种只可移动类型（*move-only type*）。
+3. 拷贝一个`std::unique_ptr`是*不允许*的，因为如果你能拷贝一个`std::unique_ptr`，你会得到指向相同内容的两个`std::unique_ptr`，每个都认为自己拥有（并且应当最后销毁）资源，销毁时就会出现重复销毁。因此，`std::unique_ptr`是一种只可移动类型（*move-only type*）。
 4. 当析构时，一个non-null `std::unique_ptr`销毁它指向的资源。默认情况下，资源析构通过对`std::unique_ptr`里原始指针调用`delete`来实现。
 
 
 ## 1.3 std::unique的惯用法
 
+*在所有权转移的场景中使用它*，比如将工厂返回的`std::unique_ptr`移入容器中，然后将容器元素移入一个对象的数据成员中，然后对象过后被销毁。发生这种情况时，这个对象的`std::unique_ptr`数据成员也被销毁，并且智能指针数据成员的析构将导致从工厂返回的资源被销毁。
 
 ### 1.3.1 作为继承层次结构中对象的工厂函数返回类型。
 
@@ -81,7 +82,10 @@ makeInvestment(Ts&&... params);
 ```
 
 
-也可以*在所有权转移的场景中使用它*，比如将工厂返回的`std::unique_ptr`移入容器中，然后将容器元素移入一个对象的数据成员中，然后对象过后被销毁。发生这种情况时，这个对象的`std::unique_ptr`数据成员也被销毁，并且智能指针数据成员的析构将导致从工厂返回的资源被销毁。如果所有权链由于异常或者其他非典型控制流出现中断（比如提前从函数return或者循环中的`break`），则拥有托管资源的`std::unique_ptr`将保证指向内容的析构函数被调用，销毁对应资源。（这个规则也有些例外。大多数情况发生于不正常的程序终止。如果一个异常传播到线程的基本函数（比如程序初始线程的`main`函数）外，或者违反`noexcept`说明（见[Item14](item14.md)），局部变量可能不会被销毁；如果`std::abort`或者退出函数（如`std::_Exit`，`std::exit`，或`std::quick_exit`）被调用，局部变量一定没被销毁。）
+
+
+
+
 
 
 #### 1.3.1.1 自定义删除器
@@ -204,7 +208,7 @@ makeInvestment(Ts&&... params);                     //加至少一个函数指�
 ### 1.3.2 实现**Pimpl Idiom**
 
 
-作为实现**Pimpl Idiom**（译注：*pointer to implementation*，一种隐藏实际实现而减弱编译依赖性的设计思想，《Effective C++》条款31对此有过叙述）的一种机制，它更为流行。代码并不复杂，但是在某些情况下并不直观，所以这安排在[Item22](item22.md)的专门主题中。
+作为实现**Pimpl Idiom**（译注：*pointer to implementation*，一种隐藏实际实现而减弱编译依赖性的设计思想，代码并不复杂，但是在某些情况下并不直观，所以这安排在[Item22](item22.md)的专门主题中。
 
 
 `std::unique_ptr`有两种形式
@@ -224,6 +228,13 @@ std::shared_ptr<Investment> sp =            //将std::unique_ptr
 ```
 
 这就是`std::unique_ptr`非常适合用作工厂函数返回类型的原因的关键部分。 工厂函数无法知道调用者是否要对它们返回的对象使用专有所有权语义，或者共享所有权（即`std::shared_ptr`）是否更合适。 通过返回`std::unique_ptr`，工厂为调用者提供了最有效的智能指针，但它们并不妨碍调用者用其更灵活的兄弟替换它。（有关`std::shared_ptr`的信息，请转到[Item19](item19.md)。)
+
+## 1.4 泄漏情况
+
+如果所有权链由于异常或者其他非典型控制流出现中断（比如提前从函数return或者循环中的`break`），则拥有托管资源的`std::unique_ptr`*将保证指向内容的析构函数被调用*，*销毁对应资源*。
+
+（这个规则也有些例外。大多数情况发生于不正常的程序终止。如果一个异常传播到线程的基本函数（比如程序初始线程的`main`函数）外，或者违反`noexcept`说明（见[Item14](item14.md)），局部变量可能不会被销毁；如果`std::abort`或者退出函数（如`std::_Exit`，`std::exit`，或`std::quick_exit`）被调用，局部变量一定没被销毁。）
+
 
 **请记住：**
 
