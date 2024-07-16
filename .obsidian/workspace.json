@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "组成原理/数的表示.md",
+                "file": "C/C++ 登神长阶/设计.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "组成原理/数的表示.md",
+                "file": "C/C++ 登神长阶/设计.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "组成原理/数的表示.md",
+                "file": "C/C++ 登神长阶/设计.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "组成原理/数的表示.md"
+                "file": "C/C++ 登神长阶/设计.md"
               }
             }
           },
@@ -169,8 +169,9 @@
   },
   "active": "1e92da50d10e8ec5",
   "lastOpenFiles": [
-    "C/Effective Modern Cpp/4.SmartPointers/item18.md",
     "组成原理/数的表示.md",
+    "C/C++ 登神长阶/设计.md",
+    "C/Effective Modern Cpp/4.SmartPointers/item18.md",
     "组成原理",
     "C/C++ 登神长阶/字面量的类型.md",
     "tools/计算机相关杂项.md",
@@ -195,7 +196,6 @@
     "C/Effective Modern Cpp/3.MovingToModernCpp/item7.md",
     "C/Effective Modern Cpp/3.MovingToModernCpp/item15.md",
     "C/Effective Modern Cpp/3.MovingToModernCpp/item12.md",
-    "C/Effective Modern Cpp/3.MovingToModernCpp/item13.md",
     "Untitled 1",
     "images/Pasted image 20240707115725.png",
     "images/Pasted image 20240707032404.png",
