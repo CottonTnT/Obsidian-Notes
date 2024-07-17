@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/C++ 登神长阶/初始化与隐式类型转换.md",
+                "file": "C/C++ 登神长阶/设计.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C/C++ 登神长阶/初始化与隐式类型转换.md",
+                "file": "C/C++ 登神长阶/设计.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C/C++ 登神长阶/初始化与隐式类型转换.md",
+                "file": "C/C++ 登神长阶/设计.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C/C++ 登神长阶/初始化与隐式类型转换.md"
+                "file": "C/C++ 登神长阶/设计.md"
               }
             }
           },
@@ -167,8 +167,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "1e92da50d10e8ec5",
   "lastOpenFiles": [
+    "C/C++ 登神长阶/初始化与隐式类型转换.md",
     "C/Effective Modern Cpp/5.RRefMovSemPerfForw/item26.md",
     "C/Effective Modern Cpp/5.RRefMovSemPerfForw/item30.md",
     "C/Effective Modern Cpp/5.RRefMovSemPerfForw/item25.md",
@@ -195,7 +196,6 @@
     "C/C++ 登神长阶/无法作为返回类型的类型.md",
     "编译器/gcc/预编译指令.md",
     "编译器/gcc/ld 链接选项.md",
-    "编译器/gcc/gcc 编译选项.md",
     "Untitled 1",
     "images/Pasted image 20240707115725.png",
     "images/Pasted image 20240707032404.png",
