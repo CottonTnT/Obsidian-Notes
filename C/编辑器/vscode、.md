@@ -1,4 +1,4 @@
-# vscode 的布局
+# 1 vscode 的布局
 
 ![[Pasted image 20230802211944.png]]
 - 活动栏: 从上到下依次为，打开侧边栏，搜索，使用 git，debug，使用插件
@@ -14,7 +14,7 @@
 - 需要注意的为下图红框所示，分别表示鼠标光标所在位置和 tab 缩进字符，这里为缩进 4 个字符
 
 
-# Predefined variables
+# 2 Predefined variables
 
 - **${userHome}** - the path of the user's home folder
 - **${workspaceFolder}** - the path of the folder opened in VS Code
@@ -35,61 +35,61 @@
 - **${defaultBuildTask}** - the name of the default build task
 - **${pathSeparator}** - the character used by the operating system to separate components in file paths
 
-# 窗口改变
+# 3 窗口改变
 
-## zen mode
+## 3.1 zen mode
 
 - `C + k z`
 
-## 打开(隐藏)边栏
+## 3.2 打开(隐藏)边栏
 - `C + b` 
 - `C + S + b`
-# 代码编辑快捷键
+# 4 代码编辑快捷键
 
 
-## 代码报错跳转
+## 4.1 代码报错跳转
 
 - `C + S + m` 打开 problem view
-## 代码重构
+## 4.2 代码重构
 
 
-### 函数重命名
+### 4.2.1 函数重命名
 
 -  `f2`
 
 
-### 代码快速修复
+### 4.2.2 代码快速修复
 - `C + .`
 
 
-### 快速格式化代码
+### 4.2.3 快速格式化代码
 - `C + S + i`
 
 
-## 代码结构查看
+## 4.3 代码结构查看
 - `C + k C + i`
-## 快速注释 
+## 4.4 快速注释 
 
 - `C + /`
 
 
 
-# 文件相关操作快捷键
+# 5 文件相关操作快捷键
 
 
-## 浏览所有打开文件并跳转
+## 5.1 浏览所有打开文件并跳转
 
 `C + T`
 
 
-## 搜索文件并打开
+## 5.2 搜索文件并打开
 
 -  `C + p`
 
 
-# 终端操作快捷键
+# 6 终端操作快捷键
 
-## 切换终端聚焦
+## 6.1 切换终端聚焦
 
 ```
 C + `
