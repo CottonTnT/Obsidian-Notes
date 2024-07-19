@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/编辑器/vscode、.md",
+                "file": "C/Effective Modern Cpp/6.LambdaExpressions/item31.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C/编辑器/vscode、.md",
+                "file": "C/Effective Modern Cpp/6.LambdaExpressions/item31.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C/编辑器/vscode、.md",
+                "file": "C/Effective Modern Cpp/6.LambdaExpressions/item31.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C/编辑器/vscode、.md"
+                "file": "C/Effective Modern Cpp/6.LambdaExpressions/item31.md"
               }
             }
           },
@@ -169,6 +169,18 @@
   },
   "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "C/Effective Modern Cpp/6.LambdaExpressions/item32.md",
+    "C/Effective Modern Cpp/6.LambdaExpressions/item33.md",
+    "C/Effective Modern Cpp/6.LambdaExpressions/item34.md",
+    "C/Effective Modern Cpp/7.TheConcurrencyAPI/item39.md",
+    "C/Effective Modern Cpp/7.TheConcurrencyAPI/item38.md",
+    "C/Effective Modern Cpp/7.TheConcurrencyAPI/item37.md",
+    "C/Effective Modern Cpp/7.TheConcurrencyAPI/item36.md",
+    "C/Effective Modern Cpp/7.TheConcurrencyAPI/Item35.md",
+    "C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig1.png",
+    "C/Effective Modern Cpp/8.Tweaks/item42.md",
+    "C/Effective Modern Cpp/8.Tweaks/item41.md",
+    "C/编辑器/vscode、.md",
     "C/Effective Modern Cpp/3.MovingToModernCpp/item9.md",
     "C/Effective Modern Cpp/3.MovingToModernCpp/item7.md",
     "C/Effective Modern Cpp/3.MovingToModernCpp/item8.md",
@@ -184,17 +196,6 @@
     "C/Effective Modern Cpp/5.RRefMovSemPerfForw/item30.md",
     "C/Effective Modern Cpp/4.SmartPointers/item20.md",
     "C/Effective Modern Cpp/4.SmartPointers/item19.md",
-    "C/Effective Modern Cpp/4.SmartPointers/Untitled.md",
-    "C/C语言机制.md",
-    "Algorithm/HASH.md",
-    "C/C++ 登神长阶/设计.md",
-    "C/C++ 登神长阶/初始化与隐式类型转换.md",
-    "C/Effective Modern Cpp/5.RRefMovSemPerfForw/item26.md",
-    "C/Effective Modern Cpp/5.RRefMovSemPerfForw/item27.md",
-    "C/Effective Modern Cpp/5.RRefMovSemPerfForw/item28.md",
-    "C/Effective Modern Cpp/5.RRefMovSemPerfForw/item29.md",
-    "C/Effective Modern Cpp/5.RRefMovSemPerfForw/item23.md",
-    "组成原理/数的表示.md",
     "组成原理",
     "Untitled 1",
     "images/Pasted image 20240707115725.png",
@@ -209,7 +210,6 @@
     "TCP",
     "设计模式",
     "images/Pasted image 20240522002851.png",
-    "images/Pasted image 20240522000227.png",
     "操作系统/linux操作系统/Unix IO",
     "python",
     "Algorithm/位运算/Untitled",

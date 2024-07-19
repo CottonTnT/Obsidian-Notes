@@ -1,4 +1,4 @@
-# 第7章 并发API
+# 1 第7章 并发API
 
 **CHAPTER 7 The Concurrency API**
 
@@ -6,7 +6,7 @@ C++11的伟大成功之一是将并发整合到语言和库中。熟悉其他线
 
 在接下来的条款中，记住标准库有两个*future*的模板：`std::future`和`std::shared_future`。在许多情况下，区别不重要，所以我们经常简单的混于一谈为*futures*。
 
-## 条款三十五：优先考虑基于任务的编程而非基于线程的编程
+## 1.1 条款三十五：优先考虑基于任务的编程而非基于线程的编程
 
 **Item 35: Prefer task-based programming to thread-based**
 
