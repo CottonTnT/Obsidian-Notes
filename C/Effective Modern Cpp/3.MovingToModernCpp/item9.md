@@ -1,4 +1,4 @@
-## 条款九：优先考虑别名声明而非`typedef`s
+## 0.1 条款九：优先考虑别名声明而非`typedef`s
 
 **Item 9: Prefer alias declarations to `typedef`s**
 
