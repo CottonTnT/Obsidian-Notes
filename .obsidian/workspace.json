@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/Effective Modern Cpp/6.LambdaExpressions/item31.md",
+                "file": "操作系统/并发/协程.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C/Effective Modern Cpp/6.LambdaExpressions/item31.md",
+                "file": "操作系统/并发/协程.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C/Effective Modern Cpp/6.LambdaExpressions/item31.md",
+                "file": "操作系统/并发/协程.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C/Effective Modern Cpp/6.LambdaExpressions/item31.md"
+                "file": "操作系统/并发/协程.md"
               }
             }
           },
@@ -167,8 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "3079644ed2cd4388",
   "lastOpenFiles": [
+    "操作系统/调用栈.md",
+    "操作系统/并发/协程.md",
+    "C/Effective Modern Cpp/6.LambdaExpressions/item31.md",
     "C/Effective Modern Cpp/6.LambdaExpressions/item32.md",
     "C/Effective Modern Cpp/6.LambdaExpressions/item33.md",
     "C/Effective Modern Cpp/6.LambdaExpressions/item34.md",
@@ -193,9 +196,6 @@
     "C/Effective Modern Cpp/4.SmartPointers/item21.md",
     "C/Effective Modern Cpp/4.SmartPointers/item22.md",
     "C/Effective Modern Cpp/5.RRefMovSemPerfForw/item25.md",
-    "C/Effective Modern Cpp/5.RRefMovSemPerfForw/item30.md",
-    "C/Effective Modern Cpp/4.SmartPointers/item20.md",
-    "C/Effective Modern Cpp/4.SmartPointers/item19.md",
     "组成原理",
     "Untitled 1",
     "images/Pasted image 20240707115725.png",
