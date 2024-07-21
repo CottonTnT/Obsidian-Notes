@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/并发/协程.md",
+                "file": "操作系统/并发/信号量.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/并发/协程.md",
+                "file": "操作系统/并发/信号量.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/并发/协程.md",
+                "file": "操作系统/并发/信号量.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/并发/协程.md"
+                "file": "操作系统/并发/信号量.md"
               }
             }
           },
@@ -169,8 +169,8 @@
   },
   "active": "3079644ed2cd4388",
   "lastOpenFiles": [
-    "操作系统/调用栈.md",
     "操作系统/并发/协程.md",
+    "操作系统/调用栈.md",
     "C/Effective Modern Cpp/6.LambdaExpressions/item31.md",
     "C/Effective Modern Cpp/6.LambdaExpressions/item32.md",
     "C/Effective Modern Cpp/6.LambdaExpressions/item33.md",
