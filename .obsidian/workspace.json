@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/并发/信号量.md",
+                "file": "C/Effective Modern Cpp/3.MovingToModernCpp/item17.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/并发/信号量.md",
+                "file": "C/Effective Modern Cpp/3.MovingToModernCpp/item17.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/并发/信号量.md",
+                "file": "C/Effective Modern Cpp/3.MovingToModernCpp/item17.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/并发/信号量.md"
+                "file": "C/Effective Modern Cpp/3.MovingToModernCpp/item17.md"
               }
             }
           },
@@ -169,6 +169,9 @@
   },
   "active": "3079644ed2cd4388",
   "lastOpenFiles": [
+    "C/Effective Modern Cpp/3.MovingToModernCpp/item11.md",
+    "C/Effective Modern Cpp/3.MovingToModernCpp/item17.md",
+    "操作系统/并发/信号量.md",
     "操作系统/并发/协程.md",
     "操作系统/调用栈.md",
     "C/Effective Modern Cpp/6.LambdaExpressions/item31.md",
@@ -193,9 +196,6 @@
     "C/Effective Modern Cpp/1.DeducingTypes/item3.md",
     "C/Effective Modern Cpp/1.DeducingTypes/item2.md",
     "C/Effective Modern Cpp/1.DeducingTypes/item1.md",
-    "C/Effective Modern Cpp/4.SmartPointers/item21.md",
-    "C/Effective Modern Cpp/4.SmartPointers/item22.md",
-    "C/Effective Modern Cpp/5.RRefMovSemPerfForw/item25.md",
     "组成原理",
     "Untitled 1",
     "images/Pasted image 20240707115725.png",
