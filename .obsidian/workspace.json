@@ -25,24 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/C++ 登神长阶/工具/Makefile.md",
+                "file": "操作系统/时间.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "5803957c09ff8c70",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C/C++ 登神长阶/工具/Makefile.md",
+                "file": "操作系统/时间.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -126,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C/C++ 登神长阶/工具/Makefile.md",
+                "file": "操作系统/时间.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C/C++ 登神长阶/工具/Makefile.md"
+                "file": "操作系统/时间.md"
               }
             }
           },
@@ -190,8 +180,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5803957c09ff8c70",
+  "active": "f7942c28edb78caf",
   "lastOpenFiles": [
+    "C/C++ 登神长阶/工具/Makefile.md",
     "C/C++ 登神长阶/宏.md",
     "C/杂项.md",
     "C/Effective Modern Cpp/4.SmartPointers/item20.md",
@@ -218,7 +209,6 @@
     "C/Effective Modern Cpp/6.LambdaExpressions/item32.md",
     "C/Effective Modern Cpp/6.LambdaExpressions/item33.md",
     "C/Effective Modern Cpp/6.LambdaExpressions/item34.md",
-    "C/Effective Modern Cpp/7.TheConcurrencyAPI/item39.md",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig1.png",
     "组成原理",
     "Untitled 1",
