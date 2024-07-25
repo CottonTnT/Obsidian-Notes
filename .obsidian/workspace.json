@@ -180,11 +180,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f7942c28edb78caf",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
+    "操作系统/xv6/xv6-riscv-book-Chinese/README.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-9.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-6.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-8.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-6.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-5.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
     "操作系统/时间.md",
@@ -207,8 +209,6 @@
     "2024-06-08.md",
     "Untitled",
     "C/Effective Modern Cpp/3.MovingToModernCpp/item17.md",
-    "C/Effective Modern Cpp/3.MovingToModernCpp/item11.md",
-    "操作系统/并发/信号量.md",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig1.png",
     "组成原理",
     "Untitled 1",
