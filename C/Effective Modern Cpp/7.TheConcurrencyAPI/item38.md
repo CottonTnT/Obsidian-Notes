@@ -1,4 +1,4 @@
-## 条款三十八：关注不同线程句柄的析构行为
+## 0.1 条款三十八：关注不同线程句柄的析构行为
 
 **Item 38：Be aware of varying thread handle destructor behavior**
 

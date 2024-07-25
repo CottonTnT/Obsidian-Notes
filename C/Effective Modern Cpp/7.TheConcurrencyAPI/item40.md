@@ -1,4 +1,4 @@
-## 条款四十：对于并发使用`std::atomic`，对于特殊内存使用`volatile`
+## 0.1 条款四十：对于并发使用`std::atomic`，对于特殊内存使用`volatile`
 
 **Item 40: Use `std::atomic` for concurrency, `volatile` for special memory**
 

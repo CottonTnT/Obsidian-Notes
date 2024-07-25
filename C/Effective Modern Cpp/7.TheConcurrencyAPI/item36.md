@@ -1,17 +1,18 @@
-## 条款三十六：如果有异步的必要请指定`std::launch::async`
+## 0.1 条款三十六：如果有异步的必要请指定`std::launch::async`
 
 **Item 36: Specify `std::launch::async` if asynchronicity is essential.**
+
 
 当你调用`std::async`执行函数时（或者其他可调用对象），你通常希望异步执行函数。但是这并不一定是你要求`std::async`执行的操作。你事实上要求这个函数按照`std::async`启动策略来执行。有两种标准策略，每种都通过`std::launch`这个限域`enum`的一个枚举名表示（关于枚举的更多细节参见[Item10](item10.md)）。假定一个函数`f`传给`std::async`来执行：
 
 - **`std::launch::async`启动策略**意味着`f`必须异步执行，即在不同的线程。
 - **`std::launch::deferred`启动策略**意味着`f`仅当在`std::async`返回的*future*上调用`get`或者`wait`时才执行。这表示`f`**推迟**到存在这样的调用时才执行（译者注：异步与并发是两个不同概念，这里侧重于惰性求值）。当`get`或`wait`被调用，`f`会同步执行，即调用方被阻塞，直到`f`运行结束。如果`get`和`wait`都没有被调用，`f`将不会被执行。（这是个简化说法。关键点不是要在其上调用`get`或`wait`的那个*future*，而是*future*引用的那个共享状态。（[Item38](item38.md)讨论了*future*与共享状态的关系。）因为`std::future`支持移动，也可以用来构造`std::shared_future`，并且因为`std::shared_future`可以被拷贝，对共享状态——对`f`传到的那个`std::async`进行调用产生的——进行引用的*future*对象，有可能与`std::async`返回的那个*future*对象不同。这非常绕口，所以经常回避这个事实，简称为在`std::async`返回的*future*上调用`get`或`wait`。）
 
-可能让人惊奇的是，`std::async`的默认启动策略——你不显式指定一个策略时它使用的那个——不是上面中任意一个。相反，是求或在一起的。下面的两种调用含义相同：
+可能让人惊奇的是，`std::async`的默认启动策略——你不显式指定一个策略时它使用的那个——不是上面中任意一个。相反，是求或在一起的。*下面的两种调用含义相同*：
 
 ```cpp
 auto fut1 = std::async(f);                      //使用默认启动策略运行f
-auto fut2 = std::async(std::launch::async |     //使用async或者deferred运行f
+auto fut2 = std::async(std::launch::async |     //使用async*或者*deferred运行f
                        std::launch::deferred,
                        f);
 ```
@@ -58,7 +59,7 @@ while (fut.wait_for(100ms) !=       //循环，直到f完成运行时停止...
 
 这种错误很容易在开发和单元测试中忽略，因为它可能在负载过高时才能显现出来。那些是使机器资源超额或者线程耗尽的条件，此时任务推迟执行才最有可能发生。毕竟，如果硬件没有资源耗尽，没有理由不安排任务并发执行。
 
-修复也是很简单的：只需要检查与`std::async`对应的`future`是否被延迟执行即可，那样就会避免进入无限循环。不幸的是，没有直接的方法来查看`future`是否被延迟执行。相反，你必须调用一个超时函数——比如`wait_for`这种函数。在这个情况中，你不想等待任何事，只想查看返回值是否是`std::future_status::deferred`，所以无须怀疑，使用0调用`wait_for`：
+修复也是很简单的：只需要检查与`std::async`对应的`future`是否被延迟执行即可，那样就会避免进入无限循环。不幸的是，*没有直接的方法来查看`future`是否被延迟执行*。相反，你必须调用一个超时函数——比如`wait_for`这种函数。在这个情况中，你不想等待任何事，只想查看返回值是否是`std::future_status::deferred`，所以无须怀疑，使用0调用`wait_for`：
 
 ```cpp
 auto fut = std::async(f);               //同上
@@ -76,6 +77,7 @@ if (fut.wait_for(0s) ==                 //如果task是deferred（被延迟）�
     …                                   //fut是ready（已准备）状态
 }
 ```
+
 
 这些各种考虑的结果就是，只要满足以下条件，`std::async`的默认启动策略就可以使用：
 

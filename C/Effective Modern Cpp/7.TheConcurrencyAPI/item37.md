@@ -1,4 +1,4 @@
-## 条款三十七：使`std::thread`在所有路径最后都不可结合
+## 0.1 条款三十七：使`std::thread`在所有路径最后都不可结合
 
 **Item 37: Make `std::thread`s unjoinable on all paths**
 
