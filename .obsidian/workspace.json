@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/编辑器/vscode、.md",
+                "file": "C/More C++ Idioms/Type Erasure.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-06-08.md",
+                "file": "C/More C++ Idioms/Type Erasure.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-06-08.md",
+                "file": "C/More C++ Idioms/Type Erasure.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-06-08.md"
+                "file": "C/More C++ Idioms/Type Erasure.md"
               }
             }
           },
@@ -180,8 +180,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "f7942c28edb78caf",
   "lastOpenFiles": [
+    "2024-06-08.md",
+    "C/More C++ Idioms/Type Erasure.md",
+    "C/More C++ Idioms",
     "操作系统/时间.md",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/item40.md",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/item39.md",
@@ -206,8 +209,6 @@
     "操作系统/地址对齐.md",
     "C/C++ 登神长阶/工具/Makefile.md",
     "C/C++ 登神长阶/宏.md",
-    "C/杂项.md",
-    "C/Effective Modern Cpp/4.SmartPointers/item20.md",
     "Untitled",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig1.png",
     "组成原理",
@@ -227,7 +228,6 @@
     "操作系统/linux操作系统/Unix IO",
     "python",
     "Algorithm/位运算/Untitled",
-    "操作系统/Untitled",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
