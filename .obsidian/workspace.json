@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/More C++ Idioms/Type Erasure.md",
+                "file": "操作系统/让事件飞.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C/More C++ Idioms/Type Erasure.md",
+                "file": "操作系统/让事件飞.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C/More C++ Idioms/Type Erasure.md",
+                "file": "操作系统/让事件飞.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C/More C++ Idioms/Type Erasure.md"
+                "file": "操作系统/让事件飞.md"
               }
             }
           },
@@ -182,8 +182,9 @@
   },
   "active": "f7942c28edb78caf",
   "lastOpenFiles": [
-    "2024-06-08.md",
     "C/More C++ Idioms/Type Erasure.md",
+    "操作系统/让事件飞.md",
+    "2024-06-08.md",
     "C/More C++ Idioms",
     "操作系统/时间.md",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/item40.md",
@@ -208,7 +209,6 @@
     "网络编程/EPOLL.md",
     "操作系统/地址对齐.md",
     "C/C++ 登神长阶/工具/Makefile.md",
-    "C/C++ 登神长阶/宏.md",
     "Untitled",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig1.png",
     "组成原理",
