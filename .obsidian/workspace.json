@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f7942c28edb78caf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "操作系统/让事件飞.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/让事件飞.md",
+                "file": "2024-06-08.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/让事件飞.md",
+                "file": "2024-06-08.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/让事件飞.md"
+                "file": "2024-06-08.md"
               }
             }
           },
@@ -180,10 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f7942c28edb78caf",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "C/More C++ Idioms/Type Erasure.md",
+    "网络编程/EPOLL.md",
     "操作系统/让事件飞.md",
+    "C/More C++ Idioms/Type Erasure.md",
     "2024-06-08.md",
     "C/More C++ Idioms",
     "操作系统/时间.md",
@@ -206,7 +194,6 @@
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-5.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
     "网络编程/多路复用.md",
-    "网络编程/EPOLL.md",
     "操作系统/地址对齐.md",
     "C/C++ 登神长阶/工具/Makefile.md",
     "Untitled",
