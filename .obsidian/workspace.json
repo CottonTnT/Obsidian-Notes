@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/让事件飞.md",
+                "file": "C/Effective Modern Cpp/4.SmartPointers/item20.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/让事件飞.md",
+                "file": "C/Effective Modern Cpp/4.SmartPointers/item20.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/让事件飞.md",
+                "file": "C/Effective Modern Cpp/4.SmartPointers/item20.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/让事件飞.md"
+                "file": "C/Effective Modern Cpp/4.SmartPointers/item20.md"
               }
             }
           },
@@ -169,11 +169,12 @@
   },
   "active": "c006fe30eef022cb",
   "lastOpenFiles": [
+    "C/Effective Modern Cpp/4.SmartPointers/item19.md",
+    "操作系统/让事件飞.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
     "2024-06-08.md",
     "网络编程/EPOLL.md",
-    "操作系统/让事件飞.md",
     "C/More C++ Idioms/Type Erasure.md",
     "C/More C++ Idioms",
     "操作系统/时间.md",
@@ -195,7 +196,6 @@
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-5.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
-    "网络编程/多路复用.md",
     "Untitled",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig1.png",
     "组成原理",
