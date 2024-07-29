@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/Effective Modern Cpp/4.SmartPointers/item20.md",
+                "file": "tools/正则表达式.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C/Effective Modern Cpp/4.SmartPointers/item20.md",
+                "file": "tools/正则表达式.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C/Effective Modern Cpp/4.SmartPointers/item20.md",
+                "file": "tools/正则表达式.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C/Effective Modern Cpp/4.SmartPointers/item20.md"
+                "file": "tools/正则表达式.md"
               }
             }
           },
@@ -167,8 +167,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "c006fe30eef022cb",
   "lastOpenFiles": [
+    "C/Effective Modern Cpp/4.SmartPointers/item20.md",
     "C/Effective Modern Cpp/4.SmartPointers/item19.md",
     "操作系统/让事件飞.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
@@ -195,7 +196,6 @@
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-8.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-5.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
     "Untitled",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig1.png",
     "组成原理",
