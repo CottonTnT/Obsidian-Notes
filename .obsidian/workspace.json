@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/字符串/KMP.md",
+                "file": "Algorithm/位运算/xor.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/字符串/KMP.md",
+                "file": "Algorithm/位运算/xor.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/字符串/KMP.md",
+                "file": "Algorithm/位运算/xor.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/字符串/KMP.md"
+                "file": "Algorithm/位运算/xor.md"
               }
             }
           },
@@ -169,6 +169,9 @@
   },
   "active": "c006fe30eef022cb",
   "lastOpenFiles": [
+    "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
+    "Algorithm/数据结构/tree/二叉树/叉叉.md",
+    "Algorithm/字符串/KMP.md",
     "Algorithm/字符串/字符串hash.md",
     "Algorithm/数据结构/hash.md",
     "Algorithm/数据结构/hash/Untitled.md",
@@ -193,9 +196,6 @@
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/item36.md",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/Item35.md",
     "C/Effective Modern Cpp/6.LambdaExpressions/item33.md",
-    "C/Effective Modern Cpp/6.LambdaExpressions/item34.md",
-    "C/Effective Modern Cpp/6.LambdaExpressions/item31.md",
-    "操作系统/并发/CPU缓存一致性.md",
     "Untitled",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig1.png",
     "组成原理",
