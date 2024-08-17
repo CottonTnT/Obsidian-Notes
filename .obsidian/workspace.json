@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/字符串/字符串hash.md",
+                "file": "Algorithm/字符串/KMP.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/字符串/字符串hash.md",
+                "file": "Algorithm/字符串/KMP.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/字符串/字符串hash.md",
+                "file": "Algorithm/字符串/KMP.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/字符串/字符串hash.md"
+                "file": "Algorithm/字符串/KMP.md"
               }
             }
           },
@@ -167,10 +167,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "c006fe30eef022cb",
   "lastOpenFiles": [
-    "Algorithm/数据结构/hash.md",
     "Algorithm/字符串/字符串hash.md",
+    "Algorithm/数据结构/hash.md",
     "Algorithm/数据结构/hash/Untitled.md",
     "Algorithm/Untitled.md",
     "Algorithm/数据结构/hash/hashtable.md",
