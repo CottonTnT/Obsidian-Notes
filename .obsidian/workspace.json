@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/变换技巧/环.md",
+                "file": "C/C++ 登神长阶/blogs.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/变换技巧/环.md",
+                "file": "C/C++ 登神长阶/blogs.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/变换技巧/环.md",
+                "file": "C/C++ 登神长阶/blogs.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/变换技巧/环.md"
+                "file": "C/C++ 登神长阶/blogs.md"
               }
             }
           },
@@ -169,6 +169,8 @@
   },
   "active": "c006fe30eef022cb",
   "lastOpenFiles": [
+    "Algorithm/变换技巧/环.md",
+    "C/C++ 登神长阶/blogs.md",
     "Algorithm/位运算/xor.md",
     "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
     "Algorithm/数据结构/tree/二叉树/叉叉.md",
@@ -194,8 +196,6 @@
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/item39.md",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/item38.md",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/item37.md",
-    "C/Effective Modern Cpp/7.TheConcurrencyAPI/item36.md",
-    "C/Effective Modern Cpp/7.TheConcurrencyAPI/Item35.md",
     "Untitled",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig1.png",
     "组成原理",
