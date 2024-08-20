@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/C++ 登神长阶/blogs.md",
+                "file": "Algorithm/动态规划/线性DP/抽象模型.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C/C++ 登神长阶/blogs.md",
+                "file": "Algorithm/动态规划/线性DP/抽象模型.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C/C++ 登神长阶/blogs.md",
+                "file": "Algorithm/动态规划/线性DP/抽象模型.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C/C++ 登神长阶/blogs.md"
+                "file": "Algorithm/动态规划/线性DP/抽象模型.md"
               }
             }
           },
@@ -169,8 +169,8 @@
   },
   "active": "c006fe30eef022cb",
   "lastOpenFiles": [
-    "Algorithm/变换技巧/环.md",
     "C/C++ 登神长阶/blogs.md",
+    "Algorithm/变换技巧/环.md",
     "Algorithm/位运算/xor.md",
     "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
     "Algorithm/数据结构/tree/二叉树/叉叉.md",
