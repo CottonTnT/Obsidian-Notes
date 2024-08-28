@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/动态规划/线性DP/抽象模型.md",
+                "file": "Algorithm/动态规划/背包问题/01背包.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/动态规划/线性DP/抽象模型.md",
+                "file": "Algorithm/动态规划/背包问题/01背包.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/动态规划/线性DP/抽象模型.md",
+                "file": "Algorithm/动态规划/背包问题/01背包.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/动态规划/线性DP/抽象模型.md"
+                "file": "Algorithm/动态规划/背包问题/01背包.md"
               }
             }
           },
@@ -167,8 +167,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "c006fe30eef022cb",
   "lastOpenFiles": [
+    "Algorithm/动态规划/线性DP/抽象模型.md",
     "C/C++ 登神长阶/blogs.md",
     "Algorithm/变换技巧/环.md",
     "Algorithm/位运算/xor.md",
@@ -195,7 +196,6 @@
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/item40.md",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/item39.md",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/item38.md",
-    "C/Effective Modern Cpp/7.TheConcurrencyAPI/item37.md",
     "Untitled",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig1.png",
     "组成原理",
