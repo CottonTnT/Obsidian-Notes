@@ -14,7 +14,7 @@
 需要注意的是，这个过程是基于传统的x86架构和BIOS的引导方式。现代的计算机系统可能采用不同的引导方式，比如使用UEFI固件和GPT分区表。因此，具体的实现方式可能会有所不同。
 
 
-## MBR
+## 0.1 MBR
 >Master Boot Record
 
 MBR是指硬盘上的一个特殊的引导扇区（Boot Sector），位于磁盘的第一个物理扇区（扇区编号为0）。MBR包含引导加载程序（Boot Loader）和分区表（Partition Table）两个主要组成部分。

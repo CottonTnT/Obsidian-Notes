@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/时间.md",
+                "file": "网络编程/EPOLL.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "操作系统/时间.md",
+                "file": "网络编程/EPOLL.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "操作系统/时间.md",
+                "file": "网络编程/EPOLL.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/时间.md"
+                "file": "网络编程/EPOLL.md"
               }
             }
           },
@@ -182,9 +182,21 @@
   },
   "active": "f9e25cc2a035ba8d",
   "lastOpenFiles": [
+    "C/C++ 登神长阶/宏.md",
+    "C/C++ 登神长阶/初始化与隐式类型转换.md",
+    "C/C++ 登神长阶/编译器的优化机制.md",
+    "C/C++ 登神长阶/可调用对象包装器、绑定器.md",
     "C/C语言机制.md",
-    "C/C/C string 常用函数.md",
+    "操作系统/地址对齐.md",
+    "操作系统/调用栈.md",
+    "操作系统/让事件飞.md",
     "操作系统/时间.md",
+    "操作系统/BIOS.md",
+    "操作系统/Posix Utility Conventions.md",
+    "操作系统/riscv call convention.md",
+    "操作系统/x86-64 calling convention.md",
+    "操作系统/terminal & shell.md",
+    "C/C/C string 常用函数.md",
     "C/C",
     "Algorithm/动态规划/背包问题/01背包.md",
     "Algorithm/动态规划/线性DP/抽象模型.md",
@@ -197,18 +209,6 @@
     "Algorithm/字符串/字符串hash.md",
     "Algorithm/数据结构/hash.md",
     "Algorithm/数据结构/hash/Untitled.md",
-    "Algorithm/Untitled.md",
-    "Algorithm/数据结构/hash/hashtable.md",
-    "操作系统/让事件飞.md",
-    "网络编程/EPOLL.md",
-    "C/More C++ Idioms/Address of.md",
-    "tools/正则表达式.md",
-    "C/Effective Modern Cpp/4.SmartPointers/item20.md",
-    "C/Effective Modern Cpp/4.SmartPointers/item19.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
-    "2024-06-08.md",
-    "C/More C++ Idioms/Type Erasure.md",
     "C/More C++ Idioms",
     "Untitled",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig1.png",
