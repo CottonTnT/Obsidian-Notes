@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/动态规划/背包问题/01背包.md",
+                "file": "C/C语言机制.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f9e25cc2a035ba8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "操作系统/时间.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/动态规划/背包问题/01背包.md",
+                "file": "操作系统/时间.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/动态规划/背包问题/01背包.md",
+                "file": "操作系统/时间.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/动态规划/背包问题/01背包.md"
+                "file": "操作系统/时间.md"
               }
             }
           },
@@ -167,8 +180,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "f9e25cc2a035ba8d",
   "lastOpenFiles": [
+    "C/C语言机制.md",
+    "C/C/C string 常用函数.md",
+    "操作系统/时间.md",
+    "C/C",
+    "Algorithm/动态规划/背包问题/01背包.md",
     "Algorithm/动态规划/线性DP/抽象模型.md",
     "C/C++ 登神长阶/blogs.md",
     "Algorithm/变换技巧/环.md",
@@ -192,10 +210,6 @@
     "2024-06-08.md",
     "C/More C++ Idioms/Type Erasure.md",
     "C/More C++ Idioms",
-    "操作系统/时间.md",
-    "C/Effective Modern Cpp/7.TheConcurrencyAPI/item40.md",
-    "C/Effective Modern Cpp/7.TheConcurrencyAPI/item39.md",
-    "C/Effective Modern Cpp/7.TheConcurrencyAPI/item38.md",
     "Untitled",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig1.png",
     "组成原理",
@@ -214,7 +228,6 @@
     "images/Pasted image 20240522002851.png",
     "操作系统/linux操作系统/Unix IO",
     "python",
-    "Algorithm/位运算/Untitled",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
