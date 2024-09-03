@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络编程/EPOLL.md",
+                "file": "C/Effective Modern Cpp/4.SmartPointers/item20.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络编程/EPOLL.md",
+                "file": "C/Effective Modern Cpp/4.SmartPointers/item20.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络编程/EPOLL.md",
+                "file": "C/Effective Modern Cpp/4.SmartPointers/item20.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络编程/EPOLL.md"
+                "file": "C/Effective Modern Cpp/4.SmartPointers/item20.md"
               }
             }
           },
@@ -182,6 +182,11 @@
   },
   "active": "f9e25cc2a035ba8d",
   "lastOpenFiles": [
+    "C/Effective Modern Cpp/4.SmartPointers/item19.md",
+    "C/Effective Modern Cpp/4.SmartPointers/item22.md",
+    "C/Effective Modern Cpp/4.SmartPointers/item21.md",
+    "C/C++ 登神长阶/C++ STL/STL六大部件.md",
+    "网络编程/EPOLL.md",
     "C/C++ 登神长阶/宏.md",
     "C/C++ 登神长阶/初始化与隐式类型转换.md",
     "C/C++ 登神长阶/编译器的优化机制.md",
@@ -204,11 +209,6 @@
     "Algorithm/变换技巧/环.md",
     "Algorithm/位运算/xor.md",
     "Algorithm/数据结构/tree/二叉树/二叉树遍历.md",
-    "Algorithm/数据结构/tree/二叉树/叉叉.md",
-    "Algorithm/字符串/KMP.md",
-    "Algorithm/字符串/字符串hash.md",
-    "Algorithm/数据结构/hash.md",
-    "Algorithm/数据结构/hash/Untitled.md",
     "C/More C++ Idioms",
     "Untitled",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig1.png",
