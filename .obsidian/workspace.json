@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/C语言机制.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9e25cc2a035ba8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DBMS/八股.md",
+                "file": "C/C++ 多线程编程经验学.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DBMS/八股.md",
+                "file": "C/C++ 多线程编程经验学.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DBMS/八股.md",
+                "file": "C/C++ 多线程编程经验学.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DBMS/八股.md"
+                "file": "C/C++ 多线程编程经验学.md"
               }
             }
           },
@@ -180,10 +167,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "c006fe30eef022cb",
   "lastOpenFiles": [
-    "C/Effective Modern Cpp/4.SmartPointers/item20.md",
+    "images/Pasted image 20240909003056.png",
+    "C/C语言机制.md",
+    "C/C++ 多线程编程经验学.md",
     "DBMS/八股.md",
+    "C/Effective Modern Cpp/4.SmartPointers/item20.md",
     "C/Effective Modern Cpp/4.SmartPointers/item19.md",
     "C/Effective Modern Cpp/4.SmartPointers/item22.md",
     "C/Effective Modern Cpp/4.SmartPointers/item21.md",
@@ -193,7 +183,6 @@
     "C/C++ 登神长阶/初始化与隐式类型转换.md",
     "C/C++ 登神长阶/编译器的优化机制.md",
     "C/C++ 登神长阶/可调用对象包装器、绑定器.md",
-    "C/C语言机制.md",
     "操作系统/地址对齐.md",
     "操作系统/调用栈.md",
     "操作系统/让事件飞.md",
@@ -207,8 +196,6 @@
     "C/C",
     "Algorithm/动态规划/背包问题/01背包.md",
     "Algorithm/动态规划/线性DP/抽象模型.md",
-    "C/C++ 登神长阶/blogs.md",
-    "Algorithm/变换技巧/环.md",
     "C/More C++ Idioms",
     "Untitled",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig1.png",
