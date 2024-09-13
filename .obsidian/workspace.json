@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/C++ 登神长阶/字面量的类型.md",
+                "file": "DBMS/八股.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C/C++ 登神长阶/字面量的类型.md",
+                "file": "DBMS/八股.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C/C++ 登神长阶/字面量的类型.md",
+                "file": "DBMS/八股.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C/C++ 登神长阶/字面量的类型.md"
+                "file": "DBMS/八股.md"
               }
             }
           },
@@ -167,8 +167,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e39effb7c798476",
+  "active": "c006fe30eef022cb",
   "lastOpenFiles": [
+    "网络编程/TCP与UDP详解.md",
+    "网络编程/soket 与 TCP状态转移.md",
+    "网络编程/TCP 流量控制与拥塞控制.md",
+    "C/C++ 登神长阶/字面量的类型.md",
     "C/杂项.md",
     "C/C++ 多线程编程经验学.md",
     "images/Pasted image 20240909003056.png",
@@ -192,11 +196,7 @@
     "操作系统/Posix Utility Conventions.md",
     "操作系统/riscv call convention.md",
     "操作系统/x86-64 calling convention.md",
-    "操作系统/terminal & shell.md",
-    "C/C/C string 常用函数.md",
     "C/C",
-    "Algorithm/动态规划/背包问题/01背包.md",
-    "Algorithm/动态规划/线性DP/抽象模型.md",
     "C/More C++ Idioms",
     "Untitled",
     "C/Effective Modern Cpp/7.TheConcurrencyAPI/media/item38_fig1.png",
