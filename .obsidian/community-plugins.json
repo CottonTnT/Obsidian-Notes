@@ -1,14 +1,10 @@
 [
-  "obsidian-reveal-active-file",
-  "obsidian-better-command-palette",
   "link-favicon",
   "obsidian-git",
   "obsidian-table-generator",
-  "quickadd",
   "obsidian-vimrc-support",
   "quick-latex",
-  "easy-typing-obsidian",
-  "cm-editor-syntax-highlight-obsidian",
   "number-headings-obsidian",
-  "obsidian-reminder-plugin"
+  "obsidian-reminder-plugin",
+  "code-styler"
 ]

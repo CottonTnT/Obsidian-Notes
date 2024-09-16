@@ -90,3 +90,123 @@ void swap(Counter& a, Counter& b){
 如果线程A执行`swap(a, b)`;而同时线程B执行`swap(b, a)`;，就有可能 死锁。`operator=()`也是类似的道理.
 
 *一个函数如果要锁住相同类型的多个对象，为了保证始终按相同的顺序加锁，我们可以比较mutex对象的地址，始终先加锁地址较小的 mutex*。
+
+
+## 1.3 实现线程安全的observer
+
+
+### 1.3.1 原始指针的问题
+
+*无法通过指针(引用)判断一个动态创建的对象是否还活着*。
+
+1. 指针指向的一块内存如果这块内存上的对象已经销毁，那么就根本不能访问（就像free(3)之后的地址不能访问一样），既然不能访问又如何知道对象的状态呢？
+2. 换句话说，判断一个指针是不是合法指针没有高效的办法，这是C/C++指针问题的根源  。（万一原址又创建了一个新的对象呢？再万一这个新的对象的类型 异于老的对象呢？）
+
+> [!note] 在Java中，一个reference只要不为null，它一定指向有效的对象
+
+
+观察者模式中对象关系为 association（关联／联系），是一种很宽泛的关系，*它表示一个对象a用到了另一个对象b，调用了后者的成员函数*。从代码形式上看，a 持有b的指针（或引用），但是b的生命期不由a单独控制。
+
+
+考虑如下代码:
+
+```cpp
+class Observer{
+public:
+	virtual ~Observer();
+	virtual void update() = 0;
+};
+
+class Observable{
+public:
+	void register(Observer* x);
+	void unregister(Observer* x);
+	void notifyObserver(){
+		for(Observer* x : observer){
+			x->update();
+		}
+	}
+private:
+	std::vector<Observer*> observer;
+};
+```
+
+当`Observable`通知每一个`Observer`时(L17)，它从何得知`Observe`r对象 x还活着？
+
+
+试试在Observer的析构函数里调用unregister()来解注册？ 恐难奏效.
+![[Pasted image 20240917003707.png]]
+
+我们试着让`Observer`的析构函数去调用`unregister(this)`，这里有两个 `race conditions`。其一：L32如何得知`subject_`还活着？其二：就算 subject_指向某个永久存在的对象，那么还是险象环生：
+- 1．线程A执行到L32之前，还没有来得及unregister本对象。 
+- 2．线程B执行到L3，x正好指向是L32正在析构的对象。
+
+
+### 1.3.2 使用std::shared_ptr
+
+![[Pasted image 20240917004611.png]]
+
+但还有以下几个疑点。
+
+ 1. 侵入性。强制要求Observer必须以shared_ptr来管理。 不是完全线程安全`Observer`的析构函数会调用`subject_->unregister(this)`，万一`subject_`已经不复存在了呢？为了解决它，又要求 `Observable`本身是用`shared_ptr`管理的，并`且subject_`多半是个 `weak_ptr`。 
+ 2. 锁争用`lock contention`。即`Observable`的三个成员函数都用了互斥器来同步，这会造成`register_()`和`unregister()`等待`notifyObservers()`，而 后者的执行时间是无上限的，因为它同步回调了用户提供的`update()`函 数。我们希望`register_()`和`unregister()`的执行时间不会超过某个固定的上限，以免殃及无辜群众。 
+ 3. 死锁　万一`L62`的`update()`虚函数中调用了`(un)register`呢？如果 `mutex_`是不可重入的，那么会死锁；如果mutex_是可重入的，程序会面临迭代器失效（core dump是最好的结果），因为`vector observers_`在遍 历期间被意外地修改了。这个问题乍看起来似乎没有解决办法，除非在文档里做要求。（一种办法是：用可重入的mutex_，把容器换为 std::list，并把++it往前挪一行。） 我个人倾向于使用不可重入的mutex，例如Pthreads默认提供的那 个，因为“要求mutex可重入”本身往往意味着设计上出了问题 ）。
+
+
+
+## 1.4 shared_ptr的技术与陷阱
+
+
+ 1. 意外延长对象的生命期
+
+ 2. 析构动作在创建时被捕获　这是一个非常有用的特性，这意味着： 
+   -   虚析构不再是必需的。 
+   - shared_ptr可以持有任何对象，而且能安全地释放。 ·
+   - shared_ptr对象可以安全地跨越模块边界，比如从DLL里返回，而 不会造成从模块A分配的内存在模块B里被释放这种错误。 ·
+   - 二进制兼容性，即便Foo对象的大小变了，那么旧的客户代码仍然 可以使用新的动态库，而无须重新编译。前提是Foo的头文件中不出现 访问对象的成员的inline函数，并且Foo对象的由动态库中的Factory构 造，返回其shared_ptr。
+   - 析构动作可以定制。 
+1. 析构所在的线程 
+  - 对象的析构是同步的，当最后一个指向x的 shared_ptr离开其作用域的时候，x会同时在同一个线程析构。这个线程 不一定是对象诞生的线程。这个特性是把双刃剑：如果对象的析构比较 耗时，那么可能会拖慢关键线程的速度（如果最后一个shared_ptr引发 的析构发生在关键线程）；同时，我们可以用一个单独的线程来专门做 析构，通过一个`BlockingQueue<std::shared_ptr<void>>`把对象的析构都转移 到那个专用线程，从而解放关键线程。
+
+2. 现成的RAII handle
+
+
+## 1.5 弱回调与线程安全的对象池
+![[Pasted image 20240917013740.png]]
+![[Pasted image 20240917013800.png]]
+本节的StockFactory只有针对单个Stock对象的操作，如果程序需要 遍历整个stocks_，稍不注意就会造成死锁或数据损坏（§2.1），请参考 §2.8的解决办法。
+
+
+
+## 1.6 使用信号与槽
+
+
+
+
+# 2 线程同步精要
+
+并发编程有两种基本模型，一种是`message passing`，另一种是 `shared memory`。
+
+
+线程同步的四项原则，按重要性排列：
+- 1．首要原则是尽量最低限度地共享对象，减少需要同步的场合。 一个对象能不暴露给别的线程就不要暴露；如果要暴露，优先考虑 immutable对象；实在不行才暴露可修改的对象，并用同步措施来充分 保护它。
+- 2．其次是使用高级的并发编程构件，如`TaskQueue、Producer Consumer Queue、CountDownLatch`等等。
+- 3．最后不得已必须使用底层同步原语（primitives）时，只用非递 归的互斥器和条件变量，慎用读写锁，不要用信号量。 
+- 4．除了使用`atomic`整数之外，不自己编写`lock-free`代码用“内核级”同步原语，也不要 。不凭空猜测“哪种做法性能会更好”，比如`spin lock` vs. `mutex`。
+
+
+
+## 2.1 互斥器
+
+陈硕前辈的主要原则:
+1. 用RAII手法封装mutex的创建、销毁、加锁、解锁这四个操作。
+2. 只用非递归的mutex（即不可重入的mutex）。
+3. 不手工调用lock()和unlock()函数，一切交给栈上的Guard对象的构 造和析构函数负责。Guard对象的生命期正好等于临界区（分析对象在 什么时候析构是C++程序员的基本功）。这样我们保证始终在同一个函 数同一个scope里对某个mutex加锁和解锁。避免在foo()里加锁，然后跑 到bar()里解锁；也避免在不同的语句分支中分别加锁、解锁。这种做法 被称为Scoped Locking 。
+
+
+次要原则:
+1. 不使用跨进程的mutex，进程间通信只用TCP sockets。
+2. 加锁、解锁在同一个线程，线程a不能去unlock线程b已经锁住的 mutex（RAII自动保证）
+3. 别忘了解锁（RAII自动保证）
+4. 不重复解锁（RAII自动保证）
+5. 必要的时候可以考虑用`PTHREAD_MUTEX_ERRORCHECK`来排错。
