@@ -210,3 +210,8 @@ private:
 3. 别忘了解锁（RAII自动保证）
 4. 不重复解锁（RAII自动保证）
 5. 必要的时候可以考虑用`PTHREAD_MUTEX_ERRORCHECK`来排错。
+
+
+
+
+[使用shared_ptr实现copy-on-write_原始指针赋值给shared ptr-CSDN博客](https://blog.csdn.net/qiuguolu1108/article/details/115285574)
