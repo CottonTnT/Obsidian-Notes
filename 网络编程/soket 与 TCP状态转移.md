@@ -80,3 +80,7 @@ int listen (int socketfd, int backlog)
 客户端是可以自己连自己的形成连接（TCP自连接），也可以两个客户端同时向对方发出请求建立连接（TCP同时打开），这两个情况都有个共同点，就是没有服务端参与，也就是没有 listen，就能 TCP 建立连接。
 
 
+
+
+[读懂TCP状态转移 - FigoCui - 博客园 (cnblogs.com)](https://www.cnblogs.com/figo-cui/articles/5137993.html)
+
