@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "protobuf/编码.md",
+                "file": "Algorithm/数学知识/线性代数/计算行列式.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "protobuf/编码.md",
+                "file": "Algorithm/数学知识/线性代数/计算行列式.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "protobuf/编码.md",
+                "file": "Algorithm/数学知识/线性代数/计算行列式.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "protobuf/编码.md"
+                "file": "Algorithm/数学知识/线性代数/计算行列式.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -167,10 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d0115ea278013ba",
+  "active": "4ceacfa0fc1d0102",
   "lastOpenFiles": [
-    "Algorithm/字符串/KMP.md",
     "protobuf/编码.md",
+    "Algorithm/数学知识/线性代数/计算行列式.md",
+    "Algorithm/字符串/KMP.md",
     "protobuf",
     "网络编程/TCP与UDP详解.md",
     "网络编程/soket 与 TCP状态转移.md",
@@ -200,7 +201,6 @@
     "C/C语言机制.md",
     "C/Effective Modern Cpp/4.SmartPointers/item20.md",
     "C/Effective Modern Cpp/4.SmartPointers/item19.md",
-    "C/Effective Modern Cpp/4.SmartPointers/item22.md",
     "C/C",
     "C/More C++ Idioms",
     "Untitled",
