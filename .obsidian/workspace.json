@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "236c9e0f38d4a224",
+        "id": "5076bdab2601a894",
         "type": "tabs",
         "children": [
           {
-            "id": "2d0115ea278013ba",
+            "id": "85fa4cf4984a769f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/C++ 多线程编程经验学.md",
+                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 237.5
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C/C++ 多线程编程经验学.md",
+                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C/C++ 多线程编程经验学.md",
+                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C/C++ 多线程编程经验学.md"
+                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md"
               }
             }
           },
@@ -167,15 +167,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d0115ea278013ba",
+  "active": "85fa4cf4984a769f",
   "lastOpenFiles": [
+    "Algorithm/图论/最短路问题.md",
+    "Algorithm/图论/邻接表构建图.md",
+    "C/C++ 多线程编程经验学.md",
     "Algorithm/数学知识/线性代数/计算行列式.md",
     "protobuf/编码.md",
     "Algorithm/字符串/KMP.md",
     "protobuf",
     "网络编程/TCP与UDP详解.md",
     "网络编程/soket 与 TCP状态转移.md",
-    "C/C++ 多线程编程经验学.md",
     "images/Pasted image 20240917013800.png",
     "images/Pasted image 20240917013740.png",
     "images/Pasted image 20240917004611.png",
@@ -199,8 +201,6 @@
     "网络编程/TCP 流量控制与拥塞控制.md",
     "images/Pasted image 20240909003056.png",
     "C/C语言机制.md",
-    "C/Effective Modern Cpp/4.SmartPointers/item20.md",
-    "C/Effective Modern Cpp/4.SmartPointers/item19.md",
     "C/C",
     "C/More C++ Idioms",
     "Untitled",
