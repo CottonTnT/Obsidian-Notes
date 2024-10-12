@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/数学知识/线性代数/计算行列式.md",
+                "file": "C/C++ 多线程编程经验学.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/数学知识/线性代数/计算行列式.md",
+                "file": "C/C++ 多线程编程经验学.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/数学知识/线性代数/计算行列式.md",
+                "file": "C/C++ 多线程编程经验学.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/数学知识/线性代数/计算行列式.md"
+                "file": "C/C++ 多线程编程经验学.md"
               }
             }
           },
@@ -167,10 +167,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ceacfa0fc1d0102",
+  "active": "2d0115ea278013ba",
   "lastOpenFiles": [
-    "protobuf/编码.md",
     "Algorithm/数学知识/线性代数/计算行列式.md",
+    "protobuf/编码.md",
     "Algorithm/字符串/KMP.md",
     "protobuf",
     "网络编程/TCP与UDP详解.md",
