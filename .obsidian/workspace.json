@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
+                "file": "Algorithm/字符串/字符串hash.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
+                "file": "Algorithm/字符串/字符串hash.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
+                "file": "Algorithm/字符串/字符串hash.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md"
+                "file": "Algorithm/字符串/字符串hash.md"
               }
             }
           },
@@ -169,6 +169,7 @@
   },
   "active": "85fa4cf4984a769f",
   "lastOpenFiles": [
+    "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
     "Algorithm/图论/最短路问题.md",
     "Algorithm/图论/邻接表构建图.md",
     "C/C++ 多线程编程经验学.md",
@@ -200,7 +201,6 @@
     "DBMS/八股.md",
     "网络编程/TCP 流量控制与拥塞控制.md",
     "images/Pasted image 20240909003056.png",
-    "C/C语言机制.md",
     "C/C",
     "C/More C++ Idioms",
     "Untitled",
