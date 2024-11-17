@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra/1.向量究竟是什么.md",
+                "file": "Linear Algebra/基变换.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.向量究竟是什么"
+              "title": "基变换"
             }
           }
         ],
@@ -204,8 +204,11 @@
   },
   "active": "275d1b0933378ce4",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Linear Algebra/特征向量与特征值.md",
+    "Linear Algebra/基变换.md",
+    "images/Pasted image 20241117151144.png",
     "Linear Algebra/1.向量究竟是什么.md",
+    "Untitled.md",
     "Linear Algebra",
     "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
     "Algorithm/图论/最短路问题.md",
@@ -234,8 +237,6 @@
     "C/C++ 登神长阶/可调用对象包装器、绑定器.md",
     "C/C++ 登神长阶/宏.md",
     "C/C++ 登神长阶/初始化与隐式类型转换.md",
-    "C/C++ 登神长阶/编译器的优化机制.md",
-    "C/杂项.md",
     "images/Pasted image 20240909003056.png",
     "C/C",
     "C/More C++ Idioms",
@@ -245,7 +246,6 @@
     "images/Pasted image 20240707115725.png",
     "images/Pasted image 20240707032404.png",
     "images/Pasted image 20240704143140.png",
-    "C/Effective Modern Cpp/4.SmartPointers/media/item18_fig1.png",
     "网络编程",
     "TCP",
     "设计模式",
