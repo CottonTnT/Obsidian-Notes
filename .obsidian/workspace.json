@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/字符串/KMP.md",
+                "file": "C/More C++ Idioms/70 Type Erasure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "KMP"
+              "title": "70 Type Erasure"
             }
           }
         ],
@@ -204,8 +204,10 @@
   },
   "active": "275d1b0933378ce4",
   "lastOpenFiles": [
-    "C/C++ 登神长阶/template metaprogramming/类型擦除.md",
     "组成原理/数的表示.md",
+    "images/Pasted image 20241126135123.png",
+    "Algorithm/字符串/KMP.md",
+    "C/C++ 登神长阶/template metaprogramming/类型擦除.md",
     "css/盒模型.md",
     "images/Pasted image 20241124112958.png",
     "images/Pasted image 20241124105042.png",
@@ -224,7 +226,6 @@
     "C/C++ 多线程编程经验学.md",
     "Algorithm/数学知识/线性代数/计算行列式.md",
     "protobuf/编码.md",
-    "Algorithm/字符串/KMP.md",
     "protobuf",
     "网络编程/TCP与UDP详解.md",
     "网络编程/soket 与 TCP状态转移.md",
@@ -241,8 +242,6 @@
     "C/C++ 登神长阶/字面量的类型.md",
     "C/C++ 登神长阶/无法作为返回类型的类型.md",
     "C/C++ 登神长阶/设计.md",
-    "C/C++ 登神长阶/类的初始化.md",
-    "images/Pasted image 20240909003056.png",
     "C/C",
     "C/More C++ Idioms",
     "Untitled",
