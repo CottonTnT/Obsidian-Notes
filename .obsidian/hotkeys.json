@@ -176,5 +176,14 @@
       "key": "Q"
     }
   ],
-  "editor:insert-link": []
+  "editor:insert-link": [],
+  "editor:insert-codeblock": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ]
 }
