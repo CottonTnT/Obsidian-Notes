@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/并发/CPU缓存一致性.md",
+                "file": "Algorithm/字符串/KMP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CPU缓存一致性"
+              "title": "KMP"
             }
           }
         ],
@@ -204,6 +204,9 @@
   },
   "active": "275d1b0933378ce4",
   "lastOpenFiles": [
+    "Algorithm/字符串/Z函数(扩展KMP).md",
+    "Algorithm/字符串/KMP.md",
+    "操作系统/并发/CPU缓存一致性.md",
     "操作系统/并发/内存屏障.md",
     "操作系统/深入理解linux内核笔记/6 定时测量.md",
     "现代CMAKE/变量.md",
@@ -220,7 +223,6 @@
     "C/More C++ Idioms/70 Type Erasure.md",
     "组成原理/数的表示.md",
     "images/Pasted image 20241126135123.png",
-    "Algorithm/字符串/KMP.md",
     "C/C++ 登神长阶/template metaprogramming/类型擦除.md",
     "css/盒模型.md",
     "images/Pasted image 20241124112958.png",
@@ -238,8 +240,6 @@
     "Algorithm/图论/最短路问题.md",
     "Algorithm/图论/邻接表构建图.md",
     "C/C++ 多线程编程经验学.md",
-    "Algorithm/数学知识/线性代数/计算行列式.md",
-    "protobuf/编码.md",
     "protobuf",
     "images/Pasted image 20240917013800.png",
     "images/Pasted image 20240917013740.png",
