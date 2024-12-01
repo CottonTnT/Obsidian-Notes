@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/字符串/KMP.md",
+                "file": "C/编辑器/vscode、.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "KMP"
+              "title": "vscode、"
             }
           }
         ],
@@ -204,8 +204,8 @@
   },
   "active": "275d1b0933378ce4",
   "lastOpenFiles": [
-    "Algorithm/字符串/Z函数(扩展KMP).md",
     "Algorithm/字符串/KMP.md",
+    "Algorithm/字符串/Z函数(扩展KMP).md",
     "操作系统/并发/CPU缓存一致性.md",
     "操作系统/并发/内存屏障.md",
     "操作系统/深入理解linux内核笔记/6 定时测量.md",
