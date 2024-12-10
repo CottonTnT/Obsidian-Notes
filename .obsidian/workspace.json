@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/时间.md",
+                "file": "网络编程/why is my tcp not reliable.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "时间"
+              "title": "why is my tcp not reliable"
             }
           }
         ],
@@ -204,6 +204,8 @@
   },
   "active": "275d1b0933378ce4",
   "lastOpenFiles": [
+    "操作系统/时间.md",
+    "网络编程/why is my tcp not reliable.md",
     "操作系统/深入理解linux内核笔记/6 定时测量.md",
     "C/C++ 登神长阶/template metaprogramming/函数模板.md",
     "C/编辑器/vscode、.md",
@@ -238,8 +240,6 @@
     "Linear Algebra/1.向量究竟是什么.md",
     "Untitled.md",
     "Linear Algebra",
-    "Algorithm/图论/好题收集/图论的斑驳是石板交错的纹.md",
-    "Algorithm/图论/最短路问题.md",
     "protobuf",
     "images/Pasted image 20240917013800.png",
     "images/Pasted image 20240917013740.png",
