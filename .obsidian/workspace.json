@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络编程/why is my tcp not reliable.md",
+                "file": "C/杂项.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "why is my tcp not reliable"
+              "title": "杂项"
             }
           }
         ],
@@ -204,8 +204,12 @@
   },
   "active": "275d1b0933378ce4",
   "lastOpenFiles": [
-    "操作系统/时间.md",
+    "C/C++ 登神长阶/宏.md",
+    "C/C++ 登神长阶/可调用对象包装器、绑定器.md",
+    "C/C++ 登神长阶/类的初始化.md",
+    "C/C++ 登神长阶/设计.md",
     "网络编程/why is my tcp not reliable.md",
+    "操作系统/时间.md",
     "操作系统/深入理解linux内核笔记/6 定时测量.md",
     "C/C++ 登神长阶/template metaprogramming/函数模板.md",
     "C/编辑器/vscode、.md",
@@ -233,12 +237,8 @@
     "images/Pasted image 20241124105042.png",
     "images/Pasted image 20241124104913.png",
     "images/Pasted image 20241124104740.png",
-    "Linear Algebra/基变换.md",
     "css",
-    "Linear Algebra/特征向量与特征值.md",
     "images/Pasted image 20241117151144.png",
-    "Linear Algebra/1.向量究竟是什么.md",
-    "Untitled.md",
     "Linear Algebra",
     "protobuf",
     "images/Pasted image 20240917013800.png",
