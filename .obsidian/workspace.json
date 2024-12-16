@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络编程/实践/ttcp.md",
+                "file": "Effective Modern Cpp/1.DeducingTypes/item3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ttcp"
+              "title": "item3"
             }
           }
         ],
@@ -204,8 +204,11 @@
   },
   "active": "275d1b0933378ce4",
   "lastOpenFiles": [
-    "网络编程/实践/网络性能指标.md",
+    "Effective Modern Cpp/1.DeducingTypes/item4.md",
+    "Effective Modern Cpp/2.Auto/item5.md",
+    "Effective Modern Cpp/2.Auto/item6.md",
     "网络编程/实践/ttcp.md",
+    "网络编程/实践/网络性能指标.md",
     "images/Pasted image 20241215142935.png",
     "网络编程/实践/简单的非并发编程.md",
     "C/杂项.md",
@@ -227,12 +230,10 @@
     "现代CMAKE/变量.md",
     "操作系统/深入理解linux内核笔记",
     "操作系统/Untitled.md",
-    "C/Effective Modern Cpp/3.MovingToModernCpp/item17.md",
-    "C/Effective Modern Cpp/3.MovingToModernCpp/Untitled.md",
+    "Effective Modern Cpp/3.MovingToModernCpp/item17.md",
+    "Effective Modern Cpp/3.MovingToModernCpp/Untitled.md",
     "现代CMAKE",
-    "C/Effective Modern Cpp/3.MovingToModernCpp/item12.md",
-    "C/Effective Modern Cpp/3.MovingToModernCpp/item13.md",
-    "C/Effective Modern Cpp/3.MovingToModernCpp/item14.md",
+    "Effective Modern Cpp/3.MovingToModernCpp/item12.md",
     "images/Pasted image 20241126135123.png",
     "images/Pasted image 20241124112958.png",
     "images/Pasted image 20241124105042.png",
