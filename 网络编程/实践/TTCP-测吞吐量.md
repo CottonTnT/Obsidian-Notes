@@ -1,5 +1,5 @@
 ![[Pasted image 20241215142935.png]]
-
+> `TTCP(test ttcp)`is a utility for measuring netword throughput
 # 1 why ttcp 
 1. 使用了基本的sockets APIs：socket，listen， bind， accept，connect，read/recv，write/send，shutdown，close 等等
 2. 协议带有格式，不只是字节流，相较于echo具有tcp分包处理等
