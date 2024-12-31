@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络编程/实践/阻塞IO.md",
+                "file": "网络编程/实践/TCP 自连接.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "阻塞IO"
+              "title": "TCP 自连接"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "36d4aad796e04c1e",
@@ -175,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,9 +191,10 @@
   },
   "active": "e819f913557596a2",
   "lastOpenFiles": [
-    "images/Pasted image 20241231150755.png",
-    "网络编程/实践/Untitled.md",
+    "images/Pasted image 20241231160027.png",
     "网络编程/实践/阻塞IO.md",
+    "网络编程/实践/TCP 自连接.md",
+    "images/Pasted image 20241231150755.png",
     "images/Pasted image 20241231140924.png",
     "images/{73C2AC16-7155-40F2-BF2E-9DB831DECB15}.png",
     "网络编程/实践/TTCP-测吞吐量.md",
@@ -230,7 +233,6 @@
     "images/Pasted image 20241117151144.png",
     "Linear Algebra",
     "protobuf",
-    "images/Pasted image 20240917013800.png",
     "C/C",
     "C/More C++ Idioms",
     "Untitled",
