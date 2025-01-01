@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "TCP 自连接"
             }
+          },
+          {
+            "id": "2e99ed1375609ba7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "网络编程/实践/网络性能指标.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "网络性能指标"
+            }
           }
         ]
       }
@@ -191,14 +205,14 @@
   },
   "active": "e819f913557596a2",
   "lastOpenFiles": [
+    "网络编程/实践/网络性能指标.md",
+    "网络编程/实践/TCP 自连接.md",
     "images/Pasted image 20241231160027.png",
     "网络编程/实践/阻塞IO.md",
-    "网络编程/实践/TCP 自连接.md",
     "images/Pasted image 20241231150755.png",
     "images/Pasted image 20241231140924.png",
     "images/{73C2AC16-7155-40F2-BF2E-9DB831DECB15}.png",
     "网络编程/实践/TTCP-测吞吐量.md",
-    "网络编程/实践/网络性能指标.md",
     "网络编程/实践/简单的非并发编程.md",
     "Algorithm/字符串/字符串hash.md",
     "Effective Modern Cpp/1.DeducingTypes/item3.md",
@@ -230,7 +244,6 @@
     "images/Pasted image 20241124104913.png",
     "images/Pasted image 20241124104740.png",
     "css",
-    "images/Pasted image 20241117151144.png",
     "Linear Algebra",
     "protobuf",
     "C/C",
