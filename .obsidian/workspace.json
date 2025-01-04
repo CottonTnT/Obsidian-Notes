@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "517f20870d62e4a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
+          },
+          {
             "id": "2e99ed1375609ba7",
             "type": "leaf",
             "state": {
@@ -35,7 +49,8 @@
               "title": "网络性能指标"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,10 +217,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e819f913557596a2",
+  "active": "517f20870d62e4a8",
   "lastOpenFiles": [
-    "网络编程/实践/Untitled.md",
     "网络编程/实践/Netcat.md",
+    "conflict-files-obsidian-git.md",
+    "images/{1E099A56-2FDC-45DA-B2DA-1115ED34A91D}.png",
+    "images/workspace.json",
+    "images/{14B0CE43-96F1-4C57-B32A-5298CC0509B5}.png",
+    "网络编程/实践/网络性能指标.md",
+    "汇编/RISC-V.md",
+    "网络编程/实践/Untitled.md",
     "images/{8C885C1C-C8EA-4457-B77D-1CA88EA7F003}.png",
     "网络编程/实践/Roundtrip.md",
     "images/{D358A6BC-B224-4633-804E-F763F34DCB72}.png",
@@ -215,10 +236,7 @@
     "images/{EB31D9F1-CF8A-4D62-BBE4-95991FBBF852}.png",
     "images/{1CD132D6-733E-4853-B841-72CBD7D7EB64}.png",
     "images/{6CD9F244-F0A5-4B66-BD95-3F955C80B041}.png",
-    "images/{AE9933B3-CAC1-4CE6-9C2F-194CD0680F99}.png",
     "网络编程/实践/TCP 自连接.md",
-    "网络编程/实践/网络性能指标.md",
-    "images/Pasted image 20241231160027.png",
     "网络编程/实践/阻塞IO.md",
     "网络编程/实践/TTCP-测吞吐量.md",
     "网络编程/实践/简单的非并发编程.md",
@@ -238,9 +256,6 @@
     "操作系统/时间.md",
     "操作系统/深入理解linux内核笔记/6 定时测量.md",
     "C/C++ 登神长阶/template metaprogramming/函数模板.md",
-    "C/编辑器/vscode、.md",
-    "Algorithm/字符串/KMP.md",
-    "Algorithm/字符串/Z函数(扩展KMP).md",
     "操作系统/深入理解linux内核笔记",
     "现代CMAKE",
     "css",
@@ -249,7 +264,6 @@
     "C/C",
     "C/More C++ Idioms",
     "Untitled",
-    "组成原理",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
