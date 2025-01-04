@@ -202,16 +202,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e819f913557596a2",
+  "active": "8e39effb7c798476",
   "lastOpenFiles": [
-    "网络编程/实践/TCP.md",
     "网络编程/实践/Netcat.md",
-    "images/Pasted image 20250104145544.png",
-    "images/{1E099A56-2FDC-45DA-B2DA-1115ED34A91D}.png",
-    "网络编程/实践/网络性能指标.md",
     "conflict-files-obsidian-git.md",
-    "images/workspace.json",
     "images/{14B0CE43-96F1-4C57-B32A-5298CC0509B5}.png",
+    "网络编程/实践/网络性能指标.md",
     "汇编/RISC-V.md",
     "网络编程/实践/Untitled.md",
     "images/{8C885C1C-C8EA-4457-B77D-1CA88EA7F003}.png",
@@ -222,6 +218,8 @@
     "images/{EA4120AC-7C7D-4FEB-B671-82EF2902F88B}.png",
     "images/{EB31D9F1-CF8A-4D62-BBE4-95991FBBF852}.png",
     "images/{1CD132D6-733E-4853-B841-72CBD7D7EB64}.png",
+    "images/{6CD9F244-F0A5-4B66-BD95-3F955C80B041}.png",
+    "images/{AE9933B3-CAC1-4CE6-9C2F-194CD0680F99}.png",
     "网络编程/实践/TCP 自连接.md",
     "网络编程/实践/阻塞IO.md",
     "网络编程/实践/TTCP-测吞吐量.md",
@@ -250,6 +248,7 @@
     "C/C",
     "C/More C++ Idioms",
     "Untitled",
+    "组成原理",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
