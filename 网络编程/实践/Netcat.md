@@ -199,3 +199,63 @@ void run(TcpStreamPtr stream)
 
 `IO` 复用（事件驱动）使得一个线程可以处理多个连接上的请求，值得注意的是它是*同步`IO`*, 实际上复用的是线程, 一个线程可以处理多个 `IO`。
 
+
+下面进行一个测试：
+
+- server：chargen.cc,，只发数据不收数据
+- client: nc， nc < /dev/zero
+
+如下代码是 `python` 实现的基于阻塞IO的多路复用
+
+```python
+def relay(sock:socket):
+    poll = select.poll()
+    poll.register(sock, select.POLLIN)
+    poll.register(sys.stdin, select.POLLIN)
+
+    done = False
+    while not done:
+        events = poll.poll(10000)  # 10 seconds
+        for fileno, event in events:
+            if event & select.POLLIN:
+                if fileno == sock.fileno():
+                    data = sock.recv(8192)
+                    if data:
+                        sys.stdout.write(str(data))
+                    else:
+                        done = True
+                else:
+                    assert fileno == sys.stdin.fileno()
+                    data = os.read(fileno, 8192)
+                    if data:
+                        sock.sendall(data)
+                    else:
+                        sock.shutdown(socket.SHUT_WR) #需要等待socket 读完数据,才能关闭连接
+                        poll.unregister(sys.stdin)
+    sock.close() #也可以不关, 反正运行完这个函数,就退出了
+```
+
+`chargen` 程序只发送数据而不读取，如果使用 `nc` 时有标准输入，即 `nc` 会向 `chargen` 发送数据，将最终导致 `chargen` 的接收缓冲区被填满，而 `nc` 无法再发送数据。
+
+因此，`nc` 的实现方式就显得尤为重要了。如果 `nc` 这边是网络读写没有分离开，那么由于对端缓冲区满将会导致本端写动作阻塞，进而阻塞整个程序。
+
+示例一：使用`python`实现的 `nc` 与 `chargen` 测试。可以看到，`nc` 单向接收时，吞吐量可以达到 `9894MiB/s` ，而 `nc` 端有输入时，引起了阻塞。
+
+![[{7F1191A3-1FFD-4702-891F-AA802F69A0BC}.png]]
+
+使用 **strace** 调试一下程序，发现 `nc` 阻塞在`sendto()`上
+
+![[{F782603F-677C-4BDD-8EFD-BEE877265473}.png]]
+
+查看连接上的缓冲区可以发现，由于 `chargen` 没有读数据，它的输入缓冲区被填满了，导致 `nc` 阻塞在 `sendto` 上，同时由于 `sendto` 的阻塞，`nc` 也不会再读取输入缓冲区的数据。
+
+![[{D124463C-630F-47B7-B403-EE52B858DD5B}.png]]
+
+
+示例二:使用多线程实现的 ` recipes/tpc/netcat.cc` 与 `chargen` 测试。可以看到这次即使 nc 有数据输入，程序依然正常运行
+
+![[{E98A08BA-7D28-4AA1-87AA-D75C97D065E4}.png]]
+
+
+因此，**阻塞IO 如果和 IO复用 配合使用，一旦发生阻塞就会影响到同一事件循环下的其他IO事件。**
+
