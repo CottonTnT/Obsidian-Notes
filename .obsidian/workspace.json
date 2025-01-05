@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e819f913557596a2",
+            "id": "2e99ed1375609ba7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Netcat"
-            }
-          },
-          {
-            "id": "2e99ed1375609ba7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "网络编程/实践/网络性能指标.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "网络性能指标"
             }
           }
         ]
@@ -202,27 +188,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e819f913557596a2",
+  "active": "2e99ed1375609ba7",
   "lastOpenFiles": [
+    "网络编程/实践/Roundtrip.md",
+    "网络编程/实践/网络性能指标.md",
+    "网络编程/实践/Netcat.md",
+    "网络编程/实践/Untitled.md",
+    "网络编程/实践/阻塞IO在IO 复用.md",
     "images/{E98A08BA-7D28-4AA1-87AA-D75C97D065E4}.png",
     "images/{D124463C-630F-47B7-B403-EE52B858DD5B}.png",
     "images/{F782603F-677C-4BDD-8EFD-BEE877265473}.png",
     "images/{7F1191A3-1FFD-4702-891F-AA802F69A0BC}.png",
     "网络编程/实践/TCP.md",
-    "网络编程/实践/Netcat.md",
     "images/Pasted image 20250104145544.png",
     "images/{1E099A56-2FDC-45DA-B2DA-1115ED34A91D}.png",
-    "网络编程/实践/网络性能指标.md",
     "conflict-files-obsidian-git.md",
     "images/workspace.json",
     "images/{14B0CE43-96F1-4C57-B32A-5298CC0509B5}.png",
     "汇编/RISC-V.md",
-    "网络编程/实践/Untitled.md",
     "images/{8C885C1C-C8EA-4457-B77D-1CA88EA7F003}.png",
-    "网络编程/实践/Roundtrip.md",
     "images/{D358A6BC-B224-4633-804E-F763F34DCB72}.png",
     "images/{3B0B0A2B-839A-4236-B855-DAC6E487088E}.png",
-    "images/{39BB5E3F-624A-4EAC-9D0B-841CA0081D22}.png",
     "网络编程/实践/TCP 自连接.md",
     "网络编程/实践/阻塞IO.md",
     "网络编程/实践/TTCP-测吞吐量.md",

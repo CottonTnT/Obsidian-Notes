@@ -259,3 +259,178 @@ def relay(sock:socket):
 
 因此，**阻塞IO 如果和 IO复用 配合使用，一旦发生阻塞就会影响到同一事件循环下的其他IO事件。**
 
+
+## 6.3 基于 IO复用（非阻塞IO）实现的 netcat
+
+使用非阻塞IO可以有效避免上述情况的发生。但非阻塞IO在编程上要比阻塞IO更难，并且在程序的维护上比较痛苦。一般使用非阻塞IO编程时建议使用一些封装好的网络库比较容易编写。
+
+下面是python实现的基于IO复用的非阻塞IO的netcat 。
+
+```python
+import errno
+import fcntl
+import os
+import select
+import socket
+import sys
+
+def setNonBlocking(fd):
+    flags = fcntl.fcntl(fd, fcntl.F_GETFL)
+    fcntl.fcntl(fd, fcntl.F_SETFL, flags | os.O_NONBLOCK)
+
+def nonBlockingWrite(fd, data):
+    try:
+        nw = os.write(fd, data)
+        return nw
+    except OSError as e:
+        if e.errno == errno.EWOULDBLOCK:
+            return -1
+def relay(sock:socket):
+    socketEvents = select.POLLIN
+    poll = select.poll()
+    poll.register(sock, socketEvents)
+    poll.register(sys.stdin, select.POLLIN)
+    setNonBlocking(sock)
+    # setNonBlocking(sys.stdin)
+    # setNonBlocking(sys.stdout) #简化处理流程, 对于standardout用阻塞写
+    done = False
+    socketOutputBuffer = bytes()
+    while not done:
+        events = poll.poll(10000)  # 10 seconds
+        for fileno, event in events:
+            if event & select.POLLIN:
+                if fileno == sock.fileno(): # if fd is socket fd
+                    data = sock.recv(8192)
+                    if data:
+                        nw = sys.stdout.write(data)  # stdout does support non-blocking write, though
+                    else:
+                        done = True
+                else:
+                    assert fileno == sys.stdin.fileno() #if fd is stdin
+                    data = os.read(fileno, 8192)
+                    if data:
+                        assert len(socketOutputBuffer) == 0 #不为空, 数据会乱序
+                        nw = nonBlockingWrite(sock.fileno(), data)
+                        if nw < len(data):
+                            if nw < 0:
+                                nw = 0
+                            socketOutputBuffer = data[nw:]
+                            socketEvents |= select.POLLOUT #为什么不一直关注POLLOUT事件, 因为会造成BUSY LOOP, 电平触发的缺点
+                            poll.register(sock, socketEvents)
+                            poll.unregister(sys.stdin) #这一行不是通用的写法, 使专门针对netcat 的 stdin做的, 在别的应用不一定需要去unregister这个事件
+                    else:
+                        sock.shutdown(socket.SHUT_WR)
+                        poll.unregister(sys.stdin)
+            if event & select.POLLOUT: # if sockfd is writable
+                if fileno == sock.fileno():
+                    assert len(socketOutputBuffer) > 0
+                    nw = nonBlockingWrite(sock.fileno(), socketOutputBuffer)
+                    if nw < len(socketOutputBuffer):
+                        assert nw > 0
+                        socketOutputBuffer = socketOutputBuffer[nw:]
+                    else:
+                        socketOutputBuffer = bytes()
+                        socketEvents &= ~select.POLLOUT #一定要取消注册pollout事件, 不要会造成BUSYLOOP, 网络库一般会填这个坑
+                        poll.register(sock, socketEvents)
+                        poll.register(sys.stdin, select.POLLIN) # netcat 的特殊处理
+
+def main(argv):
+    if len(argv) < 3:
+        binary = argv[0]
+        print("Usage:\n  %s -l port\n  %s host port",argv[0], argv[0])
+        print (sys.stdout.write)
+        return
+    port = int(argv[2])
+    if argv[1] == "-l":
+        # server
+        server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        server_socket.bind(('', port))
+        server_socket.listen(5)
+        (client_socket, client_address) = server_socket.accept()
+        server_socket.close()
+        relay(client_socket)
+    else:
+        # client
+        sock = socket.create_connection((argv[1], port))
+        relay(sock)
+
+if __name__ == "__main__":
+    main(sys.argv)
+```
+
+## 6.4 Why non-blocking IO is must in IO multiplexing?
+
+
+对于 前面的 [[#6.2 基于 IO 复用（阻塞IO）实现的 netcat]], 可以看到阻塞是因为我们没有检测其 `pollout` 事件, 所以是否可以用 *阻塞IO 每次先检查一下 可读再去读, 可写再去写* ? 
+	**No, too naive!**
+
+
+缘由如下
+1. Example from Unix Network Programming
+	Calling `accept(2)` after a listening socket is "ready for reading" could block, because *client could have disconnected in between* 2. [man page of select()](http://man7.org/linux/man-pages/man2/select.2.html) On Linux, **select**() may report a socket file descriptor as "ready   for reading", while nevertheless a subsequent read blocks.  This could for example happen when data has arrived but upon examination has the wrong checksum and is discarded.  There may be other circumstances in which a file descriptor is *spuriously* reported as ready.  Thus it may be safer to use **O_NONBLOCK** on sockets that should not block.
+
+
+## 6.5 非阻塞IO中需要关注的问题
+
+
+### 6.5.1 如何处理`非阻塞IO`中的 `short write` ?
+
+
+一般来说在非阻塞编程中：
+
+- 对于非阻塞的读，如果读数据不全，我们需要将数据缓存，等凑够一条完整消息再触发消息处理逻辑。
+- 对于非阻塞的写，通常是网络库需要实现的功能，我们需要做的是告诉网络库我们需要发送多少数据，至于网络库内部如何处理事件我们在编程阶段不关心。
+
+
+
+以发数据为例：
+
+- 如果数据发送不完整，剩下的数据需要放置到一个发送的缓冲区中。 如果缓冲区非空，则我们不能对新数据`write`。因为这会造成数据乱序。只有等上一条消息全部发送成功后才可以对新消息进行发送。
+	*方案一*：先尝试发送一次数据，如果数据发送不完整，将剩余数据存放在发送缓冲区（应用层的），然后注册`POLLOUT`事件用于处理剩余的数据发送。
+	
+  - 或者始终从缓冲区发送数据。
+	*方案二*：将所有数据都存放在发送缓冲区，然后再去注册`POLLOUT`事件，**只**通过`POLLOUT`事件处理数据的发送。(现在网络库一般采用方案一)
+
+
+- 向套接字中写数据，关注`POLLOUT`事件。
+  - 当`POLLOUT`准备好时，开始从`发送缓冲区`（应用层）中取数据向`sock`中写
+  - 当`发送换缓冲区`（应用层）为空时，停止关注`POLLOUT`事件。
+	注意，如果忘记取消关注`POLLOUT`事件，则认为`sock`一直可写（LT模式持续通知我们有事件），而实际上我们并没有数据向`sock`写，会进入一种`busy loop`状态，大量空耗`cpu`过度占用资源。
+
+
+如上 是一个标准的 `short write`在非阻塞IO的电平触发下的 处理办法
+
+
+### 6.5.2 如何处理非阻塞IO中对方接受缓慢。
+
+
+设想，
+1. 本端在发送一个文件时，将文件加载到内存中然后通过网络向对端发送，而如果对方接受缓慢，那本端的发送方就要迁就对方从而缓慢发送，但是本端内存中缓存的数据就会持续占用在内存中。
+
+2. 比如你的程序运行在一个 服务器机房 类似网关的位置, 然后它和内部是千兆网连接, 客户进来是一个10兆甚至更小的家用带宽,然后他问你通过代理向内部的服务器请求一个大的数据, 但客户带宽很小, 只能慢慢给他发, 就很容易造成这个内存使用生长很快
+
+这些都是`非阻塞IO` 需要*从设计上考虑的问题*, 如果待发送的数据很多的话，那么一味的将文件读取到内存中。等待向对端发送显然是不明智的。因为这将会占用大量的内存资源。
+
+​
+
+**解决方案**:设定一个`最高/低水位(hight/low water mark)`，如果水池内的水位*高于最高水位则停止注水*，如果水位*低于最低水位则开始注水*。这样使得水位在 `hwm ~ lwm` 之间浮动，而水池出水率始终是最大值。
+
+
+一个具体的例子就是 `非阻塞的echo`: `echo`读的时候会放到本地的缓冲区当中, 如果对方一直 *只发不收*
+	1. 你拼命的往缓存区度,导致本地内存爆掉
+	2. 如果你的 `写` 是 `阻塞`的话, 就影响了 `echo`上的其他的客户端, 
+可行的 *解决方案如下*:
+	1. 对于这个连接的发送缓冲区, 设置 `HWM`, 超过一定水位, 就不去读.(这对于简单的协议是可行的, 如 `echo`只是简单的转发一下数据, 不关协议内容, 但是对于一些复杂的协议, 比如 `RPC` , 他发过来是一个很小的请求, 如 `get 1 个 image` , )
+同理，我们可以参考高低水位的方式去设计。例如在向对端发送数据时，内存中缓冲的数据已经高出规定阈值时，我们可以考虑不去读对方的下一个请求直到本次发送完成，并且可以限制从本地读取待发送文件的速率。
+
+但这终究不是一个完美的解决方案，对于接收端大量频繁的请求而言，我们不 read() 这些请求并不是一个好的解决方案，最好的方式是接收两方进行协议层面的商定，通过滑动窗口的思想告知接收端是否可以开启下一次的请求。这样方可避免由于接收方大量的数据请求而造成发送端发缓冲区数据的大量堆积（比如，接收端每次get image请求，发送端将对应image数据发送给接收端。对于接收端而言发送一次请求耗费的数据量很少，而发送发要回应的每个请求的数据量等很大，如果发送方一次接收到多个请求则这些应答数据将会占满发送发的缓冲区）。
+
+使用 LT（level trigger） 模式还是 ET（edge trigger） 模式
+
+select() 与 poll() 都是 LT 模式。 如果有事件到达，还没有进行处理，则它会一直通知，直到事件被处理。
+epoll() 即 edge-poll。 它同时支持 LT 模式与 ET 模式。
+能否结合两种模式的特点，分别在不同的场景使用不同的模式
+对于ET模式而言， 更适用于write事件和accept事件（accept如果文件描述符用完，会陷入死循环中，因此使用模式更好）
+LT模式 更适用于read()事件，它不会造成接收的饥饿，ET模式可能会造成数据接收不完整的情况。
+可惜的是，目前内核中使用同一种数据结构表示读和写事件，读写事件放在一个就绪列表中，在读出后才判断是读事件还是写事件。因此，我们无法实现在不同的场景使用不同的模式。 值得注意的是，许多第三方网络库都使用的是LT模式，一般来说为了互相的兼容推荐使用LT模式。
