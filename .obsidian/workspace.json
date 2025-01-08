@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-8.md",
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter-8"
+              "title": "Chapter-3"
             }
           }
         ]
@@ -190,11 +190,11 @@
   },
   "active": "2e99ed1375609ba7",
   "lastOpenFiles": [
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-8.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-9.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-8.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-9.md",
     "操作系统/时间.md",
     "网络编程/实践/Dummy CPU load.md",
     "C/The String Formater of Manor Farm.md",
