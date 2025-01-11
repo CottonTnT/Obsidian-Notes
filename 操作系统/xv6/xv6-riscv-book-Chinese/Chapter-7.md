@@ -317,7 +317,6 @@ acquire(&p->lock);
  
 
 
-
 ------
 
 1. <a name="ftn1"></a>ra寄存器: 函数return地址。
