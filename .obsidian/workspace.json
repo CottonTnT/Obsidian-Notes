@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "99ae91a627145f1b",
+        "id": "d2b6b1b2ae216e80",
         "type": "tabs",
         "children": [
           {
-            "id": "d56ccffe5b858e23",
+            "id": "9903ddfa1e44ef1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
+                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Chapter-7"
+              "title": "Chapter-4"
             }
           }
         ]
@@ -198,10 +198,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d56ccffe5b858e23",
+  "active": "9903ddfa1e44ef1f",
   "lastOpenFiles": [
-    "操作系统/xv6/xv6-riscv-book-Chinese/1.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/1.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-6.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
     "操作系统/xv6/xv6 的 设计图汇总.md",
