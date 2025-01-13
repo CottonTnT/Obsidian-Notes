@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
+                "file": "操作系统/xv6/xv6 的 设计图汇总.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter-4"
+              "title": "xv6 的 设计图汇总"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/xv6/xv6 的 设计图汇总.md",
+                "file": "操作系统/riscv call convention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "xv6 的 设计图汇总"
+              "title": "riscv call convention"
             }
           }
         ]
@@ -204,15 +204,23 @@
   },
   "active": "d56ccffe5b858e23",
   "lastOpenFiles": [
+    "操作系统/riscv call convention.md",
+    "操作系统/xv6/xv6 的 设计图汇总.md",
+    "操作系统/xv6/Calling convetion of Risc-V.md",
+    "汇编/RISC-V.md",
+    "操作系统/x86-64 calling convention.md",
+    "编译器/Pasted image 20230812164010.png.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-2.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-5.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-6.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-7.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-8.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-4.md",
+    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-9.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/2.md",
     "操作系统/xv6/xv6-riscv-book-Chinese/1.md",
-    "操作系统/xv6/xv6 的 设计图汇总.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-3.md",
     "操作系统/地址对齐.md",
     "操作系统/调用栈.md",
     "操作系统/让事件飞.md",
@@ -222,14 +230,6 @@
     "操作系统/xv6/kernel 详解/proc.c.md",
     "操作系统/xv6/kernel 详解/sysfile.c.md",
     "操作系统/xv6/kernel 详解/uart.c.md",
-    "操作系统/xv6/kernel 详解/vm.c.md",
-    "操作系统/xv6/一些分布图/mem与disk.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-2.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-1.md",
-    "操作系统/xv6/xv6-riscv-book-Chinese/Chapter-9.md",
-    "网络编程/实践/Dummy CPU load.md",
-    "C/The String Formater of Manor Farm.md",
-    "网络编程/Untitled.md",
     "images/{E98A08BA-7D28-4AA1-87AA-D75C97D065E4}.png",
     "images/{D124463C-630F-47B7-B403-EE52B858DD5B}.png",
     "images/{F782603F-677C-4BDD-8EFD-BEE877265473}.png",
